@@ -348,11 +348,13 @@ function escHtml(s) {
 
 // ── Infinite-scroll grid ──────────────────────────────────────────
 const GRID_PAGE = 40;
-let _gridGames    = [];
-let _gridOffset   = 0;
-let _gridSentinel = null;
-let _gridObserver = null;
-let _imgObserver  = null;
+let _gridGames        = [];
+let _gridOffset       = 0;
+let _gridSentinel     = null;
+let _gridObserver     = null;
+let _imgObserver      = null;
+let _adInsertCount    = 0;
+let _nativeAdInserted = false;
 
 function _initImgObserver() {
   if (_imgObserver) _imgObserver.disconnect();
@@ -386,6 +388,40 @@ function _cardHTML(g, idx) {
   </div>`;
 }
 
+function _createAdCard() {
+  const n = _adInsertCount++;
+  let type;
+  if (n % 3 === 0) type = '300x250';
+  else if (n % 3 === 1) { type = _nativeAdInserted ? '160x300' : 'native'; if (type === 'native') _nativeAdInserted = true; }
+  else type = '160x300';
+
+  const wrap = document.createElement('div');
+  if (type === '300x250') {
+    wrap.className = 'v-card-ad v-card-ad-300x250';
+    const s1 = document.createElement('script');
+    s1.textContent = "atOptions={'key':'f093d96a9666c21a7ab93bfc887fd236','format':'iframe','height':250,'width':300,'params':{}};";
+    const s2 = document.createElement('script');
+    s2.src = 'https://www.highperformanceformat.com/f093d96a9666c21a7ab93bfc887fd236/invoke.js';
+    wrap.appendChild(s1); wrap.appendChild(s2);
+  } else if (type === '160x300') {
+    wrap.className = 'v-card-ad v-card-ad-160x300';
+    const s1 = document.createElement('script');
+    s1.textContent = "atOptions={'key':'f942d0c6515398bb20bcb59c82781b61','format':'iframe','height':300,'width':160,'params':{}};";
+    const s2 = document.createElement('script');
+    s2.src = 'https://www.highperformanceformat.com/f942d0c6515398bb20bcb59c82781b61/invoke.js';
+    wrap.appendChild(s1); wrap.appendChild(s2);
+  } else {
+    wrap.className = 'v-card-ad v-card-ad-native';
+    const s = document.createElement('script');
+    s.async = true; s.dataset.cfasync = 'false';
+    s.src = 'https://pl29223878.profitablecpmratenetwork.com/9e7f11281adcc579755f8757bf17e0dc/invoke.js';
+    const container = document.createElement('div');
+    container.id = 'container-9e7f11281adcc579755f8757bf17e0dc';
+    wrap.appendChild(s); wrap.appendChild(container);
+  }
+  return wrap;
+}
+
 function _appendBatch() {
   if (_gridOffset >= _gridGames.length) {
     if (_gridSentinel) { _gridSentinel.remove(); _gridSentinel = null; }
@@ -399,6 +435,7 @@ function _appendBatch() {
     const div = document.createElement('div');
     div.innerHTML = _cardHTML(g, startIdx + i);
     frag.appendChild(div.firstChild);
+    if (i === 19) frag.appendChild(_createAdCard());
   });
   if (_gridSentinel) _gridSentinel.remove();
   vaultGrid.appendChild(frag);
@@ -421,8 +458,10 @@ function _initGridObserver() {
 function renderGrid(games) {
   _initGridObserver();
   _initImgObserver();
-  _gridGames  = games;
-  _gridOffset = 0;
+  _gridGames        = games;
+  _gridOffset       = 0;
+  _adInsertCount    = 0;
+  _nativeAdInserted = false;
   vaultGrid.innerHTML = '';
   _gridSentinel = null;
   if (!games.length) {
@@ -430,6 +469,7 @@ function renderGrid(games) {
     return;
   }
   _appendBatch();
+  if (_gridOffset < _gridGames.length) _appendBatch();
 }
 
 function sideCardHTML(g) {

@@ -1673,6 +1673,19 @@ body.page-article .page-wrap {
 }
 .vault-grid-sentinel { grid-column: 1 / -1; height: 1px; }
 
+/* ── Vault ad cards ── */
+.v-card-ad {
+  background: #1a1108; border: 1px solid #2a1e10; border-radius: 8px;
+  overflow: hidden; display: flex; align-items: center; justify-content: center; position: relative;
+}
+.v-card-ad::after {
+  content: 'Ad'; position: absolute; top: 4px; right: 6px;
+  font-size: 9px; color: #5a4a35; letter-spacing: 0.5px; pointer-events: none; z-index: 1;
+}
+.v-card-ad-300x250 { grid-column: span 2; grid-row: span 2; }
+.v-card-ad-160x300 { grid-column: span 1; grid-row: span 3; }
+.v-card-ad-native  { grid-column: 1 / -1; min-height: 100px; overflow: visible; }
+
 /* Card */
 .v-card {
   background: #1c1208; border: 1px solid #2a1e10;
