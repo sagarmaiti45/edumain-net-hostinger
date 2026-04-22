@@ -1,0 +1,416 @@
+<?php require_once __DIR__ . '/../config.php'; $page_title = 'GCF & LCM Calculator'; $page_desc = 'Find the Greatest Common Factor and Least Common Multiple of two numbers with an animated Venn diagram.'; $body_class = 'page-article'; include __DIR__ . '/../_header.php'; ?>
+
+<style>
+.glcm-page { background: #fdf4ff; min-height: 60vh; padding: 2rem 1rem; font-family: 'Segoe UI', sans-serif; border-radius: 16px; overflow: hidden; max-width: 900px; margin-left: auto; margin-right: auto; }
+.glcm-hero { text-align: center; margin-bottom: 2rem; }
+.glcm-hero h1 { color: #3b1a6b; font-size: 2.2rem; font-weight: 800; margin: 0; }
+.glcm-hero p { color: #7c3aed; font-size: 1.05rem; margin-top: .4rem; }
+.glcm-main { max-width: 700px; margin: 0 auto; }
+.glcm-inputs { display: flex; gap: 1rem; justify-content: center; margin-bottom: 1.5rem; flex-wrap: wrap; }
+.glcm-input-group { display: flex; flex-direction: column; gap: .4rem; text-align: center; }
+.glcm-input-group label { font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: #7c3aed; }
+.glcm-input { background: #fff; border: 2px solid #e9d5ff; color: #3b1a6b; font-size: 2.2rem; font-weight: 900; border-radius: 16px; padding: .5rem 1rem; outline: none; width: 130px; text-align: center; transition: border-color .2s; }
+.glcm-input:focus { border-color: #c084fc; box-shadow: 0 0 0 3px #c084fc22; }
+.glcm-btn { display: block; margin: 0 auto 1.5rem; background: linear-gradient(135deg, #c084fc, #a855f7); color: #fff; font-size: 1.05rem; font-weight: 700; border: none; border-radius: 50px; padding: .8rem 2.5rem; cursor: pointer; box-shadow: 0 4px 16px #a855f744; transition: all .2s; }
+.glcm-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px #a855f766; }
+.venn-wrap { background: #fff; border-radius: 20px; box-shadow: 0 4px 20px #c084fc22; border: 1.5px solid #e9d5ff; padding: 1.5rem; margin-bottom: 1.5rem; }
+.venn-wrap h3 { font-size: .8rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: #7c3aed; margin: 0 0 1rem; text-align: center; }
+#vennSvg { display: block; margin: 0 auto; width: 100%; max-width: 520px; }
+.venn-text { font-family: 'Segoe UI', sans-serif; font-size: 12px; fill: #3b1a6b; }
+.results-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.result-card { background: #fff; border-radius: 16px; padding: 1.5rem; text-align: center; box-shadow: 0 4px 16px #c084fc22; border: 2px solid #e9d5ff; animation: popIn .4s cubic-bezier(.175,.885,.32,1.275); }
+@keyframes popIn { from { opacity: 0; transform: scale(.88); } to { opacity: 1; transform: scale(1); } }
+.rc-label { font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: #7c3aed; margin-bottom: .4rem; }
+.rc-value { font-size: 3rem; font-weight: 900; color: #a855f7; line-height: 1; }
+.rc-note { font-size: .78rem; color: #6b21a8; margin-top: .3rem; }
+.steps-card { background: #fff; border-radius: 16px; padding: 1.3rem 1.5rem; border: 1.5px solid #e9d5ff; margin-top: 1rem; }
+.steps-card h4 { font-size: .78rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: #7c3aed; margin: 0 0 .7rem; }
+.step-item { font-size: .88rem; color: #3b1a6b; padding: .3rem 0; border-bottom: 1px dashed #e9d5ff; display: flex; align-items: flex-start; gap: .5rem; }
+.step-item:last-child { border-bottom: none; }
+.step-num { width: 22px; height: 22px; background: #c084fc; border-radius: 50%; color: #fff; font-size: .7rem; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 1px; }
+#glcmResults { display: none; }
+.tool-share-row { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:.5rem; margin-bottom:1.5rem; }
+.tool-share-btn { display:inline-flex; align-items:center; gap:.4rem; font-size:.82rem; font-weight:600; padding:.4rem .9rem; border-radius:50px; border:1.5px solid var(--border,#e5e7eb); background:transparent; cursor:pointer; color:var(--text-muted,#6b7280); transition:all .15s; }
+.tool-share-btn:hover { border-color:var(--accent,#4f46e5); color:var(--accent,#4f46e5); }
+.tool-article { margin: 2.5rem 0 3rem; padding: 0 1rem 2.5rem; }
+.tool-article h2 { font-size: 1.35rem; font-weight: 800; margin: 1.8rem 0 .6rem; }
+.tool-article p { font-size: 1.05rem; line-height: 1.85; margin: 0 0 .8rem; color: var(--text-muted, #555); }
+.tool-article ul, .tool-article ol { font-size: 1.05rem; line-height: 1.85; color: var(--text-muted, #555); padding-left: 0; list-style-position: inside; margin: 0 0 1rem; }
+.tool-article li { margin-bottom: .35rem; }
+.ta-table { width: 100%; border-collapse: collapse; margin: 1rem 0 1.4rem; font-size: 1rem; }
+.ta-table th { background: var(--accent-color, #6366f1); color: #fff; padding: .55rem .9rem; text-align: left; font-weight: 700; }
+.ta-table td { padding: .5rem .9rem; border-bottom: 1px solid var(--border, #e5e7eb); color: var(--text-muted, #555); }
+.ta-table tr:last-child td { border-bottom: none; }
+.ta-table tr:nth-child(even) td { background: rgba(0,0,0,.03); }
+.ta-box { background: var(--card, #f9fafb); border: 1.5px solid var(--border, #e5e7eb); border-radius: 12px; padding: 1rem 1.2rem; margin: 1rem 0 1.4rem; font-size: 1.02rem; }
+.ta-box strong { display: block; margin-bottom: .4rem; font-size: .82rem; text-transform: uppercase; letter-spacing: .06em; color: var(--accent-color, #6366f1); }
+.share-row { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.2rem; border-top: 1px solid var(--border, #e5e7eb); }
+.share-row span { font-size: .82rem; font-weight: 700; color: var(--text-muted, #888); margin-right: .2rem; }
+.share-icon-btn { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 50%; border: 1.5px solid var(--border, #e5e7eb); background: transparent; cursor: pointer; font-size: .9rem; color: var(--text-muted, #555); text-decoration: none; transition: all .15s; }
+.share-icon-btn:hover { border-color: var(--accent-color, #6366f1); color: var(--accent-color, #6366f1); transform: translateY(-2px); }
+.share-icon-btn.copy-btn { font-size: .75rem; width: auto; padding: 0 .8rem; border-radius: 50px; gap: .3rem; }
+</style>
+
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="/">Home</a>
+  <span class="bc-sep">›</span>
+  <a href="/math-tools">Math Tools</a>
+  <span class="bc-sep">›</span>
+  <span>GCF & LCM Calculator</span>
+</nav>
+<div class="tool-page-layout" style="max-width:1100px;width:100%;margin:0 auto;padding:24px 24px 48px;box-sizing:border-box;">
+<div class="tool-nav-row">
+  <a href="/math-tools/prime-checker" class="tool-nav-card" style="--tnc-color:#4ecdc4">
+    <div class="tool-nav-icon"><i class="fa-solid fa-atom"></i></div>
+    <div class="tool-nav-text"><div class="tool-nav-dir">Previous</div><div class="tool-nav-name">Prime Number Checker</div></div>
+    <div class="tool-nav-arrow"><i class="fa-solid fa-chevron-left"></i></div>
+  </a>
+  <a href="/math-tools/ratio-calculator" class="tool-nav-card tool-nav-next" style="--tnc-color:#14b8a6">
+    <div class="tool-nav-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+    <div class="tool-nav-text"><div class="tool-nav-dir">Next</div><div class="tool-nav-name">Ratio Calculator</div></div>
+    <div class="tool-nav-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+  </a>
+</div>
+<div class="glcm-page">
+  <div class="glcm-main">
+    <div class="glcm-hero">
+      <h1>GCF &amp; LCM Calculator</h1>
+    </div>
+
+    <div class="glcm-inputs">
+      <div class="glcm-input-group">
+        <label>Number A</label>
+        <input class="glcm-input" type="number" id="numA" value="12" min="1" max="10000">
+      </div>
+      <div class="glcm-input-group" style="justify-content:center;">
+        <label>&nbsp;</label>
+        <span style="font-size:2rem;font-weight:900;color:#c084fc;line-height:3rem;">&amp;</span>
+      </div>
+      <div class="glcm-input-group">
+        <label>Number B</label>
+        <input class="glcm-input" type="number" id="numB" value="18" min="1" max="10000">
+      </div>
+    </div>
+
+    <button class="glcm-btn" onclick="calcGCFLCM()"><i class="fa-solid fa-circle-nodes" style="margin-right:.4rem;"></i>Find GCF &amp; LCM</button>
+
+    <div class="venn-wrap">
+      <h3><i class="fa-solid fa-diagram-venn" style="margin-right:.3rem;"></i>Factor Venn Diagram</h3>
+      <svg id="vennSvg" height="200" viewBox="0 0 520 200"></svg>
+    </div>
+
+    <div id="glcmResults">
+      <div class="results-grid">
+        <div class="result-card">
+          <div class="rc-label">Greatest Common Factor (GCF)</div>
+          <div class="rc-value" id="gcfVal">-</div>
+          <div class="rc-note" id="gcfNote"></div>
+        </div>
+        <div class="result-card">
+          <div class="rc-label">Least Common Multiple (LCM)</div>
+          <div class="rc-value" id="lcmVal">-</div>
+          <div class="rc-note" id="lcmNote"></div>
+        </div>
+      </div>
+      <div class="steps-card" id="stepsCard">
+        <h4><i class="fa-solid fa-list-ol" style="margin-right:.3rem;"></i>Steps</h4>
+        <div id="stepsContainer"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  function gcd(a, b) {
+    a = Math.abs(a); b = Math.abs(b);
+    while(b) { let t = b; b = a % b; a = t; }
+    return a;
+  }
+
+  function getFactors(n) {
+    const f = [];
+    for(let i = 1; i <= n; i++) { if(n % i === 0) f.push(i); }
+    return f;
+  }
+
+  function drawVenn(a, b, factA, factB, common, gcfVal) {
+    const svg = document.getElementById('vennSvg');
+    svg.innerHTML = '';
+    const W = 520, H = 200, r = 90;
+    const cx1 = 165, cx2 = 355, cy = 100;
+
+    // Left circle
+    const c1 = document.createElementNS('http://www.w3.org/2000/svg','circle');
+    c1.setAttribute('cx', cx1); c1.setAttribute('cy', cy); c1.setAttribute('r', r);
+    c1.setAttribute('fill', '#f3e8ff'); c1.setAttribute('stroke', '#c084fc'); c1.setAttribute('stroke-width', '2.5');
+    c1.setAttribute('opacity', '0.85'); svg.appendChild(c1);
+
+    // Right circle
+    const c2 = document.createElementNS('http://www.w3.org/2000/svg','circle');
+    c2.setAttribute('cx', cx2); c2.setAttribute('cy', cy); c2.setAttribute('r', r);
+    c2.setAttribute('fill', '#ede9fe'); c2.setAttribute('stroke', '#a855f7'); c2.setAttribute('stroke-width', '2.5');
+    c2.setAttribute('opacity', '0.85'); svg.appendChild(c2);
+
+    // Labels
+    const la = document.createElementNS('http://www.w3.org/2000/svg','text');
+    la.setAttribute('x', cx1); la.setAttribute('y', cy - r - 8);
+    la.setAttribute('text-anchor', 'middle'); la.setAttribute('font-size', '14');
+    la.setAttribute('font-weight', '800'); la.setAttribute('fill', '#6b21a8');
+    la.textContent = 'Factors of ' + a; svg.appendChild(la);
+
+    const lb = document.createElementNS('http://www.w3.org/2000/svg','text');
+    lb.setAttribute('x', cx2); lb.setAttribute('y', cy - r - 8);
+    lb.setAttribute('text-anchor', 'middle'); lb.setAttribute('font-size', '14');
+    lb.setAttribute('font-weight', '800'); lb.setAttribute('fill', '#6b21a8');
+    lb.textContent = 'Factors of ' + b; svg.appendChild(lb);
+
+    // GCF badge in overlap
+    const gcfCircle = document.createElementNS('http://www.w3.org/2000/svg','circle');
+    gcfCircle.setAttribute('cx', (cx1+cx2)/2); gcfCircle.setAttribute('cy', cy);
+    gcfCircle.setAttribute('r', '22');
+    gcfCircle.setAttribute('fill', '#a855f7'); gcfCircle.setAttribute('opacity', '0.3');
+    svg.appendChild(gcfCircle);
+
+    const gcfTxt = document.createElementNS('http://www.w3.org/2000/svg','text');
+    gcfTxt.setAttribute('x', (cx1+cx2)/2); gcfTxt.setAttribute('y', cy - 6);
+    gcfTxt.setAttribute('text-anchor', 'middle'); gcfTxt.setAttribute('font-size', '11');
+    gcfTxt.setAttribute('font-weight', '800'); gcfTxt.setAttribute('fill', '#6b21a8');
+    gcfTxt.textContent = 'GCF'; svg.appendChild(gcfTxt);
+
+    const gcfNum = document.createElementNS('http://www.w3.org/2000/svg','text');
+    gcfNum.setAttribute('x', (cx1+cx2)/2); gcfNum.setAttribute('y', cy + 10);
+    gcfNum.setAttribute('text-anchor', 'middle'); gcfNum.setAttribute('font-size', '16');
+    gcfNum.setAttribute('font-weight', '900'); gcfNum.setAttribute('fill', '#a855f7');
+    gcfNum.textContent = gcfVal; svg.appendChild(gcfNum);
+
+    // Factor display in left (unique to A)
+    const onlyA = factA.filter(f => !common.includes(f)).slice(0, 6);
+    const positions = [
+      {x:-50,y:-30},{x:-60,y:0},{x:-50,y:30},{x:-30,y:-50},{x:-30,y:50},{x:-70,y:20}
+    ];
+    onlyA.forEach((f, i) => {
+      const pos = positions[i] || {x:-40,y: (i-3)*18};
+      const t = document.createElementNS('http://www.w3.org/2000/svg','text');
+      t.setAttribute('x', cx1 + pos.x); t.setAttribute('y', cy + pos.y);
+      t.setAttribute('text-anchor', 'middle'); t.setAttribute('font-size', '13');
+      t.setAttribute('font-weight', '700'); t.setAttribute('fill', '#7c3aed');
+      t.setAttribute('opacity', '0'); t.textContent = f; svg.appendChild(t);
+      setTimeout(() => { t.setAttribute('opacity','1'); t.style.transition='opacity .3s'; }, i*80 + 200);
+    });
+
+    // Factor display in right (unique to B)
+    const onlyB = factB.filter(f => !common.includes(f)).slice(0, 6);
+    const posR = [
+      {x:50,y:-30},{x:60,y:0},{x:50,y:30},{x:30,y:-50},{x:30,y:50},{x:70,y:20}
+    ];
+    onlyB.forEach((f, i) => {
+      const pos = posR[i] || {x:40,y:(i-3)*18};
+      const t = document.createElementNS('http://www.w3.org/2000/svg','text');
+      t.setAttribute('x', cx2 + pos.x); t.setAttribute('y', cy + pos.y);
+      t.setAttribute('text-anchor', 'middle'); t.setAttribute('font-size', '13');
+      t.setAttribute('font-weight', '700'); t.setAttribute('fill', '#7c3aed');
+      t.setAttribute('opacity', '0'); t.textContent = f; svg.appendChild(t);
+      setTimeout(() => { t.setAttribute('opacity','1'); }, i*80 + 400);
+    });
+
+    // Common factors in overlap region
+    const commonToShow = common.filter(f => f !== 1).slice(0, 3);
+    const cpositions = [{x:0,y:-25},{x:0,y:25},{x:0,y:0}];
+    commonToShow.forEach((f, i) => {
+      const pos = cpositions[i] || {x:0,y:(i-1)*20};
+      const t = document.createElementNS('http://www.w3.org/2000/svg','text');
+      t.setAttribute('x', (cx1+cx2)/2 + pos.x);
+      t.setAttribute('y', cy + pos.y + (i === 1 ? 28 : i===0 ? -28 : 50));
+      t.setAttribute('text-anchor', 'middle'); t.setAttribute('font-size', '12');
+      t.setAttribute('font-weight', '800'); t.setAttribute('fill', '#9333ea');
+      t.setAttribute('opacity', '0'); t.textContent = f; svg.appendChild(t);
+      setTimeout(() => { t.setAttribute('opacity','1'); }, i*100 + 600);
+    });
+  }
+
+  window.calcGCFLCM = function() {
+    const a = parseInt(document.getElementById('numA').value)||0;
+    const b = parseInt(document.getElementById('numB').value)||0;
+    if(a < 1 || b < 1) { alert('Please enter positive integers!'); return; }
+
+    const gcfVal = gcd(a, b);
+    const lcmVal = Math.abs(a * b) / gcfVal;
+    const factA = getFactors(a);
+    const factB = getFactors(b);
+    const common = factA.filter(f => factB.includes(f));
+
+    drawVenn(a, b, factA, factB, common, gcfVal);
+
+    document.getElementById('gcfVal').textContent = gcfVal;
+    document.getElementById('gcfNote').textContent = `Common factors: ${common.join(', ')}`;
+    document.getElementById('lcmVal').textContent = lcmVal;
+    document.getElementById('lcmNote').textContent = `${a} × ${b} ÷ ${gcfVal} = ${lcmVal}`;
+
+    const steps = [
+      `Find all factors of ${a}: {${factA.join(', ')}}`,
+      `Find all factors of ${b}: {${factB.join(', ')}}`,
+      `Common factors: {${common.join(', ')}}`,
+      `GCF = largest common factor = ${gcfVal}`,
+      `LCM = (${a} × ${b}) ÷ GCF = ${a*b} ÷ ${gcfVal} = ${lcmVal}`
+    ];
+
+    const stepsContainer = document.getElementById('stepsContainer');
+    stepsContainer.innerHTML = '';
+    steps.forEach((s, i) => {
+      const div = document.createElement('div');
+      div.className = 'step-item';
+      div.innerHTML = `<div class="step-num">${i+1}</div><span>${s}</span>`;
+      stepsContainer.appendChild(div);
+    });
+
+    const results = document.getElementById('glcmResults');
+    results.style.display = 'block';
+    results.style.animation = 'none';
+    results.offsetHeight;
+  };
+
+  document.getElementById('numA').addEventListener('keydown', e => { if(e.key==='Enter') calcGCFLCM(); });
+  document.getElementById('numB').addEventListener('keydown', e => { if(e.key==='Enter') calcGCFLCM(); });
+
+  function shareThisPage() {
+    if (navigator.share) {
+      navigator.share({ title: document.title, url: location.href });
+    } else {
+      navigator.clipboard.writeText(location.href).then(() => {
+        var btn = document.querySelector('.tool-share-btn');
+        var orig = btn.innerHTML;
+        btn.innerHTML = '<i class="fa-solid fa-check"></i> Copied!';
+        setTimeout(function(){ btn.innerHTML = orig; }, 2000);
+      });
+    }
+  }
+  window.shareThisPage = shareThisPage;
+
+  // Draw initial empty Venn
+  (function initVenn(){
+    const svg = document.getElementById('vennSvg');
+    svg.innerHTML = '';
+    const cx1 = 165, cx2 = 355, cy = 100, r = 90;
+    [cx1, cx2].forEach((cx, idx) => {
+      const c = document.createElementNS('http://www.w3.org/2000/svg','circle');
+      c.setAttribute('cx', cx); c.setAttribute('cy', cy); c.setAttribute('r', r);
+      c.setAttribute('fill', idx===0?'#f3e8ff':'#ede9fe');
+      c.setAttribute('stroke', idx===0?'#c084fc':'#a855f7');
+      c.setAttribute('stroke-width', '2.5'); c.setAttribute('opacity', '0.7');
+      svg.appendChild(c);
+    });
+    const hint = document.createElementNS('http://www.w3.org/2000/svg','text');
+    hint.setAttribute('x', '260'); hint.setAttribute('y', '108');
+    hint.setAttribute('text-anchor', 'middle'); hint.setAttribute('font-size', '13');
+    hint.setAttribute('fill', '#7c3aed'); hint.setAttribute('font-weight', '600');
+    hint.textContent = 'Enter numbers & click Calculate';
+    svg.appendChild(hint);
+  })();
+})();
+</script>
+<section class="tool-article" style="--accent-color:#c084fc">
+
+  <h2>How to Use This Calculator</h2>
+  <p>Enter two numbers in the input boxes and press Calculate. The tool finds both the GCF and LCM instantly. You also see the prime factorization of each number, which shows exactly how the answer was reached. This is helpful for checking your own work.</p>
+
+  <h2>GCF vs LCM</h2>
+  <p>The GCF (Greatest Common Factor) is the largest number that divides evenly into both numbers. Use the GCF when you want to simplify a fraction or split something into equal groups as large as possible.</p>
+  <p>The LCM (Least Common Multiple) is the smallest number that both numbers divide into evenly. Use the LCM when you need a common denominator for fractions, or when you need to find when two repeating events will happen at the same time again.</p>
+
+  <h2>Finding GCF Using Prime Factorization</h2>
+  <p>To find GCF(24, 36) step by step:</p>
+  <ol>
+    <li>Factor 24 into primes: 2 x 2 x 2 x 3</li>
+    <li>Factor 36 into primes: 2 x 2 x 3 x 3</li>
+    <li>Find the shared prime factors: 2 x 2 x 3</li>
+    <li>Multiply them together: 2 x 2 x 3 = 12</li>
+  </ol>
+  <p>GCF(24, 36) = 12</p>
+
+  <h2>Finding LCM</h2>
+  <p>The fastest way uses the GCF. Once you have the GCF, you can find the LCM with: LCM = (a x b) / GCF. For 24 and 36: LCM = (24 x 36) / 12 = 864 / 12 = 72. You can check: 72 / 24 = 3 (whole number) and 72 / 36 = 2 (whole number). Both pass, so 72 is correct.</p>
+
+  <h2>Reference Table: Common Pairs</h2>
+  <table class="ta-table">
+    <thead><tr><th>Pair</th><th>GCF</th><th>LCM</th></tr></thead>
+    <tbody>
+      <tr><td>4 and 6</td><td>2</td><td>12</td></tr>
+      <tr><td>8 and 12</td><td>4</td><td>24</td></tr>
+      <tr><td>9 and 15</td><td>3</td><td>45</td></tr>
+      <tr><td>12 and 18</td><td>6</td><td>36</td></tr>
+      <tr><td>15 and 20</td><td>5</td><td>60</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Common Mistakes to Avoid</h2>
+  <ul>
+    <li>Confusing GCF and LCM. GCF is always smaller than or equal to both numbers. LCM is always larger than or equal to both numbers.</li>
+    <li>Finding a common factor that is not the greatest. Keep looking to make sure you have found the largest one.</li>
+    <li>Forgetting that GCF x LCM = a x b. This formula is a quick way to check your answer.</li>
+    <li>Using GCF when you need LCM for fraction denominators. These tasks need different tools.</li>
+  </ul>
+
+  </section>
+
+<div class="tool-nav-row">
+  <a href="/math-tools/prime-checker" class="tool-nav-card" style="--tnc-color:#4ecdc4">
+    <div class="tool-nav-icon"><i class="fa-solid fa-atom"></i></div>
+    <div class="tool-nav-text"><div class="tool-nav-dir">Previous</div><div class="tool-nav-name">Prime Number Checker</div></div>
+    <div class="tool-nav-arrow"><i class="fa-solid fa-chevron-left"></i></div>
+  </a>
+  <a href="/math-tools/ratio-calculator" class="tool-nav-card tool-nav-next" style="--tnc-color:#14b8a6">
+    <div class="tool-nav-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+    <div class="tool-nav-text"><div class="tool-nav-dir">Next</div><div class="tool-nav-name">Ratio Calculator</div></div>
+    <div class="tool-nav-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+  </a>
+</div>
+
+<div class="topic-quiz" id="tool-quiz">
+  <div class="quiz-header" style="background:#6366f1">
+    <i class="fa-solid fa-circle-question"></i> Quick Quiz
+    <span class="quiz-sub">3 questions</span>
+  </div>
+  <div class="quiz-body">
+    <div class="quiz-q" data-qi="0" data-correct="1">
+      <p class="quiz-question"><strong>Q1.</strong> What is the GCF of 12 and 18?</p>
+      <div class="quiz-options">
+        <button class="quiz-opt" data-oi="0">3</button>
+        <button class="quiz-opt" data-oi="1">6</button>
+        <button class="quiz-opt" data-oi="2">9</button>
+        <button class="quiz-opt" data-oi="3">12</button>
+      </div>
+      <div class="quiz-feedback" style="display:none"></div>
+    </div>
+    <div class="quiz-q" data-qi="1" data-correct="1">
+      <p class="quiz-question"><strong>Q2.</strong> What is the LCM of 4 and 6?</p>
+      <div class="quiz-options">
+        <button class="quiz-opt" data-oi="0">8</button>
+        <button class="quiz-opt" data-oi="1">12</button>
+        <button class="quiz-opt" data-oi="2">16</button>
+        <button class="quiz-opt" data-oi="3">24</button>
+      </div>
+      <div class="quiz-feedback" style="display:none"></div>
+    </div>
+    <div class="quiz-q" data-qi="2" data-correct="2">
+      <p class="quiz-question"><strong>Q3.</strong> What is the GCF of 24 and 36?</p>
+      <div class="quiz-options">
+        <button class="quiz-opt" data-oi="0">6</button>
+        <button class="quiz-opt" data-oi="1">8</button>
+        <button class="quiz-opt" data-oi="2">12</button>
+        <button class="quiz-opt" data-oi="3">18</button>
+      </div>
+      <div class="quiz-feedback" style="display:none"></div>
+    </div>
+    <div class="quiz-score" style="display:none">
+      <div class="quiz-score-inner">
+        <div class="quiz-score-icon"><i class="fa-solid fa-trophy"></i></div>
+        <div class="quiz-score-text">You scored <strong class="quiz-score-num">0</strong> / 3</div>
+        <button class="quiz-retry-btn">Try Again</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div><!-- /tool-page-layout -->
+
+<?php include __DIR__ . '/../_footer.php'; ?>

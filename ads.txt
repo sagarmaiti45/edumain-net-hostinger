@@ -1,0 +1,9 @@
+google.com, pub-3464124586997574, DIRECT, f08c47fec0942fa0
+google.com, pub-8260668593000194, DIRECT, f08c47fec0942fa0
+
+#WGPlayground ADX
+google.com, pub-9427048641572074, RESELLER, f08c47fec0942fa0
+google.com, pub-7248593568933467, RESELLER, f08c47fec0942fa0
+google.com, pub-4529402052683454, RESELLER, f08c47fec0942fa0
+wgplayer.com, WGP5265933821, DIRECT
+wgplayground.com, WGP142949df56ea8ae0be8b5306971900a4, DIRECT

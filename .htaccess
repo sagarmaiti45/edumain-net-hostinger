@@ -1,0 +1,39 @@
+Options -Indexes
+ErrorDocument 404 /404.php
+RewriteEngine On
+
+# Block direct access to includes
+RewriteRule ^_.*$ - [F,L]
+
+# Sitemap sub-files
+RewriteRule ^sitemap\.xml$ sitemap.php [L]
+RewriteRule ^sitemap-static\.xml$ sitemap.php?type=static [L,QSA]
+RewriteRule ^sitemap-tools\.xml$ sitemap.php?type=tools [L,QSA]
+RewriteRule ^sitemap-topics\.xml$ sitemap.php?type=topics [L,QSA]
+
+# Redirect /index → /
+RewriteRule ^index\.php$ / [R=301,L]
+
+# Route all clean URLs through router.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ router.php [L,QSA]
+
+# Security headers
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  Header set X-XSS-Protection "1; mode=block"
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+  Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://pagead2.googlesyndication.com https://www.googletagmanager.com https://www.google-analytics.com https://www.highperformanceformat.com https://pl29223878.profitablecpmratenetwork.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; frame-src https:; connect-src 'self' https:;"
+</IfModule>
+
+# Cache static assets
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 3 months"
+  ExpiresByType image/png "access plus 3 months"
+</IfModule>

@@ -1,0 +1,5693 @@
+[
+  {
+    "id": "fractions",
+    "title": "What Are Fractions?",
+    "subject": "math",
+    "grade": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": true,
+    "desc": "A fraction represents a part of a whole. Learn how to read, write and use fractions with simple examples.",
+    "intro": "A fraction is a way of writing a number that is not whole - like half a pizza or a quarter of a chocolate bar. Every fraction has two parts: the top number (numerator) and the bottom number (denominator).",
+    "facts": [
+      "The top number of a fraction is called the numerator.",
+      "The bottom number is called the denominator - it tells you how many equal parts the whole is split into.",
+      "1/2, 3/4, and 2/5 are all examples of fractions.",
+      "A fraction where the numerator is bigger than the denominator (like 5/3) is called an improper fraction.",
+      "Equivalent fractions look different but are equal in value - like 1/2 and 2/4."
+    ],
+    "quiz": [
+      {
+        "q": "In the fraction 3/4, what is the denominator?",
+        "options": [
+          "3",
+          "4",
+          "7",
+          "12"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Which fraction is equivalent to 1/2?",
+        "options": [
+          "1/4",
+          "2/5",
+          "3/6",
+          "3/8"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What is 1/4 + 2/4?",
+        "options": [
+          "2/8",
+          "3/4",
+          "3/8",
+          "1/2"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "long-division",
+      "decimals",
+      "percentages",
+      "ratio-proportion"
+    ]
+  },
+  {
+    "id": "long-division",
+    "title": "How to Do Long Division",
+    "subject": "math",
+    "grade": [
+      "4",
+      "5",
+      "6"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": true,
+    "desc": "Long division is a method for dividing large numbers step by step. Master it with our easy guide.",
+    "intro": "Long division is a way to divide large numbers by breaking the problem into smaller, manageable steps. It's a key skill for Year 4-6 students and appears in almost every maths exam.",
+    "facts": [
+      "Long division uses four steps repeated: Divide, Multiply, Subtract, Bring down - remembered as DMSB.",
+      "The number being divided is called the dividend; the number you divide by is the divisor.",
+      "The answer to a division is called the quotient.",
+      "If a number does not divide evenly, the leftover is called the remainder.",
+      "Long division is the foundation for understanding fractions and decimals."
+    ],
+    "quiz": [
+      {
+        "q": "What are the four steps of long division in order?",
+        "options": [
+          "Add, Subtract, Multiply, Divide",
+          "Divide, Multiply, Subtract, Bring down",
+          "Multiply, Divide, Add, Subtract",
+          "Bring down, Divide, Add, Multiply"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "In 144 ÷ 12, what is the quotient?",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What is the remainder when 17 is divided by 5?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "fractions",
+      "decimals",
+      "times-tables",
+      "bodmas"
+    ]
+  },
+  {
+    "id": "algebra-basics",
+    "title": "Introduction to Algebra",
+    "subject": "math",
+    "grade": [
+      "7",
+      "8",
+      "9"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": true,
+    "desc": "Algebra uses letters to represent unknown numbers. Learn the basics of solving equations and expressions.",
+    "intro": "Algebra is a branch of maths where we use letters (like x and y) to stand in for unknown numbers. It lets us write rules and solve problems in a general way.",
+    "facts": [
+      "A variable is a letter that represents an unknown number, like x or y.",
+      "An expression is a combination of numbers, variables and operations - like 3x + 2.",
+      "An equation has an equals sign and shows that two expressions are equal - like 3x + 2 = 11.",
+      "To solve an equation, find the value of the variable that makes it true.",
+      "The golden rule: whatever you do to one side of an equation, you must do to the other."
+    ],
+    "quiz": [
+      {
+        "q": "If 2x = 10, what is x?",
+        "options": [
+          "2",
+          "4",
+          "5",
+          "20"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What does a variable represent?",
+        "options": [
+          "A fixed number",
+          "An unknown number",
+          "An equation",
+          "A fraction"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Solve: x + 7 = 15",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "22"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "bodmas",
+      "pythagoras-theorem",
+      "ratio-proportion",
+      "fractions"
+    ]
+  },
+  {
+    "id": "percentages",
+    "title": "Understanding Percentages",
+    "subject": "math",
+    "grade": [
+      "5",
+      "6",
+      "7"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "Percentages show a number as a fraction of 100. Learn how to calculate percentages quickly and easily.",
+    "intro": "A percentage is a way of expressing a number as a fraction of 100. The symbol % means 'per hundred'. Percentages are used everywhere - from exam scores to shop discounts.",
+    "facts": [
+      "Per cent means 'per hundred' - so 50% means 50 out of 100.",
+      "To find 10% of a number, divide it by 10.",
+      "To convert a fraction to a percentage, divide the top by the bottom and multiply by 100.",
+      "100% means the whole thing; 50% means half; 25% means a quarter.",
+      "To increase a number by a percentage, multiply by (1 + percentage/100)."
+    ],
+    "quiz": [
+      {
+        "q": "What is 25% of 80?",
+        "options": [
+          "10",
+          "15",
+          "20",
+          "25"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What percentage is 3/4?",
+        "options": [
+          "34%",
+          "55%",
+          "75%",
+          "80%"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "If a £50 item is discounted by 20%, what is the sale price?",
+        "options": [
+          "£30",
+          "£35",
+          "£40",
+          "£45"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "fractions",
+      "decimals",
+      "ratio-proportion",
+      "long-division"
+    ]
+  },
+  {
+    "id": "geometry-shapes",
+    "title": "2D and 3D Shapes Explained",
+    "subject": "math",
+    "grade": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "From triangles to spheres, learn the properties of 2D and 3D shapes and how to identify them.",
+    "intro": "Geometry is the branch of maths that deals with shapes, sizes, and the properties of space. 2D shapes are flat (like a square), while 3D shapes have depth (like a cube).",
+    "facts": [
+      "2D shapes are flat and have length and width but no depth - examples include squares, circles, and triangles.",
+      "3D shapes have length, width, and height - examples include cubes, spheres, and cylinders.",
+      "A polygon is a 2D shape with straight sides - triangles, quadrilaterals, pentagons and hexagons are all polygons.",
+      "The perimeter of a 2D shape is the total length of its outside edges.",
+      "The area of a shape is the amount of flat space it covers, measured in square units."
+    ],
+    "quiz": [
+      {
+        "q": "How many sides does a hexagon have?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Which of these is a 3D shape?",
+        "options": [
+          "Rectangle",
+          "Triangle",
+          "Cylinder",
+          "Pentagon"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What is the area of a rectangle 5cm long and 3cm wide?",
+        "options": [
+          "8cm²",
+          "15cm²",
+          "16cm²",
+          "25cm²"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "pythagoras-theorem",
+      "bodmas",
+      "algebra-basics",
+      "fractions"
+    ]
+  },
+  {
+    "id": "times-tables",
+    "title": "How to Learn Times Tables",
+    "subject": "math",
+    "grade": [
+      "2",
+      "3",
+      "4"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "Times tables are the foundation of multiplication. Learn tips and tricks to remember them all.",
+    "intro": "Knowing your times tables off by heart makes all other maths much easier. Most schools expect students to know tables up to 12×12 by the end of primary school.",
+    "facts": [
+      "The 2 times table is just doubling a number - 2×7 = 14 because 7+7 = 14.",
+      "Any number multiplied by 10 just adds a zero - 6×10 = 60.",
+      "The 9 times table has a pattern: the digits of the answer always add up to 9 (e.g. 9×4=36, 3+6=9).",
+      "Multiplication is commutative - 3×7 is the same as 7×3.",
+      "Practising for just 5 minutes a day dramatically improves recall."
+    ],
+    "quiz": [
+      {
+        "q": "What is 7 × 8?",
+        "options": [
+          "48",
+          "54",
+          "56",
+          "64"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What is 12 × 11?",
+        "options": [
+          "121",
+          "122",
+          "132",
+          "144"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Which multiplication fact is the same as 4 × 9?",
+        "options": [
+          "9 × 4",
+          "4 × 10",
+          "3 × 12",
+          "8 × 4"
+        ],
+        "correct": 0
+      }
+    ],
+    "related": [
+      "long-division",
+      "fractions",
+      "bodmas",
+      "percentages"
+    ]
+  },
+  {
+    "id": "decimals",
+    "title": "Decimals Explained",
+    "subject": "math",
+    "grade": [
+      "4",
+      "5",
+      "6"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": true,
+    "desc": "Decimals are numbers with a dot separating whole and fractional parts. Master reading, writing and calculating with decimals.",
+    "intro": "A decimal is a way of writing a number that is not whole - using a dot (decimal point) to separate the whole part from the fraction part. For example, 3.5 means three and a half.",
+    "facts": [
+      "The decimal point separates the whole number from the fraction part.",
+      "The digit right after the decimal point is in the 'tenths' place.",
+      "0.1 = 1/10, 0.01 = 1/100, 0.001 = 1/1000.",
+      "To multiply a decimal by 10, move the decimal point one place to the right.",
+      "Decimals and fractions can represent the same value - 0.5 = 1/2."
+    ],
+    "quiz": [
+      {
+        "q": "What is 0.3 + 0.4?",
+        "options": [
+          "0.07",
+          "0.7",
+          "7",
+          "70"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Which is larger: 0.6 or 0.59?",
+        "options": [
+          "0.59",
+          "0.6",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What is 3.2 × 10?",
+        "options": [
+          "0.32",
+          "3.20",
+          "32",
+          "320"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "fractions",
+      "percentages",
+      "ratio-proportion",
+      "long-division"
+    ]
+  },
+  {
+    "id": "bodmas",
+    "title": "BODMAS - Order of Operations",
+    "subject": "math",
+    "grade": [
+      "5",
+      "6",
+      "7"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "BODMAS tells you the correct order to solve maths calculations. Essential for avoiding common mistakes in multi-step problems.",
+    "intro": "BODMAS (also called BIDMAS or PEMDAS in the USA) is the rule that tells you what order to carry out operations in a maths problem. It stands for Brackets, Orders (powers/roots), Division, Multiplication, Addition, Subtraction.",
+    "facts": [
+      "BODMAS stands for Brackets, Orders, Division, Multiplication, Addition, Subtraction.",
+      "Always work out brackets first - whatever is inside them.",
+      "Orders means powers and roots, like 3² or √16.",
+      "Division and multiplication are done left to right, not separately.",
+      "Addition and subtraction are done last, left to right."
+    ],
+    "quiz": [
+      {
+        "q": "What does the B in BODMAS stand for?",
+        "options": [
+          "Base",
+          "Brackets",
+          "Boolean",
+          "Binary"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Calculate: 2 + 3 × 4",
+        "options": [
+          "20",
+          "14",
+          "24",
+          "10"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What is (5 + 3) × 2?",
+        "options": [
+          "11",
+          "16",
+          "13",
+          "10"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "algebra-basics",
+      "fractions",
+      "long-division",
+      "decimals"
+    ]
+  },
+  {
+    "id": "pythagoras-theorem",
+    "title": "Pythagoras' Theorem",
+    "subject": "math",
+    "grade": [
+      "8",
+      "9",
+      "10"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": true,
+    "desc": "Pythagoras' theorem shows the relationship between the sides of a right-angled triangle. Essential for GCSE and KS4 maths.",
+    "intro": "Pythagoras' theorem states that in any right-angled triangle, the square of the longest side (hypotenuse) equals the sum of the squares of the other two sides. Written as: a² + b² = c².",
+    "facts": [
+      "The hypotenuse is always the longest side and is opposite the right angle.",
+      "The formula is a² + b² = c² where c is the hypotenuse.",
+      "A 3-4-5 triangle is the most famous example: 3² + 4² = 5² → 9 + 16 = 25.",
+      "The theorem only works for right-angled triangles.",
+      "You can use it to find any missing side if you know the other two."
+    ],
+    "quiz": [
+      {
+        "q": "In a right triangle with legs 3 and 4, what is the hypotenuse?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "25"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Which side is the hypotenuse?",
+        "options": [
+          "The shortest side",
+          "The side next to the right angle",
+          "The side opposite the right angle",
+          "Any side"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What is a² + b² = c² known as?",
+        "options": [
+          "Algebra rule",
+          "Pythagoras' theorem",
+          "BODMAS",
+          "Trigonometry"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "geometry-shapes",
+      "trigonometry",
+      "algebra-basics",
+      "area-perimeter"
+    ]
+  },
+  {
+    "id": "prime-numbers",
+    "title": "What Are Prime Numbers?",
+    "subject": "math",
+    "grade": [
+      "5",
+      "6",
+      "7"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "A prime number has exactly two factors: 1 and itself. Discover what makes a number prime and how to find them.",
+    "intro": "A prime number is a whole number greater than 1 that can only be divided evenly by 1 and itself. The number 7 is prime because nothing divides into it except 1 and 7.",
+    "facts": [
+      "The first 10 prime numbers are: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29.",
+      "2 is the only even prime number - every other even number can be divided by 2.",
+      "A number that is not prime is called a composite number.",
+      "1 is neither prime nor composite.",
+      "The Sieve of Eratosthenes is an ancient method for finding all prime numbers up to any number."
+    ],
+    "quiz": [
+      {
+        "q": "Which of these is a prime number?",
+        "options": [
+          "9",
+          "15",
+          "17",
+          "21"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "How many factors does a prime number have?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "More than 3"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Is 2 a prime number?",
+        "options": [
+          "Yes",
+          "No",
+          "Sometimes",
+          "It depends"
+        ],
+        "correct": 0
+      }
+    ],
+    "related": [
+      "times-tables",
+      "bodmas",
+      "long-division",
+      "algebra-basics"
+    ]
+  },
+  {
+    "id": "ratio-proportion",
+    "title": "Ratio and Proportion",
+    "subject": "math",
+    "grade": [
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "Ratios compare quantities and proportions describe equal ratios. Learn to simplify ratios and solve proportion problems.",
+    "intro": "A ratio compares two or more quantities. For example, a ratio of 2:3 means for every 2 of one thing there are 3 of another. Proportion tells us when two ratios are equal.",
+    "facts": [
+      "A ratio can be written with a colon (2:3) or as a fraction (2/3).",
+      "To simplify a ratio, divide both parts by their highest common factor.",
+      "Direct proportion: as one quantity increases, the other increases at the same rate.",
+      "Inverse proportion: as one quantity increases, the other decreases.",
+      "The unitary method: find the value of one unit first, then scale up."
+    ],
+    "quiz": [
+      {
+        "q": "Simplify the ratio 12:8.",
+        "options": [
+          "6:4",
+          "3:2",
+          "4:3",
+          "2:3"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "If 5 pens cost £2, how much do 15 pens cost?",
+        "options": [
+          "£4",
+          "£5",
+          "£6",
+          "£8"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Which shows a ratio in its simplest form?",
+        "options": [
+          "4:6",
+          "2:4",
+          "3:5",
+          "6:9"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "fractions",
+      "percentages",
+      "decimals",
+      "algebra-basics"
+    ]
+  },
+  {
+    "id": "probability",
+    "title": "Introduction to Probability",
+    "subject": "math",
+    "grade": [
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "Probability measures how likely an event is to happen, from 0 (impossible) to 1 (certain).",
+    "intro": "Probability is the maths of chance. It tells us how likely something is to happen and is written as a number between 0 and 1 (or as a fraction, decimal, or percentage).",
+    "facts": [
+      "Probability 0 means an event is impossible; probability 1 means it is certain.",
+      "The probability of rolling a 6 on a fair dice is 1/6.",
+      "All probabilities for an event must add up to 1.",
+      "Theoretical probability is calculated; experimental probability is measured from results.",
+      "A sample space is the set of all possible outcomes."
+    ],
+    "quiz": [
+      {
+        "q": "What is the probability of flipping heads on a fair coin?",
+        "options": [
+          "1/4",
+          "1/3",
+          "1/2",
+          "2/3"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What does a probability of 0 mean?",
+        "options": [
+          "Certain",
+          "Likely",
+          "Unlikely",
+          "Impossible"
+        ],
+        "correct": 3
+      },
+      {
+        "q": "A bag has 3 red and 7 blue balls. What is the probability of picking red?",
+        "options": [
+          "3/7",
+          "3/10",
+          "7/10",
+          "1/3"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "fractions",
+      "decimals",
+      "algebra-basics",
+      "ratio-proportion"
+    ]
+  },
+  {
+    "id": "photosynthesis",
+    "title": "Photosynthesis Explained",
+    "subject": "science",
+    "grade": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": true,
+    "desc": "Photosynthesis is how plants make food from sunlight, water and carbon dioxide. Learn the process step by step.",
+    "intro": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to produce their own food (sugar) and release oxygen. It is one of the most important chemical reactions on Earth.",
+    "facts": [
+      "The chemical equation for photosynthesis is: 6CO₂ + 6H₂O + light energy → C₆H₁₂O₆ + 6O₂.",
+      "Photosynthesis takes place in the chloroplasts, which contain a green pigment called chlorophyll.",
+      "Chlorophyll absorbs red and blue light but reflects green - that's why plants look green.",
+      "Plants take in carbon dioxide through tiny pores called stomata on their leaves.",
+      "Without photosynthesis, there would be no oxygen in the atmosphere and no food chain."
+    ],
+    "quiz": [
+      {
+        "q": "What gas do plants release during photosynthesis?",
+        "options": [
+          "Carbon dioxide",
+          "Nitrogen",
+          "Oxygen",
+          "Hydrogen"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Where in the plant does photosynthesis occur?",
+        "options": [
+          "Roots",
+          "Stem",
+          "Chloroplasts",
+          "Stomata"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What does chlorophyll do?",
+        "options": [
+          "Makes water",
+          "Absorbs light",
+          "Releases CO₂",
+          "Stores glucose"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "food-chains",
+      "plant-cell",
+      "water-cycle",
+      "ecosystems"
+    ]
+  },
+  {
+    "id": "solar-system",
+    "title": "The Solar System",
+    "subject": "science",
+    "grade": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": true,
+    "desc": "Our solar system contains the Sun, eight planets, and billions of other objects. Explore them all here.",
+    "intro": "The Solar System is the Sun and everything that orbits around it - eight planets, their moons, dwarf planets, asteroids, and comets. It formed about 4.6 billion years ago from a giant cloud of gas and dust.",
+    "facts": [
+      "The eight planets in order from the Sun are: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune.",
+      "Jupiter is the largest planet - more than 1,300 Earths could fit inside it.",
+      "Mercury is the closest planet to the Sun but Venus is the hottest (due to its thick atmosphere).",
+      "Saturn's rings are made of ice and rock, and are about 30 metres thick on average.",
+      "A light year is the distance light travels in one year - about 9.46 trillion kilometres."
+    ],
+    "quiz": [
+      {
+        "q": "Which is the largest planet in our solar system?",
+        "options": [
+          "Saturn",
+          "Earth",
+          "Jupiter",
+          "Neptune"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "How many planets are in the solar system?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Which planet is known as the Red Planet?",
+        "options": [
+          "Venus",
+          "Mars",
+          "Mercury",
+          "Saturn"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "forces-motion",
+      "electricity",
+      "states-of-matter",
+      "ecosystems"
+    ]
+  },
+  {
+    "id": "human-body-systems",
+    "title": "Human Body Systems",
+    "subject": "science",
+    "grade": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": true,
+    "desc": "The human body has 11 organ systems that work together to keep us alive. Learn what each system does.",
+    "intro": "The human body is made up of 11 major organ systems, each with a specific job. They all work together so the body can function properly - from breathing to digesting food to fighting disease.",
+    "facts": [
+      "The circulatory system pumps blood around the body - the heart beats about 100,000 times a day.",
+      "The respiratory system takes in oxygen and removes carbon dioxide - we breathe about 20,000 times a day.",
+      "The digestive system breaks food down into nutrients the body can use - it takes 24-72 hours to digest a meal.",
+      "The nervous system sends signals around the body at up to 120 metres per second.",
+      "The skeletal system gives the body structure - adult humans have 206 bones."
+    ],
+    "quiz": [
+      {
+        "q": "Which organ pumps blood around the body?",
+        "options": [
+          "Lungs",
+          "Brain",
+          "Heart",
+          "Liver"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "How many bones does an adult human have?",
+        "options": [
+          "106",
+          "206",
+          "306",
+          "406"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Which system breaks down food into nutrients?",
+        "options": [
+          "Nervous",
+          "Respiratory",
+          "Circulatory",
+          "Digestive"
+        ],
+        "correct": 3
+      }
+    ],
+    "related": [
+      "plant-cell",
+      "food-chains",
+      "evolution",
+      "ecosystems"
+    ]
+  },
+  {
+    "id": "food-chains",
+    "title": "Food Chains and Food Webs",
+    "subject": "science",
+    "grade": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "Food chains show how energy passes from one living thing to another. Learn about producers, consumers and decomposers.",
+    "intro": "A food chain shows the feeding relationships between organisms - who eats who. Energy from the Sun passes through a food chain from plants (producers) to animals (consumers).",
+    "facts": [
+      "A food chain always starts with a producer - usually a plant that makes its own food via photosynthesis.",
+      "Herbivores (primary consumers) eat plants; carnivores (secondary consumers) eat herbivores.",
+      "A food web shows many overlapping food chains in an ecosystem.",
+      "Decomposers (like bacteria and fungi) break down dead organisms and return nutrients to the soil.",
+      "Energy is lost at each level of a food chain - only about 10% passes on to the next level."
+    ],
+    "quiz": [
+      {
+        "q": "What do we call organisms that make their own food?",
+        "options": [
+          "Consumers",
+          "Decomposers",
+          "Producers",
+          "Predators"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What percentage of energy typically passes from one trophic level to the next?",
+        "options": [
+          "10%",
+          "25%",
+          "50%",
+          "90%"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Which of these is a decomposer?",
+        "options": [
+          "Lion",
+          "Grass",
+          "Bacteria",
+          "Rabbit"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "photosynthesis",
+      "ecosystems",
+      "human-body-systems",
+      "evolution"
+    ]
+  },
+  {
+    "id": "states-of-matter",
+    "title": "States of Matter: Solid, Liquid and Gas",
+    "subject": "science",
+    "grade": [
+      "4",
+      "5",
+      "6"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "Everything around us is a solid, liquid or gas. Learn how matter changes between states and why.",
+    "intro": "All matter exists as a solid, liquid, or gas - these are called the three states of matter. Matter can change between states when heated or cooled.",
+    "facts": [
+      "In a solid, particles are packed tightly together and vibrate in fixed positions - solids have a definite shape.",
+      "In a liquid, particles are close together but can move past each other - liquids take the shape of their container.",
+      "In a gas, particles are far apart and move quickly in all directions - gases fill any space they're in.",
+      "Melting is solid → liquid; freezing is liquid → solid; evaporation is liquid → gas; condensation is gas → liquid.",
+      "A fourth state of matter called plasma exists in stars and lightning, but is less common on Earth."
+    ],
+    "quiz": [
+      {
+        "q": "What process changes a liquid to a gas?",
+        "options": [
+          "Freezing",
+          "Melting",
+          "Evaporation",
+          "Condensation"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Which state of matter has particles packed most tightly?",
+        "options": [
+          "Gas",
+          "Liquid",
+          "Solid",
+          "Plasma"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What happens to the particles in water when it freezes?",
+        "options": [
+          "They move faster",
+          "They spread out",
+          "They slow down and lock in place",
+          "They disappear"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "water-cycle",
+      "electricity",
+      "forces-motion",
+      "solar-system"
+    ]
+  },
+  {
+    "id": "plant-cell",
+    "title": "Plant and Animal Cells",
+    "subject": "science",
+    "grade": [
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "Cells are the building blocks of all life. Learn the key parts of plant and animal cells and how they differ.",
+    "intro": "All living things are made of cells - tiny structures too small to see with the naked eye. Plant cells and animal cells share some features, but plants have extra structures that animals do not.",
+    "facts": [
+      "The cell membrane controls what enters and leaves the cell.",
+      "The nucleus contains DNA and controls the cell's activities - it is the cell's 'control centre'.",
+      "Plant cells have a rigid cell wall made of cellulose, which animal cells do not.",
+      "Chloroplasts are found only in plant cells and are responsible for photosynthesis.",
+      "The mitochondria produce energy for the cell through a process called respiration."
+    ],
+    "quiz": [
+      {
+        "q": "Which structure is found in plant cells but NOT animal cells?",
+        "options": [
+          "Nucleus",
+          "Cell membrane",
+          "Mitochondria",
+          "Cell wall"
+        ],
+        "correct": 3
+      },
+      {
+        "q": "What is the function of the mitochondria?",
+        "options": [
+          "Photosynthesis",
+          "Producing energy",
+          "Controlling the cell",
+          "Storing water"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What is DNA stored in?",
+        "options": [
+          "Mitochondria",
+          "Cell wall",
+          "Nucleus",
+          "Chloroplast"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "photosynthesis",
+      "human-body-systems",
+      "evolution",
+      "ecosystems"
+    ]
+  },
+  {
+    "id": "water-cycle",
+    "title": "The Water Cycle",
+    "subject": "science",
+    "grade": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "The water cycle is the continuous movement of water through Earth's systems. Learn each stage clearly.",
+    "intro": "The water cycle (also called the hydrological cycle) describes how water moves continuously through the Earth's systems - from the oceans, into the atmosphere, and back to the land.",
+    "facts": [
+      "Evaporation: the Sun heats water in oceans, lakes and rivers, turning it into water vapour.",
+      "Condensation: water vapour cools high in the atmosphere and forms clouds.",
+      "Precipitation: water falls from clouds as rain, snow, sleet or hail.",
+      "Run-off: water flows over land into rivers and eventually back to the sea.",
+      "Transpiration: plants also release water vapour through their leaves, adding to the cycle."
+    ],
+    "quiz": [
+      {
+        "q": "What process turns liquid water into water vapour?",
+        "options": [
+          "Condensation",
+          "Precipitation",
+          "Evaporation",
+          "Transpiration"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What forms when water vapour cools in the atmosphere?",
+        "options": [
+          "Rain",
+          "Snow",
+          "Clouds",
+          "Ice"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What is precipitation?",
+        "options": [
+          "Water evaporating",
+          "Water falling from clouds",
+          "Water flowing in rivers",
+          "Water freezing"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "states-of-matter",
+      "ecosystems",
+      "photosynthesis",
+      "rivers-geography"
+    ]
+  },
+  {
+    "id": "forces-motion",
+    "title": "Forces and Motion",
+    "subject": "science",
+    "grade": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": true,
+    "desc": "Forces cause objects to start, stop, speed up or change direction. Understand Newton's laws and how forces work.",
+    "intro": "A force is a push or a pull. Forces can change the shape, speed or direction of an object. When forces are balanced, objects stay still or keep moving at the same speed.",
+    "facts": [
+      "Force is measured in Newtons (N).",
+      "Newton's First Law: an object stays at rest or moves in a straight line unless a force acts on it.",
+      "Newton's Second Law: Force = Mass × Acceleration (F = ma).",
+      "Newton's Third Law: every action has an equal and opposite reaction.",
+      "Friction is a force that opposes motion between surfaces."
+    ],
+    "quiz": [
+      {
+        "q": "What is the unit of force?",
+        "options": [
+          "Joule",
+          "Watt",
+          "Newton",
+          "Pascal"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "If forces on an object are balanced, what happens?",
+        "options": [
+          "It speeds up",
+          "It slows down",
+          "It stays still or moves at constant speed",
+          "It changes direction"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What does F = ma stand for?",
+        "options": [
+          "Force = Mass × Area",
+          "Force = Mass × Acceleration",
+          "Friction = Mass × Acceleration",
+          "Force = Motion × Angle"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "energy-types",
+      "electricity-circuits",
+      "solar-system",
+      "matter-states"
+    ]
+  },
+  {
+    "id": "electricity",
+    "title": "Introduction to Electricity",
+    "subject": "science",
+    "grade": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "Learn how electricity works, the difference between series and parallel circuits, and how to measure it.",
+    "intro": "Electricity is the flow of electric charge (usually electrons) through a conductor. It powers almost everything in our modern world and is a key topic in school physics.",
+    "facts": [
+      "Electric current is the flow of charge, measured in amperes (A).",
+      "Voltage (measured in volts, V) is the force that pushes current through a circuit.",
+      "Resistance (measured in ohms, Ω) slows the flow of current - Ohm's Law: V = I × R.",
+      "In a series circuit, all components are connected in a single loop - if one breaks, all stop.",
+      "In a parallel circuit, components are on separate branches - if one breaks, the others keep working."
+    ],
+    "quiz": [
+      {
+        "q": "What unit is electric current measured in?",
+        "options": [
+          "Volts",
+          "Watts",
+          "Amperes",
+          "Ohms"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "In which circuit does a broken bulb stop all others from working?",
+        "options": [
+          "Parallel",
+          "Series",
+          "Both",
+          "Neither"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What does Ohm's Law state?",
+        "options": [
+          "V = I + R",
+          "V = I × R",
+          "V = I ÷ R",
+          "V = I - R"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "forces-motion",
+      "solar-system",
+      "states-of-matter",
+      "binary-numbers"
+    ]
+  },
+  {
+    "id": "periodic-table",
+    "title": "The Periodic Table",
+    "subject": "science",
+    "grade": [
+      "8",
+      "9",
+      "10"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "The periodic table organises all known elements. Learn how to read it and understand groups and periods.",
+    "intro": "The periodic table is a chart that arranges all 118 known chemical elements in order of their atomic number. It was first created by Dmitri Mendeleev in 1869 and is one of the most important tools in chemistry.",
+    "facts": [
+      "Elements are arranged in order of increasing atomic number (number of protons).",
+      "A group is a vertical column - elements in the same group have similar properties.",
+      "A period is a horizontal row - the period number tells you how many electron shells the atom has.",
+      "Metals are on the left side, non-metals on the right, and metalloids (semi-metals) in between.",
+      "The noble gases (Group 0/18) are very unreactive and include helium, neon, and argon."
+    ],
+    "quiz": [
+      {
+        "q": "Who created the first periodic table?",
+        "options": [
+          "Einstein",
+          "Darwin",
+          "Mendeleev",
+          "Newton"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What do elements in the same group have in common?",
+        "options": [
+          "Same mass",
+          "Same number of protons",
+          "Similar chemical properties",
+          "Same period"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Where are metals found on the periodic table?",
+        "options": [
+          "Right side",
+          "Left side",
+          "Centre",
+          "Top row"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "states-of-matter",
+      "evolution",
+      "electricity",
+      "plant-cell"
+    ]
+  },
+  {
+    "id": "evolution",
+    "title": "Darwin's Theory of Evolution",
+    "subject": "science",
+    "grade": [
+      "9",
+      "10",
+      "11"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "hard",
+    "featured": false,
+    "desc": "Charles Darwin's theory of evolution by natural selection explains how species change over time.",
+    "intro": "Charles Darwin's theory of evolution states that all species of life have descended from common ancestors through a process called natural selection. It is the central theory of biology.",
+    "facts": [
+      "Natural selection is the process where organisms better adapted to their environment survive and reproduce more successfully.",
+      "Darwin observed finches on the Galápagos Islands - each island had differently shaped beaks suited to available food.",
+      "Variation is the key to evolution: individuals within a species show differences in their characteristics.",
+      "Fossils provide evidence for evolution by showing how species have changed over millions of years.",
+      "Darwin published 'On the Origin of Species' in 1859."
+    ],
+    "quiz": [
+      {
+        "q": "Who developed the theory of evolution by natural selection?",
+        "options": [
+          "Newton",
+          "Mendel",
+          "Darwin",
+          "Einstein"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What provides evidence of how species have changed over time?",
+        "options": [
+          "Fossils",
+          "Cells",
+          "Chromosomes",
+          "DNA only"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "What is the process that drives evolution?",
+        "options": [
+          "Mutation only",
+          "Natural selection",
+          "Artificial selection",
+          "Adaptation alone"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "ecosystems",
+      "food-chains",
+      "plant-cell",
+      "human-body-systems"
+    ]
+  },
+  {
+    "id": "ecosystems",
+    "title": "What Is an Ecosystem?",
+    "subject": "science",
+    "grade": [
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "An ecosystem is a community of living things and their environment. Learn about biotic and abiotic factors.",
+    "intro": "An ecosystem is a system made up of all the living organisms (biotic factors) in an area together with the non-living environment (abiotic factors) they interact with.",
+    "facts": [
+      "Biotic factors are the living parts of an ecosystem - plants, animals, fungi, and bacteria.",
+      "Abiotic factors are the non-living parts - temperature, light, water, soil, and air.",
+      "A habitat is the specific environment where an organism lives.",
+      "Biodiversity refers to the variety of different species in an ecosystem - high biodiversity makes ecosystems more stable.",
+      "Human activities such as deforestation and pollution threaten many ecosystems worldwide."
+    ],
+    "quiz": [
+      {
+        "q": "Which of these is an abiotic factor?",
+        "options": [
+          "Plants",
+          "Animals",
+          "Temperature",
+          "Fungi"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What does biodiversity measure?",
+        "options": [
+          "Total mass of organisms",
+          "Variety of species",
+          "Rainfall levels",
+          "Soil quality"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What is a habitat?",
+        "options": [
+          "A food chain",
+          "A type of organism",
+          "Where an organism lives",
+          "A weather pattern"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "food-chains",
+      "photosynthesis",
+      "water-cycle",
+      "evolution"
+    ]
+  },
+  {
+    "id": "world-war-2",
+    "title": "World War 2 Explained",
+    "subject": "history",
+    "grade": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": true,
+    "desc": "World War 2 was the deadliest conflict in human history. Learn its causes, key events and consequences.",
+    "intro": "World War 2 (1939-1945) was a global conflict fought between the Allies (including Britain, France, the USA and the USSR) and the Axis powers (Germany, Italy and Japan). It resulted in over 70 million deaths.",
+    "facts": [
+      "World War 2 began on 1 September 1939 when Germany invaded Poland.",
+      "The Holocaust was the systematic genocide of six million Jewish people by the Nazi regime.",
+      "The USA entered the war in December 1941 after Japan attacked Pearl Harbor.",
+      "D-Day (6 June 1944) saw Allied forces land on the beaches of Normandy, France - a turning point in the war.",
+      "The war in Europe ended on 8 May 1945 (VE Day); the war in the Pacific ended on 15 August 1945 (VJ Day)."
+    ],
+    "quiz": [
+      {
+        "q": "In which year did World War 2 begin?",
+        "options": [
+          "1935",
+          "1937",
+          "1939",
+          "1941"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What event brought the USA into World War 2?",
+        "options": [
+          "Invasion of Poland",
+          "Fall of France",
+          "Attack on Pearl Harbor",
+          "D-Day"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What was D-Day?",
+        "options": [
+          "The start of the war",
+          "Germany's invasion of France",
+          "The Allied landing in Normandy",
+          "The end of the war"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "world-war-1",
+      "cold-war",
+      "industrial-revolution",
+      "civil-rights-movement"
+    ]
+  },
+  {
+    "id": "ancient-egypt",
+    "title": "Ancient Egypt",
+    "subject": "history",
+    "grade": [
+      "5",
+      "6",
+      "7"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": true,
+    "desc": "Discover the world of pharaohs, pyramids and hieroglyphics in one of the world's greatest ancient civilisations.",
+    "intro": "Ancient Egypt was one of the world's first and greatest civilisations. It developed along the Nile River in North Africa and lasted for over 3,000 years, from around 3100 BC to 30 BC.",
+    "facts": [
+      "The Great Pyramid of Giza was built around 2560 BC for Pharaoh Khufu.",
+      "Pharaohs were the rulers of Egypt - they were considered gods on Earth.",
+      "Hieroglyphics is the ancient Egyptian writing system using symbols.",
+      "The Nile River flooded every year, leaving behind rich soil for farming.",
+      "Egyptians mummified their dead to preserve the body for the afterlife."
+    ],
+    "quiz": [
+      {
+        "q": "What was the writing system of ancient Egypt called?",
+        "options": [
+          "Cuneiform",
+          "Hieroglyphics",
+          "Sanskrit",
+          "Latin"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What were ancient Egyptian rulers called?",
+        "options": [
+          "Emperors",
+          "Kings",
+          "Pharaohs",
+          "Sultans"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Which river was central to ancient Egyptian life?",
+        "options": [
+          "Amazon",
+          "Tigris",
+          "Thames",
+          "Nile"
+        ],
+        "correct": 3
+      }
+    ],
+    "related": [
+      "roman-empire",
+      "ancient-greece",
+      "world-war-2",
+      "industrial-revolution"
+    ]
+  },
+  {
+    "id": "world-war-1",
+    "title": "World War 1 Explained",
+    "subject": "history",
+    "grade": [
+      "9",
+      "10",
+      "11"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "World War 1 (1914-1918) reshaped Europe and the world. Learn the causes, key battles and outcomes.",
+    "intro": "World War 1 (1914-1918) was a global war centred in Europe involving most of the world's powers. It was triggered by the assassination of Archduke Franz Ferdinand and ended with the Treaty of Versailles.",
+    "facts": [
+      "World War 1 was triggered by the assassination of Archduke Franz Ferdinand of Austria in Sarajevo on 28 June 1914.",
+      "The war was fought between the Allied Powers (France, Britain, Russia, later USA) and the Central Powers (Germany, Austria-Hungary, Ottoman Empire).",
+      "Trench warfare was a defining feature of the war - both sides dug hundreds of kilometres of trenches.",
+      "The Battle of the Somme (1916) was one of the bloodiest battles in history - over 1 million casualties.",
+      "The war ended on 11 November 1918 with the Armistice."
+    ],
+    "quiz": [
+      {
+        "q": "Who was assassinated to start World War 1?",
+        "options": [
+          "Kaiser Wilhelm",
+          "Archduke Franz Ferdinand",
+          "Tsar Nicholas",
+          "Winston Churchill"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "When did World War 1 end?",
+        "options": [
+          "1916",
+          "1917",
+          "1918",
+          "1919"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What type of warfare became a symbol of World War 1?",
+        "options": [
+          "Tank warfare",
+          "Air warfare",
+          "Trench warfare",
+          "Naval warfare"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "world-war-2",
+      "cold-war",
+      "industrial-revolution",
+      "roman-empire"
+    ]
+  },
+  {
+    "id": "roman-empire",
+    "title": "The Roman Empire",
+    "subject": "history",
+    "grade": [
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "The Roman Empire was one of the most powerful in history. Learn how it rose, expanded and eventually fell.",
+    "intro": "Rome began as a small city in Italy and grew into one of the greatest empires the world has ever seen, controlling land across Europe, North Africa and the Middle East. At its height, around 117 AD, the Roman Empire had over 70 million people.",
+    "facts": [
+      "The Roman Empire replaced the Roman Republic in 27 BC when Augustus became the first emperor.",
+      "Latin, the language of Rome, is the ancestor of French, Spanish, Italian, Portuguese and Romanian.",
+      "Romans built roads, aqueducts and sewers that were advanced for their time.",
+      "The Roman army was highly organised - a legion had around 5,000 soldiers.",
+      "The Western Roman Empire fell in 476 AD when Germanic tribes overthrew the last emperor."
+    ],
+    "quiz": [
+      {
+        "q": "Who was the first Roman Emperor?",
+        "options": [
+          "Julius Caesar",
+          "Augustus",
+          "Nero",
+          "Constantine"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "When did the Western Roman Empire fall?",
+        "options": [
+          "27 BC",
+          "117 AD",
+          "476 AD",
+          "1066 AD"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What language did the Romans speak?",
+        "options": [
+          "Greek",
+          "Latin",
+          "Italian",
+          "French"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "ancient-greece",
+      "ancient-egypt",
+      "medieval-europe",
+      "renaissance"
+    ]
+  },
+  {
+    "id": "cold-war",
+    "title": "The Cold War",
+    "subject": "history",
+    "grade": [
+      "9",
+      "10",
+      "11"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "hard",
+    "featured": false,
+    "desc": "The Cold War was a political and military standoff between the USA and USSR from 1947 to 1991. Learn its causes, key events and legacy.",
+    "intro": "After World War 2, two superpowers emerged: the USA (capitalist) and the USSR (communist). They never fought directly but competed in arms races, space exploration and proxy wars for over 40 years.",
+    "facts": [
+      "The Cold War lasted from 1947 to 1991, ending with the collapse of the Soviet Union.",
+      "The arms race saw both sides build massive nuclear arsenals.",
+      "The Berlin Wall (1961-1989) divided communist East Berlin from democratic West Berlin.",
+      "The Space Race saw the USSR launch the first satellite (Sputnik, 1957) and the USA land on the Moon (1969).",
+      "The Cuban Missile Crisis of 1962 brought the world the closest it has ever come to nuclear war."
+    ],
+    "quiz": [
+      {
+        "q": "Which two superpowers were involved in the Cold War?",
+        "options": [
+          "UK and France",
+          "USA and Germany",
+          "USA and USSR",
+          "China and Japan"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "When was the Berlin Wall built?",
+        "options": [
+          "1945",
+          "1961",
+          "1969",
+          "1989"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "When did the Cold War end?",
+        "options": [
+          "1969",
+          "1979",
+          "1989",
+          "1991"
+        ],
+        "correct": 3
+      }
+    ],
+    "related": [
+      "world-war-2",
+      "industrial-revolution",
+      "medieval-europe",
+      "renaissance"
+    ]
+  },
+  {
+    "id": "american-revolution",
+    "title": "The American Revolution",
+    "subject": "history",
+    "grade": [
+      "8",
+      "9",
+      "10"
+    ],
+    "countries": [
+      "US",
+      "AU"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "The American Revolution (1775-1783) created the United States of America. Learn its causes and key events.",
+    "intro": "The American Revolution was the political and military struggle that led to the 13 American colonies declaring independence from Britain. It resulted in the formation of the United States of America.",
+    "facts": [
+      "The slogan 'No taxation without representation' summed up American anger at British rule.",
+      "The Boston Tea Party (1773) saw colonists dump British tea into the harbour in protest.",
+      "The Declaration of Independence was signed on 4 July 1776 - now celebrated as Independence Day.",
+      "George Washington led the Continental Army and became the USA's first president.",
+      "The Treaty of Paris (1783) officially ended the war and recognised American independence."
+    ],
+    "quiz": [
+      {
+        "q": "When was the Declaration of Independence signed?",
+        "options": [
+          "1773",
+          "1775",
+          "1776",
+          "1783"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Who led the Continental Army?",
+        "options": [
+          "Benjamin Franklin",
+          "Thomas Jefferson",
+          "George Washington",
+          "John Adams"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What was the Boston Tea Party a protest against?",
+        "options": [
+          "Slavery",
+          "Taxation without representation",
+          "The British army",
+          "Religious laws"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "civil-rights-movement",
+      "cold-war",
+      "world-war-1",
+      "world-war-2"
+    ]
+  },
+  {
+    "id": "civil-rights-movement",
+    "title": "The Civil Rights Movement",
+    "subject": "history",
+    "grade": [
+      "9",
+      "10",
+      "11"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "The Civil Rights Movement fought for racial equality in the USA. Learn about key figures and landmark events.",
+    "intro": "The Civil Rights Movement was a decades-long struggle by African Americans and their allies to end racial segregation and discrimination in the United States. It achieved landmark legislation in the 1960s.",
+    "facts": [
+      "Rosa Parks refused to give up her bus seat to a white passenger in 1955, sparking the Montgomery Bus Boycott.",
+      "Martin Luther King Jr. delivered his famous 'I Have a Dream' speech at the March on Washington in 1963.",
+      "The Civil Rights Act of 1964 outlawed discrimination based on race, colour, religion, sex, or national origin.",
+      "The Voting Rights Act of 1965 prohibited discriminatory voting practices.",
+      "Sit-ins, marches, and boycotts were key non-violent protest tactics of the movement."
+    ],
+    "quiz": [
+      {
+        "q": "Who delivered the 'I Have a Dream' speech?",
+        "options": [
+          "Malcolm X",
+          "Rosa Parks",
+          "Barack Obama",
+          "Martin Luther King Jr."
+        ],
+        "correct": 3
+      },
+      {
+        "q": "In what year was the Civil Rights Act passed?",
+        "options": [
+          "1955",
+          "1960",
+          "1964",
+          "1968"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What did Rosa Parks do in 1955 to spark a major boycott?",
+        "options": [
+          "Led a march",
+          "Gave a speech",
+          "Refused to give up her bus seat",
+          "Organised a sit-in"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "american-revolution",
+      "cold-war",
+      "world-war-2",
+      "world-war-1"
+    ]
+  },
+  {
+    "id": "industrial-revolution",
+    "title": "The Industrial Revolution",
+    "subject": "history",
+    "grade": [
+      "8",
+      "9",
+      "10"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "The Industrial Revolution transformed Britain and the world from the 1760s onward, changing how people lived and worked.",
+    "intro": "The Industrial Revolution (roughly 1760-1840) began in Britain and transformed society from a farming economy to a manufacturing one. Steam power, factories and railways changed the way people lived and worked forever.",
+    "facts": [
+      "The steam engine, improved by James Watt in 1769, powered the Industrial Revolution.",
+      "Britain was the first industrialised nation due to its coal, iron and colonial resources.",
+      "Child labour was widespread in factories and mines before reforms in the 1800s.",
+      "The railway network expanded rapidly from the 1820s, transforming trade and travel.",
+      "Urbanisation grew as people moved from the countryside to new industrial cities."
+    ],
+    "quiz": [
+      {
+        "q": "Who improved the steam engine in 1769?",
+        "options": [
+          "Thomas Edison",
+          "James Watt",
+          "George Stephenson",
+          "Robert Fulton"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Where did the Industrial Revolution begin?",
+        "options": [
+          "USA",
+          "France",
+          "Germany",
+          "Britain"
+        ],
+        "correct": 3
+      },
+      {
+        "q": "What is urbanisation?",
+        "options": [
+          "Building factories",
+          "People moving to cities",
+          "Farming improvements",
+          "Creating steam engines"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "world-war-2",
+      "renaissance",
+      "medieval-europe",
+      "cold-war"
+    ]
+  },
+  {
+    "id": "parts-of-speech",
+    "title": "Parts of Speech Explained",
+    "subject": "english",
+    "grade": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "Every word in English belongs to a category called a part of speech. Learn nouns, verbs, adjectives and more.",
+    "intro": "In English grammar, every word is classified as a part of speech - a category that describes the word's function in a sentence. The main parts of speech are: noun, verb, adjective, adverb, pronoun, preposition, conjunction, and interjection.",
+    "facts": [
+      "A noun is a word that names a person, place, thing or idea - e.g., 'dog', 'London', 'happiness'.",
+      "A verb is an action or state word - e.g., 'run', 'think', 'is'.",
+      "An adjective describes a noun - e.g., 'the big dog', 'a beautiful day'.",
+      "An adverb modifies a verb, adjective or another adverb - e.g., 'run quickly', 'very big'.",
+      "A pronoun replaces a noun - e.g., he, she, it, they, we."
+    ],
+    "quiz": [
+      {
+        "q": "What part of speech names a person, place or thing?",
+        "options": [
+          "Verb",
+          "Adjective",
+          "Noun",
+          "Adverb"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What part of speech does the word 'quickly' belong to?",
+        "options": [
+          "Noun",
+          "Adjective",
+          "Verb",
+          "Adverb"
+        ],
+        "correct": 3
+      },
+      {
+        "q": "In the sentence 'The happy dog ran fast', how many adjectives are there?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "figurative-language",
+      "essay-writing",
+      "persuasive-writing",
+      "punctuation-guide"
+    ]
+  },
+  {
+    "id": "figurative-language",
+    "title": "Figurative Language",
+    "subject": "english",
+    "grade": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "Figurative language makes writing vivid and interesting. Learn similes, metaphors, personification, alliteration and more.",
+    "intro": "Figurative language uses words in a non-literal way to create effects, comparisons and images. It is a key tool for writers and is commonly tested in English exams.",
+    "facts": [
+      "A simile compares two things using 'like' or 'as' - e.g. 'fast as lightning'.",
+      "A metaphor says one thing IS another - e.g. 'Life is a rollercoaster'.",
+      "Personification gives human qualities to non-human things - e.g. 'The wind whispered'.",
+      "Alliteration is the repetition of the same starting sound - e.g. 'Peter Piper picked'.",
+      "Hyperbole is deliberate exaggeration - e.g. 'I've told you a million times'."
+    ],
+    "quiz": [
+      {
+        "q": "'The stars danced in the sky' is an example of?",
+        "options": [
+          "Simile",
+          "Metaphor",
+          "Personification",
+          "Alliteration"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Which uses 'like' or 'as' to compare?",
+        "options": [
+          "Metaphor",
+          "Simile",
+          "Hyperbole",
+          "Alliteration"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "'I'm so hungry I could eat a horse' is an example of?",
+        "options": [
+          "Simile",
+          "Personification",
+          "Alliteration",
+          "Hyperbole"
+        ],
+        "correct": 3
+      }
+    ],
+    "related": [
+      "sentence-structure",
+      "nouns-verbs-adjectives",
+      "punctuation-guide",
+      "parts-of-speech"
+    ]
+  },
+  {
+    "id": "essay-writing",
+    "title": "How to Write an Essay",
+    "subject": "english",
+    "grade": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "Learn how to structure, plan and write a great essay - with tips on introductions, paragraphs and conclusions.",
+    "intro": "Essay writing is a fundamental skill for students at every level. A well-structured essay presents an argument clearly and persuasively through an introduction, body paragraphs, and a conclusion.",
+    "facts": [
+      "The introduction should hook the reader, provide context, and end with a clear thesis statement.",
+      "Each body paragraph should make one clear point, supported by evidence - the PEEL or TEEL structure helps: Point, Evidence, Explain, Link.",
+      "Evidence can be quotes, statistics, examples or references to source material.",
+      "The conclusion should summarise your main points and restate your argument - never introduce new ideas.",
+      "Plan before you write - a brief outline saves time and results in a better structured essay."
+    ],
+    "quiz": [
+      {
+        "q": "What should the introduction of an essay end with?",
+        "options": [
+          "A quote",
+          "A question",
+          "A thesis statement",
+          "A conclusion"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What does the 'P' in PEEL stand for?",
+        "options": [
+          "Paragraph",
+          "Point",
+          "Proof",
+          "Premise"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Which of these should you NOT do in a conclusion?",
+        "options": [
+          "Summarise main points",
+          "Restate your argument",
+          "Introduce new ideas",
+          "Link back to the question"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "persuasive-writing",
+      "parts-of-speech",
+      "figurative-language",
+      "punctuation-guide"
+    ]
+  },
+  {
+    "id": "persuasive-writing",
+    "title": "Persuasive Writing Techniques",
+    "subject": "english",
+    "grade": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "Persuasive writing aims to convince the reader. Learn the key techniques used in speeches, articles and essays.",
+    "intro": "Persuasive writing is designed to convince the reader to agree with a point of view. It uses specific techniques that appeal to logic, emotion, and authority.",
+    "facts": [
+      "The three classic modes of persuasion are ethos (authority), pathos (emotion), and logos (logic) - from Aristotle.",
+      "Rule of three: listing three things in a row is more persuasive than two or four - e.g., 'We shall fight on the beaches, on the landing grounds, in the fields.'",
+      "Rhetorical questions make the reader think without expecting an answer - e.g., 'Can we really afford to wait?'",
+      "Statistics and facts add credibility - e.g., '9 out of 10 dentists recommend...'",
+      "Counter-argument and rebuttal shows you have considered other views and strengthens your position."
+    ],
+    "quiz": [
+      {
+        "q": "What does 'logos' mean in persuasive writing?",
+        "options": [
+          "Emotion",
+          "Authority",
+          "Logic",
+          "Style"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "A question asked for effect without expecting an answer is called a what?",
+        "options": [
+          "Rhetorical question",
+          "Simile",
+          "Thesis",
+          "Counter-argument"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "What is the 'rule of three'?",
+        "options": [
+          "Always write three paragraphs",
+          "Use three pieces of evidence",
+          "List three things in a row for impact",
+          "Write three drafts"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "essay-writing",
+      "parts-of-speech",
+      "figurative-language",
+      "shakespeare-overview"
+    ]
+  },
+  {
+    "id": "shakespeare-overview",
+    "title": "Who Was Shakespeare?",
+    "subject": "english",
+    "grade": [
+      "9",
+      "10",
+      "11"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "William Shakespeare is considered the greatest writer in the English language. Learn about his life and plays.",
+    "intro": "William Shakespeare (1564-1616) was an English playwright, poet and actor widely regarded as the greatest writer in the English language. He wrote 37 plays and 154 sonnets.",
+    "facts": [
+      "Shakespeare was born on or around 23 April 1564 in Stratford-upon-Avon, England.",
+      "He wrote 37 plays including tragedies (Hamlet, Macbeth), comedies (A Midsummer Night's Dream) and histories (Henry V).",
+      "Shakespeare also wrote 154 sonnets - 14-line poems in iambic pentameter.",
+      "His plays were performed at The Globe Theatre in London, which he part-owned.",
+      "Shakespeare coined or popularised over 1,700 English words still used today, including 'bedroom', 'lonely' and 'generous'."
+    ],
+    "quiz": [
+      {
+        "q": "How many plays did Shakespeare write?",
+        "options": [
+          "14",
+          "23",
+          "37",
+          "54"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Which of these is a Shakespearean tragedy?",
+        "options": [
+          "A Midsummer Night's Dream",
+          "Hamlet",
+          "The Tempest",
+          "As You Like It"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Where were Shakespeare's plays performed?",
+        "options": [
+          "The Rose Theatre",
+          "The Swan",
+          "The Globe Theatre",
+          "The Old Vic"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "figurative-language",
+      "essay-writing",
+      "persuasive-writing",
+      "parts-of-speech"
+    ]
+  },
+  {
+    "id": "punctuation-guide",
+    "title": "Punctuation Guide",
+    "subject": "english",
+    "grade": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "Punctuation marks make writing clear and readable. Learn when and how to use full stops, commas, apostrophes and more.",
+    "intro": "Punctuation marks are symbols used in writing to show pauses, emphasis and meaning. Using punctuation correctly makes your writing much easier to read and understand.",
+    "facts": [
+      "A full stop (.) ends a sentence that makes a statement.",
+      "A comma (,) shows a short pause or separates items in a list.",
+      "An apostrophe (') shows possession (John's book) or a contraction (don't).",
+      "A question mark (?) ends a question sentence.",
+      "An exclamation mark (!) shows strong emotion or emphasis."
+    ],
+    "quiz": [
+      {
+        "q": "Which punctuation mark ends a question?",
+        "options": [
+          "Full stop",
+          "Exclamation mark",
+          "Question mark",
+          "Comma"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What does an apostrophe show in 'Sarah's bag'?",
+        "options": [
+          "A question",
+          "Possession",
+          "A list",
+          "A contraction"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Which punctuation separates items in a list?",
+        "options": [
+          "Full stop",
+          "Colon",
+          "Comma",
+          "Apostrophe"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "nouns-verbs-adjectives",
+      "sentence-structure",
+      "parts-of-speech",
+      "figurative-language"
+    ]
+  },
+  {
+    "id": "plate-tectonics",
+    "title": "Plate Tectonics and Earthquakes",
+    "subject": "geography",
+    "grade": [
+      "7",
+      "8",
+      "9"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": true,
+    "desc": "The Earth's crust is divided into moving plates. Learn how their movement causes earthquakes, volcanoes and mountain formation.",
+    "intro": "The Earth's outer shell (the lithosphere) is broken into large pieces called tectonic plates. These plates move slowly - just a few centimetres per year - but this movement causes earthquakes, volcanoes and forms mountains.",
+    "facts": [
+      "There are around 15 major tectonic plates and several smaller ones.",
+      "Plates move because of convection currents in the molten mantle below.",
+      "Where plates meet are called plate boundaries or fault lines.",
+      "Destructive boundaries (plates collide) form mountains and deep ocean trenches.",
+      "The Richter scale measures the magnitude of earthquakes."
+    ],
+    "quiz": [
+      {
+        "q": "What causes tectonic plates to move?",
+        "options": [
+          "Wind",
+          "Ocean currents",
+          "Convection currents in the mantle",
+          "Gravity from the Moon"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What scale measures earthquake strength?",
+        "options": [
+          "Beaufort scale",
+          "Richter scale",
+          "Saffir-Simpson scale",
+          "Mercalli scale"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What forms when two continental plates collide?",
+        "options": [
+          "Ocean trenches",
+          "Volcanoes",
+          "Mountain ranges",
+          "Deserts"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "volcanoes-geysers",
+      "weather-climate",
+      "biomes-ecosystems",
+      "rivers-drainage"
+    ]
+  },
+  {
+    "id": "climate-zones",
+    "title": "World Climate Zones",
+    "subject": "geography",
+    "grade": [
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "The world is divided into climate zones based on temperature and rainfall. Learn the main types and where they are.",
+    "intro": "A climate zone is a region of the world with a broadly similar climate. The main climate zones are determined by latitude, distance from the sea, altitude, and ocean currents.",
+    "facts": [
+      "The main climate zones are: tropical, subtropical, temperate, polar, and arid (desert).",
+      "Tropical climates near the Equator are hot and wet year-round - the Amazon rainforest lies in this zone.",
+      "Temperate climates (like the UK) have four distinct seasons and moderate rainfall.",
+      "Polar climates near the poles are extremely cold year-round - temperatures can drop below -40°C.",
+      "The Tropic of Cancer and Tropic of Capricorn mark the boundaries of the tropical zone."
+    ],
+    "quiz": [
+      {
+        "q": "Which climate zone is found near the Equator?",
+        "options": [
+          "Polar",
+          "Temperate",
+          "Arid",
+          "Tropical"
+        ],
+        "correct": 3
+      },
+      {
+        "q": "Which line of latitude marks the northern boundary of the tropics?",
+        "options": [
+          "Equator",
+          "Arctic Circle",
+          "Tropic of Cancer",
+          "Tropic of Capricorn"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What is the climate of the UK described as?",
+        "options": [
+          "Tropical",
+          "Desert",
+          "Temperate",
+          "Polar"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "rainforests",
+      "plate-tectonics",
+      "rivers-geography",
+      "urbanisation"
+    ]
+  },
+  {
+    "id": "rivers-geography",
+    "title": "Rivers: Features and Formation",
+    "subject": "geography",
+    "grade": [
+      "7",
+      "8",
+      "9"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "Rivers shape the landscape through erosion, transportation and deposition. Learn river landforms and the long profile.",
+    "intro": "A river is a natural flowing body of water that moves from high ground (source) to low ground (mouth). As it flows, it creates distinctive landforms through erosion, transportation and deposition.",
+    "facts": [
+      "The source of a river is where it begins - usually in mountains or hills as a spring or melting snow.",
+      "The mouth is where a river meets the sea - it often forms a delta or estuary.",
+      "Erosion processes include hydraulic action, abrasion, attrition and solution.",
+      "A meander is a large bend in a river formed when water erodes the outside bank and deposits on the inside.",
+      "An oxbow lake forms when a meander is cut off from the main river."
+    ],
+    "quiz": [
+      {
+        "q": "What is the 'source' of a river?",
+        "options": [
+          "Where it meets the sea",
+          "Where it begins",
+          "A large bend",
+          "A waterfall"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What landform is created when a meander is cut off?",
+        "options": [
+          "Delta",
+          "Estuary",
+          "Oxbow lake",
+          "Waterfall"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Which erosion process involves rocks grinding against the river bed?",
+        "options": [
+          "Hydraulic action",
+          "Solution",
+          "Attrition",
+          "Abrasion"
+        ],
+        "correct": 3
+      }
+    ],
+    "related": [
+      "water-cycle",
+      "plate-tectonics",
+      "rainforests",
+      "climate-zones"
+    ]
+  },
+  {
+    "id": "rainforests",
+    "title": "Tropical Rainforests",
+    "subject": "geography",
+    "grade": [
+      "7",
+      "8",
+      "9"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "Tropical rainforests are the most biodiverse ecosystems on Earth. Learn about their structure and threats.",
+    "intro": "Tropical rainforests are dense forests found near the Equator with high temperatures and heavy rainfall year-round. They cover only 6% of Earth's surface but contain over 50% of the world's plant and animal species.",
+    "facts": [
+      "The largest tropical rainforest is the Amazon, covering 5.5 million km² across South America.",
+      "Rainforests have four distinct layers: emergent layer, canopy, understorey, and forest floor.",
+      "Tropical rainforests receive over 2,000 mm of rainfall per year.",
+      "Deforestation is destroying rainforests at an alarming rate - around 80,000 acres per day globally.",
+      "Rainforests play a vital role in regulating Earth's climate by absorbing CO₂."
+    ],
+    "quiz": [
+      {
+        "q": "Which is the world's largest tropical rainforest?",
+        "options": [
+          "Congo",
+          "Amazon",
+          "Borneo",
+          "Daintree"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "How many layers does a rainforest have?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What percentage of Earth's animal species live in rainforests?",
+        "options": [
+          "10%",
+          "25%",
+          "Over 50%",
+          "Around 75%"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "climate-zones",
+      "ecosystems",
+      "water-cycle",
+      "rivers-geography"
+    ]
+  },
+  {
+    "id": "volcanoes",
+    "title": "How Volcanoes Work",
+    "subject": "geography",
+    "grade": [
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "Volcanoes form where magma escapes from the Earth's crust. Learn about types of volcanoes and famous eruptions.",
+    "intro": "A volcano is an opening in the Earth's crust through which molten rock (magma), ash, and gases escape from below the surface. When it reaches the surface, magma is called lava.",
+    "facts": [
+      "Volcanoes form at tectonic plate boundaries and at hotspots (like Hawaii).",
+      "Shield volcanoes (like those in Hawaii) have gentle slopes and produce runny, fast-flowing lava.",
+      "Stratovolcanoes (composite volcanoes) have steep sides and produce explosive eruptions - e.g., Mount Vesuvius.",
+      "The 'Ring of Fire' is a zone around the Pacific Ocean where 75% of the world's volcanoes are found.",
+      "Mount Everest is the world's tallest mountain above sea level, but Mauna Kea in Hawaii is the tallest from the ocean floor."
+    ],
+    "quiz": [
+      {
+        "q": "What is magma called once it reaches the Earth's surface?",
+        "options": [
+          "Ash",
+          "Lava",
+          "Steam",
+          "Pyroclastic flow"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Where are 75% of the world's volcanoes found?",
+        "options": [
+          "The Alps",
+          "The Ring of Fire",
+          "The Atlantic Ridge",
+          "The Himalayas"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Which type of volcano has gentle slopes and runny lava?",
+        "options": [
+          "Stratovolcano",
+          "Caldera",
+          "Shield volcano",
+          "Composite volcano"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "plate-tectonics",
+      "climate-zones",
+      "rivers-geography",
+      "states-of-matter"
+    ]
+  },
+  {
+    "id": "urbanisation",
+    "title": "What Is Urbanisation?",
+    "subject": "geography",
+    "grade": [
+      "9",
+      "10",
+      "11"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "Urbanisation is the growth of towns and cities. Learn why it happens and its effects on people and the environment.",
+    "intro": "Urbanisation is the process by which more people move from rural areas (countryside) to urban areas (towns and cities). Today, over 55% of the world's population live in cities.",
+    "facts": [
+      "Urbanisation is driven by rural-urban migration - people move for jobs, education and services.",
+      "The fastest urbanisation is happening in less economically developed countries (LEDCs) in Asia and Africa.",
+      "Megacities are cities with more than 10 million people - examples include Tokyo, Mumbai and New York.",
+      "Urbanisation can lead to issues like traffic congestion, pollution, housing shortages and informal settlements (slums).",
+      "Counter-urbanisation is the reverse process - people leaving cities for rural areas."
+    ],
+    "quiz": [
+      {
+        "q": "What is a megacity?",
+        "options": [
+          "Any large city",
+          "A city with 10+ million people",
+          "A city in an LEDC",
+          "A planned city"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What drives people to move from rural to urban areas?",
+        "options": [
+          "Better weather",
+          "War only",
+          "Jobs, education and services",
+          "Government orders"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What percentage of the world's population currently lives in cities?",
+        "options": [
+          "25%",
+          "35%",
+          "Over 55%",
+          "Over 75%"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "climate-zones",
+      "rainforests",
+      "plate-tectonics",
+      "industrial-revolution"
+    ]
+  },
+  {
+    "id": "binary-numbers",
+    "title": "Binary Numbers and Data",
+    "subject": "computing",
+    "grade": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "Computers store all data as binary (0s and 1s). Learn how to convert between binary and decimal and how data is measured.",
+    "intro": "Computers understand only two states: on (1) and off (0). This two-symbol system is called binary. All text, images, sounds and videos on a computer are ultimately stored as patterns of 0s and 1s.",
+    "facts": [
+      "Binary uses base 2 - each digit (bit) is worth twice the previous place value.",
+      "8 bits = 1 byte; 1024 bytes = 1 kilobyte; 1024 KB = 1 megabyte.",
+      "To convert binary to decimal: add up the place values where there is a 1.",
+      "The binary for 1 is 1; for 2 is 10; for 3 is 11; for 4 is 100.",
+      "ASCII is a system that assigns a binary number to each character."
+    ],
+    "quiz": [
+      {
+        "q": "What is the binary number system based on?",
+        "options": [
+          "Base 10",
+          "Base 8",
+          "Base 2",
+          "Base 16"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "How many bits are in a byte?",
+        "options": [
+          "4",
+          "8",
+          "16",
+          "32"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What is the decimal value of binary 1010?",
+        "options": [
+          "8",
+          "10",
+          "12",
+          "14"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "programming-basics",
+      "algorithms-flowcharts",
+      "internet-networks",
+      "data-databases"
+    ]
+  },
+  {
+    "id": "what-is-algorithm",
+    "title": "What Is an Algorithm?",
+    "subject": "computing",
+    "grade": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "An algorithm is a set of step-by-step instructions to solve a problem. They are at the heart of all computer programs.",
+    "intro": "An algorithm is a precise, step-by-step set of instructions for solving a problem or completing a task. Every computer program is built on algorithms - from search engines to video games.",
+    "facts": [
+      "Algorithms must be precise (no ambiguity), finite (must end), and effective (must solve the problem).",
+      "A flowchart is a diagram used to represent an algorithm visually.",
+      "Pseudocode is a human-readable way to write algorithms before coding them.",
+      "Sorting algorithms (like Bubble Sort) arrange data in order; searching algorithms (like Binary Search) find items.",
+      "The efficiency of an algorithm is measured by how many steps it takes (time complexity)."
+    ],
+    "quiz": [
+      {
+        "q": "What is an algorithm?",
+        "options": [
+          "A type of computer",
+          "A step-by-step set of instructions",
+          "A programming language",
+          "A type of data"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Which of these is a way to represent an algorithm visually?",
+        "options": [
+          "Pseudocode",
+          "Flowchart",
+          "Spreadsheet",
+          "Database"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What does 'time complexity' measure?",
+        "options": [
+          "How fast the computer is",
+          "How long to type the code",
+          "How many steps the algorithm takes",
+          "When the program was written"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "binary-numbers",
+      "internet-safety",
+      "bodmas",
+      "algebra-basics"
+    ]
+  },
+  {
+    "id": "internet-safety",
+    "title": "Internet Safety for Students",
+    "subject": "computing",
+    "grade": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "Staying safe online is essential. Learn about passwords, privacy, cyberbullying and how to protect yourself.",
+    "intro": "The internet is a powerful tool for learning and communication, but it comes with risks. Knowing how to stay safe online is an essential skill for everyone - especially young people.",
+    "facts": [
+      "Never share personal information online - including your full name, address, school, or phone number.",
+      "A strong password is long, uses a mix of letters, numbers and symbols, and is different for each account.",
+      "Cyberbullying is bullying that happens online or via devices - it should always be reported to a trusted adult.",
+      "Phishing is when someone pretends to be a trusted organisation to steal your information.",
+      "Think before you post - anything shared online can be difficult to remove and may be seen by many people."
+    ],
+    "quiz": [
+      {
+        "q": "What should you NEVER share online?",
+        "options": [
+          "Your favourite colour",
+          "Your age",
+          "Your home address",
+          "Your favourite film"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What is phishing?",
+        "options": [
+          "Online fishing games",
+          "Pretending to be trusted to steal info",
+          "A type of virus",
+          "Sending large files"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What should you do if you experience cyberbullying?",
+        "options": [
+          "Respond angrily",
+          "Delete your account",
+          "Tell a trusted adult",
+          "Ignore it forever"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "what-is-algorithm",
+      "binary-numbers",
+      "parts-of-speech",
+      "essay-writing"
+    ]
+  },
+  {
+    "id": "color-theory",
+    "title": "Colour Theory and the Colour Wheel",
+    "subject": "art",
+    "grade": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "Colour theory explains how colours relate to each other. Learn about primary, secondary and complementary colours.",
+    "intro": "Colour theory is the science and art of using colour. It explains how colours are created, combined, and contrasted to create different effects in painting, design and everyday life.",
+    "facts": [
+      "The primary colours (for paint) are red, yellow and blue - they cannot be made by mixing other colours.",
+      "Mixing two primary colours creates a secondary colour: red + yellow = orange, yellow + blue = green, blue + red = purple.",
+      "Complementary colours sit opposite each other on the colour wheel - they create high contrast.",
+      "Warm colours (red, orange, yellow) create energy and excitement; cool colours (blue, green, purple) create calm.",
+      "A colour's tint is made by adding white; its shade is made by adding black."
+    ],
+    "quiz": [
+      {
+        "q": "What are the three primary colours in painting?",
+        "options": [
+          "Red, green, blue",
+          "Red, yellow, blue",
+          "Yellow, green, purple",
+          "Red, orange, yellow"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What colour do you get when you mix red and yellow?",
+        "options": [
+          "Purple",
+          "Green",
+          "Orange",
+          "Brown"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What are colours that sit opposite each other on the colour wheel called?",
+        "options": [
+          "Analogous",
+          "Monochromatic",
+          "Complementary",
+          "Primary"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "famous-artists",
+      "art-techniques",
+      "figurative-language",
+      "music"
+    ]
+  },
+  {
+    "id": "famous-artists",
+    "title": "Famous Artists and Their Work",
+    "subject": "art",
+    "grade": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "From da Vinci to Frida Kahlo, learn about the world's most famous artists, their styles and their most famous works.",
+    "intro": "Throughout history, artists have created works that changed the way we see the world. Learning about famous artists helps us understand different cultures, time periods and ideas.",
+    "facts": [
+      "Leonardo da Vinci painted the Mona Lisa (c.1503-1519) - the most famous painting in the world.",
+      "Vincent van Gogh painted The Starry Night in 1889 and sold only one painting in his lifetime.",
+      "Frida Kahlo's self-portraits explored identity, pain and Mexican culture.",
+      "Michelangelo sculpted David (1501-1504) and painted the Sistine Chapel ceiling.",
+      "Pablo Picasso co-founded Cubism and is one of the most influential artists of the 20th century."
+    ],
+    "quiz": [
+      {
+        "q": "Who painted the Mona Lisa?",
+        "options": [
+          "Picasso",
+          "Van Gogh",
+          "Da Vinci",
+          "Michelangelo"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Which artist painted The Starry Night?",
+        "options": [
+          "Monet",
+          "Van Gogh",
+          "Dalí",
+          "Warhol"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What did Michelangelo sculpt?",
+        "options": [
+          "The Thinker",
+          "David",
+          "Venus de Milo",
+          "The Kiss"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "art-movements",
+      "colour-theory",
+      "perspective-drawing",
+      "sculpture-techniques"
+    ]
+  },
+  {
+    "id": "art-techniques",
+    "title": "Basic Drawing Techniques",
+    "subject": "art",
+    "grade": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "Learn the basic techniques every artist uses: shading, perspective, proportion and mark-making.",
+    "intro": "Drawing is a foundational skill in art. Whether you want to sketch, illustrate or paint, mastering a few key techniques will transform your work.",
+    "facts": [
+      "Hatching and cross-hatching use parallel lines to create tone and texture.",
+      "One-point perspective uses a single vanishing point to create a sense of depth - great for drawing roads or corridors.",
+      "Contour drawing follows the edges of a shape without lifting the pencil.",
+      "Proportion in figure drawing: a human body is roughly 7-8 head-heights tall.",
+      "Negative space is the space around and between objects - drawing negative space can help you see shapes more accurately."
+    ],
+    "quiz": [
+      {
+        "q": "What technique uses parallel lines to show tone?",
+        "options": [
+          "Stippling",
+          "Hatching",
+          "Smudging",
+          "Blending"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What is the space around and between objects called?",
+        "options": [
+          "Positive space",
+          "Composition",
+          "Negative space",
+          "Foreground"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "How many head-heights tall is a typical human figure?",
+        "options": [
+          "4-5",
+          "5-6",
+          "7-8",
+          "10-12"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "color-theory",
+      "famous-artists",
+      "figurative-language",
+      "geometry-shapes"
+    ]
+  },
+  {
+    "id": "area-perimeter",
+    "title": "Area and Perimeter",
+    "subject": "math",
+    "grade": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "Learn how to calculate the area and perimeter of 2D shapes including rectangles, triangles and circles.",
+    "intro": "Area is the amount of space inside a 2D shape, measured in square units. Perimeter is the total distance around the outside of a shape.",
+    "facts": [
+      "Area of a rectangle = length × width.",
+      "Perimeter of a rectangle = 2 × (length + width).",
+      "Area of a triangle = ½ × base × height.",
+      "Area of a circle = π × r² (where r is the radius).",
+      "Circumference (perimeter) of a circle = 2 × π × r."
+    ],
+    "quiz": [
+      {
+        "q": "What is the area of a rectangle 5cm wide and 3cm tall?",
+        "options": [
+          "8 cm²",
+          "15 cm²",
+          "16 cm",
+          "15 cm"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What is the perimeter of a square with side 4cm?",
+        "options": [
+          "8cm",
+          "12cm",
+          "16cm",
+          "20cm"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Area is measured in which units?",
+        "options": [
+          "cm",
+          "cm²",
+          "cm³",
+          "m"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "geometry-shapes",
+      "pythagoras-theorem",
+      "decimals",
+      "fractions"
+    ]
+  },
+  {
+    "id": "cells-biology",
+    "title": "Cells - The Building Blocks of Life",
+    "subject": "science",
+    "grade": [
+      "7",
+      "8",
+      "9"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": true,
+    "desc": "Cells are the smallest unit of life. Learn the difference between plant and animal cells and what each part does.",
+    "intro": "Every living thing is made of cells - they are the smallest building blocks of life. Some organisms like bacteria are made of just one cell, while the human body contains around 37 trillion cells.",
+    "facts": [
+      "The cell membrane controls what enters and leaves the cell.",
+      "The nucleus contains DNA and controls the cell's activities.",
+      "Mitochondria produce energy for the cell - they are the 'powerhouses'.",
+      "Plant cells have a cell wall, a vacuole, and chloroplasts - animal cells do not.",
+      "Chloroplasts contain chlorophyll and are where photosynthesis happens."
+    ],
+    "quiz": [
+      {
+        "q": "Which part of the cell controls its activities?",
+        "options": [
+          "Mitochondria",
+          "Cell membrane",
+          "Nucleus",
+          "Vacuole"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Which organelle produces energy?",
+        "options": [
+          "Nucleus",
+          "Mitochondria",
+          "Chloroplast",
+          "Ribosome"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What do plant cells have that animal cells do not?",
+        "options": [
+          "Nucleus",
+          "Cell membrane",
+          "Cell wall",
+          "Mitochondria"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "photosynthesis",
+      "human-body",
+      "genetics-dna",
+      "evolution"
+    ]
+  },
+  {
+    "id": "matter-states",
+    "title": "States of Matter",
+    "subject": "science",
+    "grade": [
+      "5",
+      "6",
+      "7"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "Everything is made of matter. Learn about solids, liquids and gases and how matter changes between states.",
+    "intro": "Matter is anything that takes up space and has mass. All matter exists in one of three main states: solid, liquid or gas. The state depends on how the particles are arranged and how much energy they have.",
+    "facts": [
+      "Solids have a fixed shape and volume - particles are packed tightly together.",
+      "Liquids have a fixed volume but take the shape of their container.",
+      "Gases have no fixed shape or volume - particles move freely and fast.",
+      "Melting is the change from solid to liquid; freezing is the reverse.",
+      "Evaporation is liquid turning to gas; condensation is gas turning to liquid."
+    ],
+    "quiz": [
+      {
+        "q": "What is the process of liquid turning into a gas called?",
+        "options": [
+          "Melting",
+          "Freezing",
+          "Evaporation",
+          "Condensation"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "In which state do particles move most freely?",
+        "options": [
+          "Solid",
+          "Liquid",
+          "Gas",
+          "They move the same in all states"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What happens to a substance when it melts?",
+        "options": [
+          "Solid to liquid",
+          "Liquid to gas",
+          "Gas to solid",
+          "Liquid to solid"
+        ],
+        "correct": 0
+      }
+    ],
+    "related": [
+      "chemistry-elements",
+      "forces-motion",
+      "cells-biology",
+      "energy-types"
+    ]
+  },
+  {
+    "id": "human-body",
+    "title": "The Human Body Systems",
+    "subject": "science",
+    "grade": [
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "The human body has many organ systems working together. Learn the main systems and what each one does.",
+    "intro": "The human body is made up of several organ systems that work together to keep us alive. Each system has a specific job, from moving oxygen around the body to digesting food.",
+    "facts": [
+      "The circulatory system pumps blood around the body using the heart.",
+      "The digestive system breaks food down into nutrients the body can absorb.",
+      "The respiratory system brings oxygen into the body through the lungs.",
+      "The skeletal system gives the body structure and protects organs.",
+      "The nervous system sends electrical signals between the brain and the rest of the body."
+    ],
+    "quiz": [
+      {
+        "q": "Which organ pumps blood around the body?",
+        "options": [
+          "Brain",
+          "Lungs",
+          "Heart",
+          "Liver"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What is the main job of the respiratory system?",
+        "options": [
+          "Digest food",
+          "Bring oxygen into the body",
+          "Pump blood",
+          "Send signals to the brain"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Which system gives the body its structure?",
+        "options": [
+          "Digestive",
+          "Circulatory",
+          "Skeletal",
+          "Nervous"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "cells-biology",
+      "photosynthesis",
+      "genetics-dna",
+      "evolution"
+    ]
+  },
+  {
+    "id": "electricity-circuits",
+    "title": "Electricity and Circuits",
+    "subject": "science",
+    "grade": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "Learn how electrical circuits work, the difference between series and parallel circuits and how to calculate voltage and current.",
+    "intro": "Electricity is the flow of electrons through a conductor. An electric circuit is a closed path that allows electricity to flow. Without a complete circuit, electricity cannot flow.",
+    "facts": [
+      "Current is the flow of charge, measured in Amperes (A).",
+      "Voltage is the 'push' that drives current around a circuit, measured in Volts (V).",
+      "Resistance opposes the flow of current, measured in Ohms (Ω).",
+      "Ohm's Law: Voltage = Current × Resistance (V = IR).",
+      "In a series circuit, current is the same throughout; in a parallel circuit, it splits."
+    ],
+    "quiz": [
+      {
+        "q": "What unit is used to measure electrical current?",
+        "options": [
+          "Volts",
+          "Ohms",
+          "Amperes",
+          "Watts"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What does Ohm's Law state?",
+        "options": [
+          "V = IR",
+          "P = IV",
+          "F = ma",
+          "E = mc²"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "In which circuit does current split?",
+        "options": [
+          "Series",
+          "Parallel",
+          "Both",
+          "Neither"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "forces-motion",
+      "energy-types",
+      "matter-states",
+      "solar-system"
+    ]
+  },
+  {
+    "id": "energy-types",
+    "title": "Types of Energy",
+    "subject": "science",
+    "grade": [
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "Energy exists in many forms and can change from one type to another. Learn the main energy types and the law of conservation of energy.",
+    "intro": "Energy is the ability to do work. It cannot be created or destroyed - only converted from one form to another. This is called the Law of Conservation of Energy.",
+    "facts": [
+      "Kinetic energy is the energy of movement.",
+      "Potential energy is stored energy - gravitational, elastic or chemical.",
+      "Thermal (heat) energy is the internal energy of particles in a substance.",
+      "Sound and light are also forms of energy that travel as waves.",
+      "The unit of energy is the Joule (J)."
+    ],
+    "quiz": [
+      {
+        "q": "What is kinetic energy?",
+        "options": [
+          "Stored energy",
+          "Energy of movement",
+          "Electrical energy",
+          "Sound energy"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What is the unit of energy?",
+        "options": [
+          "Newton",
+          "Watt",
+          "Joule",
+          "Ampere"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Which law says energy cannot be created or destroyed?",
+        "options": [
+          "Newton's First Law",
+          "Law of Conservation of Energy",
+          "Ohm's Law",
+          "Boyle's Law"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "forces-motion",
+      "electricity-circuits",
+      "matter-states",
+      "solar-system"
+    ]
+  },
+  {
+    "id": "ancient-greece",
+    "title": "Ancient Greece",
+    "subject": "history",
+    "grade": [
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "Ancient Greece gave us democracy, the Olympics and countless ideas that still shape our world today.",
+    "intro": "Ancient Greece (c. 800-146 BC) was a collection of city-states including Athens and Sparta. The Greeks made huge contributions to philosophy, science, democracy and art that still influence the modern world.",
+    "facts": [
+      "Athens introduced the world's first democracy around 507 BC.",
+      "The Olympic Games were first held in ancient Greece in 776 BC.",
+      "Philosophers like Socrates, Plato and Aristotle shaped Western thought.",
+      "Sparta was a military city-state known for its fierce warrior culture.",
+      "The Greeks built temples to their gods, like the Parthenon in Athens."
+    ],
+    "quiz": [
+      {
+        "q": "Which city-state invented democracy?",
+        "options": [
+          "Sparta",
+          "Corinth",
+          "Athens",
+          "Troy"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "When were the first ancient Olympic Games held?",
+        "options": [
+          "776 BC",
+          "500 BC",
+          "323 BC",
+          "100 AD"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Which ancient Greek philosopher taught Plato?",
+        "options": [
+          "Aristotle",
+          "Homer",
+          "Socrates",
+          "Pythagoras"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "roman-empire",
+      "ancient-egypt",
+      "renaissance",
+      "industrial-revolution"
+    ]
+  },
+  {
+    "id": "medieval-europe",
+    "title": "Medieval Europe",
+    "subject": "history",
+    "grade": [
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "The Middle Ages shaped modern Europe. Learn about knights, castles, the feudal system and the Black Death.",
+    "intro": "The Middle Ages (c. 500-1500 AD) was the period between the fall of the Roman Empire and the Renaissance. It was a time of knights, castles, powerful kings and the Catholic Church.",
+    "facts": [
+      "The feudal system ranked society: king → nobles → knights → serfs.",
+      "Castles were built for defence and as centres of local power.",
+      "The Black Death (1347-1353) killed around a third of Europe's population.",
+      "The Crusades were religious wars fought to control the Holy Land.",
+      "The Magna Carta (1215) limited the power of the English king."
+    ],
+    "quiz": [
+      {
+        "q": "What was the feudal system?",
+        "options": [
+          "A type of farming",
+          "A hierarchy of power from king to peasant",
+          "A form of religion",
+          "A type of castle"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What was the Black Death?",
+        "options": [
+          "A war",
+          "A volcanic eruption",
+          "A deadly plague",
+          "A famine"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What did the Magna Carta limit?",
+        "options": [
+          "Church power",
+          "King's power",
+          "Knight's power",
+          "Serf's power"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "roman-empire",
+      "renaissance",
+      "world-war-2",
+      "industrial-revolution"
+    ]
+  },
+  {
+    "id": "renaissance",
+    "title": "The Renaissance",
+    "subject": "history",
+    "grade": [
+      "7",
+      "8",
+      "9"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "The Renaissance was a period of great artistic, scientific and cultural rebirth in Europe from the 14th to 17th centuries.",
+    "intro": "The Renaissance (meaning 'rebirth' in French) began in Italy around the 14th century and spread across Europe. It was a period of enormous creativity in art, science, literature and architecture.",
+    "facts": [
+      "The Renaissance began in Florence, Italy in the 14th century.",
+      "Leonardo da Vinci was a Renaissance man who excelled in art, science and engineering.",
+      "Gutenberg's printing press (1440) allowed books to spread rapidly.",
+      "Michelangelo painted the ceiling of the Sistine Chapel in Rome.",
+      "The Renaissance led directly to the Scientific Revolution."
+    ],
+    "quiz": [
+      {
+        "q": "What does 'Renaissance' mean?",
+        "options": [
+          "Revolution",
+          "Rebirth",
+          "Reform",
+          "Revolt"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Where did the Renaissance begin?",
+        "options": [
+          "France",
+          "Spain",
+          "Italy",
+          "Germany"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Who invented the printing press?",
+        "options": [
+          "Leonardo da Vinci",
+          "Michelangelo",
+          "Gutenberg",
+          "Copernicus"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "medieval-europe",
+      "industrial-revolution",
+      "ancient-greece",
+      "world-war-2"
+    ]
+  },
+  {
+    "id": "nouns-verbs-adjectives",
+    "title": "Nouns, Verbs and Adjectives",
+    "subject": "english",
+    "grade": [
+      "3",
+      "4",
+      "5"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": true,
+    "desc": "Nouns, verbs and adjectives are the building blocks of English sentences. Learn what each one is and how to spot them.",
+    "intro": "Every sentence is built from different types of words called word classes (or parts of speech). The three most important are nouns (naming words), verbs (action or being words) and adjectives (describing words).",
+    "facts": [
+      "A noun is a naming word for a person, place, thing or idea - e.g. dog, London, happiness.",
+      "A verb is a doing or being word - e.g. run, think, is, was.",
+      "An adjective describes a noun - e.g. tall, blue, exciting.",
+      "A proper noun starts with a capital letter - e.g. France, Harry.",
+      "An adverb modifies a verb - e.g. quickly, carefully, often."
+    ],
+    "quiz": [
+      {
+        "q": "Which word is a noun?",
+        "options": [
+          "Run",
+          "Blue",
+          "Happiness",
+          "Quickly"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Which word is a verb?",
+        "options": [
+          "Happy",
+          "Dog",
+          "London",
+          "Jumped"
+        ],
+        "correct": 3
+      },
+      {
+        "q": "Which word is an adjective?",
+        "options": [
+          "Elephant",
+          "Bright",
+          "Swim",
+          "Carefully"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "parts-of-speech",
+      "punctuation-guide",
+      "sentence-structure",
+      "figurative-language"
+    ]
+  },
+  {
+    "id": "sentence-structure",
+    "title": "Sentence Structure",
+    "subject": "english",
+    "grade": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "A sentence must have a subject and a verb. Learn simple, compound and complex sentences and how to use them effectively.",
+    "intro": "A sentence is a group of words that makes complete sense. Every sentence needs at least a subject (who/what the sentence is about) and a predicate (what they do or are). Good writers use a variety of sentence types.",
+    "facts": [
+      "A simple sentence has one main clause: 'The dog barked.'",
+      "A compound sentence joins two main clauses with a conjunction (FANBOYS): for, and, nor, but, or, yet, so.",
+      "A complex sentence has a main clause and at least one subordinate clause.",
+      "A subordinate clause cannot stand alone - it depends on the main clause.",
+      "Using varied sentence lengths makes writing more engaging."
+    ],
+    "quiz": [
+      {
+        "q": "What does every sentence need?",
+        "options": [
+          "An adjective and a noun",
+          "A subject and a verb",
+          "A comma and a full stop",
+          "A noun and an adverb"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Which is a compound sentence?",
+        "options": [
+          "The cat sat.",
+          "It rained because clouds formed.",
+          "The dog barked and the cat ran.",
+          "Running quickly."
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What is a subordinate clause?",
+        "options": [
+          "A sentence that stands alone",
+          "A clause that depends on a main clause",
+          "A type of noun",
+          "A punctuation mark"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "nouns-verbs-adjectives",
+      "punctuation-guide",
+      "figurative-language",
+      "parts-of-speech"
+    ]
+  },
+  {
+    "id": "creative-writing",
+    "title": "How to Write a Great Story",
+    "subject": "english",
+    "grade": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "Great stories need strong characters, a clear structure and vivid description. Learn the key techniques of creative writing.",
+    "intro": "Creative writing lets you express ideas and feelings through stories, poems and other imaginative writing. Good stories have strong characters, engaging plots and carefully chosen language.",
+    "facts": [
+      "Every story has a structure: beginning (introduce characters/setting), middle (build conflict), end (resolution).",
+      "Show, don't tell: instead of 'She was scared', write 'Her hands trembled'.",
+      "Strong verbs make writing more powerful - replace 'walked' with 'crept', 'marched' or 'stumbled'.",
+      "Dialogue reveals character and moves the story forward.",
+      "Varying sentence length creates pace - short sentences build tension."
+    ],
+    "quiz": [
+      {
+        "q": "What does 'show, don't tell' mean in writing?",
+        "options": [
+          "Write long descriptions",
+          "Use actions and details instead of stating feelings directly",
+          "Never use adjectives",
+          "Tell the story in order"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What is the basic structure of a story?",
+        "options": [
+          "Introduction, vocabulary, conclusion",
+          "Beginning, middle, end",
+          "Topic, evidence, analysis",
+          "Noun, verb, adjective"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Which verb is more powerful than 'walked'?",
+        "options": [
+          "Moved",
+          "Went",
+          "Trudged",
+          "Was walking"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "figurative-language",
+      "sentence-structure",
+      "punctuation-guide",
+      "parts-of-speech"
+    ]
+  },
+  {
+    "id": "volcanoes-geysers",
+    "title": "Volcanoes and Geysers",
+    "subject": "geography",
+    "grade": [
+      "7",
+      "8",
+      "9"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "Volcanoes form where magma breaks through the Earth's crust. Learn the types of volcanoes, how they erupt and their effects.",
+    "intro": "A volcano is an opening in the Earth's crust through which lava, ash and gases escape. Volcanoes form mainly at plate boundaries and hotspots beneath the Earth's surface.",
+    "facts": [
+      "Magma is molten rock underground; lava is magma that has reached the surface.",
+      "Shield volcanoes have gentle slopes and runny lava; stratovolcanoes are steep and explosive.",
+      "The 'Ring of Fire' is a region around the Pacific Ocean with many volcanoes.",
+      "Geysers are jets of hot water and steam caused by underground geothermal heat.",
+      "Volcanic eruptions can affect global climate by releasing ash and gases into the atmosphere."
+    ],
+    "quiz": [
+      {
+        "q": "What is lava?",
+        "options": [
+          "Magma underground",
+          "Magma that has reached the surface",
+          "A type of rock",
+          "Volcanic gas"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What is the Ring of Fire?",
+        "options": [
+          "A region of frequent volcanoes around the Pacific",
+          "A type of volcano",
+          "A geyser field",
+          "A tectonic plate"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "What is a geyser?",
+        "options": [
+          "A small volcano",
+          "A type of lava",
+          "A jet of hot water from underground",
+          "A fault line"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "plate-tectonics",
+      "weather-climate",
+      "rivers-drainage",
+      "biomes-ecosystems"
+    ]
+  },
+  {
+    "id": "rivers-drainage",
+    "title": "Rivers and Drainage Basins",
+    "subject": "geography",
+    "grade": [
+      "7",
+      "8",
+      "9"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "Rivers shape the landscape. Learn about drainage basins, river features and the processes of erosion, transport and deposition.",
+    "intro": "A river is a large natural stream of water flowing towards the sea, a lake or another river. Rivers shape the land through erosion, transportation and deposition of sediment.",
+    "facts": [
+      "The source is where a river begins; the mouth is where it meets the sea.",
+      "A drainage basin is the area of land drained by a river and its tributaries.",
+      "Rivers erode rock by hydraulic action, abrasion, attrition and solution.",
+      "Meanders are bends in a river caused by faster water on the outside of bends.",
+      "Floodplains are flat areas beside rivers that flood regularly and are very fertile."
+    ],
+    "quiz": [
+      {
+        "q": "What is the source of a river?",
+        "options": [
+          "Where it meets the sea",
+          "Where it begins",
+          "A waterfall",
+          "A lake"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What is a meander?",
+        "options": [
+          "A river source",
+          "A bend in a river",
+          "A type of erosion",
+          "A waterfall"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What is a drainage basin?",
+        "options": [
+          "A reservoir",
+          "An area drained by a river system",
+          "A type of flood",
+          "A river mouth"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "plate-tectonics",
+      "volcanoes-geysers",
+      "weather-climate",
+      "biomes-ecosystems"
+    ]
+  },
+  {
+    "id": "biomes-ecosystems",
+    "title": "Biomes and Ecosystems",
+    "subject": "geography",
+    "grade": [
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "A biome is a large area with similar climate, plants and animals. Learn the major world biomes and how ecosystems work.",
+    "intro": "A biome is a large geographical area with a distinctive climate, flora (plants) and fauna (animals). The main biomes on Earth include tropical rainforests, deserts, grasslands, tundra and temperate forests.",
+    "facts": [
+      "The tropical rainforest biome covers only 6% of Earth's surface but contains 50% of species.",
+      "Deserts receive less than 250mm of rainfall per year.",
+      "The tundra is the world's coldest biome, found in the Arctic and on high mountains.",
+      "An ecosystem includes all the living things in an area and their physical environment.",
+      "Food chains show how energy passes from plants to animals to decomposers."
+    ],
+    "quiz": [
+      {
+        "q": "Which biome covers only 6% of Earth but holds 50% of species?",
+        "options": [
+          "Desert",
+          "Tundra",
+          "Tropical rainforest",
+          "Grassland"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "How much rainfall does a desert receive per year?",
+        "options": [
+          "Less than 250mm",
+          "Less than 500mm",
+          "More than 1,000mm",
+          "More than 2,000mm"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "What does a food chain show?",
+        "options": [
+          "Where animals live",
+          "How energy passes between organisms",
+          "The size of an ecosystem",
+          "The climate of a biome"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "plate-tectonics",
+      "weather-climate",
+      "volcanoes-geysers",
+      "rivers-drainage"
+    ]
+  },
+  {
+    "id": "colour-theory",
+    "title": "Colour Theory",
+    "subject": "art",
+    "grade": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": true,
+    "desc": "Colour theory explains how colours relate to each other. Learn about primary, secondary and complementary colours and the colour wheel.",
+    "intro": "Colour theory is the study of how colours work together. Artists use colour theory to make their work more effective, harmonious or dramatic. The colour wheel is the key tool for understanding colour relationships.",
+    "facts": [
+      "The primary colours are red, yellow and blue - they cannot be made by mixing others.",
+      "Secondary colours are made by mixing two primaries: orange, green and purple.",
+      "Complementary colours sit opposite each other on the colour wheel and create contrast.",
+      "Warm colours (red, orange, yellow) feel energetic; cool colours (blue, green, purple) feel calm.",
+      "Value refers to how light or dark a colour is."
+    ],
+    "quiz": [
+      {
+        "q": "Which are the primary colours?",
+        "options": [
+          "Red, green, blue",
+          "Red, yellow, blue",
+          "Orange, green, purple",
+          "Pink, brown, grey"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What are complementary colours?",
+        "options": [
+          "Colours that look the same",
+          "Colours that sit opposite on the colour wheel",
+          "Colours in the same family",
+          "The lightest colours"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Which are considered warm colours?",
+        "options": [
+          "Blue, green, purple",
+          "Red, orange, yellow",
+          "Black, white, grey",
+          "Brown, tan, cream"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "art-movements",
+      "perspective-drawing",
+      "famous-artists",
+      "sculpture-techniques"
+    ]
+  },
+  {
+    "id": "perspective-drawing",
+    "title": "Perspective Drawing",
+    "subject": "art",
+    "grade": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "Perspective drawing creates the illusion of depth on a flat surface. Learn one-point and two-point perspective techniques.",
+    "intro": "Perspective is a technique used to create the illusion of three-dimensional space on a flat (2D) surface. It mimics the way our eyes see the world - objects appear smaller and closer together as they get further away.",
+    "facts": [
+      "One-point perspective has a single vanishing point on the horizon line.",
+      "Two-point perspective uses two vanishing points and is used for corner views.",
+      "The horizon line represents the eye level of the viewer.",
+      "All parallel lines in a perspective drawing converge at the vanishing point.",
+      "Artists like Leonardo da Vinci mastered perspective to create realistic paintings."
+    ],
+    "quiz": [
+      {
+        "q": "What does the horizon line represent?",
+        "options": [
+          "The top of the page",
+          "The eye level of the viewer",
+          "The bottom of the drawing",
+          "The light source"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "How many vanishing points does one-point perspective have?",
+        "options": [
+          "None",
+          "One",
+          "Two",
+          "Three"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What happens to parallel lines in perspective?",
+        "options": [
+          "They stay parallel",
+          "They curve",
+          "They converge at a vanishing point",
+          "They disappear"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "colour-theory",
+      "famous-artists",
+      "art-movements",
+      "sculpture-techniques"
+    ]
+  },
+  {
+    "id": "art-movements",
+    "title": "Major Art Movements",
+    "subject": "art",
+    "grade": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "Art history is shaped by movements from Impressionism to Abstract Expressionism. Learn the key styles and what defined them.",
+    "intro": "An art movement is a style or trend in art shared by a group of artists during a particular period. Each movement had its own philosophy, techniques and response to the world.",
+    "facts": [
+      "Impressionism (1860s-1880s) focused on capturing light and atmosphere rather than exact detail - Monet was a key figure.",
+      "Cubism (1907-1920s), developed by Picasso and Braque, showed multiple viewpoints at once.",
+      "Surrealism (1920s-1930s) explored the unconscious mind and dreams - Dalí is a key artist.",
+      "Abstract Expressionism (1940s-1950s) rejected representation in favour of emotion and gesture.",
+      "Pop Art (1950s-1960s) used imagery from popular culture - Andy Warhol is a key figure."
+    ],
+    "quiz": [
+      {
+        "q": "Which movement focused on light and atmosphere?",
+        "options": [
+          "Cubism",
+          "Surrealism",
+          "Impressionism",
+          "Pop Art"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Who was a key figure in Cubism?",
+        "options": [
+          "Monet",
+          "Dalí",
+          "Warhol",
+          "Picasso"
+        ],
+        "correct": 3
+      },
+      {
+        "q": "Which movement explored dreams and the unconscious?",
+        "options": [
+          "Impressionism",
+          "Surrealism",
+          "Cubism",
+          "Pop Art"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "famous-artists",
+      "colour-theory",
+      "perspective-drawing",
+      "sculpture-techniques"
+    ]
+  },
+  {
+    "id": "sculpture-techniques",
+    "title": "Sculpture Techniques",
+    "subject": "art",
+    "grade": [
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "Sculpture is three-dimensional art made by carving, modelling, casting or constructing. Learn the main methods and materials.",
+    "intro": "Sculpture is the art of creating three-dimensional works of art. Unlike painting, sculpture occupies real space and can be viewed from all sides. Sculptors use many different techniques and materials.",
+    "facts": [
+      "Carving removes material from a block - stone, wood or ice.",
+      "Modelling builds up material like clay or plaster.",
+      "Casting involves pouring liquid material into a mould to set.",
+      "Constructing assembles different materials together - like welded metal sculptures.",
+      "Famous sculptures include Michelangelo's David (marble) and Rodin's The Thinker (bronze)."
+    ],
+    "quiz": [
+      {
+        "q": "Which technique removes material to create a sculpture?",
+        "options": [
+          "Casting",
+          "Modelling",
+          "Carving",
+          "Constructing"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What material is Michelangelo's David made from?",
+        "options": [
+          "Bronze",
+          "Wood",
+          "Marble",
+          "Clay"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Which technique involves pouring material into a mould?",
+        "options": [
+          "Carving",
+          "Modelling",
+          "Constructing",
+          "Casting"
+        ],
+        "correct": 3
+      }
+    ],
+    "related": [
+      "famous-artists",
+      "art-movements",
+      "colour-theory",
+      "perspective-drawing"
+    ]
+  },
+  {
+    "id": "programming-basics",
+    "title": "Introduction to Programming",
+    "subject": "computing",
+    "grade": [
+      "7",
+      "8",
+      "9"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": true,
+    "desc": "Programming is giving instructions to a computer. Learn the core concepts of programming: variables, loops, conditions and functions.",
+    "intro": "Programming is the process of writing instructions (code) that a computer can follow. Computers do exactly what they're told - so programmers must be precise and logical.",
+    "facts": [
+      "A variable is a named storage location that holds a value - like a box with a label.",
+      "A loop repeats a block of code a set number of times or until a condition is met.",
+      "An if statement lets a program make decisions based on conditions.",
+      "A function is a reusable block of code that performs a specific task.",
+      "Python, Scratch, JavaScript and Java are popular programming languages."
+    ],
+    "quiz": [
+      {
+        "q": "What is a variable?",
+        "options": [
+          "A type of loop",
+          "A named storage location for a value",
+          "A decision-making statement",
+          "A programming language"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What does a loop do?",
+        "options": [
+          "Stores data",
+          "Repeats a block of code",
+          "Makes decisions",
+          "Defines a function"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What keyword is used for a decision in most programming languages?",
+        "options": [
+          "loop",
+          "function",
+          "if",
+          "variable"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "binary-numbers",
+      "algorithms-flowcharts",
+      "internet-networks",
+      "data-databases"
+    ]
+  },
+  {
+    "id": "algorithms-flowcharts",
+    "title": "Algorithms and Flowcharts",
+    "subject": "computing",
+    "grade": [
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "An algorithm is a set of steps to solve a problem. Learn how to write and represent algorithms using flowcharts and pseudocode.",
+    "intro": "An algorithm is a precise, step-by-step set of instructions to solve a problem or complete a task. Before writing code, programmers often plan their algorithm using a flowchart or pseudocode.",
+    "facts": [
+      "An algorithm must have a clear start and end.",
+      "Algorithms must be unambiguous - each step should have only one meaning.",
+      "A flowchart uses shapes to represent different steps: ovals (start/end), rectangles (processes), diamonds (decisions).",
+      "Pseudocode is English-like text that describes an algorithm without using a real programming language.",
+      "Sorting and searching algorithms are fundamental to computer science."
+    ],
+    "quiz": [
+      {
+        "q": "What is an algorithm?",
+        "options": [
+          "A type of computer",
+          "A step-by-step set of instructions",
+          "A programming language",
+          "A type of data"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Which shape represents a decision in a flowchart?",
+        "options": [
+          "Rectangle",
+          "Oval",
+          "Diamond",
+          "Circle"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What is pseudocode?",
+        "options": [
+          "A real programming language",
+          "Broken code",
+          "English-like description of an algorithm",
+          "A type of flowchart"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "programming-basics",
+      "binary-numbers",
+      "internet-networks",
+      "data-databases"
+    ]
+  },
+  {
+    "id": "internet-networks",
+    "title": "The Internet and Networks",
+    "subject": "computing",
+    "grade": [
+      "7",
+      "8",
+      "9"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "The internet connects billions of devices worldwide. Learn how networks work, what protocols are and how data travels online.",
+    "intro": "A network is a group of connected devices that can share data. The internet is the world's largest network, connecting billions of devices across the globe using standard protocols.",
+    "facts": [
+      "A LAN (Local Area Network) covers a small area like a school or office.",
+      "A WAN (Wide Area Network) covers a large area - the internet is a WAN.",
+      "IP addresses are unique numbers that identify devices on a network.",
+      "HTTP/HTTPS is the protocol used to send web pages between servers and browsers.",
+      "A router directs data packets between networks."
+    ],
+    "quiz": [
+      {
+        "q": "What does LAN stand for?",
+        "options": [
+          "Large Area Network",
+          "Local Area Network",
+          "Linked Access Network",
+          "Low-speed Access Node"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What identifies a device on a network?",
+        "options": [
+          "URL",
+          "HTTP",
+          "IP address",
+          "Browser"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What does a router do?",
+        "options": [
+          "Stores data",
+          "Displays web pages",
+          "Directs data packets between networks",
+          "Creates IP addresses"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "programming-basics",
+      "algorithms-flowcharts",
+      "binary-numbers",
+      "data-databases"
+    ]
+  },
+  {
+    "id": "data-databases",
+    "title": "Data and Databases",
+    "subject": "computing",
+    "grade": [
+      "8",
+      "9",
+      "10"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "Data is at the heart of computing. Learn how data is structured in databases and how SQL is used to query information.",
+    "intro": "Data is raw facts and figures. When processed and organised, data becomes information. Databases are structured systems for storing and retrieving large amounts of data efficiently.",
+    "facts": [
+      "A database is an organised collection of data, stored and accessed electronically.",
+      "A relational database stores data in tables with rows (records) and columns (fields).",
+      "SQL (Structured Query Language) is used to query and manage databases.",
+      "A primary key uniquely identifies each record in a table.",
+      "Big data refers to extremely large datasets that require special tools to process."
+    ],
+    "quiz": [
+      {
+        "q": "What is a database?",
+        "options": [
+          "A type of programming language",
+          "An organised collection of data",
+          "A network protocol",
+          "A type of algorithm"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What language is used to query databases?",
+        "options": [
+          "Python",
+          "HTML",
+          "SQL",
+          "CSS"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What uniquely identifies each record in a database table?",
+        "options": [
+          "A foreign key",
+          "A column",
+          "A primary key",
+          "A row"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "programming-basics",
+      "binary-numbers",
+      "algorithms-flowcharts",
+      "internet-networks"
+    ]
+  },
+  {
+    "id": "musical-notation",
+    "title": "Reading Musical Notation",
+    "subject": "music",
+    "grade": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": true,
+    "desc": "Musical notation is the written language of music. Learn to read notes, time signatures, clefs and rhythm on the stave.",
+    "intro": "Musical notation is a system of symbols used to write down music. Reading music allows musicians to perform pieces they have never heard before. The main elements are the stave, clef, notes, rests and time signatures.",
+    "facts": [
+      "The stave (or staff) is the set of five horizontal lines on which music is written.",
+      "The treble clef is used for higher-pitched instruments; the bass clef for lower-pitched ones.",
+      "Notes on a stave can be remembered using mnemonics: Every Good Boy Deserves Food (EGBDF).",
+      "A time signature like 4/4 means 4 beats per bar, each beat being a quarter note.",
+      "A rest shows silence - different rest symbols indicate different lengths of silence."
+    ],
+    "quiz": [
+      {
+        "q": "How many lines does a stave have?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Which clef is used for higher-pitched instruments?",
+        "options": [
+          "Bass clef",
+          "Treble clef",
+          "Alto clef",
+          "Tenor clef"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What does the top number in a time signature tell you?",
+        "options": [
+          "The type of note",
+          "The number of beats per bar",
+          "The tempo",
+          "The pitch"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "music-theory-basics",
+      "instruments-orchestra",
+      "music-genres",
+      "rhythm-beat"
+    ]
+  },
+  {
+    "id": "music-theory-basics",
+    "title": "Music Theory Basics",
+    "subject": "music",
+    "grade": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "Music theory explains how music works. Learn scales, chords, intervals and keys - the essential building blocks of music.",
+    "intro": "Music theory is the study of the practices and possibilities of music. Understanding theory helps musicians compose, improvise and understand the music they play.",
+    "facts": [
+      "A scale is a set of notes in a specific order - the major scale sounds happy, the minor scale sounds sad.",
+      "An octave is the distance between one note and the next note with the same name (e.g. C to C).",
+      "A chord is three or more notes played together.",
+      "The key of a piece tells you which scale it is based on.",
+      "Tempo is the speed of music, measured in BPM (beats per minute)."
+    ],
+    "quiz": [
+      {
+        "q": "What is an octave?",
+        "options": [
+          "8 notes in a scale",
+          "The distance between a note and the next note with the same name",
+          "A type of chord",
+          "A time signature"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What does BPM stand for in music?",
+        "options": [
+          "Beat Per Melody",
+          "Beats Per Minute",
+          "Bass Plus Melody",
+          "Beat Pattern Marker"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Which scale generally sounds happy?",
+        "options": [
+          "Minor scale",
+          "Chromatic scale",
+          "Major scale",
+          "Pentatonic scale"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "musical-notation",
+      "instruments-orchestra",
+      "rhythm-beat",
+      "music-genres"
+    ]
+  },
+  {
+    "id": "instruments-orchestra",
+    "title": "Instruments of the Orchestra",
+    "subject": "music",
+    "grade": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "A symphony orchestra has over 100 musicians. Learn the four instrument families and the role of each section.",
+    "intro": "An orchestra is a large ensemble of musicians. Modern symphony orchestras are typically divided into four sections based on how the instruments make their sound: strings, woodwind, brass and percussion.",
+    "facts": [
+      "The string section (violins, violas, cellos, double basses) is usually the largest section.",
+      "Woodwind instruments include flute, oboe, clarinet and bassoon.",
+      "Brass instruments include trumpet, trombone, French horn and tuba.",
+      "Percussion instruments include timpani, snare drum, xylophone and cymbals.",
+      "The conductor uses a baton to direct the orchestra's tempo and dynamics."
+    ],
+    "quiz": [
+      {
+        "q": "Which is the largest section of a symphony orchestra?",
+        "options": [
+          "Brass",
+          "Woodwind",
+          "Strings",
+          "Percussion"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Which instrument belongs to the woodwind family?",
+        "options": [
+          "Trumpet",
+          "Violin",
+          "Clarinet",
+          "Trombone"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What does a conductor use to direct the orchestra?",
+        "options": [
+          "A microphone",
+          "A keyboard",
+          "A baton",
+          "A music stand"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "musical-notation",
+      "music-theory-basics",
+      "music-genres",
+      "rhythm-beat"
+    ]
+  },
+  {
+    "id": "rhythm-beat",
+    "title": "Rhythm and Beat in Music",
+    "subject": "music",
+    "grade": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "Rhythm is the pattern of sounds in music; beat is the steady pulse. Learn note values, bars and how to feel the rhythm.",
+    "intro": "Every piece of music has a beat - a steady pulse like a heartbeat. Rhythm is the pattern of long and short sounds that sits on top of the beat. Together they give music its movement and energy.",
+    "facts": [
+      "A beat is the regular pulse of music - you can tap or clap along to the beat.",
+      "A bar (or measure) groups beats together - a 4/4 bar has 4 beats.",
+      "A semibreve (whole note) lasts 4 beats; a minim (half note) lasts 2; a crotchet (quarter note) lasts 1.",
+      "Syncopation puts emphasis on off-beats, creating a surprising or lively effect.",
+      "Tempo markings: Adagio (slow), Andante (walking pace), Allegro (fast)."
+    ],
+    "quiz": [
+      {
+        "q": "How many beats does a crotchet (quarter note) last?",
+        "options": [
+          "4",
+          "2",
+          "1",
+          "0.5"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What is a bar?",
+        "options": [
+          "A type of note",
+          "A group of beats",
+          "A tempo marking",
+          "A type of scale"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What does Allegro mean?",
+        "options": [
+          "Slow",
+          "Medium",
+          "Fast",
+          "Very slow"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "musical-notation",
+      "music-theory-basics",
+      "instruments-orchestra",
+      "music-genres"
+    ]
+  },
+  {
+    "id": "music-genres",
+    "title": "Music Genres Through History",
+    "subject": "music",
+    "grade": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "From classical to hip-hop, music genres have developed through history. Learn the major genres and what defines each one.",
+    "intro": "A music genre is a style or category of music with shared characteristics. Genres develop from cultural, historical and technological changes. Understanding genres helps listeners and musicians appreciate music more deeply.",
+    "facts": [
+      "Classical music (1750-1820) includes composers like Mozart and Beethoven - it values structure and form.",
+      "Blues developed in the USA in the late 19th century from African American folk traditions.",
+      "Jazz emerged in New Orleans in the early 1900s, known for improvisation and swing.",
+      "Rock and roll developed in the 1950s, influenced by blues and country music.",
+      "Hip-hop originated in New York in the 1970s and includes rapping, DJing and beatboxing."
+    ],
+    "quiz": [
+      {
+        "q": "Where did jazz originate?",
+        "options": [
+          "London",
+          "Chicago",
+          "New York",
+          "New Orleans"
+        ],
+        "correct": 3
+      },
+      {
+        "q": "What is a key feature of jazz music?",
+        "options": [
+          "Strict structure",
+          "Improvisation",
+          "Classical instruments only",
+          "No percussion"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Which composer belongs to the Classical period?",
+        "options": [
+          "The Beatles",
+          "Mozart",
+          "Bob Dylan",
+          "Jay-Z"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "instruments-orchestra",
+      "music-theory-basics",
+      "rhythm-beat",
+      "musical-notation"
+    ]
+  },
+  {
+    "id": "fitness-components",
+    "title": "Components of Fitness",
+    "subject": "pe",
+    "grade": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": true,
+    "desc": "Fitness is made up of several components. Learn the health-related and skill-related components of fitness and how to improve them.",
+    "intro": "Physical fitness is the ability to carry out daily tasks without undue fatigue. It has two main categories: health-related components (important for general wellbeing) and skill-related components (important for sport performance).",
+    "facts": [
+      "Health-related components: cardiovascular endurance, muscular strength, muscular endurance, flexibility, body composition.",
+      "Cardiovascular endurance is the ability of the heart and lungs to supply oxygen during sustained exercise.",
+      "Muscular strength is the maximum force a muscle can produce in one effort.",
+      "Flexibility is the range of movement around a joint.",
+      "Skill-related components: agility, balance, coordination, speed, power, reaction time."
+    ],
+    "quiz": [
+      {
+        "q": "Which is a health-related component of fitness?",
+        "options": [
+          "Agility",
+          "Coordination",
+          "Cardiovascular endurance",
+          "Reaction time"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What does cardiovascular endurance measure?",
+        "options": [
+          "Muscle strength",
+          "The ability to supply oxygen during sustained exercise",
+          "Flexibility",
+          "Speed"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Which is a skill-related component of fitness?",
+        "options": [
+          "Body composition",
+          "Flexibility",
+          "Muscular strength",
+          "Agility"
+        ],
+        "correct": 3
+      }
+    ],
+    "related": [
+      "training-principles",
+      "nutrition-health",
+      "sports-rules",
+      "human-body"
+    ]
+  },
+  {
+    "id": "training-principles",
+    "title": "Principles of Training",
+    "subject": "pe",
+    "grade": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "Training improves fitness and performance. Learn the key principles of training: FITT, overload, progression and specificity.",
+    "intro": "To improve fitness, training must be planned carefully. The principles of training are guidelines that ensure exercise is safe, effective and progressive.",
+    "facts": [
+      "FITT stands for Frequency, Intensity, Time and Type of exercise.",
+      "The overload principle states that you must work harder than normal to improve.",
+      "Progression means gradually increasing the demands of training over time.",
+      "Specificity means training should match the requirements of your sport.",
+      "Rest and recovery are as important as the training itself - muscles repair during rest."
+    ],
+    "quiz": [
+      {
+        "q": "What does FITT stand for?",
+        "options": [
+          "Fast, Intense, Time, Type",
+          "Frequency, Intensity, Time, Type",
+          "Frequency, Interval, Training, Technique",
+          "Fast, Interval, Training, Time"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What does the overload principle mean?",
+        "options": [
+          "Train as hard as possible every day",
+          "Rest as much as you train",
+          "Work harder than normal to improve",
+          "Always train at the same intensity"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What does specificity mean in training?",
+        "options": [
+          "Training the same every day",
+          "Training should match your sport's requirements",
+          "Training in specific weather conditions",
+          "Using specific equipment only"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "fitness-components",
+      "nutrition-health",
+      "sports-rules",
+      "human-body"
+    ]
+  },
+  {
+    "id": "nutrition-health",
+    "title": "Nutrition and Health",
+    "subject": "pe",
+    "grade": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "Nutrition provides the fuel for sport and health. Learn about the macronutrients, hydration and how diet affects performance.",
+    "intro": "Good nutrition is essential for both health and sports performance. The food we eat provides energy, supports growth and recovery, and keeps our bodies functioning well.",
+    "facts": [
+      "Carbohydrates are the main energy source - they break down into glucose for fuel.",
+      "Proteins are needed for muscle growth and repair.",
+      "Fats provide long-term energy and support brain and hormone function.",
+      "Vitamins and minerals are micronutrients essential for bodily processes.",
+      "Hydration is critical - even mild dehydration can reduce physical and mental performance."
+    ],
+    "quiz": [
+      {
+        "q": "Which macronutrient is the main energy source?",
+        "options": [
+          "Protein",
+          "Fat",
+          "Carbohydrate",
+          "Vitamins"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What is protein primarily needed for?",
+        "options": [
+          "Energy",
+          "Muscle growth and repair",
+          "Hydration",
+          "Brain function"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What can even mild dehydration affect?",
+        "options": [
+          "Hair growth",
+          "Physical and mental performance",
+          "Bone density",
+          "Sleep only"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "fitness-components",
+      "training-principles",
+      "sports-rules",
+      "human-body"
+    ]
+  },
+  {
+    "id": "sports-rules",
+    "title": "Rules of Major Sports",
+    "subject": "pe",
+    "grade": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "Understanding the rules is the first step to any sport. Learn the key rules of football, basketball, tennis and athletics.",
+    "intro": "Every sport has rules that govern how it is played. Rules ensure fairness, safety and clear outcomes. Understanding the rules helps you play, watch and appreciate sport more fully.",
+    "facts": [
+      "Football (soccer): 11 players per side; you cannot handle the ball (except the goalkeeper); offside rule applies.",
+      "Basketball: 5 players per side; no travelling (taking more than 2 steps without dribbling); 24-second shot clock in NBA.",
+      "Tennis: matches are won in sets; scoring goes 15, 30, 40, game; deuce when tied at 40-40.",
+      "Athletics: sprint races use a staggered start; false starts result in disqualification.",
+      "Rugby: 15 players per side; forward passes are not allowed; try = 5 points."
+    ],
+    "quiz": [
+      {
+        "q": "How many players are on a football (soccer) team?",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "In tennis, what is the score after 40-40?",
+        "options": [
+          "Game",
+          "Advantage",
+          "Deuce",
+          "Set"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "In rugby, how many points is a try worth?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "fitness-components",
+      "training-principles",
+      "nutrition-health",
+      "human-body"
+    ]
+  },
+  {
+    "id": "spanish-basics",
+    "title": "Spanish for Beginners",
+    "subject": "languages",
+    "grade": [
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": true,
+    "desc": "Start learning Spanish with essential vocabulary, greetings, numbers and phrases. The most widely studied language after English.",
+    "intro": "Spanish is spoken by over 500 million people worldwide and is the official language of 20 countries. It uses the same Latin alphabet as English (plus ñ) and is generally considered one of the easier languages for English speakers to learn.",
+    "facts": [
+      "Spanish has two genders - masculine and feminine - and nouns must agree with adjectives.",
+      "The alphabet has 27 letters including ñ (eñe).",
+      "Common greetings: Hola (Hello), Buenos días (Good morning), ¿Cómo estás? (How are you?).",
+      "Numbers 1-10: uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez.",
+      "Spanish verbs change their endings depending on who is doing the action (conjugation)."
+    ],
+    "quiz": [
+      {
+        "q": "How do you say 'hello' in Spanish?",
+        "options": [
+          "Bonjour",
+          "Ciao",
+          "Hola",
+          "Olá"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What is 'three' in Spanish?",
+        "options": [
+          "Dos",
+          "Tres",
+          "Cuatro",
+          "Uno"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "How many letters does the Spanish alphabet have?",
+        "options": [
+          "26",
+          "27",
+          "28",
+          "25"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "french-basics",
+      "german-basics",
+      "english-grammar",
+      "figurative-language"
+    ]
+  },
+  {
+    "id": "french-basics",
+    "title": "French for Beginners",
+    "subject": "languages",
+    "grade": [
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "Learn essential French vocabulary, greetings, numbers and key phrases. French is spoken across 5 continents.",
+    "intro": "French is spoken by around 300 million people worldwide and is official in 29 countries. It is often called the language of culture and diplomacy. French and English share many vocabulary words due to the Norman influence on English.",
+    "facts": [
+      "French uses accents: é (acute), è (grave), ê (circumflex), ï (diaeresis), ç (cedilla).",
+      "Greetings: Bonjour (Good morning/Hello), Bonsoir (Good evening), Comment ça va? (How are you?).",
+      "Numbers 1-10: un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix.",
+      "Like Spanish, French has masculine and feminine nouns.",
+      "Around 30% of English words come from French, especially after the Norman Conquest of 1066."
+    ],
+    "quiz": [
+      {
+        "q": "How do you say 'good morning' in French?",
+        "options": [
+          "Buongiorno",
+          "Bonjour",
+          "Buenos días",
+          "Guten Morgen"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What is 'five' in French?",
+        "options": [
+          "Quatre",
+          "Six",
+          "Cinq",
+          "Trois"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What symbol is used in the French letter ç?",
+        "options": [
+          "Acute accent",
+          "Grave accent",
+          "Cedilla",
+          "Diaeresis"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "spanish-basics",
+      "german-basics",
+      "english-grammar",
+      "figurative-language"
+    ]
+  },
+  {
+    "id": "german-basics",
+    "title": "German for Beginners",
+    "subject": "languages",
+    "grade": [
+      "7",
+      "8",
+      "9"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "Start learning German with key vocabulary, greetings and grammar essentials. German is the most widely spoken language in Europe.",
+    "intro": "German is spoken by over 100 million people and is the official language of Germany, Austria and Switzerland. It is one of the most important languages for business and science in Europe.",
+    "facts": [
+      "German has three genders: masculine (der), feminine (die) and neuter (das).",
+      "Greetings: Guten Morgen (Good morning), Guten Tag (Good day), Wie geht es Ihnen? (How are you?).",
+      "Numbers 1-10: eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn.",
+      "German has compound words - e.g. Donaudampfschifffahrtsgesellschaft (Danube steamship company).",
+      "English and German are closely related - both are Germanic languages."
+    ],
+    "quiz": [
+      {
+        "q": "How do you say 'good day' in German?",
+        "options": [
+          "Bonjour",
+          "Guten Tag",
+          "Hola",
+          "Buongiorno"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "How many genders does German have?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What is 'five' in German?",
+        "options": [
+          "Vier",
+          "Fünf",
+          "Sechs",
+          "Drei"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "spanish-basics",
+      "french-basics",
+      "english-grammar",
+      "figurative-language"
+    ]
+  },
+  {
+    "id": "english-grammar",
+    "title": "English Grammar Essentials",
+    "subject": "languages",
+    "grade": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "A solid understanding of English grammar helps in all other languages. Learn tenses, clauses and common grammar rules.",
+    "intro": "Grammar is the set of rules that govern how words are used in a language. English grammar covers tenses, word order, clauses and punctuation. A strong grammar foundation helps you learn any other language.",
+    "facts": [
+      "English has 12 main verb tenses including simple, continuous and perfect forms.",
+      "The simple present tense is used for habits and facts - 'I run every day'.",
+      "The simple past tense is used for completed actions - 'She walked to school'.",
+      "A clause is a group of words containing a subject and a verb.",
+      "Word order in English is usually Subject-Verb-Object (SVO): 'The cat ate the fish'."
+    ],
+    "quiz": [
+      {
+        "q": "Which tense is used for habits and facts?",
+        "options": [
+          "Simple past",
+          "Simple future",
+          "Simple present",
+          "Present continuous"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What is the typical word order in English?",
+        "options": [
+          "Verb-Subject-Object",
+          "Subject-Object-Verb",
+          "Subject-Verb-Object",
+          "Object-Verb-Subject"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "How many main verb tenses does English have?",
+        "options": [
+          "6",
+          "8",
+          "10",
+          "12"
+        ],
+        "correct": 3
+      }
+    ],
+    "related": [
+      "spanish-basics",
+      "french-basics",
+      "german-basics",
+      "figurative-language"
+    ]
+  },
+  {
+    "id": "language-learning-tips",
+    "title": "How to Learn a New Language",
+    "subject": "languages",
+    "grade": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "Learning a language is a skill that anyone can develop. Discover the best strategies, habits and tools for becoming fluent.",
+    "intro": "Learning a new language opens doors to new cultures, friendships and opportunities. Research shows that with the right strategies, anyone can learn a new language at any age.",
+    "facts": [
+      "Immersion - surrounding yourself with the language - is the most effective learning method.",
+      "Learning 1,000 common words in any language gives you understanding of around 80% of everyday speech.",
+      "Spaced repetition (reviewing words at increasing intervals) is the most efficient memorisation method.",
+      "Speaking from day one, even badly, speeds up learning dramatically.",
+      "Children learn languages faster, but adults can compensate with better study strategies."
+    ],
+    "quiz": [
+      {
+        "q": "What is the most effective way to learn a language?",
+        "options": [
+          "Reading grammar books",
+          "Immersion",
+          "Memorising vocabulary lists",
+          "Watching TV without subtitles"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What is spaced repetition?",
+        "options": [
+          "Studying for long sessions",
+          "Reviewing material at increasing intervals",
+          "Repeating words aloud",
+          "Writing words 100 times"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Roughly how many common words give 80% everyday coverage?",
+        "options": [
+          "100",
+          "500",
+          "1000",
+          "5000"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "spanish-basics",
+      "french-basics",
+      "german-basics",
+      "english-grammar"
+    ]
+  }
+]
