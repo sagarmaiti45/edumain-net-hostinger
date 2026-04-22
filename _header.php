@@ -79,6 +79,8 @@ $_uri = strtok($_SERVER['REQUEST_URI'] ?? '/', '?');
   (function(){ var s = parseInt(localStorage.getItem('em_font') || '0', 10); if (s) document.documentElement.style.fontSize = (16 + s * 1.5) + 'px'; })();
   </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8260668593000194" crossorigin="anonymous"></script>
+  <!-- AdsTerra Popunder -->
+  <script src="https://pl29224149.profitablecpmratenetwork.com/52/45/ab/5245aba1a0ac2c82956b8004435ee7d9.js"></script>
 </head>
 <body class="<?= $body_class ?? '' ?>">
 

@@ -26,7 +26,7 @@ RewriteRule ^ router.php [L,QSA]
   Header set Referrer-Policy "strict-origin-when-cross-origin"
   Header set X-XSS-Protection "1; mode=block"
   Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
-  Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://pagead2.googlesyndication.com https://www.googletagmanager.com https://www.google-analytics.com https://www.highperformanceformat.com https://pl29223878.profitablecpmratenetwork.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; frame-src https:; connect-src 'self' https:;"
+  Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://pagead2.googlesyndication.com https://www.googletagmanager.com https://www.google-analytics.com https://www.highperformanceformat.com https://pl29223878.profitablecpmratenetwork.com https://pl29224149.profitablecpmratenetwork.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; frame-src https:; connect-src 'self' https:;"
 </IfModule>
 
 # Cache static assets
