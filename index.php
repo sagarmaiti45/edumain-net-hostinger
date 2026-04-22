@@ -10,6 +10,12 @@ $all_topics = get_topics();
 $featured  = array_values(array_filter($all_topics, fn($t) => !empty($t['featured'])));
 ?>
 
+<!-- AdsTerra native banner — above search bar -->
+<div class="home-native-ad">
+  <script async="async" data-cfasync="false" src="https://pl29223878.profitablecpmratenetwork.com/9e7f11281adcc579755f8757bf17e0dc/invoke.js"></script>
+  <div id="container-9e7f11281adcc579755f8757bf17e0dc"></div>
+</div>
+
 <!-- ══ HERO ══ -->
 <section class="home-hero">
 
@@ -48,7 +54,7 @@ $featured  = array_values(array_filter($all_topics, fn($t) => !empty($t['feature
   </div>
 </section>
 
-<!-- AdsTerra native banner — above subject grid -->
+<!-- AdsTerra native banner — below search bar -->
 <div class="home-native-ad">
   <script async="async" data-cfasync="false" src="https://pl29223878.profitablecpmratenetwork.com/9e7f11281adcc579755f8757bf17e0dc/invoke.js"></script>
   <div id="container-9e7f11281adcc579755f8757bf17e0dc"></div>
