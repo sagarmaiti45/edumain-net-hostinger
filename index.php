@@ -10,12 +10,6 @@ $all_topics = get_topics();
 $featured  = array_values(array_filter($all_topics, fn($t) => !empty($t['featured'])));
 ?>
 
-<!-- AdsTerra native banner — above search bar -->
-<div class="home-native-ad">
-  <script async="async" data-cfasync="false" src="https://pl29223878.profitablecpmratenetwork.com/9e7f11281adcc579755f8757bf17e0dc/invoke.js"></script>
-  <div id="container-9e7f11281adcc579755f8757bf17e0dc"></div>
-</div>
-
 <!-- ══ HERO ══ -->
 <section class="home-hero">
 
@@ -53,12 +47,6 @@ $featured  = array_values(array_filter($all_topics, fn($t) => !empty($t['feature
     </div>
   </div>
 </section>
-
-<!-- AdsTerra native banner — below search bar -->
-<div class="home-native-ad">
-  <script async="async" data-cfasync="false" src="https://pl29223878.profitablecpmratenetwork.com/9e7f11281adcc579755f8757bf17e0dc/invoke.js"></script>
-  <div id="container-9e7f11281adcc579755f8757bf17e0dc"></div>
-</div>
 
 <!-- ══ SUBJECT GRID ══ -->
 <section class="home-section">
@@ -109,12 +97,6 @@ $featured  = array_values(array_filter($all_topics, fn($t) => !empty($t['feature
     <?php endforeach; ?>
   </div>
 </section>
-
-<!-- AdsTerra 300x250 — between featured topics and math tools promo -->
-<div class="home-banner-300x250">
-  <script>atOptions = {'key' : 'f093d96a9666c21a7ab93bfc887fd236','format' : 'iframe','height' : 250,'width' : 300,'params' : {}};</script>
-  <script src="https://www.highperformanceformat.com/f093d96a9666c21a7ab93bfc887fd236/invoke.js"></script>
-</div>
 
 <!-- ══ MATH TOOLS PROMO ══ -->
 <section class="home-section home-section-tools-promo">
@@ -171,12 +153,6 @@ $featured  = array_values(array_filter($all_topics, fn($t) => !empty($t['feature
     </div>
   </div>
 </section>
-
-<!-- AdsTerra 160x300 — between How It Works and Why EduMain -->
-<div class="home-banner-160x300">
-  <script>atOptions = {'key' : 'f942d0c6515398bb20bcb59c82781b61','format' : 'iframe','height' : 300,'width' : 160,'params' : {}};</script>
-  <script src="https://www.highperformanceformat.com/f942d0c6515398bb20bcb59c82781b61/invoke.js"></script>
-</div>
 
 <!-- ══ WHY EDUMAIN ══ -->
 <section class="home-section home-section-why">
