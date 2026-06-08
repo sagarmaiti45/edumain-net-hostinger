@@ -10,6 +10,7 @@ RewriteEngine On
 RewriteRule ^_.*$ - [F,L]
 
 # Sitemap sub-files
+RewriteRule ^sitemap\.xsl$ sitemap-xsl.php [L]
 RewriteRule ^sitemap\.xml$ sitemap.php [L]
 RewriteRule ^sitemap-static\.xml$ sitemap.php?type=static [L,QSA]
 RewriteRule ^sitemap-tools\.xml$ sitemap.php?type=tools [L,QSA]

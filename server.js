@@ -36,6 +36,12 @@ function parseCSVRow(line) {
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+// ── Sitemap XSL — must be served as text/xsl for browsers to apply the transform
+app.get('/sitemap.xsl', (req, res) => {
+  res.setHeader('Content-Type', 'text/xsl; charset=utf-8');
+  res.sendFile(path.join(ROOT, 'assets/xsl/sitemap.xsl'));
+});
+
 // ── Static assets ─────────────────────────────────────────────────────────────
 app.use('/assets', express.static(path.join(ROOT, 'assets')));
 app.use('/thumbs', express.static(path.join(ROOT, 'thumbs')));
