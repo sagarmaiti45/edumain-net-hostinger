@@ -165,7 +165,11 @@ app.use((req, res) => {
     console.warn('[PHP stderr]', stderr.substring(0, 500));
   }
 
-  res.setHeader('Content-Type', 'text/html; charset=utf-8');
+  // PHP header() calls are silently dropped in CLI mode — auto-detect XML output
+  const contentType = output.trimStart().startsWith('<?xml')
+    ? 'application/xml; charset=utf-8'
+    : 'text/html; charset=utf-8';
+  res.setHeader('Content-Type', contentType);
   res.setHeader('X-Powered-By', 'Express');
   res.send(output);
 });
