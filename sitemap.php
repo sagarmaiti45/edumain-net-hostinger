@@ -10,6 +10,7 @@ $today      = date('Y-m-d');
 $last_month = date('Y-m-d', strtotime('-30 days'));
 
 echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
+echo '<?xml-stylesheet type="text/xsl" href="/assets/xsl/sitemap.xsl"?>' . "\n";
 
 // ── INDEX ──────────────────────────────────────────────────────────────
 if ($type === 'index') { ?>

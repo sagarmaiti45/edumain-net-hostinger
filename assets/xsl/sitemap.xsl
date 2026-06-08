@@ -12,7 +12,7 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta name="robots" content="noindex, nofollow"/>
-        <title>XML Sitemap - SolveCalc</title>
+        <title>XML Sitemap - EduMain</title>
         <style>
           *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
           body {
@@ -98,13 +98,13 @@
       </head>
       <body>
         <div class="sm-header">
-          <div class="sm-logo">SolveCalc - XML Sitemap</div>
+          <div class="sm-logo">EduMain - XML Sitemap</div>
           <div class="sm-header-desc">Read by search engines to discover all pages</div>
         </div>
         <div class="sm-wrap">
           <xsl:apply-templates/>
           <div class="sm-footer">
-            <a href="https://solvecalc.net">SolveCalc.net</a> - Free Scientific Calculator Online
+            <a href="https://edumain.net">EduMain.net</a> - Free Online Learning Tools
           </div>
         </div>
       </body>

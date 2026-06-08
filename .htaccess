@@ -1,5 +1,9 @@
 Options -Indexes
 ErrorDocument 404 /404.php
+
+# MIME type for XSLT stylesheets — required so browsers apply the sitemap XSL transform
+AddType text/xsl .xsl
+
 RewriteEngine On
 
 # Block direct access to includes
