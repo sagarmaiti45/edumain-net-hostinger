@@ -254,9 +254,13 @@ function _restorePlaySidebars() {
 
 function closeVault() {
   _restorePlaySidebars();
-  overlay.classList.remove('open');
+  overlay.classList.remove('open', 'ios-fs');
   overlay.style.display = 'none';
   vaultIframe.src = '';
+  const exitBtn = document.getElementById('vault-ios-exit-btn');
+  if (exitBtn) exitBtn.remove();
+  const header = overlay.querySelector('.vault-frame-header');
+  if (header) header.style.display = '';
 }
 
 // ── Favourites ────────────────────────────────────────────────────
@@ -509,10 +513,38 @@ if (_escClose) _escClose.addEventListener('click', function() {
   localStorage.setItem('sc_esc_hint_dismissed', '1');
 });
 
+const _isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+               (navigator.maxTouchPoints > 1 && /Mac/.test(navigator.platform));
+
+function _iosFakeFS(overlay) {
+  const header = overlay.querySelector('.vault-frame-header');
+  let exitBtn = document.getElementById('vault-ios-exit-btn');
+  if (overlay.classList.contains('ios-fs')) {
+    overlay.classList.remove('ios-fs');
+    if (header) header.style.display = '';
+    if (exitBtn) exitBtn.remove();
+  } else {
+    overlay.classList.add('ios-fs');
+    if (header) header.style.display = 'none';
+    exitBtn = document.createElement('button');
+    exitBtn.id = 'vault-ios-exit-btn';
+    exitBtn.textContent = '⛶';
+    exitBtn.title = 'Exit Fullscreen';
+    exitBtn.style.cssText = 'position:fixed;top:max(10px,env(safe-area-inset-top,10px));right:10px;z-index:99999;background:rgba(0,0,0,0.65);color:#fff;border:1px solid rgba(255,255,255,0.25);border-radius:8px;padding:6px 10px;font-size:1rem;cursor:pointer;touch-action:manipulation;';
+    exitBtn.addEventListener('click', () => _iosFakeFS(overlay));
+    overlay.appendChild(exitBtn);
+  }
+}
+
 fsBtn.addEventListener('click', () => {
   const frame = document.getElementById('vault-iframe');
-  if (frame.requestFullscreen) frame.requestFullscreen();
-  else if (frame.webkitRequestFullscreen) frame.webkitRequestFullscreen();
+  if (_isIOS) {
+    _iosFakeFS(document.getElementById('vault-overlay'));
+  } else if (frame.requestFullscreen) {
+    frame.requestFullscreen();
+  } else if (frame.webkitRequestFullscreen) {
+    frame.webkitRequestFullscreen();
+  }
 });
 
 // Top loader bar for iframe
