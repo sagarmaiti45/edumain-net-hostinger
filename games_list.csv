@@ -19,7 +19,6 @@ code,name,iframe,thumb,http_status,category
 1018,Bacon May Die,https://geet.in.net/get/bacon-may-die/game.html,https://geet.in.net/get/bacon-may-die/BaconMayDie.png,200,casual
 1019,Bad Ice Cream,https://geet.in.net/get/bad-ice-cream/game.html,https://geet.in.net/get/bad-ice-cream/bad-ice-cream.png,200,casual
 1020,Baldi's Basics,https://geet.in.net/get/baldis-basics/game.html,https://geet.in.net/get/baldis-basics/splash.png,200,casual
-1021,Ballistic,https://geet.in.net/get/ballistic/game.html,https://geet.in.net/get/ballistic/logo.jpg,200,shooter
 1022,Basket Random,https://geet.in.net/get/basket-random/game.html,https://geet.in.net/get/basket-random/BasketRandom.png,200,casual
 1023,Basketball Stars,https://geet.in.net/get/basketball-stars/game.html,https://geet.in.net/get/basketball-stars/assets/images/basketball-stars.png,200,sports
 1024,Big Tower Tiny Square,https://geet.in.net/get/big-tower-tiny-square/game.html,https://geet.in.net/get/big-tower-tiny-square/images.png,200,casual
@@ -55,7 +54,6 @@ code,name,iframe,thumb,http_status,category
 1054,Fireboy and Watergirl,https://geet.in.net/get/fire-boy-water-girl/game.html,https://geet.in.net/get/fire-boy-water-girl/logo.jpeg,200,casual
 1055,Flappy Bird,https://geet.in.net/get/flappy-bird/game.html,https://geet.in.net/get/flappy-bird/thumb.png,200,casual
 1056,Flash Tetris,https://geet.in.net/get/flash-tetris/game.html,https://geet.in.net/get/flash-tetris/flashtetris.png,200,puzzle
-1057,Five Nights at Freddy's,https://geet.in.net/get/fnaf/game.html,https://geet.in.net/get/fnaf/logo.jpg,200,horror
 1058,fnaf 2,https://geet.in.net/get/fnaf/fnaf-2.html,https://geet.in.net/get/fnaf/fnaf-2.jpg,200,horror
 1059,Football Legends,https://geet.in.net/get/football-legends/game.html,https://geet.in.net/get/football-legends/logo.jpg,200,sports
 1060,Football Strike,https://geet.in.net/get/football-strike/game.html,https://geet.in.net/get/football-strike/logo.jpg,200,sports
@@ -71,7 +69,6 @@ code,name,iframe,thumb,http_status,category
 1070,JustFall.LOL,https://geet.in.net/get/just-fall/game.html,https://geet.in.net/get/just-fall/unnamed.png,200,casual
 1071,Learn to Fly,https://geet.in.net/get/learn-to-fly/game.html,https://geet.in.net/get/learn-to-fly/learntofly.png,200,casual
 1072,Mario Bros,https://geet.in.net/get/mario-bros/game.html,https://geet.in.net/get/mario-bros/NewSuperMarioBros.png,200,platformer
-1073,Merge Round Racers,https://geet.in.net/get/merge-round-racers/game.html,https://geet.in.net/get/merge-round-racers/splash.png,200,puzzle
 1074,Minecraft 1.5,https://geet.in.net/get/minecraft-15/game.html,https://geet.in.net/get/minecraft-15/splash.jpeg,200,adventure
 1075,Minecraft 1.8,https://geet.in.net/get/minecraft-18/game.html,https://geet.in.net/get/minecraft-18/splash.png,200,adventure
 1076,Mini-putt,https://geet.in.net/get/miniputt/game.html,https://geet.in.net/get/miniputt/miniputt.png,200,casual
