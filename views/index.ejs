@@ -1,14 +1,12 @@
-<?php
-require_once __DIR__ . '/config.php';
-$page_title = 'EduMain - School Topics Explained Simply';
-$page_desc  = 'Free explainers for every school subject - Maths, Science, History, English, Geography and more. Written simply for students aged 6-16 in the USA, UK, Australia and Spain.';
-$body_class = 'page-home';
-include '_header.php';
+<%
+locals.meta_title = 'EduMain - School Topics Explained Simply';
+locals.meta_desc = 'Free explainers for every school subject - Maths, Science, History, English, Geography and more. Written simply for students aged 6-16 in the USA, UK, Australia and Spain.';
+locals.body_class = 'page-home';
 
-$subjects  = json_decode(SUBJECTS, true);
-$all_topics = get_topics();
-$featured  = array_values(array_filter($all_topics, fn($t) => !empty($t['featured'])));
-?>
+const all_topics = get_topics();
+const featured = all_topics.filter(t => t.featured);
+%>
+<%- include('partials/header') %>
 
 <!-- ══ HERO ══ -->
 <section class="home-hero">
@@ -55,16 +53,16 @@ $featured  = array_values(array_filter($all_topics, fn($t) => !empty($t['feature
     <p class="section-sub">Browse by subject to find the topics you're studying</p>
   </div>
   <div class="subject-grid">
-    <?php foreach ($subjects as $s): ?>
-    <a href="/<?= $s['slug'] ?>" class="subject-card" style="--sc:<?= $s['color'] ?>;--sb:<?= $s['bg'] ?>">
-      <div class="subject-card-icon"><i class="fa-solid <?= $s['icon'] ?>"></i></div>
+    <% SUBJECTS.forEach(s => { %>
+    <a href="/<%= s.slug %>" class="subject-card" style="--sc:<%= s.color %>;--sb:<%= s.bg %>">
+      <div class="subject-card-icon"><i class="fa-solid <%= s.icon %>"></i></div>
       <div class="subject-card-body">
-        <strong class="subject-card-name"><?= $s['name'] ?></strong>
-        <span class="subject-card-desc"><?= $s['desc'] ?></span>
+        <strong class="subject-card-name"><%= s.name %></strong>
+        <span class="subject-card-desc"><%= s.desc %></span>
       </div>
       <div class="subject-card-arrow"><i class="fa-solid fa-chevron-right"></i></div>
     </a>
-    <?php endforeach; ?>
+    <% }); %>
   </div>
 </section>
 
@@ -75,26 +73,26 @@ $featured  = array_values(array_filter($all_topics, fn($t) => !empty($t['feature
     <p class="section-sub">Popular topics students are reading right now</p>
   </div>
   <div class="topic-grid">
-    <?php
-    $subjectMap = [];
-    foreach (json_decode(SUBJECTS, true) as $s) $subjectMap[$s['slug']] = $s;
-    foreach (array_slice($featured, 0, 12) as $t):
-      $subj = $subjectMap[$t['subject']] ?? ['color'=>'#7c3aed','name'=>$t['subject'],'icon'=>'fa-book'];
-    ?>
-    <a href="/<?= $t['subject'] ?>/<?= $t['id'] ?>" class="topic-card" style="--tc:<?= $subj['color'] ?>">
-      <div class="topic-card-subj" style="background:<?= $subj['color'] ?>">
-        <i class="fa-solid <?= $subj['icon'] ?>"></i> <?= $subj['name'] ?>
+    <%
+    const subjectMap = {};
+    SUBJECTS.forEach(s => subjectMap[s.slug] = s);
+    featured.slice(0, 12).forEach(t => {
+      const subj = subjectMap[t.subject] || {color:'#7c3aed',name:t.subject,icon:'fa-book'};
+    %>
+    <a href="/<%= t.subject %>/<%= t.id %>" class="topic-card" style="--tc:<%= subj.color %>">
+      <div class="topic-card-subj" style="background:<%= subj.color %>">
+        <i class="fa-solid <%= subj.icon %>"></i> <%= subj.name %>
       </div>
       <div class="topic-card-body">
-        <h3 class="topic-card-title"><?= htmlspecialchars($t['title']) ?></h3>
-        <p class="topic-card-desc"><?= htmlspecialchars($t['desc']) ?></p>
+        <h3 class="topic-card-title"><%= t.title %></h3>
+        <p class="topic-card-desc"><%= t.desc %></p>
       </div>
       <div class="topic-card-footer">
-        <span class="topic-card-grade">Yr <?= implode('-', [min($t['grade']), max($t['grade'])]) ?></span>
-        <span class="topic-card-diff topic-diff-<?= $t['difficulty'] ?>"><?= ucfirst($t['difficulty']) ?></span>
+        <span class="topic-card-grade">Yr <%= Math.min(...t.grade) %>-<%= Math.max(...t.grade) %></span>
+        <span class="topic-card-diff topic-diff-<%= t.difficulty %>"><%= t.difficulty.charAt(0).toUpperCase() + t.difficulty.slice(1) %></span>
       </div>
     </a>
-    <?php endforeach; ?>
+    <% }); %>
   </div>
 </section>
 
@@ -247,4 +245,4 @@ $featured  = array_values(array_filter($all_topics, fn($t) => !empty($t['feature
   </div>
 </section>
 
-<?php include '_footer.php'; ?>
+<%- include('partials/footer') %>

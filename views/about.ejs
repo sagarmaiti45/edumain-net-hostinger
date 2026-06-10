@@ -1,10 +1,9 @@
-<?php
-require_once __DIR__ . '/config.php';
-$page_title = 'About EduMain - Free School Topic Explainers';
-$page_desc  = 'EduMain is a free educational website covering school topics for students aged 6-16 in the USA, UK, Australia and Spain.';
-$body_class = 'page-about';
-include '_header.php';
-?>
+<%
+locals.meta_title = 'About - EduMain';
+locals.body_class = 'page-legal';
+%>
+<%- include('partials/header') %>
+
 <div class="legal-page">
   <nav class="legal-breadcrumb">
     <a href="/">Home</a> <span>›</span> <span>About</span>
@@ -23,7 +22,7 @@ include '_header.php';
   <p>EduMain is an independent project built to make school learning a little easier and more accessible. We believe every student deserves clear, free explanations of what they are learning in class.</p>
 
   <h2>Contact</h2>
-  <p>Questions, suggestions, or spotted an error? Email us at <a href="mailto:<?= CONTACT_EMAIL ?>"><?= CONTACT_EMAIL ?></a> or use the <a href="/contact">contact page</a>.</p>
+  <p>Questions, suggestions, or spotted an error? Email us at <a href="mailto:<%= CONTACT_EMAIL %>"><%= CONTACT_EMAIL %></a> or use the <a href="/contact">contact page</a>.</p>
 
 </div><!-- /legal-page -->
-<?php include '_footer.php'; ?>
+<%- include('partials/footer') %>

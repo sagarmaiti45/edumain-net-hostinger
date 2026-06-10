@@ -1,10 +1,9 @@
-<?php
-require_once __DIR__ . '/config.php';
-$page_title = 'Disclaimer - EduMain';
-$page_desc  = 'Disclaimer for EduMain. Learn about the limitations of our free online calculator and math content.';
-$body_class = 'page-inner';
-include '_header.php';
-?>
+<%
+locals.meta_title = 'Disclaimer - EduMain';
+locals.body_class = 'page-legal';
+%>
+<%- include('partials/header') %>
+
 <div class="legal-page">
   <nav class="legal-breadcrumb">
     <a href="/">Home</a> <span>›</span> <span>Disclaimer</span>
@@ -31,4 +30,4 @@ include '_header.php';
   <h2>Contact</h2>
   <p>If you spot inaccurate content, let us know at <a href="mailto:support@edumain.net" style="color:var(--accent);font-weight:600;">support@edumain.net</a>.</p>
 </div><!-- /legal-page -->
-<?php include '_footer.php'; ?>
+<%- include('partials/footer') %>

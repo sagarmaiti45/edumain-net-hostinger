@@ -1,0 +1,47 @@
+<%
+const subject_slug = 'math-tools';
+const subj = SUBJECTS.find(s => s.slug === subject_slug);
+locals.meta_title = 'Math Tools - Free Interactive Calculators - EduMain';
+locals.body_class = 'page-subject page-tools-hub';
+%>
+<%- include('partials/header') %>
+
+<!-- Subject Hero -->
+<div class="subject-hero" style="--sc:#0ea5e9;--sb:#f0f9ff">
+  <div class="subject-hero-inner">
+    <div class="subject-hero-icon"><i class="fa-solid fa-calculator"></i></div>
+    <div>
+      <h1 class="subject-hero-title">Math Tools</h1>
+      <p class="subject-hero-desc">Free interactive calculators and solvers for every maths topic</p>
+      <div class="subject-hero-count"><strong><%= TOOLS.length %></strong> tools available</div>
+    </div>
+  </div>
+</div>
+
+<!-- Breadcrumb -->
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="/">Home</a>
+  <span class="bc-sep">›</span>
+  <span style="color:#0ea5e9">Math Tools</span>
+</nav>
+
+<!-- Tools grid -->
+<div class="topic-grid subject-topic-grid" style="padding-top:24px">
+  <% TOOLS.forEach(t => { %>
+  <a href="/math-tools/<%= t.slug %>" class="topic-card tool-card" style="--tc:<%= t.color %>">
+    <div class="topic-card-subj" style="background:<%= t.color %>">
+      <i class="fa-solid <%= t.icon %>"></i> Math Tools
+    </div>
+    <div class="topic-card-body">
+      <h2 class="topic-card-title"><%= t.name %></h2>
+      <p class="topic-card-desc"><%= t.desc %></p>
+    </div>
+    <div class="topic-card-footer">
+      <span class="topic-card-grade">Yr <%= t.grade %></span>
+      <span class="topic-card-diff topic-diff-<%= t.diff %>"><%= t.diff.charAt(0).toUpperCase() + t.diff.slice(1) %></span>
+    </div>
+  </a>
+  <% }); %>
+</div>
+
+<%- include('partials/footer') %>

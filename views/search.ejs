@@ -1,0 +1,74 @@
+<%
+locals.meta_title = 'Search - EduMain';
+locals.body_class = 'page-search';
+%>
+<%- include('partials/header') %>
+
+<div class="search-page">
+  <div class="search-page-header">
+    <h1 class="search-title">
+      <% if (q) { %>
+      Results for <em>"<%= q %>"</em>
+      <% } else { %>
+      Search Topics
+      <% } %>
+    </h1>
+    <form action="/search" method="get" class="search-page-form" role="search">
+      <div class="search-page-wrap">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="search" name="q" value="<%= q %>" placeholder="Search topics…" autocomplete="off" autofocus>
+        <button type="submit">Search</button>
+      </div>
+    </form>
+  </div>
+
+  <% if (q) { %>
+    <% if (!results || results.length === 0) { %>
+    <div class="search-no-results">
+      <i class="fa-solid fa-face-sad-tear"></i>
+      <p>No results found for <strong>"<%= q %>"</strong>.</p>
+      <p class="search-suggestion">Try a different keyword, or <a href="/">browse by subject</a>.</p>
+    </div>
+    <% } else { %>
+    <p class="search-count"><strong><%= results.length %></strong> result<%= results.length !== 1 ? 's' : '' %> found</p>
+    <div class="topic-grid">
+      <?php foreach ($results as $t):
+        $subj = $subjectMap[$t['subject']] ?? ['color'=>'#7c3aed','icon'=>'fa-book','name'=>$t['subject']];
+      ?>
+      <a href="/<%= t.subject %>/<%= t.id %>" class="topic-card" style="--tc:<%= subj.color %>">
+        <div class="topic-card-subj" style="background:<%= subj.color %>">
+          <i class="fa-solid <%= subj.icon %>"></i> <%= subj.name %>
+        </div>
+        <div class="topic-card-body">
+          <h2 class="topic-card-title"><%= t.title %></h2>
+          <p class="topic-card-desc"><%= t.desc %></p>
+        </div>
+        <div class="topic-card-footer">
+          <span class="topic-card-grade">Yr <%= Math.min(...t.grade) + "-" + Math.max(...t.grade) %></span>
+          <span class="topic-card-diff topic-diff-<%= t.difficulty %>"><%= t.difficulty.charAt(0).toUpperCase() + t.difficulty.slice(1) %></span>
+        </div>
+      </a>
+      <% }); %>
+    </div>
+    <% } %>
+  <% } else { %>
+  <!-- No query - show subject links -->
+  <div class="search-browse">
+    <h2>Or browse by subject:</h2>
+    <div class="subject-grid">
+      <% subjects.forEach(s => { %>
+      <a href="/<%= s.slug %>" class="subject-card" style="--sc:<%= s.color %>;--sb:<%= s.bg %>">
+        <div class="subject-card-icon"><i class="fa-solid <%= s.icon %>"></i></div>
+        <div class="subject-card-body">
+          <strong class="subject-card-name"><%= s.name %></strong>
+          <span class="subject-card-desc"><%= s.desc %></span>
+        </div>
+        <div class="subject-card-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+      </a>
+      <% }); %>
+    </div>
+  </div>
+  <% } %>
+</div>
+
+<%- include('partials/footer') %>

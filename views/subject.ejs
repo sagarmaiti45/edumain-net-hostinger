@@ -1,0 +1,101 @@
+<%
+const subject_slug = _GET.subject || '';
+const subjectMap = {};
+SUBJECTS.forEach(s => subjectMap[s.slug] = s);
+const subj = subjectMap[subject_slug];
+if (!subj) {
+    // Ideally redirect to 404
+}
+const topics = get_topics_by_subject(subject_slug);
+
+locals.meta_title = subj.name + ' Explained Simply - EduMain';
+locals.meta_desc  = 'Free ' + subj.name + ' explainers for students aged 6-16. ' + subj.desc + '. Includes key facts, examples and quick quizzes.';
+locals.body_class = 'page-subject';
+%>
+<%- include('partials/header') %>
+
+<!-- Subject Hero -->
+<div class="subject-hero" style="--sc:<%= subj.color %>;--sb:<%= subj.bg %>">
+  <div class="subject-hero-inner">
+    <div class="subject-hero-icon"><i class="fa-solid <%= subj.icon %>"></i></div>
+    <div>
+      <h1 class="subject-hero-title"><%= subj.name %></h1>
+      <p class="subject-hero-desc"><%= subj.desc %></p>
+      <div class="subject-hero-count"><strong><%= topics.length %></strong> topics available</div>
+    </div>
+  </div>
+</div>
+
+<!-- Breadcrumb -->
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="/">Home</a>
+  <span class="bc-sep">›</span>
+  <span style="color:<%= subj.color %>"><%= subj.name %></span>
+</nav>
+
+<!-- Difficulty filter -->
+<div class="subject-filters">
+  <button class="subj-filter active" data-filter="">All</button>
+  <button class="subj-filter" data-filter="easy">Easy</button>
+  <button class="subj-filter" data-filter="medium">Medium</button>
+  <button class="subj-filter" data-filter="hard">Hard</button>
+</div>
+
+<!-- Topics grid -->
+<% if (!topics || topics.length === 0) { %>
+<div class="empty-state">
+  <i class="fa-solid <%= subj.icon %>"></i>
+  <p>Topics for <%= subj.name %> are coming soon!</p>
+</div>
+<% } else { %>
+<div class="topic-grid subject-topic-grid" id="subject-grid">
+  <% topics.forEach(t => { %>
+  <a href="/<%= t.subject %>/<%= t.id %>"
+     class="topic-card"
+     style="--tc:<%= subj.color %>"
+     data-difficulty="<%= t.difficulty %>">
+    <div class="topic-card-subj" style="background:<%= subj.color %>">
+      <i class="fa-solid <%= subj.icon %>"></i> <%= subj.name %>
+    </div>
+    <div class="topic-card-body">
+      <h2 class="topic-card-title"><%= t.title %></h2>
+      <p class="topic-card-desc"><%= t.desc %></p>
+    </div>
+    <div class="topic-card-footer">
+      <span class="topic-card-grade">Yr <%= Math.min(...t.grade) + "-" + Math.max(...t.grade) %></span>
+      <span class="topic-card-diff topic-diff-<%= t.difficulty %>"><%= t.difficulty.charAt(0).toUpperCase() + t.difficulty.slice(1) %></span>
+    </div>
+  </a>
+  <% }); %>
+</div>
+
+<div class="subject-empty-filter" id="subject-empty" style="display:none">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <p>No topics found for this filter.</p>
+</div>
+<% } %>
+
+<script>
+(function() {
+  var btns  = document.querySelectorAll('.subj-filter');
+  var cards = document.querySelectorAll('#subject-grid .topic-card');
+  var empty = document.getElementById('subject-empty');
+
+  btns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      btns.forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      var filter = btn.dataset.filter;
+      var visible = 0;
+      cards.forEach(function(card) {
+        var show = !filter || card.dataset.difficulty === filter;
+        card.style.display = show ? '' : 'none';
+        if (show) visible++;
+      });
+      if (empty) empty.style.display = (visible === 0) ? 'flex' : 'none';
+    });
+  });
+})();
+</script>
+
+<%- include('partials/footer') %>

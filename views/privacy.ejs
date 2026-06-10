@@ -1,17 +1,16 @@
-<?php
-require_once __DIR__ . '/config.php';
-$page_title = 'Privacy Policy - EduMain';
-$page_desc  = 'Read the EduMain.net privacy policy to understand how we collect, use, and protect your data when you use our free online calculator and math tools.';
-$body_class = 'page-inner';
-include '_header.php';
-?>
+<%
+locals.meta_title = 'Privacy Policy - EduMain';
+locals.body_class = 'page-legal';
+%>
+<%- include('partials/header') %>
+
 <div class="legal-page">
   <nav class="legal-breadcrumb">
     <a href="/">Home</a> <span>›</span> <span>Privacy Policy</span>
   </nav>
   <h1>Privacy Policy</h1>
-  <p><strong>Last updated:</strong> March <?= SITE_YEAR ?></p>
-  <p>EduMain ("<strong>we</strong>", "<strong>our</strong>", or "<strong>us</strong>") runs <?= SITE_URL ?>. This page explains what data we collect and how we use it.</p>
+  <p><strong>Last updated:</strong> March <%= SITE_YEAR %></p>
+  <p>EduMain ("<strong>we</strong>", "<strong>our</strong>", or "<strong>us</strong>") runs <%= SITE_URL %>. This page explains what data we collect and how we use it.</p>
 
   <h2>What We Collect</h2>
   <p>We do not collect personally identifiable information. All calculations run in your browser and nothing you type is sent to our servers.</p>
@@ -38,7 +37,7 @@ include '_header.php';
   <p>If we update this policy, the new version will be posted here with an updated date at the top.</p>
 
   <h2>Contact</h2>
-  <p>Questions? Email us at <a href="mailto:<?= CONTACT_EMAIL ?>"><?= CONTACT_EMAIL ?></a>.</p>
+  <p>Questions? Email us at <a href="mailto:<%= CONTACT_EMAIL %>"><%= CONTACT_EMAIL %></a>.</p>
 
 </div><!-- /legal-page -->
-<?php include '_footer.php'; ?>
+<%- include('partials/footer') %>

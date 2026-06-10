@@ -1,10 +1,9 @@
-<?php
-require_once __DIR__ . '/config.php';
-$page_title = 'Terms of Service - EduMain';
-$page_desc  = 'Terms of service for EduMain. Read our terms before using this free online scientific calculator.';
-$body_class = 'page-inner';
-include '_header.php';
-?>
+<%
+locals.meta_title = 'Terms & Conditions - EduMain';
+locals.body_class = 'page-legal';
+%>
+<%- include('partials/header') %>
+
 <div class="legal-page">
   <nav class="legal-breadcrumb">
     <a href="/">Home</a> <span>›</span> <span>Terms of Service</span>
@@ -38,4 +37,4 @@ include '_header.php';
   <h2>8. Contact</h2>
   <p>Questions about these terms? Email us at <a href="mailto:support@edumain.net" style="color:var(--accent);font-weight:600;">support@edumain.net</a>.</p>
 </div><!-- /legal-page -->
-<?php include '_footer.php'; ?>
+<%- include('partials/footer') %>
