@@ -375,12 +375,14 @@ function _cardHTML(g, idx) {
   const imgAttr  = eager
     ? `src="${escHtml(g.thumb)}" fetchpriority="${idx < 8 ? 'high' : 'auto'}"`
     : `data-src="${escHtml(g.thumb)}"`;
-  const featured = FEATURED_SLOTS.has(idx);
+  const featured = FEATURED_SLOTS.has(idx) || g.code === '4014';
   const isFav    = _favs.has(g.code);
+  const isNew    = g.iframe && g.iframe.includes('learn.edumain.net/games/');
   return `<div class="v-card${featured ? ' v-card-featured' : ''}" data-code="${escHtml(g.code)}">
     <div class="v-thumb">
       <img ${imgAttr} alt="${escHtml(g.name)}" onload="this.classList.add('loaded');this.parentElement.classList.add('loaded')" onerror="this.style.display='none'">
       ${featured ? '<div class="v-shine"></div>' : ''}
+      ${isNew ? '<span class="v-new-badge">New</span>' : ''}
       <button class="v-fav-btn${isFav ? ' active' : ''}" data-fav="${escHtml(g.code)}" aria-label="Favourite"><i class="fa-${isFav ? 'solid' : 'regular'} fa-heart"></i></button>
       <div class="v-card-overlay"><div class="v-play-btn">
         <svg fill="currentColor" viewBox="0 0 24 24"><path d="M5 3l14 9-14 9V3z"/></svg>

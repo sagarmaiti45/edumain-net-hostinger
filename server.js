@@ -193,11 +193,30 @@ function parseCSVRow(line) {
   return fields;
 }
 
-app.get(['/api/vault.php', '/api/vault'], (req, res) => {
+let existingThumbs = null;
+let lastThumbsUpdate = 0;
+
+app.get(['/api/vault.php', '/api/vault'], async (req, res) => {
   const csvPath = path.join(ROOT, 'games_list.csv');
   if (!fs.existsSync(csvPath)) return res.json([]);
 
-  const lines = fs.readFileSync(csvPath, 'utf8').split(/\r?\n/);
+  const now = Date.now();
+  if (!existingThumbs || now - lastThumbsUpdate > 300000) {
+    existingThumbs = new Set();
+    const thumbsDir = path.join(ROOT, 'thumbs');
+    if (fs.existsSync(thumbsDir)) {
+      try {
+        const files = await fs.promises.readdir(thumbsDir);
+        for (const file of files) existingThumbs.add(file);
+        lastThumbsUpdate = now;
+      } catch (err) {
+        console.error('Error reading thumbs directory:', err);
+      }
+    }
+  }
+
+  const csvContent = await fs.promises.readFile(csvPath, 'utf8');
+  const lines = csvContent.split(/\r?\n/);
   const hiddenDomains = ['watermelon46.com', 'html5.gamedistribution.com'];
   const thumbExts = ['.webp', '.jpg', '.png', '.jpeg'];
   const data = [];
@@ -218,7 +237,7 @@ app.get(['/api/vault.php', '/api/vault'], (req, res) => {
 
     let thumb = null;
     for (const ext of thumbExts) {
-      if (fs.existsSync(path.join(ROOT, 'thumbs', code + ext))) {
+      if (existingThumbs.has(code + ext)) {
         thumb = '/thumbs/' + code + ext; break;
       }
     }
@@ -229,7 +248,7 @@ app.get(['/api/vault.php', '/api/vault'], (req, res) => {
       const tryId = (geetMatch && geetMatch[1]) || (broMatch && broMatch[1]) || '';
       if (tryId) {
         for (const ext of thumbExts) {
-          if (fs.existsSync(path.join(ROOT, 'thumbs', tryId + ext))) {
+          if (existingThumbs.has(tryId + ext)) {
             thumb = '/thumbs/' + tryId + ext; break;
           }
         }
