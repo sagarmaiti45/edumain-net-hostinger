@@ -1,11 +1,12 @@
 <%
 const subject_slug = _GET.subject || '';
 const topic_id = _GET.id || '';
-const subj = get_topics_by_subject(subject_slug)[0] || {name: 'Subject'}; // rough fallback
+const subj = SUBJECTS.find(s => s.slug === subject_slug) || {name:'Subject',color:'#6366f1',bg:'#eef2ff',icon:'fa-book'};
 const topic = get_topic(topic_id);
-if (!topic) { /* redirect to 404 ideally */ }
 locals.meta_title = topic ? topic.title + ' - ' + subj.name + ' - EduMain' : 'Topic';
 locals.body_class = 'page-topic';
+const countryLabels = {US:'🇺🇸 USA',UK:'🇬🇧 UK',AU:'🇦🇺 AUS',ES:'🇪🇸 Spain'};
+const relatedTopics = (topic && topic.related || []).map(id => get_topic(id)).filter(Boolean);
 %>
 <%- include('partials/header') %>
 
@@ -28,8 +29,8 @@ locals.body_class = 'page-topic';
     <div class="topic-hero-meta">
       <span class="meta-tag"><i class="fa-solid fa-graduation-cap"></i> Year <%= Math.min(...topic.grade) + "-" + Math.max(...topic.grade) %></span>
       <span class="meta-tag topic-diff-<%= topic.difficulty %>"><%= topic.difficulty.charAt(0).toUpperCase() + topic.difficulty.slice(1) %></span>
-      <% topic['countries'].forEach(c => { %>
-      <span class="meta-tag meta-country"><%= match(c){ 'US'=>'🇺🇸 USA','UK'=>'🇬🇧 UK','AU'=>'🇦🇺 AUS','ES'=>'🇪🇸 Spain',default=>c } %></span>
+      <% topic.countries.forEach(c => { %>
+      <span class="meta-tag meta-country"><%= countryLabels[c] || c %></span>
       <% }); %>
     </div>
   </div>
@@ -52,7 +53,7 @@ locals.body_class = 'page-topic';
         <i class="fa-solid fa-lightbulb"></i> Key Facts
       </div>
       <ul class="facts-list">
-        <% topic['facts'].forEach(fact => { %>
+        <% topic.facts.forEach(fact => { %>
         <li><%= fact %></li>
         <% }); %>
       </ul>
@@ -67,18 +68,18 @@ locals.body_class = 'page-topic';
     </div>
 
     <!-- Quick Quiz -->
-    <% if (!empty(topic['quiz'])) { %>
+    <% if (topic.quiz && topic.quiz.length) { %>
     <div class="topic-quiz" id="topic-quiz">
       <div class="quiz-header" style="background:<%= subj.color %>">
         <i class="fa-solid fa-circle-question"></i> Quick Quiz
-        <span class="quiz-sub"><%= count(topic.quiz) %> questions</span>
+        <span class="quiz-sub"><%= topic.quiz.length %> questions</span>
       </div>
       <div class="quiz-body">
-        <% topic['quiz'].forEach(qi => q => { %>
+        <% topic.quiz.forEach((q, qi) => { %>
         <div class="quiz-q" data-qi="<%= qi %>" data-correct="<%= q.correct %>">
           <p class="quiz-question"><strong>Q<%= qi + 1 %>.</strong> <%= q.q %></p>
           <div class="quiz-options">
-            <% q['options'].forEach(oi => opt => { %>
+            <% q.options.forEach((opt, oi) => { %>
             <button class="quiz-opt" data-oi="<%= oi %>"><%= opt %></button>
             <% }); %>
           </div>
@@ -88,7 +89,7 @@ locals.body_class = 'page-topic';
         <div class="quiz-score" style="display:none">
           <div class="quiz-score-inner">
             <div class="quiz-score-icon"><i class="fa-solid fa-trophy"></i></div>
-            <div class="quiz-score-text">You scored <strong id="quiz-score-num">0</strong> / <%= count(topic.quiz) %></div>
+            <div class="quiz-score-text">You scored <strong id="quiz-score-num">0</strong> / <%= topic.quiz.length %></div>
             <button class="quiz-retry-btn">Try Again</button>
           </div>
         </div>
@@ -102,13 +103,12 @@ locals.body_class = 'page-topic';
   <aside class="topic-sidebar">
 
     <!-- Related Topics -->
-    <% if (related) { %>
+    <% if (relatedTopics.length) { %>
     <div class="sidebar-widget">
       <h3 class="widget-title"><i class="fa-solid fa-link"></i> Related Topics</h3>
       <div class="related-list">
-        <?php foreach ($related as $rt):
-          $rsubj = $subjectMap[$rt['subject']] ?? ['color'=>'#7c3aed','icon'=>'fa-book','name'=>$rt['subject']];
-        ?>
+        <% relatedTopics.forEach(rt => { %>
+        <% const rsubj = SUBJECTS.find(s => s.slug === rt.subject) || {color:'#7c3aed',icon:'fa-book',name:rt.subject}; %>
         <a href="/<%= rt.subject %>/<%= rt.id %>" class="related-item" style="--tc:<%= rsubj.color %>">
           <span class="related-icon" style="background:<%= rsubj.color %>"><i class="fa-solid <%= rsubj.icon %>"></i></span>
           <div>

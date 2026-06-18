@@ -317,6 +317,8 @@ app.get('/:subject/:topic', (req, res, next) => {
     const subject = req.params.subject;
     const topicId = req.params.topic;
     if (slugs.includes(subject)) {
+        const topic = get_topic(topicId);
+        if (!topic || topic.subject !== subject) { next(); return; }
         res.locals._GET.subject = subject;
         res.locals._GET.id = topicId;
         res.render('topic');
