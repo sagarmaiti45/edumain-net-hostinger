@@ -38,10 +38,13 @@ document.addEventListener('pointerlockchange', function() {
   }
 });
 document.addEventListener('keydown', function(e) {
-  if (e.key === 'Escape' && document.getElementById('vault-overlay').classList.contains('open')) {
-    if (document.fullscreenElement) { document.exitFullscreen().then(function() { closeVault(); }); return; }
-    if (_pointerLockJustReleased) { _pointerLockJustReleased = false; return; }
-    closeVault();
+  if (document.getElementById('vault-overlay').classList.contains('open')) {
+    if (e.key === 'Escape') {
+      if (document.fullscreenElement) { document.exitFullscreen().then(function() { closeVault(); }); return; }
+      if (_pointerLockJustReleased) { _pointerLockJustReleased = false; return; }
+      closeVault();
+    }
+    if ((e.key === 'f' || e.key === 'F') && fsBtn && !document.fullscreenElement) { fsBtn.click(); }
   }
 });
 
