@@ -2163,8 +2163,7 @@ body.page-article .page-wrap {
   .ra-grid { grid-template-columns: 1fr; }
   .article-page h1, .cat-hero h1 { font-size: 1.4rem; }
   .calc-col { max-width: 100%; padding: 0 28px; }
-  .home-hero-title { font-size: 1.35rem; }
-  .home-section-title { font-size: 1.35rem; }
+  .home-hero-title { font-size: 1.5rem; }
   .posts-grid { grid-template-columns: 1fr; }
   .logo { font-size: 1.2rem; }
 }
