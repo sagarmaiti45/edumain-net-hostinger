@@ -1,3 +1,11 @@
+<%
+const _tool = TOOLS.find(t => t.slug === _uri.split('/').pop());
+locals.meta_title = (_tool ? _tool.name : 'Math Tool') + ' - EduMain';
+locals.meta_desc = _tool ? _tool.desc : '';
+locals.body_class = 'page-tool';
+%>
+<%- include('partials/header') %>
+
 <style>
 .tri-page { background: #0d1f1f; min-height: 60vh; padding: 2rem 1rem; color: #e2f8f5; font-family: 'Segoe UI', sans-serif; border-radius: 16px; overflow: hidden; max-width: 900px; margin-left: auto; margin-right: auto; }
 .tri-hero { text-align: center; margin-bottom: 2rem; }
@@ -437,4 +445,4 @@ function shareThisPage() {
 </div>
 </div><!-- /tool-page-layout -->
 
-<?php include __DIR__ . '/../_footer.php'; ?>
+<%- include('partials/footer') %>

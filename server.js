@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const fs = require('fs');
+const ejs = require('ejs');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -102,6 +103,14 @@ const GLOBAL_DATA = {
 };
 
 // ── Setup Express & View Engine ──────────────────────────────────────────────
+// unsafePrototypeLocals: EJS 6 defaults to shallow-copying `locals` per render call, which
+// silently breaks the site-wide pattern of `locals.meta_title = X` (mutated inside a template)
+// being picked up by a later `<%- include('partials/header') %>` - every dynamic page was
+// rendering with the generic fallback title/description. This restores the shared-reference
+// behavior so those mutations propagate into includes as every template here assumes.
+app.engine('ejs', (filePath, options, callback) => {
+    ejs.renderFile(filePath, options, { unsafePrototypeLocals: true }, callback);
+});
 app.set('view engine', 'ejs');
 app.set('views', path.join(ROOT, 'views'));
 app.use(express.urlencoded({ extended: true }));

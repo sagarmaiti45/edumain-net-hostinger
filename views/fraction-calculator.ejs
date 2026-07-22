@@ -1,3 +1,11 @@
+<%
+const _tool = TOOLS.find(t => t.slug === _uri.split('/').pop());
+locals.meta_title = (_tool ? _tool.name : 'Math Tool') + ' - EduMain';
+locals.meta_desc = _tool ? _tool.desc : '';
+locals.body_class = 'page-tool';
+%>
+<%- include('partials/header') %>
+
 <style>
 :root {
   --frac-bg: #fdf4ff;
@@ -542,4 +550,4 @@ function shareThisPage() {
 </div>
 </div><!-- /tool-page-layout -->
 
-<?php include __DIR__ . '/../_footer.php'; ?>
+<%- include('partials/footer') %>
