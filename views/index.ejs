@@ -5,6 +5,16 @@ locals.body_class = 'page-home';
 
 const all_topics = get_topics();
 const featured = all_topics.filter(t => t.featured);
+const recent = all_topics.slice(-8).reverse();
+
+const faqs = [
+  { q: 'Is EduMain really free to use?', a: 'Yes. Every topic explainer, quiz and math tool on EduMain is completely free - no sign-up, no subscription and no hidden paywall.' },
+  { q: 'What age group is EduMain designed for?', a: 'EduMain is written for students aged 6 to 16, covering primary through to early secondary school level across all subjects.' },
+  { q: 'Which countries\' curriculums does EduMain cover?', a: 'Topics are aligned with curriculum standards from the USA (Common Core), UK (National Curriculum), Australia (ACARA) and Spain (LOMLOE).' },
+  { q: 'How do the quizzes work?', a: 'Every topic page ends with a short multiple-choice quiz. Pick an answer and you\'ll get instant feedback on whether you got it right, so you can check your understanding straight away.' },
+  { q: 'Do I need to create an account?', a: 'No account is needed. Just pick a subject or search for a topic and start reading - your progress isn\'t tracked or stored anywhere.' },
+  { q: 'Can I use the math tools for homework?', a: 'Yes, the 15 free math calculators are built for exactly that - checking your working, solving equations and understanding the steps behind a calculation.' }
+];
 %>
 <%- include('partials/header') %>
 
@@ -111,6 +121,33 @@ const featured = all_topics.filter(t => t.featured);
         <span class="subject-card-desc"><%= t.desc %></span>
       </div>
       <div class="subject-card-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+    </a>
+    <% }); %>
+  </div>
+</section>
+
+<!-- ══ RECENTLY ADDED TOPICS ══ -->
+<section class="home-section">
+  <div class="section-header">
+    <h2 class="section-title">Recently Added</h2>
+    <p class="section-sub">The newest topics we've just added to EduMain</p>
+  </div>
+  <div class="topic-grid">
+    <% recent.forEach(t => {
+      const subj = subjectMap[t.subject] || {color:'#7c3aed',name:t.subject,icon:'fa-book'};
+    %>
+    <a href="/<%= t.subject %>/<%= t.id %>" class="topic-card" style="--tc:<%= subj.color %>">
+      <div class="topic-card-subj" style="background:<%= subj.color %>">
+        <i class="fa-solid <%= subj.icon %>"></i> <%= subj.name %>
+      </div>
+      <div class="topic-card-body">
+        <h3 class="topic-card-title"><%= t.title %></h3>
+        <p class="topic-card-desc"><%= t.desc %></p>
+      </div>
+      <div class="topic-card-footer">
+        <span class="topic-card-grade">Yr <%= Math.min(...t.grade) %>-<%= Math.max(...t.grade) %></span>
+        <span class="topic-card-diff topic-diff-<%= t.difficulty %>"><%= t.difficulty.charAt(0).toUpperCase() + t.difficulty.slice(1) %></span>
+      </div>
     </a>
     <% }); %>
   </div>
@@ -232,10 +269,41 @@ const featured = all_topics.filter(t => t.featured);
   </div>
 </section>
 
+<!-- ══ FAQ ══ -->
+<section class="home-section">
+  <div class="section-header">
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    <p class="section-sub">Quick answers about how EduMain works</p>
+  </div>
+  <div class="faq-list">
+    <% faqs.forEach(f => { %>
+    <details class="faq-item">
+      <summary><span><%= f.q %></span><span class="faq-icon"><i class="fa-solid fa-plus"></i></span></summary>
+      <div class="faq-item-body"><%= f.a %></div>
+    </details>
+    <% }); %>
+  </div>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      <% faqs.forEach((f, i) => { %>
+      {
+        "@type": "Question",
+        "name": <%- JSON.stringify(f.q) %>,
+        "acceptedAnswer": { "@type": "Answer", "text": <%- JSON.stringify(f.a) %> }
+      }<%= i < faqs.length - 1 ? ',' : '' %>
+      <% }); %>
+    ]
+  }
+  </script>
+</section>
+
 <!-- ══ STATS BANNER ══ -->
 <section class="home-stats-banner">
   <div class="stats-inner">
-    <div class="stat-item"><strong>87+</strong><span>Topics Explained</span></div>
+    <div class="stat-item"><strong>107+</strong><span>Topics Explained</span></div>
     <div class="stat-item"><strong>10</strong><span>School Subjects</span></div>
     <div class="stat-item"><strong>15</strong><span>Math Tools</span></div>
     <div class="stat-item"><strong>4</strong><span>Countries</span></div>

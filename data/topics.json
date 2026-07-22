@@ -5689,5 +5689,1346 @@
       "german-basics",
       "english-grammar"
     ]
+  },
+  {
+    "id": "negative-numbers",
+    "title": "Negative Numbers Explained",
+    "subject": "math",
+    "grade": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": true,
+    "desc": "Negative numbers are values less than zero. Learn how they work on a number line and how to add and subtract them using real-world examples.",
+    "intro": "Not every number is positive - some numbers are less than zero, and we call these negative numbers. You use them more often than you might think: when the temperature drops below freezing, when a bank balance goes into debt, or when describing a depth below sea level, you're using negative numbers.",
+    "facts": [
+      "A negative number is any number less than zero, and it's written with a minus sign in front, like -5.",
+      "On a number line, negative numbers sit to the left of zero, while positive numbers sit to the right - the further left a number is, the smaller its value.",
+      "Adding a negative number works like subtracting: 3 + (-2) is the same as 3 - 2, which equals 1.",
+      "Subtracting a negative number works like adding: 5 - (-3) is the same as 5 + 3, which equals 8.",
+      "Negative numbers show up all around us - in temperatures below freezing (-5°C), in bank balances that show debt, and in elevations below sea level, like Death Valley at about -282 feet."
+    ],
+    "quiz": [
+      {
+        "q": "Which number is smaller, -8 or -3?",
+        "options": [
+          "-8",
+          "-3",
+          "3",
+          "8"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "What is -4 + 6?",
+        "options": [
+          "-10",
+          "-2",
+          "2",
+          "10"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What is 5 - (-2)?",
+        "options": [
+          "3",
+          "7",
+          "-7",
+          "-3"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "fractions",
+      "decimals",
+      "bodmas",
+      "mean-median-mode"
+    ]
+  },
+  {
+    "id": "mean-median-mode",
+    "title": "Mean, Median and Mode",
+    "subject": "math",
+    "grade": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "Mean, median and mode are three different ways to describe the 'average' of a set of numbers, each useful in different situations.",
+    "intro": "When people talk about an 'average,' they usually mean one of three things: the mean, the median, or the mode. Each one finds a different kind of 'typical' value in a set of numbers, and knowing which one to use can change how you understand data like test scores, house prices, or shoe sizes.",
+    "facts": [
+      "The mean is found by adding up all the numbers in a data set and dividing by how many numbers there are.",
+      "The median is the middle number when the data set is arranged in order from smallest to largest; if there are two middle numbers, the median is their mean.",
+      "The mode is the number that appears most often in a data set - a data set can have one mode, more than one mode, or no mode at all.",
+      "The mean can be pulled higher or lower by outliers (numbers much bigger or smaller than the rest), while the median usually stays closer to the 'typical' value.",
+      "For example, in the data set 3, 5, 5, 7, 9: the mean is 5.8, the median is 5, and the mode is 5."
+    ],
+    "quiz": [
+      {
+        "q": "In the data set 6, 6, 9, 10, 14, what is the mode?",
+        "options": [
+          "6",
+          "9",
+          "10",
+          "14"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "What is the median of the data set 3, 8, 10, 8, 20?",
+        "options": [
+          "3",
+          "10",
+          "8",
+          "20"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What is the mean of 5, 7, 9, 11?",
+        "options": [
+          "5",
+          "7",
+          "9",
+          "8"
+        ],
+        "correct": 3
+      }
+    ],
+    "related": [
+      "negative-numbers",
+      "fractions",
+      "probability",
+      "decimals"
+    ]
+  },
+  {
+    "id": "gravity-explained",
+    "title": "Gravity Explained",
+    "subject": "science",
+    "grade": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": true,
+    "desc": "Gravity is the invisible force that pulls objects toward each other. Discover why things fall, how Newton described it, and why you'd weigh less on the Moon.",
+    "intro": "Gravity is a force that pulls objects with mass toward each other, and it's the reason a dropped ball falls to the ground instead of floating away. The bigger and heavier an object is, the stronger its gravitational pull, which is why Earth can hold you, the oceans, and even the Moon in its pull.",
+    "facts": [
+      "Gravity is a force that pulls any two objects with mass toward each other, and the more mass an object has, the stronger its gravitational pull.",
+      "Earth's gravity pulls everything on or near the planet toward its center, which is why dropped objects fall down instead of floating away.",
+      "Sir Isaac Newton was one of the first scientists to explain gravity as a universal force, showing that the same force pulling objects to the ground also keeps the Moon orbiting Earth.",
+      "Gravity is different on other worlds: the Moon's gravity is about one-sixth as strong as Earth's, while Jupiter's gravity is much stronger than Earth's.",
+      "Mass is the amount of matter in an object and never changes, but weight is the force of gravity pulling on that mass - so your weight would be different on the Moon even though your mass stays the same."
+    ],
+    "quiz": [
+      {
+        "q": "According to a famous story, what fell and made Isaac Newton think about gravity?",
+        "options": [
+          "A falling apple",
+          "A falling leaf",
+          "A dropped stone",
+          "A falling coconut"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Why does an astronaut weigh less on the Moon than on Earth?",
+        "options": [
+          "Astronauts remove their spacesuits on the Moon",
+          "There is no air resistance on the Moon",
+          "The Moon's gravity is weaker than Earth's",
+          "The Moon has more mass than Earth"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Which statement is true about mass and weight?",
+        "options": [
+          "Neither mass nor weight ever changes",
+          "Mass changes depending on gravity, but weight stays the same",
+          "Mass and weight are always the same number",
+          "Weight changes depending on gravity, but mass stays the same"
+        ],
+        "correct": 3
+      }
+    ],
+    "related": [
+      "forces-motion",
+      "solar-system",
+      "matter-states",
+      "sound-waves"
+    ]
+  },
+  {
+    "id": "sound-waves",
+    "title": "Sound and Waves",
+    "subject": "science",
+    "grade": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "Sound is energy that travels as vibrating waves. Learn how pitch, volume, and the material sound travels through all change what you hear.",
+    "intro": "Every sound you hear, from a whisper to a drumbeat, starts with something vibrating. Those vibrations travel outward as waves through air, water, or solid objects and reach your ears, where your brain turns them into sound.",
+    "facts": [
+      "Sound is a form of energy created by vibrations that travel through a medium, such as air, water, or a solid object, in the form of waves.",
+      "Pitch describes how high or low a sound is and depends on frequency - how many times per second something vibrates, measured in hertz (Hz); faster vibrations make a higher pitch.",
+      "Volume describes how loud or soft a sound is and depends on amplitude - the size of the sound wave's vibrations; bigger vibrations make a louder sound.",
+      "Sound travels at different speeds depending on the medium - it moves fastest through solids, slower through liquids, and slowest through gases like air, because particles that are closer together pass vibrations along more quickly.",
+      "Sound cannot travel through the vacuum of space because there are no particles there to vibrate and carry the sound wave, which is why space is silent."
+    ],
+    "quiz": [
+      {
+        "q": "What causes sound?",
+        "options": [
+          "Light bouncing off objects",
+          "Vibrations traveling through a medium",
+          "Heat moving through the air",
+          "Electricity flowing through a wire"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What determines the pitch of a sound?",
+        "options": [
+          "Frequency",
+          "Amplitude",
+          "Volume",
+          "Temperature"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Why can't sound travel through space?",
+        "options": [
+          "Space is too cold for vibrations",
+          "There is too much light in space",
+          "Space is a vacuum with no particles to carry vibrations",
+          "Sound waves are too heavy to travel that far"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "forces-motion",
+      "gravity-explained",
+      "matter-states",
+      "electricity"
+    ]
+  },
+  {
+    "id": "french-revolution",
+    "title": "The French Revolution",
+    "subject": "history",
+    "grade": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": true,
+    "desc": "The French Revolution (1789-1799) overthrew the French monarchy and reshaped Europe. Learn its causes, key events like the storming of the Bastille, and lasting impact.",
+    "intro": "The French Revolution was a period of dramatic political and social upheaval in France between 1789 and 1799 that overthrew the monarchy and the old system of privilege. It was driven by deep inequality between social classes, a financial crisis in the government, and new Enlightenment ideas about liberty and equal rights. The revolution's violence and chaos eventually opened the door for Napoleon Bonaparte to seize power.",
+    "facts": [
+      "The French Revolution began in 1789, sparked by widespread inequality, a huge national debt, and Enlightenment ideas about liberty and equal rights.",
+      "French society was divided into three estates - the clergy, the nobility, and everyone else (commoners) - who paid almost all the taxes despite being the poorest.",
+      "On 14 July 1789, Parisians stormed the Bastille prison, an event that became a symbol of the revolution and is still celebrated as France's national day.",
+      "During the Reign of Terror (1793-1794), radical leader Maximilien Robespierre had thousands of people, including King Louis XVI, executed by guillotine.",
+      "The revolution ended when Napoleon Bonaparte seized power in 1799, but its ideals of 'liberty, equality, fraternity' influenced democratic movements around the world."
+    ],
+    "quiz": [
+      {
+        "q": "What event on 14 July 1789 became a famous symbol of the French Revolution?",
+        "options": [
+          "Execution of Louis XVI",
+          "Storming of the Bastille",
+          "Signing of the Declaration of Independence",
+          "Battle of Waterloo"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Which French leader was most associated with the Reign of Terror?",
+        "options": [
+          "Napoleon Bonaparte",
+          "Louis XVI",
+          "Maximilien Robespierre",
+          "Marie Antoinette"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What was one major cause of the French Revolution?",
+        "options": [
+          "A shortage of soldiers",
+          "Peace treaty disputes with Spain",
+          "Overpopulation in rural areas",
+          "Inequality between the estates and a financial crisis"
+        ],
+        "correct": 3
+      }
+    ],
+    "related": [
+      "american-revolution",
+      "industrial-revolution",
+      "renaissance"
+    ]
+  },
+  {
+    "id": "vikings",
+    "title": "Who Were the Vikings?",
+    "subject": "history",
+    "grade": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "The Vikings were Scandinavian seafarers, traders, and raiders who explored and settled across Europe and beyond between the 8th and 11th centuries.",
+    "intro": "The Vikings were seafaring people from Scandinavia who sailed across Europe and beyond between roughly 793 and 1066 AD, a time known as the Viking Age. While they are famous for raiding towns and monasteries, Vikings were also skilled traders, farmers, and explorers who settled in new lands and even reached North America. Many popular ideas about Vikings, like horned helmets, are actually myths.",
+    "facts": [
+      "The Vikings were seafaring people from Scandinavia - modern-day Norway, Sweden, and Denmark - who were active from about 793 to 1066 AD, a period called the Viking Age.",
+      "Vikings built fast, sturdy wooden ships called longships, which had shallow bottoms that let them sail across oceans and also up rivers to raid inland towns.",
+      "Viking raiders famously attacked the monastery at Lindisfarne in England in 793 AD, but Vikings were also traders, farmers, and explorers, not just warriors.",
+      "Viking explorers settled in Iceland and Greenland, and Leif Erikson is believed to have reached North America around 1000 AD, roughly 500 years before Columbus.",
+      "Despite popular images, real Vikings did not wear horned helmets - that idea came from 19th-century costume designers, not from any Viking-age evidence."
+    ],
+    "quiz": [
+      {
+        "q": "Where did the Vikings originally come from?",
+        "options": [
+          "Scandinavia",
+          "Southern Italy",
+          "North Africa",
+          "Eastern Russia"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "What were Viking longships specially designed to do?",
+        "options": [
+          "Carry only cargo, never people",
+          "Sail across oceans and travel up shallow rivers",
+          "Stay permanently anchored near shore",
+          "Travel only in winter"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Which of these is true about Viking helmets?",
+        "options": [
+          "They always had two horns",
+          "They were made entirely of gold",
+          "There is no evidence real Vikings wore horned helmets",
+          "Only Viking kings wore helmets"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "medieval-europe",
+      "roman-empire",
+      "renaissance"
+    ]
+  },
+  {
+    "id": "similes-metaphors",
+    "title": "Similes and Metaphors",
+    "subject": "english",
+    "grade": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "Similes and metaphors are two ways writers compare things to make their writing more vivid. Learn the difference between them with clear examples.",
+    "intro": "Similes and metaphors are two ways writers compare one thing to another to make their writing more interesting and vivid. A simile uses the words 'like' or 'as' to compare two things, such as 'brave as a lion.' A metaphor skips those words and says one thing IS another, such as 'he is a lion in battle.'",
+    "facts": [
+      "A simile compares two different things using the words 'like' or 'as' - for example, 'The ice was as cold as a winter morning.'",
+      "A metaphor also compares two things, but it says one thing IS the other without using 'like' or 'as' - for example, 'The classroom was a zoo.'",
+      "Metaphors are usually considered stronger or more direct than similes because they state the comparison as fact instead of just suggesting it.",
+      "Writers use similes and metaphors to help readers picture an idea more clearly or feel an emotion more strongly than plain description would.",
+      "Both similes and metaphors compare things that are not literally alike but share one surprising quality, like comparing a person's voice to velvet because both are smooth."
+    ],
+    "quiz": [
+      {
+        "q": "Which word or words tell you a sentence is a simile rather than a metaphor?",
+        "options": [
+          "Is or was",
+          "Like or as",
+          "And or but",
+          "Very or really"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Which sentence is a metaphor?",
+        "options": [
+          "Her smile was like sunshine.",
+          "He ran as fast as a cheetah.",
+          "The playground was a battlefield.",
+          "The snow was as white as milk."
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Why do writers use similes and metaphors?",
+        "options": [
+          "To help readers picture ideas more vividly",
+          "To make sentences longer",
+          "To confuse the reader",
+          "To avoid using adjectives"
+        ],
+        "correct": 0
+      }
+    ],
+    "related": [
+      "figurative-language",
+      "creative-writing",
+      "sentence-structure"
+    ]
+  },
+  {
+    "id": "reading-comprehension",
+    "title": "Reading Comprehension Skills",
+    "subject": "english",
+    "grade": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": true,
+    "desc": "Reading comprehension is the skill of understanding, analyzing and remembering what you read. Learn strategies like skimming, scanning and making inferences.",
+    "intro": "Reading comprehension is the ability to understand and think about what you read, not just say the words correctly. Good readers use different strategies depending on their purpose - sometimes skimming quickly for an overview, sometimes reading closely to catch every detail.",
+    "facts": [
+      "Skimming means reading quickly to get a general idea of what a text is about, often by looking at titles, headings, and the first sentence of each paragraph.",
+      "Scanning means moving your eyes quickly over a text to find a specific piece of information, like a date or a name, without reading every word.",
+      "Close reading means reading slowly and carefully, often more than once, to understand the details, word choices, and deeper meaning of a text.",
+      "The main idea of a text is the most important point the author is making - supporting details in the text all connect back to and explain this main idea.",
+      "Making an inference means using clues from the text plus what you already know to figure out something the author does not state directly."
+    ],
+    "quiz": [
+      {
+        "q": "Which reading strategy is best for quickly finding one specific fact, like a date?",
+        "options": [
+          "Close reading",
+          "Skimming",
+          "Scanning",
+          "Rereading the whole book"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What is the 'main idea' of a text?",
+        "options": [
+          "A random detail mentioned once",
+          "The most important point the author is making",
+          "The last sentence of the text",
+          "The title of the text"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What does it mean to 'make an inference' while reading?",
+        "options": [
+          "Use clues in the text plus what you already know to figure something out",
+          "Copy a sentence exactly from the text",
+          "Skip parts of the text you don't understand",
+          "Read the text out loud"
+        ],
+        "correct": 0
+      }
+    ],
+    "related": [
+      "essay-writing",
+      "persuasive-writing",
+      "sentence-structure"
+    ]
+  },
+  {
+    "id": "weather-vs-climate",
+    "title": "Weather vs Climate",
+    "subject": "geography",
+    "grade": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": true,
+    "desc": "Weather and climate are often confused, but they describe very different timescales - learn what sets a rainy day apart from a rainy climate.",
+    "intro": "Have you ever heard someone say \"it's cold today, so global warming can't be real\"? That mixes up two different ideas: weather and climate. Weather is what's happening in the sky right now - is it sunny, rainy, windy, or cold? Climate is the usual pattern of weather a place has over many, many years.",
+    "facts": [
+      "Weather is the day-to-day state of the atmosphere - things like temperature, rain, wind and sunshine at a particular time and place.",
+      "Climate is the average pattern of weather in a region, usually measured over a period of at least 30 years.",
+      "Meteorologists use instruments such as thermometers, barometers and rain gauges to measure and forecast the weather.",
+      "A place can have a hot, dry climate overall but still experience an unusually cold or rainy day - weather and climate work on different timescales.",
+      "Scientists study long-term climate data, not single days, to identify climate change - a shift in average climate patterns over decades."
+    ],
+    "quiz": [
+      {
+        "q": "What does weather describe?",
+        "options": [
+          "The average conditions over 30 years",
+          "The state of the atmosphere at a specific time and place",
+          "The types of rocks found in a region",
+          "The population of a country"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "How long a period is typically used to define a region's climate?",
+        "options": [
+          "A single day",
+          "One week",
+          "At least 30 years",
+          "One season"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Which statement about weather and climate is true?",
+        "options": [
+          "Weather and climate mean exactly the same thing",
+          "A single cold day disproves climate change",
+          "Climate is measured minute to minute",
+          "Climate describes long-term average weather patterns"
+        ],
+        "correct": 3
+      }
+    ],
+    "related": [
+      "climate-zones",
+      "biomes-ecosystems",
+      "rainforests",
+      "plate-tectonics"
+    ]
+  },
+  {
+    "id": "population-migration",
+    "title": "Population and Migration",
+    "subject": "geography",
+    "grade": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "Millions of people move to new places every year - learn what migration is, why people migrate, and how it changes the places they leave and arrive in.",
+    "intro": "Migration is when people move from one place to live in another, either for a short while or permanently. People migrate for all kinds of reasons - some are forced to leave, while others choose to move in search of a better life.",
+    "facts": [
+      "Migration is the movement of people from one place to settle in another, either within the same country or across national borders.",
+      "Push factors are reasons that drive people away from a place, such as war, poverty, natural disasters or a lack of jobs.",
+      "Pull factors are reasons that attract people to a new place, such as better job opportunities, safety, education or family already living there.",
+      "Internal migration happens within the same country, like moving from a rural village to a city, while international migration crosses national borders.",
+      "Migration changes both places involved: the area people leave can lose workers and population, while the area they move to often grows and becomes more diverse, though it can also face extra pressure on housing, jobs and services."
+    ],
+    "quiz": [
+      {
+        "q": "What is a push factor?",
+        "options": [
+          "A reason that drives people away from a place",
+          "A reason that attracts people to a new place",
+          "A country's total population",
+          "A type of travel visa"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Moving from a rural village to a city within the same country is an example of what type of migration?",
+        "options": [
+          "International migration",
+          "Emigration abroad",
+          "Internal migration",
+          "A pull factor"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Which of these is most likely to be a pull factor drawing migrants to a new place?",
+        "options": [
+          "War in the home country",
+          "Drought and famine",
+          "Lack of jobs at home",
+          "Better job opportunities and safety"
+        ],
+        "correct": 3
+      }
+    ],
+    "related": [
+      "urbanisation",
+      "climate-zones",
+      "weather-vs-climate"
+    ]
+  },
+  {
+    "id": "cyber-security-basics",
+    "title": "Cyber Security Basics",
+    "subject": "computing",
+    "grade": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": true,
+    "desc": "From viruses to phishing scams, learn the everyday threats to your devices and data, and the simple habits that keep you protected online.",
+    "intro": "Every time you use a phone, tablet or computer, you're a target for people trying to steal your information or damage your device. Cyber security is the practice of protecting computers, networks and data from these threats, and a few simple habits can keep you much safer online.",
+    "facts": [
+      "Cyber security means protecting computers, networks and data from theft, damage or unauthorized access.",
+      "A computer virus is a type of malicious software (malware) that can copy itself and damage files or steal information.",
+      "Phishing is when scammers send fake emails or messages pretending to be a trusted company or person to trick you into giving away passwords or personal information.",
+      "A strong password uses a long mix of letters, numbers and symbols, and should never be reused across different accounts.",
+      "Keeping software and apps updated is important because updates often fix security weaknesses that hackers could otherwise use to break in."
+    ],
+    "quiz": [
+      {
+        "q": "What is malware?",
+        "options": [
+          "A type of strong password",
+          "Malicious software that can harm a computer or steal data",
+          "A type of internet cable",
+          "A security update"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What is phishing?",
+        "options": [
+          "Updating software regularly",
+          "A method of encrypting files",
+          "Tricking someone into giving away personal information through fake messages",
+          "A type of firewall"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Which of these makes a password strongest?",
+        "options": [
+          "Using your birthday",
+          "Using the same password on every account",
+          "A short, simple word",
+          "A long mix of letters, numbers and symbols"
+        ],
+        "correct": 3
+      }
+    ],
+    "related": [
+      "internet-safety",
+      "internet-networks",
+      "data-databases",
+      "how-computers-work"
+    ]
+  },
+  {
+    "id": "how-computers-work",
+    "title": "How Computers Work",
+    "subject": "computing",
+    "grade": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "Inside every computer are a few key parts working together - learn what the CPU, RAM and storage actually do, and how hardware differs from software.",
+    "intro": "A computer might seem like magic, but it's really just several parts working together very quickly. Each part has its own job - some process information, some remember it for a while, and some store it permanently.",
+    "facts": [
+      "The central processing unit (CPU) is often called the \"brain\" of the computer - it carries out instructions and performs calculations.",
+      "RAM (Random Access Memory) temporarily stores data the computer is actively using, but it is cleared when the computer turns off.",
+      "Storage devices, like hard drives and SSDs, save data permanently so it's still there after the computer is switched off.",
+      "Input devices, like a keyboard or mouse, send information into the computer, while output devices, like a screen or speaker, send information back out.",
+      "Hardware refers to the physical parts of a computer you can touch, while software refers to the programs and instructions that tell the hardware what to do."
+    ],
+    "quiz": [
+      {
+        "q": "What is the CPU often called?",
+        "options": [
+          "The storage of the computer",
+          "The brain of the computer",
+          "An output device",
+          "The power source"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What happens to data in RAM when the computer is turned off?",
+        "options": [
+          "It is saved permanently",
+          "It gets copied to the CPU",
+          "It is cleared and lost",
+          "It becomes software"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Which of these is an example of software?",
+        "options": [
+          "A word processing program",
+          "A keyboard",
+          "A monitor",
+          "A hard drive"
+        ],
+        "correct": 0
+      }
+    ],
+    "related": [
+      "binary-numbers",
+      "programming-basics",
+      "cyber-security-basics",
+      "data-databases"
+    ]
+  },
+  {
+    "id": "printmaking-basics",
+    "title": "Printmaking Basics",
+    "subject": "art",
+    "grade": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "An introduction to printmaking - how artists carve, ink and press plates like linocuts and screen prints to create repeatable artworks.",
+    "intro": "Printmaking is a way of making art where an artist prepares a surface, called a plate, covers it with ink, and presses it onto paper to transfer an image. Unlike a painting, which is one single original, a print can be made again and again from the same plate - each copy is called an impression, and a full set of them is called an edition.",
+    "facts": [
+      "Printmaking is the process of transferring an image from a prepared surface, called a matrix or plate, onto another surface, usually paper, and the process can be repeated to make multiple copies called an edition.",
+      "In relief printing, such as linocut or woodcut, the artist carves away the parts of the surface that should stay blank, leaving raised areas that hold the ink and print the design.",
+      "In screen printing, ink is pushed through a fine mesh screen while a stencil blocks the areas that should stay unprinted, letting ink pass through only where the design should appear.",
+      "Because the image is pressed face-down onto the paper, prints often come out as a mirror image of the original design - something printmakers must plan for, especially with text.",
+      "Unlike a drawing or painting, which is a single unique original, a print can be reproduced many times from the same plate, though each impression is still considered an original work of art."
+    ],
+    "quiz": [
+      {
+        "q": "What is the flat surface used to hold and transfer the image in printmaking called?",
+        "options": [
+          "Canvas",
+          "Plate (or matrix)",
+          "Palette",
+          "Easel"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "In relief printing such as linocut, which parts of the surface hold the ink?",
+        "options": [
+          "The carved-away, lowered areas",
+          "The raised areas that were not carved away",
+          "The entire surface equally",
+          "Only the edges"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Why do prints often come out as a mirror image of the original design?",
+        "options": [
+          "Because the ink dries backwards",
+          "Because the image is pressed face-down onto the paper",
+          "Because printmakers always draw backwards for fun",
+          "Prints are never mirrored"
+        ],
+        "correct": 1
+      }
+    ],
+    "related": [
+      "art-techniques",
+      "sculpture-techniques",
+      "art-elements-principles",
+      "color-theory"
+    ]
+  },
+  {
+    "id": "art-elements-principles",
+    "title": "Elements and Principles of Art",
+    "subject": "art",
+    "grade": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": true,
+    "desc": "A guide to the seven elements of art - line, shape, color, value, texture, space and form - and the design principles artists use to arrange them.",
+    "intro": "Every piece of art, from a quick sketch to a famous painting, is built from the same basic ingredients called the elements of art. Once you know these building blocks - and the principles artists use to arrange them, like balance and contrast - you can start to see how any artwork was put together.",
+    "facts": [
+      "The seven elements of art are line, shape, color, value, texture, space, and form - the basic building blocks every artwork is made from.",
+      "Value refers to how light or dark a color is, and artists use it to create shadows, highlights, and a sense of depth.",
+      "Shape is flat and two-dimensional, like a circle or square, while form is three-dimensional and has depth, like a sphere or a cube.",
+      "The principles of design, such as balance, contrast, emphasis, and pattern, describe how artists arrange the elements of art to create an effective or pleasing composition.",
+      "Emphasis is the principle used to draw the viewer's eye to the most important part of an artwork, often created through contrast in color, size, or placement."
+    ],
+    "quiz": [
+      {
+        "q": "Which of these is one of the seven elements of art, rather than a principle of design?",
+        "options": [
+          "Balance",
+          "Texture",
+          "Emphasis",
+          "Unity"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What is the key difference between shape and form?",
+        "options": [
+          "Shape is three-dimensional, form is two-dimensional",
+          "Shape is two-dimensional, form is three-dimensional",
+          "They mean exactly the same thing",
+          "Shape only applies to sculpture"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Which element of art describes how light or dark a color is?",
+        "options": [
+          "Line",
+          "Space",
+          "Value",
+          "Texture"
+        ],
+        "correct": 2
+      }
+    ],
+    "related": [
+      "color-theory",
+      "art-techniques",
+      "perspective-drawing",
+      "printmaking-basics"
+    ]
+  },
+  {
+    "id": "dynamics-tempo",
+    "title": "Dynamics and Tempo in Music",
+    "subject": "music",
+    "grade": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": true,
+    "desc": "How musicians control volume with dynamics and speed with tempo, including Italian terms like forte, allegro and crescendo.",
+    "intro": "Music isn't just about which notes are played - it's also about how loud and how fast they're played. Dynamics tell musicians how loud or soft to play, while tempo tells them how fast or slow, and together they turn plain notes into something expressive.",
+    "facts": [
+      "Dynamics refer to how loud or soft music is played; the two basic dynamic terms are forte (loud) and piano (soft).",
+      "Tempo refers to how fast or slow a piece of music is played, often measured in beats per minute (BPM).",
+      "Many dynamic and tempo terms come from Italian, since early music notation was standardized by Italian composers - for example, crescendo means to gradually get louder, and decrescendo (or diminuendo) means to gradually get softer.",
+      "Common tempo markings include allegro (fast and lively), andante (a walking pace), and adagio (slow).",
+      "Musicians use dynamics and tempo together to add expression and emotion to a piece, making the same notes sound dramatically different depending on how loud or fast they're played."
+    ],
+    "quiz": [
+      {
+        "q": "What does \"forte\" mean in music?",
+        "options": [
+          "Soft",
+          "Loud",
+          "Fast",
+          "Slow"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What does tempo measure in a piece of music?",
+        "options": [
+          "The key of the song",
+          "Which instruments are playing",
+          "How fast or slow the music is played",
+          "How loud or soft the music is"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What does a \"crescendo\" instruct a musician to do?",
+        "options": [
+          "Stop playing",
+          "Slow down gradually",
+          "Play at the same volume",
+          "Gradually get louder"
+        ],
+        "correct": 3
+      }
+    ],
+    "related": [
+      "music-theory-basics",
+      "musical-notation",
+      "rhythm-beat",
+      "famous-composers"
+    ]
+  },
+  {
+    "id": "famous-composers",
+    "title": "Famous Composers Through History",
+    "subject": "music",
+    "grade": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "A look at four influential composers - Bach, Mozart, Beethoven and John Williams - and how each shaped the sound of their musical era.",
+    "intro": "Composers are the people who write the music that orchestras, singers, and bands perform, and some composers have shaped how music sounds for centuries after they lived. From Bach's intricate Baroque melodies to John Williams' modern film scores, each composer below represents a different era of music history.",
+    "facts": [
+      "Johann Sebastian Bach (1685-1750) was a German composer of the Baroque era, famous for intricate works like the Brandenburg Concertos and for his mastery of counterpoint, weaving multiple melodies together.",
+      "Wolfgang Amadeus Mozart (1756-1791) was an Austrian composer who began writing music as a young child and became one of the most prolific composers of the Classical era, writing operas such as The Magic Flute.",
+      "Ludwig van Beethoven (1770-1827) bridged the Classical and Romantic eras and famously kept composing masterpieces, including his Ninth Symphony, even after losing most of his hearing.",
+      "John Williams (born 1932) is a modern American composer best known for iconic film scores, including Star Wars, Jaws, and Harry Potter.",
+      "Each composer's music reflects the style of their era: Bach's is highly structured, Mozart's is elegant and balanced, Beethoven's is emotional and dramatic, and Williams blends orchestral tradition with modern storytelling for film."
+    ],
+    "quiz": [
+      {
+        "q": "Which composer continued writing major works, including his Ninth Symphony, even after losing most of his hearing?",
+        "options": [
+          "Bach",
+          "Mozart",
+          "Beethoven",
+          "John Williams"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What is John Williams best known for composing?",
+        "options": [
+          "Baroque church music",
+          "Film scores like Star Wars and Jaws",
+          "Classical symphonies in the 1700s",
+          "Opera sung in German"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Which Baroque composer was known as a master of counterpoint, weaving multiple melodies together?",
+        "options": [
+          "Mozart",
+          "Beethoven",
+          "John Williams",
+          "Bach"
+        ],
+        "correct": 3
+      }
+    ],
+    "related": [
+      "music-theory-basics",
+      "instruments-orchestra",
+      "dynamics-tempo",
+      "musical-notation"
+    ]
+  },
+  {
+    "id": "italian-basics",
+    "title": "Italian for Beginners",
+    "subject": "languages",
+    "grade": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": true,
+    "desc": "An introduction to Italian for beginners - everyday greetings, numbers 1 to 10, and essential polite phrases.",
+    "intro": "Italian is a beautiful, musical-sounding language spoken by millions of people in Italy and around the world. Just like learning any new language, a great place to start is with simple greetings, numbers, and a few polite phrases you can use every day.",
+    "facts": [
+      "Common Italian greetings include ciao (hi or bye, informal), buongiorno (good morning or good day), and buonasera (good evening).",
+      "The numbers 1 to 10 in Italian are: uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci.",
+      "Essential polite phrases include per favore (please), grazie (thank you), si (yes), and no (no).",
+      "Italian is a Romance language descended from Latin, which means it shares many word roots with Spanish, French, and Portuguese.",
+      "Italian is spoken natively by about 65 million people, mostly in Italy, but also in parts of Switzerland, San Marino, and by Italian communities around the world."
+    ],
+    "quiz": [
+      {
+        "q": "How do you say \"thank you\" in Italian?",
+        "options": [
+          "Ciao",
+          "Scusi",
+          "Grazie",
+          "Prego"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What is the Italian word for the number 5?",
+        "options": [
+          "Tre",
+          "Cinque",
+          "Sette",
+          "Nove"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What language family does Italian belong to?",
+        "options": [
+          "Germanic",
+          "Slavic",
+          "Celtic",
+          "Romance"
+        ],
+        "correct": 3
+      }
+    ],
+    "related": [
+      "spanish-basics",
+      "french-basics",
+      "german-basics",
+      "language-learning-tips"
+    ]
+  },
+  {
+    "id": "common-language-mistakes",
+    "title": "Common Mistakes When Learning a New Language",
+    "subject": "languages",
+    "grade": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "medium",
+    "featured": false,
+    "desc": "The most common mistakes beginners make when learning a new language, from literal translation to false friends, and how to avoid them.",
+    "intro": "Learning a new language is exciting, but almost every learner makes the same handful of mistakes along the way. Knowing what these common traps are, like translating word-for-word or mixing up tricky lookalike words, can help you avoid them and learn faster.",
+    "facts": [
+      "One common mistake is literal translation - translating a phrase word-for-word from your native language, which often produces sentences that sound unnatural or don't make sense in the new language.",
+      "Many languages assign genders (masculine, feminine, sometimes neuter) to nouns, and beginners often forget to match articles and adjectives to a noun's gender, such as saying \"el mesa\" instead of the correct \"la mesa\" in Spanish.",
+      "False friends, or false cognates, are words that look or sound similar across two languages but have different meanings - for example, the Spanish word \"embarazada\" looks like \"embarrassed\" but actually means \"pregnant.\"",
+      "Learners often carry pronunciation habits from their native language into the new one, mispronouncing or replacing sounds that don't exist in their first language.",
+      "Practical ways to avoid these mistakes include listening to native speakers regularly, learning vocabulary in phrases rather than isolated words, and not being afraid to make mistakes, since practice and correction are how fluency develops."
+    ],
+    "quiz": [
+      {
+        "q": "What is a \"false friend\" in language learning?",
+        "options": [
+          "A word that looks similar in two languages but has a different meaning",
+          "A grammar rule that doesn't apply anymore",
+          "A native speaker who won't help you practice",
+          "A word that is spelled the same in both languages"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Why is translating a sentence word-for-word often a mistake?",
+        "options": [
+          "It takes too long to think of the words",
+          "It only works for asking questions",
+          "It is the fastest way to become fluent",
+          "It usually produces sentences that sound unnatural or incorrect"
+        ],
+        "correct": 3
+      },
+      {
+        "q": "Which of these is a good strategy for avoiding common language-learning mistakes?",
+        "options": [
+          "Learn vocabulary in useful phrases and listen to native speakers regularly",
+          "Only study grammar rules and never listen to native speakers",
+          "Avoid speaking out loud until you are completely fluent",
+          "Translate every sentence word-for-word before speaking"
+        ],
+        "correct": 0
+      }
+    ],
+    "related": [
+      "italian-basics",
+      "spanish-basics",
+      "language-learning-tips",
+      "english-grammar"
+    ]
+  },
+  {
+    "id": "warm-up-cool-down",
+    "title": "Warm-Up and Cool-Down: Why They Matter",
+    "subject": "pe",
+    "grade": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": true,
+    "desc": "Why warming up before exercise and cooling down afterward both matter, and what a good warm-up and cool-down routine actually includes.",
+    "intro": "Before you run, play a sport, or work out, your body needs a few minutes to get ready, and afterward, it needs a few minutes to settle back down. Warming up and cooling down might feel like they slow you down, but they actually help prevent injuries and make exercise safer.",
+    "facts": [
+      "A warm-up gradually raises your heart rate and body temperature before exercise, which helps prevent injuries like pulled muscles.",
+      "A good warm-up usually starts with light cardio, such as jogging or jumping jacks, followed by dynamic stretches, like leg swings or arm circles, that move your joints through their full range of motion.",
+      "Cooling down after exercise helps your heart rate return to normal gradually instead of stopping suddenly, which keeps blood flowing evenly and can prevent dizziness.",
+      "A cool-down typically includes slowing your activity down gradually, then static stretches, where you hold a stretch still, to help muscles relax and improve flexibility.",
+      "Skipping a warm-up or cool-down increases the risk of injury and can leave muscles feeling stiffer and more sore in the days after exercise."
+    ],
+    "quiz": [
+      {
+        "q": "What is the main purpose of a warm-up before exercise?",
+        "options": [
+          "To burn the most calories possible",
+          "To gradually raise heart rate and body temperature and prevent injury",
+          "To make you feel tired before you even start",
+          "To replace the need for cooling down"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What type of stretching is typically used during a warm-up?",
+        "options": [
+          "No stretching at all",
+          "Static stretching, where you hold a stretch still",
+          "Only stretching the arms",
+          "Dynamic stretching, moving through a range of motion"
+        ],
+        "correct": 3
+      },
+      {
+        "q": "Why is a cool-down important after exercise?",
+        "options": [
+          "It helps heart rate return to normal gradually and reduces soreness",
+          "It makes your workout longer for no real reason",
+          "It is only necessary for professional athletes",
+          "It replaces the need to warm up next time"
+        ],
+        "correct": 0
+      }
+    ],
+    "related": [
+      "fitness-components",
+      "training-principles",
+      "nutrition-health",
+      "team-vs-individual-sports"
+    ]
+  },
+  {
+    "id": "team-vs-individual-sports",
+    "title": "Team Sports vs Individual Sports",
+    "subject": "pe",
+    "grade": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "countries": [
+      "US",
+      "UK",
+      "AU",
+      "ES"
+    ],
+    "difficulty": "easy",
+    "featured": false,
+    "desc": "The key differences between team sports and individual sports, with examples of each and the different skills they help you build.",
+    "intro": "Some sports, like soccer and basketball, are played in teams where everyone works together toward one goal. Others, like swimming and tennis, put a single athlete in the spotlight, and each type builds different skills that can help you both on and off the field.",
+    "facts": [
+      "Team sports, like soccer, basketball, and volleyball, involve players working together toward a shared goal and require communication and cooperation with teammates.",
+      "Individual sports, like swimming, tennis singles, and gymnastics, rely on a single athlete's own performance, with success or failure resting on that person alone.",
+      "Team sports help build skills like communication, cooperation, and trust in others, since the whole team's result depends on how well players work together.",
+      "Individual sports help build skills like self-discipline, personal accountability, and independent motivation, since athletes must push themselves without relying on teammates.",
+      "Both types of sports offer real benefits for fitness, confidence, and mental health, and many athletes practice both, since skills learned in one can support success in the other."
+    ],
+    "quiz": [
+      {
+        "q": "Which of these is an example of an individual sport?",
+        "options": [
+          "Basketball",
+          "Soccer",
+          "Swimming",
+          "Volleyball"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "What skill do team sports especially help develop?",
+        "options": [
+          "Working alone without any help",
+          "Communication and cooperation with others",
+          "Ignoring your teammates' advice",
+          "Competing only against yourself"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "What skill do individual sports especially help develop?",
+        "options": [
+          "Passing a ball to teammates",
+          "Group celebration routines",
+          "Waiting for a teammate's turn",
+          "Self-discipline and personal accountability"
+        ],
+        "correct": 3
+      }
+    ],
+    "related": [
+      "fitness-components",
+      "sports-rules",
+      "training-principles",
+      "warm-up-cool-down"
+    ]
   }
 ]
