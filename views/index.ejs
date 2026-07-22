@@ -96,25 +96,23 @@ const featured = all_topics.filter(t => t.featured);
   </div>
 </section>
 
-<!-- ══ MATH TOOLS PROMO ══ -->
-<section class="home-section home-section-tools-promo">
-  <div class="tools-promo-inner">
-    <div class="tools-promo-text">
-      <div class="tools-promo-badge"><i class="fa-solid fa-calculator"></i> Math Tools</div>
-      <h2 class="tools-promo-title">Free Interactive Math Calculators</h2>
-      <p class="tools-promo-desc">15 interactive tools including a fraction calculator, equation solver, graphing calculator and more - all free, no sign-up needed.</p>
-      <a href="/math-tools" class="tools-promo-btn">Explore Math Tools</a>
-    </div>
-    <div class="tools-promo-grid">
-      <a href="/math-tools/fraction-calculator"   class="tpg-item"><i class="fa-solid fa-divide"></i><span>Fractions</span></a>
-      <a href="/math-tools/percentage-calculator" class="tpg-item"><i class="fa-solid fa-percent"></i><span>Percentages</span></a>
-      <a href="/math-tools/equation-solver"       class="tpg-item"><i class="fa-solid fa-equals"></i><span>Equations</span></a>
-      <a href="/math-tools/geometry-calculator"   class="tpg-item"><i class="fa-solid fa-draw-polygon"></i><span>Geometry</span></a>
-      <a href="/math-tools/graphing-calculator"   class="tpg-item"><i class="fa-solid fa-chart-line"></i><span>Graphing</span></a>
-      <a href="/math-tools/statistics-calculator" class="tpg-item"><i class="fa-solid fa-chart-bar"></i><span>Statistics</span></a>
-      <a href="/math-tools/prime-checker"         class="tpg-item"><i class="fa-solid fa-hashtag"></i><span>Primes</span></a>
-      <a href="/math-tools/times-table"           class="tpg-item"><i class="fa-solid fa-table"></i><span>Times Tables</span></a>
-    </div>
+<!-- ══ MATH TOOLS ══ -->
+<section class="home-section">
+  <div class="section-header">
+    <h2 class="section-title">Free Interactive Math Calculators</h2>
+    <p class="section-sub">15 tools for homework, revision and quick checks - no sign-up needed</p>
+  </div>
+  <div class="subject-grid">
+    <% TOOLS.forEach(t => { %>
+    <a href="/math-tools/<%= t.slug %>" class="subject-card" style="--sc:<%= t.color %>">
+      <div class="subject-card-icon"><i class="fa-solid <%= t.icon %>"></i></div>
+      <div class="subject-card-body">
+        <strong class="subject-card-name"><%= t.name %></strong>
+        <span class="subject-card-desc"><%= t.desc %></span>
+      </div>
+      <div class="subject-card-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+    </a>
+    <% }); %>
   </div>
 </section>
 

@@ -773,18 +773,6 @@ body.page-article .page-wrap {
 .topic-diff-hard   { background: #fee2e2; color: #991b1b; }
 
 /* ===== MATH TOOLS PROMO ===== */
-.home-section-tools-promo { background: linear-gradient(135deg, #0c1a2e 0%, #0e3a5a 100%); padding: 0 !important; overflow: hidden; }
-.tools-promo-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; align-items: center; max-width: 1260px; width: 100%; margin: 0 auto; padding: 36px 20px; }
-.tools-promo-badge { display: inline-flex; align-items: center; gap: 6px; background: rgba(14,165,233,0.18); color: #38bdf8; font-size: 0.78rem; font-weight: 600; padding: 4px 12px; border-radius: 50px; margin-bottom: 14px; }
-.tools-promo-title { font-size: 1.6rem; font-weight: 700; color: #fff; margin-bottom: 10px; line-height: 1.3; }
-.tools-promo-desc { font-size: 0.9rem; color: #94a3b8; line-height: 1.6; margin-bottom: 20px; }
-.tools-promo-btn { display: inline-flex; align-items: center; gap: 8px; background: #0ea5e9; color: #fff; font-weight: 600; font-size: 0.9rem; padding: 10px 22px; border-radius: 50px; transition: background 0.15s, transform 0.15s; text-decoration: none; }
-.tools-promo-btn:hover { background: #0284c7; transform: translateY(-2px); text-decoration: none; }
-.tools-promo-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
-.tpg-item { display: flex; flex-direction: column; align-items: center; gap: 7px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 16px 8px; text-decoration: none; transition: background 0.15s, transform 0.15s; color: #e2e8f0; }
-.tpg-item:hover { background: rgba(14,165,233,0.2); transform: translateY(-2px); text-decoration: none; }
-.tpg-item i { font-size: 1.3rem; color: #38bdf8; }
-.tpg-item span { font-size: 0.72rem; font-weight: 500; color: #cbd5e1; text-align: center; }
 
 /* ===== HOW IT WORKS ===== */
 .how-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
@@ -1340,8 +1328,6 @@ body.page-article .page-wrap {
   .country-grid { grid-template-columns: repeat(2, 1fr); }
 
   /* New homepage sections */
-  .tools-promo-inner { grid-template-columns: 1fr; gap: 20px; padding: 28px 20px; }
-  .tools-promo-grid { grid-template-columns: repeat(4, 1fr); }
   .how-grid { grid-template-columns: repeat(2, 1fr); }
   .why-grid { grid-template-columns: repeat(2, 1fr); }
 
@@ -1408,9 +1394,6 @@ body.page-article .page-wrap {
   .country-card span { font-size: 0.72rem; }
 
   /* New homepage sections */
-  .tools-promo-inner { grid-template-columns: 1fr; gap: 20px; padding: 24px 16px; }
-  .tools-promo-grid { grid-template-columns: repeat(4, 1fr); gap: 8px; }
-  .tools-promo-title { font-size: 1.2rem; }
   .how-grid { grid-template-columns: 1fr 1fr; gap: 14px; }
   .home-section-why > .section-header { padding-top: 24px; }
   .home-section-why > .why-grid { padding-bottom: 24px; }
