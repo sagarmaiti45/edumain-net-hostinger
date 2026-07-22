@@ -60,16 +60,14 @@
     }
   </style>
   <script>
-  if (localStorage.getItem('sc_cookie_consent') === '1') {
-    <% if (GA_ID) { %>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);} window.gtag = gtag;
-    gtag('js', new Date()); gtag('config', '<%= GA_ID %>');
-    var gs = document.createElement('script'); gs.async = true;
-    gs.src = 'https://www.googletagmanager.com/gtag/js?id=<%= GA_ID %>';
-    document.head.appendChild(gs);
-    <% } %>
-  }
+  <% if (GA_ID) { %>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);} window.gtag = gtag;
+  gtag('js', new Date()); gtag('config', '<%= GA_ID %>');
+  var gs = document.createElement('script'); gs.async = true;
+  gs.src = 'https://www.googletagmanager.com/gtag/js?id=<%= GA_ID %>';
+  document.head.appendChild(gs);
+  <% } %>
   // Restore font size immediately
   (function(){ var s = parseInt(localStorage.getItem('em_font') || '0', 10); if (s) document.documentElement.style.fontSize = (16 + s * 1.5) + 'px'; })();
   </script>
