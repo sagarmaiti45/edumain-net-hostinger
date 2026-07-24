@@ -125,7 +125,6 @@ app.use((req, res, next) => {
 // ── Static assets ─────────────────────────────────────────────────────────────
 const staticOptions = { maxAge: '1y', immutable: true };
 app.use('/assets', express.static(path.join(ROOT, 'assets'), staticOptions));
-app.use('/thumbs', express.static(path.join(ROOT, 'thumbs'), staticOptions));
 app.use('/ads.txt', express.static(path.join(ROOT, 'ads.txt')));
 app.use('/robots.txt', express.static(path.join(ROOT, 'robots.txt')));
 app.use('/favicon.ico', express.static(path.join(ROOT, 'assets/img/logo.png'), staticOptions));
@@ -202,32 +201,13 @@ function parseCSVRow(line) {
   return fields;
 }
 
-let existingThumbs = null;
-let lastThumbsUpdate = 0;
-
 app.get(['/api/vault.php', '/api/vault'], async (req, res) => {
   const csvPath = path.join(ROOT, 'games_list.csv');
   if (!fs.existsSync(csvPath)) return res.json([]);
 
-  const now = Date.now();
-  if (!existingThumbs || now - lastThumbsUpdate > 300000) {
-    existingThumbs = new Set();
-    const thumbsDir = path.join(ROOT, 'thumbs');
-    if (fs.existsSync(thumbsDir)) {
-      try {
-        const files = await fs.promises.readdir(thumbsDir);
-        for (const file of files) existingThumbs.add(file);
-        lastThumbsUpdate = now;
-      } catch (err) {
-        console.error('Error reading thumbs directory:', err);
-      }
-    }
-  }
-
   const csvContent = await fs.promises.readFile(csvPath, 'utf8');
   const lines = csvContent.split(/\r?\n/);
   const hiddenDomains = ['watermelon46.com', 'html5.gamedistribution.com'];
-  const thumbExts = ['.webp', '.jpg', '.png', '.jpeg'];
   const data = [];
 
   for (let i = 1; i < lines.length; i++) {
@@ -239,42 +219,31 @@ app.get(['/api/vault.php', '/api/vault'], async (req, res) => {
     const code     = row[0];
     const name     = row[1];
     const rawSrc   = row[2];
-    const thumbCdn = row[3];
+    const thumb    = row[3] || '';
     const category = (row[5] || '').toLowerCase().trim();
 
     if (hiddenDomains.some(d => rawSrc.includes(d))) continue;
 
-    let thumb = null;
-    for (const ext of thumbExts) {
-      if (existingThumbs.has(code + ext)) {
-        thumb = '/thumbs/' + code + ext; break;
-      }
-    }
-
-    if (!thumb) {
-      const geetMatch = rawSrc.match(/\/get\/([^/]+)\//);
-      const broMatch  = rawSrc.match(/github\.io\/([^/]+)\//);
-      const tryId = (geetMatch && geetMatch[1]) || (broMatch && broMatch[1]) || '';
-      if (tryId) {
-        for (const ext of thumbExts) {
-          if (existingThumbs.has(tryId + ext)) {
-            thumb = '/thumbs/' + tryId + ext; break;
-          }
-        }
-      }
-    }
-
-    if (!thumb) thumb = thumbCdn || '';
-
-    const iframeUrl = rawSrc.includes('geet.in.net') || rawSrc.includes('geet.co.in')
-      ? 'https://edumathtools.com/player?src=' + encodeURIComponent(rawSrc)
-      : rawSrc;
-
-    data.push({ code, name, iframe: iframeUrl, thumb, category });
+    data.push({ code, name, iframe: rawSrc, thumb, category });
   }
 
+  const getWeight = (item) => {
+    const nameLower = item.name.toLowerCase();
+    if (item.code === '4014' || nameLower === 'gta vice city') return -100;
+    if (item.iframe && item.iframe.includes('/geet-games/')) return -99;
+    return 4;
+  };
+  const weighted = data.map((item, idx) => ({ item, weight: getWeight(item), idx }));
+  const pinned = weighted.filter(x => x.weight < 4).sort((a, b) => a.weight !== b.weight ? a.weight - b.weight : a.idx - b.idx).map(x => x.item);
+  const rest   = weighted.filter(x => x.weight >= 4).map(x => x.item);
+  for (let i = rest.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [rest[i], rest[j]] = [rest[j], rest[i]];
+  }
+  const sortedData = [...pinned, ...rest];
+
   res.setHeader('Cache-Control', 'public, max-age=300');
-  res.json(data);
+  res.json(sortedData);
 });
 
 // ── Routing logic ────────────────────────────────────────────────────────────

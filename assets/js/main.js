@@ -137,9 +137,8 @@ const fsBtn            = document.getElementById('vault-fs-btn');
 })();
 
 function _renderSkeletonGrid() {
-  vaultGrid.innerHTML = Array(24).fill(0).map(function(_, i) {
-    var featured = (i === 2 || i === 10) ? ' v-card-featured' : '';
-    return '<div class="v-card v-card-skeleton' + featured + '"><div class="v-thumb"></div></div>';
+  vaultGrid.innerHTML = Array(24).fill(0).map(function() {
+    return '<div class="v-card v-card-skeleton"><div class="v-thumb"></div></div>';
   }).join('');
 }
 

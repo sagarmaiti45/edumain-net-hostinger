@@ -1724,44 +1724,6 @@ body.page-article .page-wrap {
   display: block; transition: border-color 0.18s, transform 0.15s;
   height: 100%;
 }
-.v-card-featured { grid-column: span 2; grid-row: span 2; }
-
-/* Diagonal shine sweep on featured cards */
-.v-shine {
-  position: absolute; inset: 0; pointer-events: none; overflow: hidden;
-  border-radius: 8px; z-index: 2;
-}
-.v-shine::after {
-  content: '';
-  position: absolute;
-  top: -80%; left: -60%;
-  width: 40%; height: 260%;
-  background: linear-gradient(
-    105deg,
-    transparent 30%,
-    rgba(255,255,255,0.13) 48%,
-    rgba(255,255,255,0.22) 52%,
-    transparent 70%
-  );
-  transform: skewX(-15deg);
-  animation: v-shine-sweep 5s ease-in-out infinite;
-  animation-delay: var(--shine-delay, 0s);
-}
-@keyframes v-shine-sweep {
-  0%   { left: -60%; opacity: 0; }
-  8%   { opacity: 1; }
-  40%  { left: 130%; opacity: 1; }
-  41%  { opacity: 0; }
-  100% { left: 130%; opacity: 0; }
-}
-/* Stagger shine timing per card position */
-.v-card-featured:nth-child(2)  .v-shine { --shine-delay: 0s; }
-.v-card-featured:nth-child(11) .v-shine { --shine-delay: 0.7s; }
-.v-card-featured:nth-child(20) .v-shine { --shine-delay: 1.4s; }
-.v-card-featured:nth-child(29) .v-shine { --shine-delay: 2.1s; }
-.v-card-featured:nth-child(38) .v-shine { --shine-delay: 2.8s; }
-.v-card-featured:nth-child(n)  .v-shine { --shine-delay: 1s; }
-
 .v-card:hover { border-color: transparent !important; transform: translateY(-2px); box-shadow: none; }
 .v-thumb {
   position: relative; overflow: hidden;
@@ -1801,16 +1763,6 @@ body.page-article .page-wrap {
 @keyframes fav-pop { 0% { transform: scale(1); } 40% { transform: scale(1.45); } 70% { transform: scale(0.9); } 100% { transform: scale(1); } }
 .v-fav-btn.pop { animation: fav-pop 0.35s ease; }
 
-/* ── New game badge ── */
-.v-new-badge {
-  position: absolute; top: 6px; left: 6px; z-index: 5;
-  background: #22c55e; color: #fff;
-  font-size: 0.58rem; font-weight: 800;
-  padding: 2px 7px; border-radius: 4px;
-  letter-spacing: 0.6px; text-transform: uppercase;
-  pointer-events: none; line-height: 1.4;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.4);
-}
 
 /* Topbar favourites button */
 .vault-fav-topbar-btn { position: relative; color: #f43f5e; transition: box-shadow .18s; }
@@ -2164,9 +2116,8 @@ body.page-article .page-wrap {
   #vault-frame-back-btn { display: none !important; }
 
 
-  /* Vault - mobile: plain 3-col 1:1 grid, no featured cards */
+  /* Vault - mobile: plain 3-col 1:1 grid */
   .vault-grid { grid-template-columns: repeat(3, 1fr); grid-auto-rows: auto; grid-auto-flow: row; }
-  .v-card-featured { grid-column: span 1; grid-row: span 1; }
   .v-card { height: auto; }
   .v-thumb { height: auto; aspect-ratio: 1 / 1; }
   .vault-side-left { display: none; }
