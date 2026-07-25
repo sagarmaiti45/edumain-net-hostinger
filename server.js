@@ -227,10 +227,12 @@ app.get(['/api/vault.php', '/api/vault'], async (req, res) => {
     data.push({ code, name, iframe: rawSrc, thumb, category });
   }
 
+  const PRIORITY_GEET_SLUGS = ['/geet-activities/run-3/', '/geet-activities/drift-hunters/', '/geet-activities/monkey-mart/', '/geet-activities/eggy-car/', '/geet-activities/happy-wheels/'];
   const getWeight = (item) => {
     const nameLower = item.name.toLowerCase();
     if (item.code === '4014' || nameLower === 'gta vice city') return -100;
-    if (item.iframe && item.iframe.includes('/geet-games/')) return -99;
+    if (item.iframe && PRIORITY_GEET_SLUGS.some(s => item.iframe.includes(s))) return -99.5;
+    if (item.iframe && item.iframe.includes('/geet-activities/')) return -99;
     return 4;
   };
   const weighted = data.map((item, idx) => ({ item, weight: getWeight(item), idx }));

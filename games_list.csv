@@ -1,7 +1,7 @@
 code,name,iframe,thumb,http_status,category
-4189,Slap and Run,https://learn.edumain.net/games/slap-and-run/index.html,https://learn.edumain.net/thumbnails/slap-and-run.jpg,200,action
-4188,Angry Heroes,https://learn.edumain.net/games/angry-heroes/index.html,https://learn.edumain.net/thumbnails/angry-heroes.png,200,action
-4015,Chicken Royale,https://learn.edumain.net/games/chicken-royale/index.html,https://learn.edumain.net/thumbnails/4015.webp,200,action
+4189,Slap and Run,https://learn.edumain.net/activities/slap-and-run/index.html,https://learn.edumain.net/thumbnails/slap-and-run.jpg,200,action
+4188,Angry Heroes,https://learn.edumain.net/activities/angry-heroes/index.html,https://learn.edumain.net/thumbnails/angry-heroes.png,200,action
+4015,Chicken Royale,https://learn.edumain.net/activities/chicken-royale/index.html,https://learn.edumain.net/thumbnails/4015.webp,200,action
 2000,1010 Color Match,https://gameinclassroom.github.io/1010-color-match/,https://learn.edumain.net/thumbnails/2000.webp,200,puzzle
 4015,3 Pandas In Japan,https://gameinclassroom.github.io/3-pandas-in-japan/,https://learn.edumain.net/thumbnails/4015.webp,200,casual
 4016,3D Free Kick,https://gameinclassroom.github.io/3d-free-kick/,https://learn.edumain.net/thumbnails/4016.webp,200,sports
@@ -61,8 +61,8 @@ code,name,iframe,thumb,http_status,category
 2082,Dinosaurs Merge Master,https://gameinclassroom.github.io/dinosaurs-merge-master/,https://learn.edumain.net/thumbnails/2082.webp,200,puzzle
 2084,Down The Hill,https://gameinclassroom.github.io/down-the-hill/,https://learn.edumain.net/thumbnails/2084.webp,200,casual
 2085,Dreadhead Parkour,https://gameinclassroom.github.io/dreadhead-parkour/,https://learn.edumain.net/thumbnails/2085.webp,200,platformer
-2086,Drift Hunters,https://gameinclassroom.github.io/drift-hunters/,https://learn.edumain.net/thumbnails/2086.webp,200,racing
-2089,Eggy Car,https://gameinclassroom.github.io/eggy-car/,https://learn.edumain.net/thumbnails/2089.webp,200,casual
+2086,Drift Hunters,https://learn.edumain.net/geet-activities/drift-hunters/index.html,https://learn.edumain.net/thumbnails/geet-drift-hunters.webp,200,racing
+2089,Eggy Car,https://learn.edumain.net/geet-activities/eggy-car/index.html,https://learn.edumain.net/thumbnails/geet-eggy-car.webp,200,casual
 2090,Elastic Man,https://gameinclassroom.github.io/elastic-man/,https://learn.edumain.net/thumbnails/2090.webp,200,casual
 2091,Electron Dash,https://gameinclassroom.github.io/electron-dash/,https://learn.edumain.net/thumbnails/2091.webp,200,casual
 2092,Endless Tunnel,https://gameinclassroom.github.io/endless-tunnel/,https://learn.edumain.net/thumbnails/2092.webp,200,casual
@@ -139,7 +139,7 @@ code,name,iframe,thumb,http_status,category
 2183,Money Movers Guard Duty,https://gameinclassroom.github.io/money-movers-guard-duty/,https://learn.edumain.net/thumbnails/2183.webp,200,casual
 2184,Money Movers,https://gameinclassroom.github.io/money-movers/,https://learn.edumain.net/thumbnails/2184.webp,200,casual
 2185,Money Roller,https://gameinclassroom.github.io/money-roller/,https://learn.edumain.net/thumbnails/2185.webp,200,casual
-2186,Monkey Mart,https://gameinclassroom.github.io/monkey-mart/,https://learn.edumain.net/thumbnails/2186.webp,200,idle
+2186,Monkey Mart,https://learn.edumain.net/geet-activities/monkey-mart/index.html,https://learn.edumain.net/thumbnails/geet-monkey-mart.jpg,200,idle
 2187,Monster Truck Vs Zombie,https://gameinclassroom.github.io/monster-truck-vs-zombie/,https://learn.edumain.net/thumbnails/2187.webp,200,racing
 2188,Moomoo Io (Sandbox),https://gameinclassroom.github.io/moomoo-io-sandbox/,https://learn.edumain.net/thumbnails/2188.webp,200,io
 2189,Moto Maniac 3,https://gameinclassroom.github.io/moto-maniac-3/,https://learn.edumain.net/thumbnails/2189.webp,200,racing
@@ -671,281 +671,283 @@ code,name,iframe,thumb,http_status,category
 3374,Bookworm,https://db2.duckmath.org/2024/flash/bookworm/pre.html,https://learn.edumain.net/thumbnails/3374.webp,200,puzzle
 3375,Jewelanche,https://classroomlesson.github.io/basic-ruffle-player/html/jewelanche/index.html,https://learn.edumain.net/thumbnails/3375.webp,200,puzzle
 3376,Marco,https://db2.duckmath.org/2023/unity/marco/pre.html,https://learn.edumain.net/thumbnails/3376.webp,200,adventure
-4014,GTA Vice City,https://learn.edumain.net/games/vice-city/index.html?fullscreen=0&sc=1,https://learn.edumain.net/thumbnails/4014.webp,200,open-world
-4039,Frogie Cross The Road,https://learn.edumain.net/games/frogie-cross-road/index.html,https://learn.edumain.net/thumbnails/frogie-cross-road.png,200,casual
-4040,Duck Path,https://learn.edumain.net/games/duck-path/index.html,https://learn.edumain.net/thumbnails/duck-path.png,200,puzzle
-4041,1 Square,https://learn.edumain.net/games/1-square/index.html,https://learn.edumain.net/thumbnails/1-square.png,200,puzzle
-4042,Aidan Emma,https://learn.edumain.net/games/aidan-emma/index.html,https://learn.edumain.net/thumbnails/aidan-emma.png,200,adventure
-4043,All Flee 2,https://learn.edumain.net/games/all-flee-2/index.html,https://learn.edumain.net/thumbnails/all-flee-2.png,200,action
-4044,Axel Dunngeon,https://learn.edumain.net/games/axel-dunngeon/index.html,https://learn.edumain.net/thumbnails/axel-dunngeon.png,200,adventure
-4045,Balloons Creator Game,https://learn.edumain.net/games/balloons-creator-game/index.html,https://learn.edumain.net/thumbnails/balloons-creator-game.png,200,casual
-4046,Basket Goal,https://learn.edumain.net/games/basket-goal/index.html,https://learn.edumain.net/thumbnails/basket-goal.png,200,sports
-4047,Basketball Challenge Game,https://learn.edumain.net/games/basketball-challenge-game/index.html,https://learn.edumain.net/thumbnails/basketball-challenge-game.png,200,sports
-4048,Block Fit,https://learn.edumain.net/games/block-fit/index.html,https://learn.edumain.net/thumbnails/block-fit.png,200,puzzle
-4049,Block Tower,https://learn.edumain.net/games/block-tower/index.html,https://learn.edumain.net/thumbnails/block-tower.png,200,puzzle
-4050,Box Kid,https://learn.edumain.net/games/box-kid/index.html,https://learn.edumain.net/thumbnails/box-kid.png,200,puzzle
-4051,Box Wizard,https://learn.edumain.net/games/box-wizard/index.html,https://learn.edumain.net/thumbnails/box-wizard.png,200,puzzle
-4052,Box Wizard 2,https://learn.edumain.net/games/box-wizard-2/index.html,https://learn.edumain.net/thumbnails/box-wizard-2.png,200,puzzle
-4053,Bunny Adventure Game,https://learn.edumain.net/games/bunny_adventure-game/index.html,https://learn.edumain.net/thumbnails/bunny_adventure-game.png,200,adventure
-4054,Cable Connector,https://learn.edumain.net/games/cable-connector/index.html,https://learn.edumain.net/thumbnails/cable-connector.png,200,puzzle
-4055,Candy Leap,https://learn.edumain.net/games/candy-leap/index.html,https://learn.edumain.net/thumbnails/candy-leap.png,200,arcade
-4056,Cats Swap,https://learn.edumain.net/games/cats-swap/index.html,https://learn.edumain.net/thumbnails/cats-swap.png,200,puzzle
-4057,Charge Everything,https://learn.edumain.net/games/charge-everything/index.html,https://learn.edumain.net/thumbnails/charge-everything.png,200,puzzle
-4058,Charlotte Valley,https://learn.edumain.net/games/charlotte-valley/index.html,https://learn.edumain.net/thumbnails/charlotte-valley.png,200,adventure
-4059,Color Circle Puzzle,https://learn.edumain.net/games/color-circle-puzzle/index.html,https://learn.edumain.net/thumbnails/color-circle-puzzle.png,200,puzzle
-4060,Color Cycle,https://learn.edumain.net/games/color-cycle/index.html,https://learn.edumain.net/thumbnails/color-cycle.png,200,puzzle
-4061,Color Hoop Stack,https://learn.edumain.net/games/color-hoop-stack/index.html,https://learn.edumain.net/thumbnails/color-hoop-stack.png,200,puzzle
-4062,Color Me,https://learn.edumain.net/games/color-me/index.html,https://learn.edumain.net/thumbnails/color-me.png,200,casual
-4063,Crazy Gravity,https://learn.edumain.net/games/crazy-gravity/index.html,https://learn.edumain.net/thumbnails/crazy-gravity.png,200,puzzle
-4064,Cut For Cat 2,https://learn.edumain.net/games/cut-for-cat-2/index.html,https://learn.edumain.net/thumbnails/cut-for-cat-2.png,200,puzzle
-4065,Cut Grass,https://learn.edumain.net/games/cut-grass/index.html,https://learn.edumain.net/thumbnails/cut-grass.png,200,casual
-4066,Desert Road Race,https://learn.edumain.net/games/desert-road-race/index.html,https://learn.edumain.net/thumbnails/desert-road-race.png,200,racing
-4067,Dinosaur Puzzle,https://learn.edumain.net/games/dinosaur-puzzle/index.html,https://learn.edumain.net/thumbnails/dinosaur-puzzle.png,200,puzzle
-4068,Doge Blocks Puzzle,https://learn.edumain.net/games/doge-blocks-puzzle/index.html,https://learn.edumain.net/thumbnails/doge-blocks-puzzle.png,200,puzzle
-4069,Dot Puzzle,https://learn.edumain.net/games/dot-puzzle/index.html,https://learn.edumain.net/thumbnails/dot-puzzle.png,200,puzzle
-4070,Draw Parking,https://learn.edumain.net/games/draw-parking/index.html,https://learn.edumain.net/thumbnails/draw-parking.png,200,casual
-4071,Draw Surfer Game,https://learn.edumain.net/games/draw-surfer-game/index.html,https://learn.edumain.net/thumbnails/draw-surfer-game.png,200,casual
-4072,Drift Bus Road,https://learn.edumain.net/games/drift-bus-road/index.html,https://learn.edumain.net/thumbnails/drift-bus-road.png,200,racing
-4073,Dunk Digger,https://learn.edumain.net/games/dunk-digger/index.html,https://learn.edumain.net/thumbnails/dunk-digger.png,200,sports
-4074,Endless Walker,https://learn.edumain.net/games/endless-walker/index.html,https://learn.edumain.net/thumbnails/endless-walker.png,200,arcade
-4075,Escape Kid,https://learn.edumain.net/games/escape-kid/index.html,https://learn.edumain.net/thumbnails/escape-kid.png,200,adventure
-4076,Filled Glass 2,https://learn.edumain.net/games/filled-glass-2/index.html,https://learn.edumain.net/thumbnails/filled-glass-2.png,200,puzzle
-4077,Filled Glass 3,https://learn.edumain.net/games/filled-glass-3/index.html,https://learn.edumain.net/thumbnails/filled-glass-3.png,200,puzzle
-4078,Filled Glass 4,https://learn.edumain.net/games/filled-glass-4/index.html,https://learn.edumain.net/thumbnails/filled-glass-4.png,200,puzzle
-4079,Filled Glass 5,https://learn.edumain.net/games/filled-glass-5/index.html,https://learn.edumain.net/thumbnails/filled-glass-5.png,200,puzzle
-4080,Filled Glass Game,https://learn.edumain.net/games/filled-glass-game/index.html,https://learn.edumain.net/thumbnails/filled-glass-game.png,200,puzzle
-4081,Five Minutes To Escape,https://learn.edumain.net/games/five-minutes-to-escape/index.html,https://learn.edumain.net/thumbnails/five-minutes-to-escape.png,200,adventure
-4082,Fluffy Jelly Cat Game,https://learn.edumain.net/games/fluffy-jelly-cat-game/index.html,https://learn.edumain.net/thumbnails/fluffy-jelly-cat-game.png,200,casual
-4083,Free The Candy,https://learn.edumain.net/games/free-the-candy/index.html,https://learn.edumain.net/thumbnails/free-the-candy.png,200,puzzle
-4085,Fruits Galaxy,https://learn.edumain.net/games/fruits-galaxy/index.html,https://learn.edumain.net/thumbnails/fruits-galaxy.png,200,arcade
-4086,Get The Stars,https://learn.edumain.net/games/get-the-stars/index.html,https://learn.edumain.net/thumbnails/get-the-stars.png,200,puzzle
-4087,Golf Field 1,https://learn.edumain.net/games/golf-field-1/index.html,https://learn.edumain.net/thumbnails/golf-field-1.png,200,sports
-4088,Grab 50 Coins,https://learn.edumain.net/games/grab-50-coins/index.html,https://learn.edumain.net/thumbnails/grab-50-coins.png,200,arcade
-4089,Green Mover,https://learn.edumain.net/games/green-mover/index.html,https://learn.edumain.net/thumbnails/green-mover.png,200,puzzle
-4090,Grid Area Puzzle Quest,https://learn.edumain.net/games/grid-area-puzzle-quest/index.html,https://learn.edumain.net/thumbnails/grid-area-puzzle-quest.png,200,puzzle
-4091,Gyro Forcer,https://learn.edumain.net/games/gyro-forcer/index.html,https://learn.edumain.net/thumbnails/gyro-forcer.png,200,arcade
-4092,Happy Filled Glass 2,https://learn.edumain.net/games/happy-filled-glass-2/index.html,https://learn.edumain.net/thumbnails/happy-filled-glass-2.png,200,puzzle
-4093,Happy Filled Glass 3,https://learn.edumain.net/games/happy-filled-glass-3/index.html,https://learn.edumain.net/thumbnails/happy-filled-glass-3.png,200,puzzle
-4094,Happy Filled Glass 4,https://learn.edumain.net/games/happy-filled-glass-4/index.html,https://learn.edumain.net/thumbnails/happy-filled-glass-4.png,200,puzzle
-4095,Hexa Merge,https://learn.edumain.net/games/hexa-merge/index.html,https://learn.edumain.net/thumbnails/hexa-merge.png,200,puzzle
-4096,Hidden Objects,https://learn.edumain.net/games/hidden-objects/index.html,https://learn.edumain.net/thumbnails/hidden-objects.png,200,casual
-4097,Ice Girl Rescue,https://learn.edumain.net/games/ice-girl-rescue/index.html,https://learn.edumain.net/thumbnails/ice-girl-rescue.png,200,adventure
-4098,Impossible 10,https://learn.edumain.net/games/impossible-10/index.html,https://learn.edumain.net/thumbnails/impossible-10.png,200,puzzle
-4099,Impulse Ball 1,https://learn.edumain.net/games/impulse-ball-1/index.html,https://learn.edumain.net/thumbnails/impulse-ball-1.png,200,arcade
-4100,In Orbit,https://learn.edumain.net/games/in-orbit/index.html,https://learn.edumain.net/thumbnails/in-orbit.png,200,puzzle
-4101,Isometric Lamps Move,https://learn.edumain.net/games/isometric-lamps-move/index.html,https://learn.edumain.net/thumbnails/isometric-lamps-move.png,200,puzzle
-4102,Juice Spill,https://learn.edumain.net/games/juice-spill/index.html,https://learn.edumain.net/thumbnails/juice-spill.png,200,puzzle
-4103,Jungle Puzzle,https://learn.edumain.net/games/jungle-puzzle/index.html,https://learn.edumain.net/thumbnails/jungle-puzzle.png,200,puzzle
-4104,Kofi Adventure Game,https://learn.edumain.net/games/kofi-adventure-game/index.html,https://learn.edumain.net/thumbnails/kofi-adventure-game.png,200,adventure
-4105,Lab Escape 2,https://learn.edumain.net/games/lab-escape-2/index.html,https://learn.edumain.net/thumbnails/lab-escape-2.png,200,adventure
-4106,Little Panda Match 3,https://learn.edumain.net/games/little-panda-match-3/index.html,https://learn.edumain.net/thumbnails/little-panda-match-3.png,200,puzzle
-4107,Math Angles,https://learn.edumain.net/games/math-angles/index.html,https://learn.edumain.net/thumbnails/math-angles.png,200,puzzle
-4108,Math Challenge 1,https://learn.edumain.net/games/math-challenge-1/index.html,https://learn.edumain.net/thumbnails/math-challenge-1.png,200,puzzle
-4109,Math Challenge 2,https://learn.edumain.net/games/math-challenge-2/index.html,https://learn.edumain.net/thumbnails/math-challenge-2.png,200,puzzle
-4110,Math Challenge 3,https://learn.edumain.net/games/math-challenge-3/index.html,https://learn.edumain.net/thumbnails/math-challenge-3.png,200,puzzle
-4111,Math Challenge 4,https://learn.edumain.net/games/math-challenge-4/index.html,https://learn.edumain.net/thumbnails/math-challenge-4.png,200,puzzle
-4112,Math Challenge 5,https://learn.edumain.net/games/math-challenge-5/index.html,https://learn.edumain.net/thumbnails/math-challenge-5.png,200,puzzle
-4113,Math Sum,https://learn.edumain.net/games/math-sum/index.html,https://learn.edumain.net/thumbnails/math-sum.png,200,puzzle
-4114,Maze Control,https://learn.edumain.net/games/maze-control/index.html,https://learn.edumain.net/thumbnails/maze-control.png,200,puzzle
-4115,Maze Shadow,https://learn.edumain.net/games/maze-shadow/index.html,https://learn.edumain.net/thumbnails/maze-shadow.png,200,puzzle
-4116,Maze Shadow 2,https://learn.edumain.net/games/maze-shadow-2/index.html,https://learn.edumain.net/thumbnails/maze-shadow-2.png,200,puzzle
-4117,Merge Blocks,https://learn.edumain.net/games/merge-blocks/index.html,https://learn.edumain.net/thumbnails/merge-blocks.png,200,puzzle
-4118,Mergis Game,https://learn.edumain.net/games/mergis-game/index.html,https://learn.edumain.net/thumbnails/mergis-game.png,200,puzzle
-4119,Milk For Cat,https://learn.edumain.net/games/milk-for-cat/index.html,https://learn.edumain.net/thumbnails/milk-for-cat.png,200,casual
-4120,Monster Escape,https://learn.edumain.net/games/monster-escape/index.html,https://learn.edumain.net/thumbnails/monster-escape.png,200,adventure
-4121,Monster Match Mania,https://learn.edumain.net/games/monster-match-mania/index.html,https://learn.edumain.net/thumbnails/monster-match-mania.png,200,puzzle
-4122,Monstertopia Puzzle,https://learn.edumain.net/games/monstertopia-puzzle/index.html,https://learn.edumain.net/thumbnails/monstertopia-puzzle.png,200,puzzle
-4123,Mouse,https://learn.edumain.net/games/mouse/index.html,https://learn.edumain.net/thumbnails/mouse.png,200,puzzle
-4124,Move The Pin 1,https://learn.edumain.net/games/move-the-pin-1/index.html,https://learn.edumain.net/thumbnails/move-the-pin-1.png,200,puzzle
-4125,Move The Pin 2,https://learn.edumain.net/games/move-the-pin-2/index.html,https://learn.edumain.net/thumbnails/move-the-pin-2.png,200,puzzle
-4126,Number Merge,https://learn.edumain.net/games/number-merge/index.html,https://learn.edumain.net/thumbnails/number-merge.png,200,puzzle
-4127,Number Patterns,https://learn.edumain.net/games/number-patterns/index.html,https://learn.edumain.net/thumbnails/number-patterns.png,200,puzzle
-4128,On The Hill,https://learn.edumain.net/games/on-the-hill/index.html,https://learn.edumain.net/thumbnails/on-the-hill.png,200,casual
-4129,One Stage,https://learn.edumain.net/games/one-stage/index.html,https://learn.edumain.net/thumbnails/one-stage.png,200,puzzle
-4130,Paddle Bricks,https://learn.edumain.net/games/paddle-bricks/index.html,https://learn.edumain.net/thumbnails/paddle-bricks.png,200,arcade
-4131,Panda Love,https://learn.edumain.net/games/panda-love/index.html,https://learn.edumain.net/thumbnails/panda-love.png,200,adventure
-4132,Pause Puzzle,https://learn.edumain.net/games/pause-puzzle/index.html,https://learn.edumain.net/thumbnails/pause-puzzle.png,200,puzzle
-4133,Penguin Likes Ice Cream,https://learn.edumain.net/games/penguin-likes-ice-cream/index.html,https://learn.edumain.net/thumbnails/penguin-likes-ice-cream.png,200,casual
-4134,Penguin Love Puzzle,https://learn.edumain.net/games/penguin-love-puzzle/index.html,https://learn.edumain.net/thumbnails/penguin-love-puzzle.png,200,puzzle
-4135,Pipe Connect Puzzle,https://learn.edumain.net/games/pipe-connect-puzzle/index.html,https://learn.edumain.net/thumbnails/pipe-connect-puzzle.png,200,puzzle
-4136,Pixel Slime,https://learn.edumain.net/games/pixel-slime/index.html,https://learn.edumain.net/thumbnails/pixel-slime.png,200,arcade
-4137,Planet Orbit,https://learn.edumain.net/games/planet-orbit/index.html,https://learn.edumain.net/thumbnails/planet-orbit.png,200,puzzle
-4138,Popcorn Eater,https://learn.edumain.net/games/popcorn-eater/index.html,https://learn.edumain.net/thumbnails/popcorn-eater.png,200,casual
-4139,Puzzle Slider Numbers,https://learn.edumain.net/games/puzzle-slider-numbers/index.html,https://learn.edumain.net/thumbnails/puzzle-slider-numbers.png,200,puzzle
-4140,Rail Maze,https://learn.edumain.net/games/rail-maze/index.html,https://learn.edumain.net/thumbnails/rail-maze.png,200,puzzle
-4141,Reach The Flag,https://learn.edumain.net/games/reach-the-flag/index.html,https://learn.edumain.net/thumbnails/reach-the-flag.png,200,puzzle
-4142,Red Slide,https://learn.edumain.net/games/red-slide/index.html,https://learn.edumain.net/thumbnails/red-slide.png,200,puzzle
-4143,Robot Start Game,https://learn.edumain.net/games/robot-start-game/index.html,https://learn.edumain.net/thumbnails/robot-start-game.png,200,puzzle
-4144,Rock Roll Puzzle,https://learn.edumain.net/games/rock-roll-puzzle/index.html,https://learn.edumain.net/thumbnails/rock-roll-puzzle.png,200,puzzle
-4145,Rocket Balance,https://learn.edumain.net/games/rocket-balance/index.html,https://learn.edumain.net/thumbnails/rocket-balance.png,200,puzzle
-4146,Rope Bawling,https://learn.edumain.net/games/rope-bawling/index.html,https://learn.edumain.net/thumbnails/rope-bawling.png,200,sports
-4147,Rope Bawling 2,https://learn.edumain.net/games/rope-bawling-2/index.html,https://learn.edumain.net/thumbnails/rope-bawling-2.png,200,sports
-4148,Rotate And Flip,https://learn.edumain.net/games/rotate-and-flip/index.html,https://learn.edumain.net/thumbnails/rotate-and-flip.png,200,puzzle
-4149,Rotated Cups,https://learn.edumain.net/games/rotated-cups/index.html,https://learn.edumain.net/thumbnails/rotated-cups.png,200,puzzle
-4150,Route Digger,https://learn.edumain.net/games/route-digger/index.html,https://learn.edumain.net/thumbnails/route-digger.png,200,puzzle
-4151,Route Digger 2,https://learn.edumain.net/games/route-digger-2/index.html,https://learn.edumain.net/thumbnails/route-digger-2.png,200,puzzle
-4152,Save Orange,https://learn.edumain.net/games/save-orange/index.html,https://learn.edumain.net/thumbnails/save-orange.png,200,puzzle
-4153,Save Us,https://learn.edumain.net/games/save-us/index.html,https://learn.edumain.net/thumbnails/save-us.png,200,puzzle
-4154,Scribble World,https://learn.edumain.net/games/scribble-world/index.html,https://learn.edumain.net/thumbnails/scribble-world.png,200,casual
-4155,Scribble World Drawing,https://learn.edumain.net/games/scribble-world-drawing/index.html,https://learn.edumain.net/thumbnails/scribble-world-drawing.png,200,casual
-4156,Scribble World Logic Puzzle,https://learn.edumain.net/games/scribble-world-logic-puzzle/index.html,https://learn.edumain.net/thumbnails/scribble-world-logic-puzzle.png,200,puzzle
-4157,Scribble World Physics,https://learn.edumain.net/games/scribble-world-physics/index.html,https://learn.edumain.net/thumbnails/scribble-world-physics.png,200,casual
-4158,Shadoworld Adventure,https://learn.edumain.net/games/shadoworld-adventure/index.html,https://learn.edumain.net/thumbnails/shadoworld-adventure.png,200,adventure
-4159,Shape Balance 2,https://learn.edumain.net/games/shape-balance-2/index.html,https://learn.edumain.net/thumbnails/shape-balance-2.png,200,puzzle
-4160,Sky Speedster,https://learn.edumain.net/games/sky-speedster/index.html,https://learn.edumain.net/thumbnails/sky-speedster.png,200,arcade
-4161,Small Archer,https://learn.edumain.net/games/small-archer/index.html,https://learn.edumain.net/thumbnails/small-archer.png,200,action
-4162,Small Archer 2,https://learn.edumain.net/games/small-archer-2/index.html,https://learn.edumain.net/thumbnails/small-archer-2.png,200,action
-4163,Snake Falls,https://learn.edumain.net/games/snake-falls/index.html,https://learn.edumain.net/thumbnails/snake-falls.png,200,arcade
-4164,Sokofarm Game,https://learn.edumain.net/games/sokofarm-game/index.html,https://learn.edumain.net/thumbnails/sokofarm-game.png,200,puzzle
-4165,Sokogem,https://learn.edumain.net/games/sokogem/index.html,https://learn.edumain.net/thumbnails/sokogem.png,200,puzzle
-4166,Sokomath Puzzle,https://learn.edumain.net/games/sokomath-puzzle/index.html,https://learn.edumain.net/thumbnails/sokomath-puzzle.png,200,puzzle
-4167,Soroban,https://learn.edumain.net/games/soroban/index.html,https://learn.edumain.net/thumbnails/soroban.png,200,puzzle
-4168,Space Pest,https://learn.edumain.net/games/space-pest/index.html,https://learn.edumain.net/thumbnails/space-pest.png,200,arcade
-4169,Spatial Blocks,https://learn.edumain.net/games/spatial-blocks/index.html,https://learn.edumain.net/thumbnails/spatial-blocks.png,200,puzzle
-4170,Speedy Steve,https://learn.edumain.net/games/speedy-steve/index.html,https://learn.edumain.net/thumbnails/speedy-steve.png,200,arcade
-4171,Spin Bowling,https://learn.edumain.net/games/spin-bowling/index.html,https://learn.edumain.net/thumbnails/spin-bowling.png,200,sports
-4172,Spinvaders,https://learn.edumain.net/games/spinvaders/index.html,https://learn.edumain.net/thumbnails/spinvaders.png,200,arcade
-4173,Square Monsters,https://learn.edumain.net/games/square-monsters/index.html,https://learn.edumain.net/thumbnails/square-monsters.png,200,puzzle
-4174,Stack Builder,https://learn.edumain.net/games/stack-builder/index.html,https://learn.edumain.net/thumbnails/stack-builder.png,200,puzzle
-4175,Stop Now,https://learn.edumain.net/games/stop-now/index.html,https://learn.edumain.net/thumbnails/stop-now.png,200,puzzle
-4176,Switch Magic,https://learn.edumain.net/games/switch-magic/index.html,https://learn.edumain.net/thumbnails/switch-magic.png,200,puzzle
-4177,Tangram Grid,https://learn.edumain.net/games/tangram-grid/index.html,https://learn.edumain.net/thumbnails/tangram-grid.png,200,puzzle
-4178,The Gate,https://learn.edumain.net/games/the-gate/index.html,https://learn.edumain.net/thumbnails/the-gate.png,200,puzzle
-4179,Three Chances,https://learn.edumain.net/games/three-chances/index.html,https://learn.edumain.net/thumbnails/three-chances.png,200,puzzle
-4180,Track Rotate,https://learn.edumain.net/games/track-rotate/index.html,https://learn.edumain.net/thumbnails/track-rotate.png,200,puzzle
-4181,Treze Coins,https://learn.edumain.net/games/treze-coins/index.html,https://learn.edumain.net/thumbnails/treze-coins.png,200,puzzle
-4182,Two Aliens Adventure,https://learn.edumain.net/games/two-aliens-adventure/index.html,https://learn.edumain.net/thumbnails/two-aliens-adventure.png,200,adventure
-4183,Use Your Head Part 1,https://learn.edumain.net/games/use-your-head-part-1/index.html,https://learn.edumain.net/thumbnails/use-your-head-part-1.png,200,puzzle
-4184,Use Your Head Part 2,https://learn.edumain.net/games/use-your-head-part-2/index.html,https://learn.edumain.net/thumbnails/use-your-head-part-2.png,200,puzzle
-4185,Use Your Head Part 3,https://learn.edumain.net/games/use-your-head-part-3/index.html,https://learn.edumain.net/thumbnails/use-your-head-part-3.png,200,puzzle
-4186,Where Is My Cat,https://learn.edumain.net/games/where-is-my-cat/index.html,https://learn.edumain.net/thumbnails/where-is-my-cat.png,200,puzzle
-4187,Float for Brainrots,https://learn.edumain.net/games/float-for-brainrots/index.html,https://learn.edumain.net/thumbnails/float-for-brainrots.png,200,adventure
-4190,1 on 1 Soccer,https://learn.edumain.net/geet-games/1v1-soccer/game.html,https://learn.edumain.net/thumbnails/geet-1v1-soccer.jpg,200,sports
-4191,10 Minutes Till Dawn,https://learn.edumain.net/geet-games/10-minutes-till-dawn/game.html,https://learn.edumain.net/thumbnails/geet-10-minutes-till-dawn.png,200,shooter
-4192,1v1.LOL,https://learn.edumain.net/geet-games/1v1-lol/game.html,https://learn.edumain.net/thumbnails/geet-1v1-lol.png,200,shooter
-4193,2048,https://learn.edumain.net/geet-games/2048/game.html,https://learn.edumain.net/thumbnails/geet-2048.png,200,puzzle
-4194,3D Bowling,https://learn.edumain.net/geet-games/3d-bowling/game.html,https://learn.edumain.net/thumbnails/geet-3d-bowling.jpg,200,sports
-4195,8 Ball,https://learn.edumain.net/geet-games/8-ball/game.html,https://learn.edumain.net/thumbnails/geet-8-ball.jpg,200,sports
-4196,99 Nights in The Forest,https://learn.edumain.net/geet-games/99-nights-in-the-forest/index.html,https://learn.edumain.net/thumbnails/geet-99-nights-in-the-forest.jpg,200,adventure
-4197,Ages of Conflict,https://learn.edumain.net/geet-games/ages-of-conflict/game.html,https://learn.edumain.net/thumbnails/geet-ages-of-conflict.jpg,200,strategy
-4198,Among Us,https://learn.edumain.net/geet-games/among-us/game.html,https://learn.edumain.net/thumbnails/geet-among-us.png,200,casual
-4199,Angry Sharks,https://learn.edumain.net/geet-games/angry-sharks/game.html,https://learn.edumain.net/thumbnails/geet-angry-sharks.png,200,action
-4200,Apple Shooter,https://learn.edumain.net/geet-games/apple-shooter/game.html,https://learn.edumain.net/thumbnails/geet-apple-shooter.jpg,200,arcade
-4201,Aquapark Slides,https://learn.edumain.net/geet-games/aquapark-slides/game.html,https://learn.edumain.net/thumbnails/geet-aquapark-slides.png,200,casual
-4202,Arcane Archer,https://learn.edumain.net/geet-games/arcane-archer/game.html,https://learn.edumain.net/thumbnails/geet-arcane-archer.avif,200,action
-4203,Awesome Tanks 2,https://learn.edumain.net/geet-games/awesome-tanks-2/game.html,https://learn.edumain.net/thumbnails/geet-awesome-tanks-2.jpg,200,shooter
-4204,Backrooms,https://learn.edumain.net/geet-games/backrooms/game.html,https://learn.edumain.net/thumbnails/geet-backrooms.jpg,200,horror
-4205,Backrooms 2D,https://learn.edumain.net/geet-games/backrooms-2d/game.html,https://learn.edumain.net/thumbnails/geet-backrooms-2d.png,200,horror
-4206,Bacon May Die,https://learn.edumain.net/geet-games/bacon-may-die/game.html,https://learn.edumain.net/thumbnails/geet-bacon-may-die.png,200,platformer
-4207,Bad Ice Cream,https://learn.edumain.net/geet-games/bad-ice-cream/game.html,https://learn.edumain.net/thumbnails/geet-bad-ice-cream.png,200,arcade
-4208,Baldi's Basics,https://learn.edumain.net/geet-games/baldis-basics/game.html,https://learn.edumain.net/thumbnails/geet-baldis-basics.png,200,horror
-4209,Ballistic,https://learn.edumain.net/geet-games/ballistic/game.html,https://learn.edumain.net/thumbnails/geet-ballistic.jpg,200,action
-4210,Basket Random,https://learn.edumain.net/geet-games/basket-random/game.html,https://learn.edumain.net/thumbnails/geet-basket-random.png,200,sports
-4211,Basketball Stars,https://learn.edumain.net/geet-games/basketball-stars/game.html,https://learn.edumain.net/thumbnails/geet-basketball-stars.png,200,sports
-4212,Big Tower Tiny Square,https://learn.edumain.net/geet-games/big-tower-tiny-square/game.html,https://learn.edumain.net/thumbnails/geet-big-tower-tiny-square.png,200,platformer
-4213,Bitcoin Clicker,https://learn.edumain.net/geet-games/bitcoin-clicker/game.html,https://learn.edumain.net/thumbnails/geet-bitcoin-clicker.png,200,idle
-4214,BitLife,https://learn.edumain.net/geet-games/bl/game.html,https://learn.edumain.net/thumbnails/geet-bl.png,200,casual
-4215,Bloons TD 4,https://learn.edumain.net/geet-games/bloonstd-4/game.html,https://learn.edumain.net/thumbnails/geet-bloonstd-4.jpg,200,strategy
-4216,Bloxorz,https://learn.edumain.net/geet-games/bloxors/game.html,https://learn.edumain.net/thumbnails/geet-bloxors.png,200,puzzle
-4217,Blumgi Rocket,https://learn.edumain.net/geet-games/blumgi-rocket/game.html,https://learn.edumain.net/thumbnails/geet-blumgi-rocket.png,200,platformer
-4218,Blumgi Slime,https://learn.edumain.net/geet-games/blumgi-slime/game.html,https://learn.edumain.net/thumbnails/geet-blumgi-slime.jpg,200,platformer
-4219,Bob the Robber 2,https://learn.edumain.net/geet-games/bob-the-robber-2/game.html,https://learn.edumain.net/thumbnails/geet-bob-the-robber-2.jpeg,200,puzzle
-4220,Bottle Flip,https://learn.edumain.net/geet-games/bottle-flip/game.html,https://learn.edumain.net/thumbnails/geet-bottle-flip.png,200,casual
-4221,Boxel Rebound,https://learn.edumain.net/geet-games/boxel-rebound/game.html,https://learn.edumain.net/thumbnails/geet-boxel-rebound.jpg,200,platformer
-4222,Boxing Random,https://learn.edumain.net/geet-games/boxing-random/game.html,https://learn.edumain.net/thumbnails/geet-boxing-random.jpg,200,sports
-4223,Cars Simulator,https://learn.edumain.net/geet-games/cars-simulator/game.html,https://learn.edumain.net/thumbnails/geet-cars-simulator.png,200,racing
-4224,circloO,https://learn.edumain.net/geet-games/circlo/game.html,https://learn.edumain.net/thumbnails/geet-circlo.png,200,platformer
-4225,circloO 2,https://learn.edumain.net/geet-games/circlo-2/game.html,https://learn.edumain.net/thumbnails/geet-circlo-2.png,200,platformer
-4226,Climb Over It,https://learn.edumain.net/geet-games/climb-over-it/game.html,https://learn.edumain.net/thumbnails/geet-climb-over-it.jpg,200,platformer
-4227,Cluster Rush,https://learn.edumain.net/geet-games/cluster-rush/game.html,https://learn.edumain.net/thumbnails/geet-cluster-rush.png,200,racing
-4228,Cookie Clicker,https://learn.edumain.net/geet-games/cookie-clicker/game.html,https://learn.edumain.net/thumbnails/geet-cookie-clicker.png,200,idle
-4229,Core Ball,https://learn.edumain.net/geet-games/core-ball/game.html,https://learn.edumain.net/thumbnails/geet-core-ball.png,200,arcade
-4230,Crazy Cars,https://learn.edumain.net/geet-games/crazy-cars/game.html,https://learn.edumain.net/thumbnails/geet-crazy-cars.jpg,200,racing
-4231,Crossy Road,https://learn.edumain.net/geet-games/crossy-road/game.html,https://learn.edumain.net/thumbnails/geet-crossy-road.png,200,arcade
-4232,CS:GO Clicker,https://learn.edumain.net/geet-games/csgo-clicker/game.html,https://learn.edumain.net/thumbnails/geet-csgo-clicker.png,200,idle
-4233,Cuphead,https://learn.edumain.net/geet-games/cuphead/game.html,https://learn.edumain.net/thumbnails/geet-cuphead.png,200,platformer
-4234,Deal or No Deal,https://learn.edumain.net/geet-games/deal-or-no-deal/game.html,https://learn.edumain.net/thumbnails/geet-deal-or-no-deal.jpg,200,casual
-4235,Death Run 3D,https://learn.edumain.net/geet-games/death-run-3d/game.html,https://learn.edumain.net/thumbnails/geet-death-run-3d.png,200,platformer
-4236,Doge Miner,https://learn.edumain.net/geet-games/doge-miner/game.html,https://learn.edumain.net/thumbnails/geet-doge-miner.png,200,idle
-4237,Doodle Jump,https://learn.edumain.net/geet-games/doodle-jump/game.html,https://learn.edumain.net/thumbnails/geet-doodle-jump.png,200,arcade
-4238,Draw the Hill,https://learn.edumain.net/geet-games/draw-the-hill/game.html,https://learn.edumain.net/thumbnails/geet-draw-the-hill.png,200,puzzle
-4239,Drift Boss,https://learn.edumain.net/geet-games/drift-boss/game.html,https://learn.edumain.net/thumbnails/geet-drift-boss.png,200,racing
-4240,Drive Mad,https://learn.edumain.net/geet-games/drive-mad/game.html,https://learn.edumain.net/thumbnails/geet-drive-mad.jpg,200,racing
-4241,Duck Life 4,https://learn.edumain.net/geet-games/duck-life-4/game.html,https://learn.edumain.net/thumbnails/geet-duck-life-4.jpg,200,adventure
-4242,Eagle Craft,https://learn.edumain.net/geet-games/eagle-craft/game.html,https://learn.edumain.net/thumbnails/geet-eagle-craft.jpg,200,open-world
-4243,Elastic Face,https://learn.edumain.net/geet-games/elastic-face/game.html,https://learn.edumain.net/thumbnails/geet-elastic-face.png,200,casual
-4244,Fireboy and Watergirl,https://learn.edumain.net/geet-games/fire-boy-water-girl/game.html,https://learn.edumain.net/thumbnails/geet-fire-boy-water-girl.jpeg,200,puzzle
-4245,Five Nights at Freddys,https://learn.edumain.net/geet-games/fnaf/game.html,https://learn.edumain.net/thumbnails/geet-fnaf.jpg,200,horror
-4246,Flappy Bird,https://learn.edumain.net/geet-games/flappy-bird/game.html,https://learn.edumain.net/thumbnails/geet-flappy-bird.png,200,arcade
-4247,Flash Tetris,https://learn.edumain.net/geet-games/flash-tetris/game.html,https://learn.edumain.net/thumbnails/geet-flash-tetris.png,200,puzzle
-4248,fnaf 2,https://learn.edumain.net/geet-games/fnaf-2/fnaf-2.html,https://learn.edumain.net/thumbnails/geet-fnaf-2.jpg,200,horror
-4249,Football Legends,https://learn.edumain.net/geet-games/football-legends/game.html,https://learn.edumain.net/thumbnails/geet-football-legends.jpg,200,sports
-4250,Football Strike,https://learn.edumain.net/geet-games/football-strike/game.html,https://learn.edumain.net/thumbnails/geet-football-strike.jpg,200,sports
-4251,Fruit Ninja,https://learn.edumain.net/geet-games/fruit-ninja/game.html,https://learn.edumain.net/thumbnails/geet-fruit-ninja.jpg,200,arcade
-4252,Funny Shooter 2,https://learn.edumain.net/geet-games/funny-shooter-2/game.html,https://learn.edumain.net/thumbnails/geet-funny-shooter-2.png,200,shooter
-4253,Geometry Dash,https://learn.edumain.net/geet-games/geometry-dash/game.html,https://learn.edumain.net/thumbnails/geet-geometry-dash.png,200,platformer
-4254,Getaway Shootout,https://learn.edumain.net/geet-games/getaway-shootout/game.html,https://learn.edumain.net/thumbnails/geet-getaway-shootout.jpg,200,action
-4255,Getting Over It,https://learn.edumain.net/geet-games/getting-over-it/game.html,https://learn.edumain.net/thumbnails/geet-getting-over-it.png,200,platformer
-4256,Gladihoppers,https://learn.edumain.net/geet-games/gladihoppers/game.html,https://learn.edumain.net/thumbnails/geet-gladihoppers.png,200,action
-4257,Google Feud,https://learn.edumain.net/geet-games/google-feud/game.html,https://learn.edumain.net/thumbnails/geet-google-feud.png,200,casual
-4258,Grow A Garden,https://learn.edumain.net/geet-games/grow-a-garden/game.html,https://learn.edumain.net/thumbnails/geet-grow-a-garden.png,200,idle
-4259,Gunspin,https://learn.edumain.net/geet-games/gunspin/game.html,https://learn.edumain.net/thumbnails/geet-gunspin.png,200,puzzle
-4260,Idle Breakout,https://learn.edumain.net/geet-games/idle-breakout/game.html,https://learn.edumain.net/thumbnails/geet-idle-breakout.png,200,idle
-4261,Idle Mining Empire,https://learn.edumain.net/geet-games/idle-mining/game.html,https://learn.edumain.net/thumbnails/geet-idle-mining.jpg,200,idle
-4262,Iron Snout,https://learn.edumain.net/geet-games/iron-snout/game.html,https://learn.edumain.net/thumbnails/geet-iron-snout.png,200,action
-4263,Italian Brainrot Obby Parkour,https://learn.edumain.net/geet-games/italian-brainrot-obby-parkour/game.html,https://learn.edumain.net/thumbnails/geet-italian-brainrot-obby-parkour.png,200,platformer
-4264,JustFall.LOL,https://learn.edumain.net/geet-games/just-fall/game.html,https://learn.edumain.net/thumbnails/geet-just-fall.png,200,io
-4265,Learn to Fly,https://learn.edumain.net/geet-games/learn-to-fly/game.html,https://learn.edumain.net/thumbnails/geet-learn-to-fly.png,200,adventure
-4266,Mario Bros,https://learn.edumain.net/geet-games/mario-bros/game.html,https://learn.edumain.net/thumbnails/geet-mario-bros.png,200,platformer
-4267,Merge Round Racers,https://learn.edumain.net/geet-games/merge-round-racers/game.html,https://learn.edumain.net/thumbnails/geet-merge-round-racers.png,200,racing
-4268,Minecraft 1.5,https://learn.edumain.net/geet-games/minecraft-15/game.html,https://learn.edumain.net/thumbnails/geet-minecraft-15.jpeg,200,open-world
-4269,Minecraft 1.8,https://learn.edumain.net/geet-games/minecraft-18/game.html,https://learn.edumain.net/thumbnails/geet-minecraft-18.png,200,open-world
-4270,Mini-putt,https://learn.edumain.net/geet-games/miniputt/game.html,https://learn.edumain.net/thumbnails/geet-miniputt.png,200,sports
-4271,Moto X3M,https://learn.edumain.net/geet-games/motox3m/game.html,https://learn.edumain.net/thumbnails/geet-motox3m.jpg,200,racing
-4272,Moto X3M 2,https://learn.edumain.net/geet-games/motox3m2/game.html,https://learn.edumain.net/thumbnails/geet-motox3m2.jpg,200,racing
-4273,Moto X3M Pool Party,https://learn.edumain.net/geet-games/motox3m-pool/game.html,https://learn.edumain.net/thumbnails/geet-motox3m-pool.jpg,200,racing
-4274,Moto X3M Spooky,https://learn.edumain.net/geet-games/motox3m-spooky/game.html,https://learn.edumain.net/thumbnails/geet-motox3m-spooky.jpeg,200,racing
-4275,Moto X3M Winter,https://learn.edumain.net/geet-games/motox3m-winter/game.html,https://learn.edumain.net/thumbnails/geet-motox3m-winter.jpeg,200,racing
-4276,Mr Bullet,https://learn.edumain.net/geet-games/mr-bullet/game.html,https://learn.edumain.net/thumbnails/geet-mr-bullet.png,200,shooter
-4277,n-gon,https://learn.edumain.net/geet-games/n-gon/game.html,https://learn.edumain.net/thumbnails/geet-n-gon.png,200,io
-4278,Nut Simulator,https://learn.edumain.net/geet-games/nut-simulator/game.html,https://learn.edumain.net/thumbnails/geet-nut-simulator.png,200,casual
-4279,Obby on a Bike,https://learn.edumain.net/geet-games/obby-on-a-bike/game.html,https://learn.edumain.net/thumbnails/geet-obby-on-a-bike.png,200,platformer
-4280,OvO,https://learn.edumain.net/geet-games/ovo/game.html,https://learn.edumain.net/thumbnails/geet-ovo.png,200,platformer
-4281,OvO 2,https://learn.edumain.net/geet-games/ovo-2/game.html,https://learn.edumain.net/thumbnails/geet-ovo-2.jpg,200,platformer
-4282,OvO Dimensions,https://learn.edumain.net/geet-games/ovo-dimensions/game.html,https://learn.edumain.net/thumbnails/geet-ovo-dimensions.jpg,200,platformer
-4283,Paper.io 2,https://learn.edumain.net/geet-games/paper-io-2/game.html,https://learn.edumain.net/thumbnails/geet-paper-io-2.png,200,io
-4284,Paper.io 3,https://learn.edumain.net/geet-games/paper-io-3/game.html,https://learn.edumain.net/thumbnails/geet-paper-io-3.png,200,io
-4285,Ragdoll Archers,https://learn.edumain.net/geet-games/ragdoll-archers/game.html,https://learn.edumain.net/thumbnails/geet-ragdoll-archers.png,200,action
-4286,Retro Bowl,https://learn.edumain.net/geet-games/retro-bowl/game.html,https://learn.edumain.net/thumbnails/geet-retro-bowl.jpg,200,sports
-4287,Retro Bowl College,https://learn.edumain.net/geet-games/retro-bowl-college/game.html,https://learn.edumain.net/thumbnails/geet-retro-bowl-college.png,200,sports
-4288,Rise Higher,https://learn.edumain.net/geet-games/rise-higher/game.html,https://learn.edumain.net/thumbnails/geet-rise-higher.png,200,arcade
-4289,Rooftop Snipers,https://learn.edumain.net/geet-games/rooftop-snipers/game.html,https://learn.edumain.net/thumbnails/geet-rooftop-snipers.png,200,action
-4290,Scrap Metal,https://learn.edumain.net/geet-games/scrap-metal/game.html,https://learn.edumain.net/thumbnails/geet-scrap-metal.png,200,racing
-4291,Slope,https://learn.edumain.net/geet-games/slope/game.html,https://learn.edumain.net/thumbnails/geet-slope.jpeg,200,arcade
-4292,Slope 2,https://learn.edumain.net/geet-games/slope-2/game.html,https://learn.edumain.net/thumbnails/geet-slope-2.png,200,arcade
-4293,Snow Rider 3D,https://learn.edumain.net/geet-games/snow-ride/game.html,https://learn.edumain.net/thumbnails/geet-snow-ride.jpg,200,racing
-4294,Snowbattle,https://learn.edumain.net/geet-games/snowbattle/game.html,https://learn.edumain.net/thumbnails/geet-snowbattle.png,200,io
-4295,Soccer Random,https://learn.edumain.net/geet-games/soccer-random/game.html,https://learn.edumain.net/thumbnails/geet-soccer-random.png,200,sports
-4296,Soccer Skills Euro Cup,https://learn.edumain.net/geet-games/soccer-skills/game.html,https://learn.edumain.net/thumbnails/geet-soccer-skills.png,200,sports
-4297,Stack,https://learn.edumain.net/geet-games/stack/game.html,https://learn.edumain.net/thumbnails/geet-stack.png,200,arcade
-4298,Steal A Brainrot,https://learn.edumain.net/geet-games/steal-a-brainrot/game.html,https://learn.edumain.net/thumbnails/geet-steal-a-brainrot.jpg,200,casual
-4299,Stick Duel Battle,https://learn.edumain.net/geet-games/stick-duel-battle/game.html,https://learn.edumain.net/thumbnails/geet-stick-duel-battle.jpg,200,action
-4300,Stick Merge,https://learn.edumain.net/geet-games/stick-merge/game.html,https://learn.edumain.net/thumbnails/geet-stick-merge.png,200,idle
-4301,Stickman Hook,https://learn.edumain.net/geet-games/stickman-hook/game.html,https://learn.edumain.net/thumbnails/geet-stickman-hook.jpg,200,platformer
-4302,Subway Surfers,https://learn.edumain.net/geet-games/subway-surfers/game.html,https://learn.edumain.net/thumbnails/geet-subway-surfers.png,200,arcade
-4303,Subway Surfers New York,https://learn.edumain.net/geet-games/subway-surfers-ny/game.html,https://learn.edumain.net/thumbnails/geet-subway-surfers-ny.png,200,arcade
-4304,Super Mario 64,https://learn.edumain.net/geet-games/super-mario-64/game.html,https://learn.edumain.net/thumbnails/geet-super-mario-64.jfif,200,platformer
-4305,Superhot,https://learn.edumain.net/geet-games/superhot/game.html,https://learn.edumain.net/thumbnails/geet-superhot.jpg,200,shooter
-4306,Survival Race,https://learn.edumain.net/geet-games/survival-race/game.html,https://learn.edumain.net/thumbnails/geet-survival-race.png,200,racing
-4307,Tag,https://learn.edumain.net/geet-games/tag/game.html,https://learn.edumain.net/thumbnails/geet-tag.jpg,200,io
-4308,Tanuki Sunset,https://learn.edumain.net/geet-games/tanuki-sunset/game.html,https://learn.edumain.net/thumbnails/geet-tanuki-sunset.png,200,racing
-4309,Temple Run 2,https://learn.edumain.net/geet-games/temple-run-2/game.html,https://learn.edumain.net/thumbnails/geet-temple-run-2.png,200,arcade
-4310,Territorial,https://learn.edumain.net/geet-games/territorial/game.html,https://learn.edumain.net/thumbnails/geet-territorial.png,200,io
-4311,There is No Game,https://learn.edumain.net/geet-games/there-is-no-game/game.html,https://learn.edumain.net/thumbnails/geet-there-is-no-game.png,200,puzzle
-4312,Tiny Fishing,https://learn.edumain.net/geet-games/tiny-fishing/game.html,https://learn.edumain.net/thumbnails/geet-tiny-fishing.png,200,casual
-4313,Trap Adventure 2,https://learn.edumain.net/geet-games/trap-adventure-2/game.html,https://learn.edumain.net/thumbnails/geet-trap-adventure-2.png,200,platformer
-4314,Tunnel Rush,https://learn.edumain.net/geet-games/tunnel-rush/game.html,https://learn.edumain.net/thumbnails/geet-tunnel-rush.jpg,200,arcade
-4315,Twerk Race 3d,https://learn.edumain.net/geet-games/twerk-race-3d/game.html,https://learn.edumain.net/thumbnails/geet-twerk-race-3d.png,200,racing
-4316,Volley Random,https://learn.edumain.net/geet-games/volley-random/game.html,https://learn.edumain.net/thumbnails/geet-volley-random.png,200,sports
-4317,Wordle,https://learn.edumain.net/geet-games/wordle/game.html,https://learn.edumain.net/thumbnails/geet-wordle.png,200,puzzle
-4318,World's Hardest Game,https://learn.edumain.net/geet-games/worlds-hardest-game/game.html,https://learn.edumain.net/thumbnails/geet-worlds-hardest-game.jpg,200,puzzle
+4014,GTA Vice City,https://learn.edumain.net/activities/vice-city/index.html?fullscreen=0&sc=1,https://learn.edumain.net/thumbnails/4014.webp,200,open-world
+4039,Frogie Cross The Road,https://learn.edumain.net/activities/frogie-cross-road/index.html,https://learn.edumain.net/thumbnails/frogie-cross-road.png,200,casual
+4040,Duck Path,https://learn.edumain.net/activities/duck-path/index.html,https://learn.edumain.net/thumbnails/duck-path.png,200,puzzle
+4041,1 Square,https://learn.edumain.net/activities/1-square/index.html,https://learn.edumain.net/thumbnails/1-square.png,200,puzzle
+4042,Aidan Emma,https://learn.edumain.net/activities/aidan-emma/index.html,https://learn.edumain.net/thumbnails/aidan-emma.png,200,adventure
+4043,All Flee 2,https://learn.edumain.net/activities/all-flee-2/index.html,https://learn.edumain.net/thumbnails/all-flee-2.png,200,action
+4044,Axel Dunngeon,https://learn.edumain.net/activities/axel-dunngeon/index.html,https://learn.edumain.net/thumbnails/axel-dunngeon.png,200,adventure
+4045,Balloons Creator Game,https://learn.edumain.net/activities/balloons-creator-game/index.html,https://learn.edumain.net/thumbnails/balloons-creator-game.png,200,casual
+4046,Basket Goal,https://learn.edumain.net/activities/basket-goal/index.html,https://learn.edumain.net/thumbnails/basket-goal.png,200,sports
+4047,Basketball Challenge Game,https://learn.edumain.net/activities/basketball-challenge-game/index.html,https://learn.edumain.net/thumbnails/basketball-challenge-game.png,200,sports
+4048,Block Fit,https://learn.edumain.net/activities/block-fit/index.html,https://learn.edumain.net/thumbnails/block-fit.png,200,puzzle
+4049,Block Tower,https://learn.edumain.net/activities/block-tower/index.html,https://learn.edumain.net/thumbnails/block-tower.png,200,puzzle
+4050,Box Kid,https://learn.edumain.net/activities/box-kid/index.html,https://learn.edumain.net/thumbnails/box-kid.png,200,puzzle
+4051,Box Wizard,https://learn.edumain.net/activities/box-wizard/index.html,https://learn.edumain.net/thumbnails/box-wizard.png,200,puzzle
+4052,Box Wizard 2,https://learn.edumain.net/activities/box-wizard-2/index.html,https://learn.edumain.net/thumbnails/box-wizard-2.png,200,puzzle
+4053,Bunny Adventure Game,https://learn.edumain.net/activities/bunny_adventure-game/index.html,https://learn.edumain.net/thumbnails/bunny_adventure-game.png,200,adventure
+4054,Cable Connector,https://learn.edumain.net/activities/cable-connector/index.html,https://learn.edumain.net/thumbnails/cable-connector.png,200,puzzle
+4055,Candy Leap,https://learn.edumain.net/activities/candy-leap/index.html,https://learn.edumain.net/thumbnails/candy-leap.png,200,arcade
+4056,Cats Swap,https://learn.edumain.net/activities/cats-swap/index.html,https://learn.edumain.net/thumbnails/cats-swap.png,200,puzzle
+4057,Charge Everything,https://learn.edumain.net/activities/charge-everything/index.html,https://learn.edumain.net/thumbnails/charge-everything.png,200,puzzle
+4058,Charlotte Valley,https://learn.edumain.net/activities/charlotte-valley/index.html,https://learn.edumain.net/thumbnails/charlotte-valley.png,200,adventure
+4059,Color Circle Puzzle,https://learn.edumain.net/activities/color-circle-puzzle/index.html,https://learn.edumain.net/thumbnails/color-circle-puzzle.png,200,puzzle
+4060,Color Cycle,https://learn.edumain.net/activities/color-cycle/index.html,https://learn.edumain.net/thumbnails/color-cycle.png,200,puzzle
+4061,Color Hoop Stack,https://learn.edumain.net/activities/color-hoop-stack/index.html,https://learn.edumain.net/thumbnails/color-hoop-stack.png,200,puzzle
+4062,Color Me,https://learn.edumain.net/activities/color-me/index.html,https://learn.edumain.net/thumbnails/color-me.png,200,casual
+4063,Crazy Gravity,https://learn.edumain.net/activities/crazy-gravity/index.html,https://learn.edumain.net/thumbnails/crazy-gravity.png,200,puzzle
+4064,Cut For Cat 2,https://learn.edumain.net/activities/cut-for-cat-2/index.html,https://learn.edumain.net/thumbnails/cut-for-cat-2.png,200,puzzle
+4065,Cut Grass,https://learn.edumain.net/activities/cut-grass/index.html,https://learn.edumain.net/thumbnails/cut-grass.png,200,casual
+4066,Desert Road Race,https://learn.edumain.net/activities/desert-road-race/index.html,https://learn.edumain.net/thumbnails/desert-road-race.png,200,racing
+4067,Dinosaur Puzzle,https://learn.edumain.net/activities/dinosaur-puzzle/index.html,https://learn.edumain.net/thumbnails/dinosaur-puzzle.png,200,puzzle
+4068,Doge Blocks Puzzle,https://learn.edumain.net/activities/doge-blocks-puzzle/index.html,https://learn.edumain.net/thumbnails/doge-blocks-puzzle.png,200,puzzle
+4069,Dot Puzzle,https://learn.edumain.net/activities/dot-puzzle/index.html,https://learn.edumain.net/thumbnails/dot-puzzle.png,200,puzzle
+4070,Draw Parking,https://learn.edumain.net/activities/draw-parking/index.html,https://learn.edumain.net/thumbnails/draw-parking.png,200,casual
+4071,Draw Surfer Game,https://learn.edumain.net/activities/draw-surfer-game/index.html,https://learn.edumain.net/thumbnails/draw-surfer-game.png,200,casual
+4072,Drift Bus Road,https://learn.edumain.net/activities/drift-bus-road/index.html,https://learn.edumain.net/thumbnails/drift-bus-road.png,200,racing
+4073,Dunk Digger,https://learn.edumain.net/activities/dunk-digger/index.html,https://learn.edumain.net/thumbnails/dunk-digger.png,200,sports
+4074,Endless Walker,https://learn.edumain.net/activities/endless-walker/index.html,https://learn.edumain.net/thumbnails/endless-walker.png,200,arcade
+4075,Escape Kid,https://learn.edumain.net/activities/escape-kid/index.html,https://learn.edumain.net/thumbnails/escape-kid.png,200,adventure
+4076,Filled Glass 2,https://learn.edumain.net/activities/filled-glass-2/index.html,https://learn.edumain.net/thumbnails/filled-glass-2.png,200,puzzle
+4077,Filled Glass 3,https://learn.edumain.net/activities/filled-glass-3/index.html,https://learn.edumain.net/thumbnails/filled-glass-3.png,200,puzzle
+4078,Filled Glass 4,https://learn.edumain.net/activities/filled-glass-4/index.html,https://learn.edumain.net/thumbnails/filled-glass-4.png,200,puzzle
+4079,Filled Glass 5,https://learn.edumain.net/activities/filled-glass-5/index.html,https://learn.edumain.net/thumbnails/filled-glass-5.png,200,puzzle
+4080,Filled Glass Game,https://learn.edumain.net/activities/filled-glass-game/index.html,https://learn.edumain.net/thumbnails/filled-glass-game.png,200,puzzle
+4081,Five Minutes To Escape,https://learn.edumain.net/activities/five-minutes-to-escape/index.html,https://learn.edumain.net/thumbnails/five-minutes-to-escape.png,200,adventure
+4082,Fluffy Jelly Cat Game,https://learn.edumain.net/activities/fluffy-jelly-cat-game/index.html,https://learn.edumain.net/thumbnails/fluffy-jelly-cat-game.png,200,casual
+4083,Free The Candy,https://learn.edumain.net/activities/free-the-candy/index.html,https://learn.edumain.net/thumbnails/free-the-candy.png,200,puzzle
+4085,Fruits Galaxy,https://learn.edumain.net/activities/fruits-galaxy/index.html,https://learn.edumain.net/thumbnails/fruits-galaxy.png,200,arcade
+4086,Get The Stars,https://learn.edumain.net/activities/get-the-stars/index.html,https://learn.edumain.net/thumbnails/get-the-stars.png,200,puzzle
+4087,Golf Field 1,https://learn.edumain.net/activities/golf-field-1/index.html,https://learn.edumain.net/thumbnails/golf-field-1.png,200,sports
+4088,Grab 50 Coins,https://learn.edumain.net/activities/grab-50-coins/index.html,https://learn.edumain.net/thumbnails/grab-50-coins.png,200,arcade
+4089,Green Mover,https://learn.edumain.net/activities/green-mover/index.html,https://learn.edumain.net/thumbnails/green-mover.png,200,puzzle
+4090,Grid Area Puzzle Quest,https://learn.edumain.net/activities/grid-area-puzzle-quest/index.html,https://learn.edumain.net/thumbnails/grid-area-puzzle-quest.png,200,puzzle
+4091,Gyro Forcer,https://learn.edumain.net/activities/gyro-forcer/index.html,https://learn.edumain.net/thumbnails/gyro-forcer.png,200,arcade
+4092,Happy Filled Glass 2,https://learn.edumain.net/activities/happy-filled-glass-2/index.html,https://learn.edumain.net/thumbnails/happy-filled-glass-2.png,200,puzzle
+4093,Happy Filled Glass 3,https://learn.edumain.net/activities/happy-filled-glass-3/index.html,https://learn.edumain.net/thumbnails/happy-filled-glass-3.png,200,puzzle
+4094,Happy Filled Glass 4,https://learn.edumain.net/activities/happy-filled-glass-4/index.html,https://learn.edumain.net/thumbnails/happy-filled-glass-4.png,200,puzzle
+4095,Hexa Merge,https://learn.edumain.net/activities/hexa-merge/index.html,https://learn.edumain.net/thumbnails/hexa-merge.png,200,puzzle
+4096,Hidden Objects,https://learn.edumain.net/activities/hidden-objects/index.html,https://learn.edumain.net/thumbnails/hidden-objects.png,200,casual
+4097,Ice Girl Rescue,https://learn.edumain.net/activities/ice-girl-rescue/index.html,https://learn.edumain.net/thumbnails/ice-girl-rescue.png,200,adventure
+4098,Impossible 10,https://learn.edumain.net/activities/impossible-10/index.html,https://learn.edumain.net/thumbnails/impossible-10.png,200,puzzle
+4099,Impulse Ball 1,https://learn.edumain.net/activities/impulse-ball-1/index.html,https://learn.edumain.net/thumbnails/impulse-ball-1.png,200,arcade
+4100,In Orbit,https://learn.edumain.net/activities/in-orbit/index.html,https://learn.edumain.net/thumbnails/in-orbit.png,200,puzzle
+4101,Isometric Lamps Move,https://learn.edumain.net/activities/isometric-lamps-move/index.html,https://learn.edumain.net/thumbnails/isometric-lamps-move.png,200,puzzle
+4102,Juice Spill,https://learn.edumain.net/activities/juice-spill/index.html,https://learn.edumain.net/thumbnails/juice-spill.png,200,puzzle
+4103,Jungle Puzzle,https://learn.edumain.net/activities/jungle-puzzle/index.html,https://learn.edumain.net/thumbnails/jungle-puzzle.png,200,puzzle
+4104,Kofi Adventure Game,https://learn.edumain.net/activities/kofi-adventure-game/index.html,https://learn.edumain.net/thumbnails/kofi-adventure-game.png,200,adventure
+4105,Lab Escape 2,https://learn.edumain.net/activities/lab-escape-2/index.html,https://learn.edumain.net/thumbnails/lab-escape-2.png,200,adventure
+4106,Little Panda Match 3,https://learn.edumain.net/activities/little-panda-match-3/index.html,https://learn.edumain.net/thumbnails/little-panda-match-3.png,200,puzzle
+4107,Math Angles,https://learn.edumain.net/activities/math-angles/index.html,https://learn.edumain.net/thumbnails/math-angles.png,200,puzzle
+4108,Math Challenge 1,https://learn.edumain.net/activities/math-challenge-1/index.html,https://learn.edumain.net/thumbnails/math-challenge-1.png,200,puzzle
+4109,Math Challenge 2,https://learn.edumain.net/activities/math-challenge-2/index.html,https://learn.edumain.net/thumbnails/math-challenge-2.png,200,puzzle
+4110,Math Challenge 3,https://learn.edumain.net/activities/math-challenge-3/index.html,https://learn.edumain.net/thumbnails/math-challenge-3.png,200,puzzle
+4111,Math Challenge 4,https://learn.edumain.net/activities/math-challenge-4/index.html,https://learn.edumain.net/thumbnails/math-challenge-4.png,200,puzzle
+4112,Math Challenge 5,https://learn.edumain.net/activities/math-challenge-5/index.html,https://learn.edumain.net/thumbnails/math-challenge-5.png,200,puzzle
+4113,Math Sum,https://learn.edumain.net/activities/math-sum/index.html,https://learn.edumain.net/thumbnails/math-sum.png,200,puzzle
+4114,Maze Control,https://learn.edumain.net/activities/maze-control/index.html,https://learn.edumain.net/thumbnails/maze-control.png,200,puzzle
+4115,Maze Shadow,https://learn.edumain.net/activities/maze-shadow/index.html,https://learn.edumain.net/thumbnails/maze-shadow.png,200,puzzle
+4116,Maze Shadow 2,https://learn.edumain.net/activities/maze-shadow-2/index.html,https://learn.edumain.net/thumbnails/maze-shadow-2.png,200,puzzle
+4117,Merge Blocks,https://learn.edumain.net/activities/merge-blocks/index.html,https://learn.edumain.net/thumbnails/merge-blocks.png,200,puzzle
+4118,Mergis Game,https://learn.edumain.net/activities/mergis-game/index.html,https://learn.edumain.net/thumbnails/mergis-game.png,200,puzzle
+4119,Milk For Cat,https://learn.edumain.net/activities/milk-for-cat/index.html,https://learn.edumain.net/thumbnails/milk-for-cat.png,200,casual
+4120,Monster Escape,https://learn.edumain.net/activities/monster-escape/index.html,https://learn.edumain.net/thumbnails/monster-escape.png,200,adventure
+4121,Monster Match Mania,https://learn.edumain.net/activities/monster-match-mania/index.html,https://learn.edumain.net/thumbnails/monster-match-mania.png,200,puzzle
+4122,Monstertopia Puzzle,https://learn.edumain.net/activities/monstertopia-puzzle/index.html,https://learn.edumain.net/thumbnails/monstertopia-puzzle.png,200,puzzle
+4123,Mouse,https://learn.edumain.net/activities/mouse/index.html,https://learn.edumain.net/thumbnails/mouse.png,200,puzzle
+4124,Move The Pin 1,https://learn.edumain.net/activities/move-the-pin-1/index.html,https://learn.edumain.net/thumbnails/move-the-pin-1.png,200,puzzle
+4125,Move The Pin 2,https://learn.edumain.net/activities/move-the-pin-2/index.html,https://learn.edumain.net/thumbnails/move-the-pin-2.png,200,puzzle
+4126,Number Merge,https://learn.edumain.net/activities/number-merge/index.html,https://learn.edumain.net/thumbnails/number-merge.png,200,puzzle
+4127,Number Patterns,https://learn.edumain.net/activities/number-patterns/index.html,https://learn.edumain.net/thumbnails/number-patterns.png,200,puzzle
+4128,On The Hill,https://learn.edumain.net/activities/on-the-hill/index.html,https://learn.edumain.net/thumbnails/on-the-hill.png,200,casual
+4129,One Stage,https://learn.edumain.net/activities/one-stage/index.html,https://learn.edumain.net/thumbnails/one-stage.png,200,puzzle
+4130,Paddle Bricks,https://learn.edumain.net/activities/paddle-bricks/index.html,https://learn.edumain.net/thumbnails/paddle-bricks.png,200,arcade
+4131,Panda Love,https://learn.edumain.net/activities/panda-love/index.html,https://learn.edumain.net/thumbnails/panda-love.png,200,adventure
+4132,Pause Puzzle,https://learn.edumain.net/activities/pause-puzzle/index.html,https://learn.edumain.net/thumbnails/pause-puzzle.png,200,puzzle
+4133,Penguin Likes Ice Cream,https://learn.edumain.net/activities/penguin-likes-ice-cream/index.html,https://learn.edumain.net/thumbnails/penguin-likes-ice-cream.png,200,casual
+4134,Penguin Love Puzzle,https://learn.edumain.net/activities/penguin-love-puzzle/index.html,https://learn.edumain.net/thumbnails/penguin-love-puzzle.png,200,puzzle
+4135,Pipe Connect Puzzle,https://learn.edumain.net/activities/pipe-connect-puzzle/index.html,https://learn.edumain.net/thumbnails/pipe-connect-puzzle.png,200,puzzle
+4136,Pixel Slime,https://learn.edumain.net/activities/pixel-slime/index.html,https://learn.edumain.net/thumbnails/pixel-slime.png,200,arcade
+4137,Planet Orbit,https://learn.edumain.net/activities/planet-orbit/index.html,https://learn.edumain.net/thumbnails/planet-orbit.png,200,puzzle
+4138,Popcorn Eater,https://learn.edumain.net/activities/popcorn-eater/index.html,https://learn.edumain.net/thumbnails/popcorn-eater.png,200,casual
+4139,Puzzle Slider Numbers,https://learn.edumain.net/activities/puzzle-slider-numbers/index.html,https://learn.edumain.net/thumbnails/puzzle-slider-numbers.png,200,puzzle
+4140,Rail Maze,https://learn.edumain.net/activities/rail-maze/index.html,https://learn.edumain.net/thumbnails/rail-maze.png,200,puzzle
+4141,Reach The Flag,https://learn.edumain.net/activities/reach-the-flag/index.html,https://learn.edumain.net/thumbnails/reach-the-flag.png,200,puzzle
+4142,Red Slide,https://learn.edumain.net/activities/red-slide/index.html,https://learn.edumain.net/thumbnails/red-slide.png,200,puzzle
+4143,Robot Start Game,https://learn.edumain.net/activities/robot-start-game/index.html,https://learn.edumain.net/thumbnails/robot-start-game.png,200,puzzle
+4144,Rock Roll Puzzle,https://learn.edumain.net/activities/rock-roll-puzzle/index.html,https://learn.edumain.net/thumbnails/rock-roll-puzzle.png,200,puzzle
+4145,Rocket Balance,https://learn.edumain.net/activities/rocket-balance/index.html,https://learn.edumain.net/thumbnails/rocket-balance.png,200,puzzle
+4146,Rope Bawling,https://learn.edumain.net/activities/rope-bawling/index.html,https://learn.edumain.net/thumbnails/rope-bawling.png,200,sports
+4147,Rope Bawling 2,https://learn.edumain.net/activities/rope-bawling-2/index.html,https://learn.edumain.net/thumbnails/rope-bawling-2.png,200,sports
+4148,Rotate And Flip,https://learn.edumain.net/activities/rotate-and-flip/index.html,https://learn.edumain.net/thumbnails/rotate-and-flip.png,200,puzzle
+4149,Rotated Cups,https://learn.edumain.net/activities/rotated-cups/index.html,https://learn.edumain.net/thumbnails/rotated-cups.png,200,puzzle
+4150,Route Digger,https://learn.edumain.net/activities/route-digger/index.html,https://learn.edumain.net/thumbnails/route-digger.png,200,puzzle
+4151,Route Digger 2,https://learn.edumain.net/activities/route-digger-2/index.html,https://learn.edumain.net/thumbnails/route-digger-2.png,200,puzzle
+4152,Save Orange,https://learn.edumain.net/activities/save-orange/index.html,https://learn.edumain.net/thumbnails/save-orange.png,200,puzzle
+4153,Save Us,https://learn.edumain.net/activities/save-us/index.html,https://learn.edumain.net/thumbnails/save-us.png,200,puzzle
+4154,Scribble World,https://learn.edumain.net/activities/scribble-world/index.html,https://learn.edumain.net/thumbnails/scribble-world.png,200,casual
+4155,Scribble World Drawing,https://learn.edumain.net/activities/scribble-world-drawing/index.html,https://learn.edumain.net/thumbnails/scribble-world-drawing.png,200,casual
+4156,Scribble World Logic Puzzle,https://learn.edumain.net/activities/scribble-world-logic-puzzle/index.html,https://learn.edumain.net/thumbnails/scribble-world-logic-puzzle.png,200,puzzle
+4157,Scribble World Physics,https://learn.edumain.net/activities/scribble-world-physics/index.html,https://learn.edumain.net/thumbnails/scribble-world-physics.png,200,casual
+4158,Shadoworld Adventure,https://learn.edumain.net/activities/shadoworld-adventure/index.html,https://learn.edumain.net/thumbnails/shadoworld-adventure.png,200,adventure
+4159,Shape Balance 2,https://learn.edumain.net/activities/shape-balance-2/index.html,https://learn.edumain.net/thumbnails/shape-balance-2.png,200,puzzle
+4160,Sky Speedster,https://learn.edumain.net/activities/sky-speedster/index.html,https://learn.edumain.net/thumbnails/sky-speedster.png,200,arcade
+4161,Small Archer,https://learn.edumain.net/activities/small-archer/index.html,https://learn.edumain.net/thumbnails/small-archer.png,200,action
+4162,Small Archer 2,https://learn.edumain.net/activities/small-archer-2/index.html,https://learn.edumain.net/thumbnails/small-archer-2.png,200,action
+4163,Snake Falls,https://learn.edumain.net/activities/snake-falls/index.html,https://learn.edumain.net/thumbnails/snake-falls.png,200,arcade
+4164,Sokofarm Game,https://learn.edumain.net/activities/sokofarm-game/index.html,https://learn.edumain.net/thumbnails/sokofarm-game.png,200,puzzle
+4165,Sokogem,https://learn.edumain.net/activities/sokogem/index.html,https://learn.edumain.net/thumbnails/sokogem.png,200,puzzle
+4166,Sokomath Puzzle,https://learn.edumain.net/activities/sokomath-puzzle/index.html,https://learn.edumain.net/thumbnails/sokomath-puzzle.png,200,puzzle
+4167,Soroban,https://learn.edumain.net/activities/soroban/index.html,https://learn.edumain.net/thumbnails/soroban.png,200,puzzle
+4168,Space Pest,https://learn.edumain.net/activities/space-pest/index.html,https://learn.edumain.net/thumbnails/space-pest.png,200,arcade
+4169,Spatial Blocks,https://learn.edumain.net/activities/spatial-blocks/index.html,https://learn.edumain.net/thumbnails/spatial-blocks.png,200,puzzle
+4170,Speedy Steve,https://learn.edumain.net/activities/speedy-steve/index.html,https://learn.edumain.net/thumbnails/speedy-steve.png,200,arcade
+4171,Spin Bowling,https://learn.edumain.net/activities/spin-bowling/index.html,https://learn.edumain.net/thumbnails/spin-bowling.png,200,sports
+4172,Spinvaders,https://learn.edumain.net/activities/spinvaders/index.html,https://learn.edumain.net/thumbnails/spinvaders.png,200,arcade
+4173,Square Monsters,https://learn.edumain.net/activities/square-monsters/index.html,https://learn.edumain.net/thumbnails/square-monsters.png,200,puzzle
+4174,Stack Builder,https://learn.edumain.net/activities/stack-builder/index.html,https://learn.edumain.net/thumbnails/stack-builder.png,200,puzzle
+4175,Stop Now,https://learn.edumain.net/activities/stop-now/index.html,https://learn.edumain.net/thumbnails/stop-now.png,200,puzzle
+4176,Switch Magic,https://learn.edumain.net/activities/switch-magic/index.html,https://learn.edumain.net/thumbnails/switch-magic.png,200,puzzle
+4177,Tangram Grid,https://learn.edumain.net/activities/tangram-grid/index.html,https://learn.edumain.net/thumbnails/tangram-grid.png,200,puzzle
+4178,The Gate,https://learn.edumain.net/activities/the-gate/index.html,https://learn.edumain.net/thumbnails/the-gate.png,200,puzzle
+4179,Three Chances,https://learn.edumain.net/activities/three-chances/index.html,https://learn.edumain.net/thumbnails/three-chances.png,200,puzzle
+4180,Track Rotate,https://learn.edumain.net/activities/track-rotate/index.html,https://learn.edumain.net/thumbnails/track-rotate.png,200,puzzle
+4181,Treze Coins,https://learn.edumain.net/activities/treze-coins/index.html,https://learn.edumain.net/thumbnails/treze-coins.png,200,puzzle
+4182,Two Aliens Adventure,https://learn.edumain.net/activities/two-aliens-adventure/index.html,https://learn.edumain.net/thumbnails/two-aliens-adventure.png,200,adventure
+4183,Use Your Head Part 1,https://learn.edumain.net/activities/use-your-head-part-1/index.html,https://learn.edumain.net/thumbnails/use-your-head-part-1.png,200,puzzle
+4184,Use Your Head Part 2,https://learn.edumain.net/activities/use-your-head-part-2/index.html,https://learn.edumain.net/thumbnails/use-your-head-part-2.png,200,puzzle
+4185,Use Your Head Part 3,https://learn.edumain.net/activities/use-your-head-part-3/index.html,https://learn.edumain.net/thumbnails/use-your-head-part-3.png,200,puzzle
+4186,Where Is My Cat,https://learn.edumain.net/activities/where-is-my-cat/index.html,https://learn.edumain.net/thumbnails/where-is-my-cat.png,200,puzzle
+4187,Float for Brainrots,https://learn.edumain.net/activities/float-for-brainrots/index.html,https://learn.edumain.net/thumbnails/float-for-brainrots.png,200,adventure
+4190,1 on 1 Soccer,https://learn.edumain.net/geet-activities/1v1-soccer/index.html,https://learn.edumain.net/thumbnails/geet-1v1-soccer.jpg,200,sports
+4191,10 Minutes Till Dawn,https://learn.edumain.net/geet-activities/10-minutes-till-dawn/index.html,https://learn.edumain.net/thumbnails/geet-10-minutes-till-dawn.png,200,shooter
+4192,1v1.LOL,https://learn.edumain.net/geet-activities/1v1-lol/index.html,https://learn.edumain.net/thumbnails/geet-1v1-lol.png,200,shooter
+4193,2048,https://learn.edumain.net/geet-activities/2048/index.html,https://learn.edumain.net/thumbnails/geet-2048.png,200,puzzle
+4194,3D Bowling,https://learn.edumain.net/geet-activities/3d-bowling/index.html,https://learn.edumain.net/thumbnails/geet-3d-bowling.jpg,200,sports
+4195,8 Ball,https://learn.edumain.net/geet-activities/8-ball/index.html,https://learn.edumain.net/thumbnails/geet-8-ball.jpg,200,sports
+4196,99 Nights in The Forest,https://learn.edumain.net/geet-activities/99-nights-in-the-forest/index.html,https://learn.edumain.net/thumbnails/geet-99-nights-in-the-forest.jpg,200,adventure
+4197,Ages of Conflict,https://learn.edumain.net/geet-activities/ages-of-conflict/index.html,https://learn.edumain.net/thumbnails/geet-ages-of-conflict.jpg,200,strategy
+4198,Among Us,https://learn.edumain.net/geet-activities/among-us/index.html,https://learn.edumain.net/thumbnails/geet-among-us.png,200,casual
+4199,Angry Sharks,https://learn.edumain.net/geet-activities/angry-sharks/index.html,https://learn.edumain.net/thumbnails/geet-angry-sharks.png,200,action
+4200,Apple Shooter,https://learn.edumain.net/geet-activities/apple-shooter/index.html,https://learn.edumain.net/thumbnails/geet-apple-shooter.jpg,200,arcade
+4201,Aquapark Slides,https://learn.edumain.net/geet-activities/aquapark-slides/index.html,https://learn.edumain.net/thumbnails/geet-aquapark-slides.png,200,casual
+4202,Arcane Archer,https://learn.edumain.net/geet-activities/arcane-archer/index.html,https://learn.edumain.net/thumbnails/geet-arcane-archer.avif,200,action
+4203,Awesome Tanks 2,https://learn.edumain.net/geet-activities/awesome-tanks-2/index.html,https://learn.edumain.net/thumbnails/geet-awesome-tanks-2.jpg,200,shooter
+4204,Backrooms,https://learn.edumain.net/geet-activities/backrooms/index.html,https://learn.edumain.net/thumbnails/geet-backrooms.jpg,200,horror
+4205,Backrooms 2D,https://learn.edumain.net/geet-activities/backrooms-2d/index.html,https://learn.edumain.net/thumbnails/geet-backrooms-2d.png,200,horror
+4206,Bacon May Die,https://learn.edumain.net/geet-activities/bacon-may-die/index.html,https://learn.edumain.net/thumbnails/geet-bacon-may-die.png,200,platformer
+4207,Bad Ice Cream,https://learn.edumain.net/geet-activities/bad-ice-cream/index.html,https://learn.edumain.net/thumbnails/geet-bad-ice-cream.png,200,arcade
+4208,Baldi's Basics,https://learn.edumain.net/geet-activities/baldis-basics/index.html,https://learn.edumain.net/thumbnails/geet-baldis-basics.png,200,horror
+4209,Ballistic,https://learn.edumain.net/geet-activities/ballistic/index.html,https://learn.edumain.net/thumbnails/geet-ballistic.jpg,200,action
+4210,Basket Random,https://learn.edumain.net/geet-activities/basket-random/index.html,https://learn.edumain.net/thumbnails/geet-basket-random.png,200,sports
+4211,Basketball Stars,https://learn.edumain.net/geet-activities/basketball-stars/index.html,https://learn.edumain.net/thumbnails/geet-basketball-stars.png,200,sports
+4212,Big Tower Tiny Square,https://learn.edumain.net/geet-activities/big-tower-tiny-square/index.html,https://learn.edumain.net/thumbnails/geet-big-tower-tiny-square.png,200,platformer
+4213,Bitcoin Clicker,https://learn.edumain.net/geet-activities/bitcoin-clicker/index.html,https://learn.edumain.net/thumbnails/geet-bitcoin-clicker.png,200,idle
+4214,BitLife,https://learn.edumain.net/geet-activities/bl/index.html,https://learn.edumain.net/thumbnails/geet-bl.png,200,casual
+4215,Bloons TD 4,https://learn.edumain.net/geet-activities/bloonstd-4/index.html,https://learn.edumain.net/thumbnails/geet-bloonstd-4.jpg,200,strategy
+4216,Bloxorz,https://learn.edumain.net/geet-activities/bloxors/index.html,https://learn.edumain.net/thumbnails/geet-bloxors.png,200,puzzle
+4217,Blumgi Rocket,https://learn.edumain.net/geet-activities/blumgi-rocket/index.html,https://learn.edumain.net/thumbnails/geet-blumgi-rocket.png,200,platformer
+4218,Blumgi Slime,https://learn.edumain.net/geet-activities/blumgi-slime/index.html,https://learn.edumain.net/thumbnails/geet-blumgi-slime.jpg,200,platformer
+4219,Bob the Robber 2,https://learn.edumain.net/geet-activities/bob-the-robber-2/index.html,https://learn.edumain.net/thumbnails/geet-bob-the-robber-2.jpeg,200,puzzle
+4220,Bottle Flip,https://learn.edumain.net/geet-activities/bottle-flip/index.html,https://learn.edumain.net/thumbnails/geet-bottle-flip.png,200,casual
+4221,Boxel Rebound,https://learn.edumain.net/geet-activities/boxel-rebound/index.html,https://learn.edumain.net/thumbnails/geet-boxel-rebound.jpg,200,platformer
+4222,Boxing Random,https://learn.edumain.net/geet-activities/boxing-random/index.html,https://learn.edumain.net/thumbnails/geet-boxing-random.jpg,200,sports
+4223,Cars Simulator,https://learn.edumain.net/geet-activities/cars-simulator/index.html,https://learn.edumain.net/thumbnails/geet-cars-simulator.png,200,racing
+4224,circloO,https://learn.edumain.net/geet-activities/circlo/index.html,https://learn.edumain.net/thumbnails/geet-circlo.png,200,platformer
+4225,circloO 2,https://learn.edumain.net/geet-activities/circlo-2/index.html,https://learn.edumain.net/thumbnails/geet-circlo-2.png,200,platformer
+4226,Climb Over It,https://learn.edumain.net/geet-activities/climb-over-it/index.html,https://learn.edumain.net/thumbnails/geet-climb-over-it.jpg,200,platformer
+4227,Cluster Rush,https://learn.edumain.net/geet-activities/cluster-rush/index.html,https://learn.edumain.net/thumbnails/geet-cluster-rush.png,200,racing
+4228,Cookie Clicker,https://learn.edumain.net/geet-activities/cookie-clicker/index.html,https://learn.edumain.net/thumbnails/geet-cookie-clicker.png,200,idle
+4229,Core Ball,https://learn.edumain.net/geet-activities/core-ball/index.html,https://learn.edumain.net/thumbnails/geet-core-ball.png,200,arcade
+4230,Crazy Cars,https://learn.edumain.net/geet-activities/crazy-cars/index.html,https://learn.edumain.net/thumbnails/geet-crazy-cars.jpg,200,racing
+4231,Crossy Road,https://learn.edumain.net/geet-activities/crossy-road/index.html,https://learn.edumain.net/thumbnails/geet-crossy-road.png,200,arcade
+4232,CS:GO Clicker,https://learn.edumain.net/geet-activities/csgo-clicker/index.html,https://learn.edumain.net/thumbnails/geet-csgo-clicker.png,200,idle
+4233,Cuphead,https://learn.edumain.net/geet-activities/cuphead/index.html,https://learn.edumain.net/thumbnails/geet-cuphead.png,200,platformer
+4234,Deal or No Deal,https://learn.edumain.net/geet-activities/deal-or-no-deal/index.html,https://learn.edumain.net/thumbnails/geet-deal-or-no-deal.jpg,200,casual
+4235,Death Run 3D,https://learn.edumain.net/geet-activities/death-run-3d/index.html,https://learn.edumain.net/thumbnails/geet-death-run-3d.png,200,platformer
+4236,Doge Miner,https://learn.edumain.net/geet-activities/doge-miner/index.html,https://learn.edumain.net/thumbnails/geet-doge-miner.png,200,idle
+4237,Doodle Jump,https://learn.edumain.net/geet-activities/doodle-jump/index.html,https://learn.edumain.net/thumbnails/geet-doodle-jump.png,200,arcade
+4238,Draw the Hill,https://learn.edumain.net/geet-activities/draw-the-hill/index.html,https://learn.edumain.net/thumbnails/geet-draw-the-hill.png,200,puzzle
+4239,Drift Boss,https://learn.edumain.net/geet-activities/drift-boss/index.html,https://learn.edumain.net/thumbnails/geet-drift-boss.png,200,racing
+4240,Drive Mad,https://learn.edumain.net/geet-activities/drive-mad/index.html,https://learn.edumain.net/thumbnails/geet-drive-mad.jpg,200,racing
+4241,Duck Life 4,https://learn.edumain.net/geet-activities/duck-life-4/index.html,https://learn.edumain.net/thumbnails/geet-duck-life-4.jpg,200,adventure
+4242,Eagle Craft,https://learn.edumain.net/geet-activities/eagle-craft/index.html,https://learn.edumain.net/thumbnails/geet-eagle-craft.jpg,200,open-world
+4243,Elastic Face,https://learn.edumain.net/geet-activities/elastic-face/index.html,https://learn.edumain.net/thumbnails/geet-elastic-face.png,200,casual
+4244,Fireboy and Watergirl,https://learn.edumain.net/geet-activities/fire-boy-water-girl/index.html,https://learn.edumain.net/thumbnails/geet-fire-boy-water-girl.jpeg,200,puzzle
+4245,Five Nights at Freddys,https://learn.edumain.net/geet-activities/fnaf/index.html,https://learn.edumain.net/thumbnails/geet-fnaf.jpg,200,horror
+4246,Flappy Bird,https://learn.edumain.net/geet-activities/flappy-bird/index.html,https://learn.edumain.net/thumbnails/geet-flappy-bird.png,200,arcade
+4247,Flash Tetris,https://learn.edumain.net/geet-activities/flash-tetris/index.html,https://learn.edumain.net/thumbnails/geet-flash-tetris.png,200,puzzle
+4248,fnaf 2,https://learn.edumain.net/geet-activities/fnaf-2/index.html,https://learn.edumain.net/thumbnails/geet-fnaf-2.jpg,200,horror
+4249,Football Legends,https://learn.edumain.net/geet-activities/football-legends/index.html,https://learn.edumain.net/thumbnails/geet-football-legends.jpg,200,sports
+4250,Football Strike,https://learn.edumain.net/geet-activities/football-strike/index.html,https://learn.edumain.net/thumbnails/geet-football-strike.jpg,200,sports
+4251,Fruit Ninja,https://learn.edumain.net/geet-activities/fruit-ninja/index.html,https://learn.edumain.net/thumbnails/geet-fruit-ninja.jpg,200,arcade
+4252,Funny Shooter 2,https://learn.edumain.net/geet-activities/funny-shooter-2/index.html,https://learn.edumain.net/thumbnails/geet-funny-shooter-2.png,200,shooter
+4253,Geometry Dash,https://learn.edumain.net/geet-activities/geometry-dash/index.html,https://learn.edumain.net/thumbnails/geet-geometry-dash.png,200,platformer
+4254,Getaway Shootout,https://learn.edumain.net/geet-activities/getaway-shootout/index.html,https://learn.edumain.net/thumbnails/geet-getaway-shootout.jpg,200,action
+4255,Getting Over It,https://learn.edumain.net/geet-activities/getting-over-it/index.html,https://learn.edumain.net/thumbnails/geet-getting-over-it.png,200,platformer
+4256,Gladihoppers,https://learn.edumain.net/geet-activities/gladihoppers/index.html,https://learn.edumain.net/thumbnails/geet-gladihoppers.png,200,action
+4257,Google Feud,https://learn.edumain.net/geet-activities/google-feud/index.html,https://learn.edumain.net/thumbnails/geet-google-feud.png,200,casual
+4258,Grow A Garden,https://learn.edumain.net/geet-activities/grow-a-garden/index.html,https://learn.edumain.net/thumbnails/geet-grow-a-garden.png,200,idle
+4259,Gunspin,https://learn.edumain.net/geet-activities/gunspin/index.html,https://learn.edumain.net/thumbnails/geet-gunspin.png,200,puzzle
+4260,Idle Breakout,https://learn.edumain.net/geet-activities/idle-breakout/index.html,https://learn.edumain.net/thumbnails/geet-idle-breakout.png,200,idle
+4261,Idle Mining Empire,https://learn.edumain.net/geet-activities/idle-mining/index.html,https://learn.edumain.net/thumbnails/geet-idle-mining.jpg,200,idle
+4262,Iron Snout,https://learn.edumain.net/geet-activities/iron-snout/index.html,https://learn.edumain.net/thumbnails/geet-iron-snout.png,200,action
+4263,Italian Brainrot Obby Parkour,https://learn.edumain.net/geet-activities/italian-brainrot-obby-parkour/index.html,https://learn.edumain.net/thumbnails/geet-italian-brainrot-obby-parkour.png,200,platformer
+4264,JustFall.LOL,https://learn.edumain.net/geet-activities/just-fall/index.html,https://learn.edumain.net/thumbnails/geet-just-fall.png,200,io
+4265,Learn to Fly,https://learn.edumain.net/geet-activities/learn-to-fly/index.html,https://learn.edumain.net/thumbnails/geet-learn-to-fly.png,200,adventure
+4266,Mario Bros,https://learn.edumain.net/geet-activities/mario-bros/index.html,https://learn.edumain.net/thumbnails/geet-mario-bros.png,200,platformer
+4267,Merge Round Racers,https://learn.edumain.net/geet-activities/merge-round-racers/index.html,https://learn.edumain.net/thumbnails/geet-merge-round-racers.png,200,racing
+4268,Minecraft 1.5,https://learn.edumain.net/geet-activities/minecraft-15/index.html,https://learn.edumain.net/thumbnails/geet-minecraft-15.jpeg,200,open-world
+4269,Minecraft 1.8,https://learn.edumain.net/geet-activities/minecraft-18/index.html,https://learn.edumain.net/thumbnails/geet-minecraft-18.png,200,open-world
+4270,Mini-putt,https://learn.edumain.net/geet-activities/miniputt/index.html,https://learn.edumain.net/thumbnails/geet-miniputt.png,200,sports
+4271,Moto X3M,https://learn.edumain.net/geet-activities/motox3m/index.html,https://learn.edumain.net/thumbnails/geet-motox3m.jpg,200,racing
+4272,Moto X3M 2,https://learn.edumain.net/geet-activities/motox3m2/index.html,https://learn.edumain.net/thumbnails/geet-motox3m2.jpg,200,racing
+4273,Moto X3M Pool Party,https://learn.edumain.net/geet-activities/motox3m-pool/index.html,https://learn.edumain.net/thumbnails/geet-motox3m-pool.jpg,200,racing
+4274,Moto X3M Spooky,https://learn.edumain.net/geet-activities/motox3m-spooky/index.html,https://learn.edumain.net/thumbnails/geet-motox3m-spooky.jpeg,200,racing
+4275,Moto X3M Winter,https://learn.edumain.net/geet-activities/motox3m-winter/index.html,https://learn.edumain.net/thumbnails/geet-motox3m-winter.jpeg,200,racing
+4276,Mr Bullet,https://learn.edumain.net/geet-activities/mr-bullet/index.html,https://learn.edumain.net/thumbnails/geet-mr-bullet.png,200,shooter
+4277,n-gon,https://learn.edumain.net/geet-activities/n-gon/index.html,https://learn.edumain.net/thumbnails/geet-n-gon.png,200,io
+4278,Nut Simulator,https://learn.edumain.net/geet-activities/nut-simulator/index.html,https://learn.edumain.net/thumbnails/geet-nut-simulator.png,200,casual
+4279,Obby on a Bike,https://learn.edumain.net/geet-activities/obby-on-a-bike/index.html,https://learn.edumain.net/thumbnails/geet-obby-on-a-bike.png,200,platformer
+4280,OvO,https://learn.edumain.net/geet-activities/ovo/index.html,https://learn.edumain.net/thumbnails/geet-ovo.png,200,platformer
+4281,OvO 2,https://learn.edumain.net/geet-activities/ovo-2/index.html,https://learn.edumain.net/thumbnails/geet-ovo-2.jpg,200,platformer
+4282,OvO Dimensions,https://learn.edumain.net/geet-activities/ovo-dimensions/index.html,https://learn.edumain.net/thumbnails/geet-ovo-dimensions.jpg,200,platformer
+4283,Paper.io 2,https://learn.edumain.net/geet-activities/paper-io-2/index.html,https://learn.edumain.net/thumbnails/geet-paper-io-2.png,200,io
+4284,Paper.io 3,https://learn.edumain.net/geet-activities/paper-io-3/index.html,https://learn.edumain.net/thumbnails/geet-paper-io-3.png,200,io
+4285,Ragdoll Archers,https://learn.edumain.net/geet-activities/ragdoll-archers/index.html,https://learn.edumain.net/thumbnails/geet-ragdoll-archers.png,200,action
+4286,Retro Bowl,https://learn.edumain.net/geet-activities/retro-bowl/index.html,https://learn.edumain.net/thumbnails/geet-retro-bowl.jpg,200,sports
+4287,Retro Bowl College,https://learn.edumain.net/geet-activities/retro-bowl-college/index.html,https://learn.edumain.net/thumbnails/geet-retro-bowl-college.png,200,sports
+4288,Rise Higher,https://learn.edumain.net/geet-activities/rise-higher/index.html,https://learn.edumain.net/thumbnails/geet-rise-higher.png,200,arcade
+4289,Rooftop Snipers,https://learn.edumain.net/geet-activities/rooftop-snipers/index.html,https://learn.edumain.net/thumbnails/geet-rooftop-snipers.png,200,action
+4290,Scrap Metal,https://learn.edumain.net/geet-activities/scrap-metal/index.html,https://learn.edumain.net/thumbnails/geet-scrap-metal.png,200,racing
+4291,Slope,https://learn.edumain.net/geet-activities/slope/index.html,https://learn.edumain.net/thumbnails/geet-slope.jpeg,200,arcade
+4292,Slope 2,https://learn.edumain.net/geet-activities/slope-2/index.html,https://learn.edumain.net/thumbnails/geet-slope-2.png,200,arcade
+4293,Snow Rider 3D,https://learn.edumain.net/geet-activities/snow-ride/index.html,https://learn.edumain.net/thumbnails/geet-snow-ride.jpg,200,racing
+4294,Snowbattle,https://learn.edumain.net/geet-activities/snowbattle/index.html,https://learn.edumain.net/thumbnails/geet-snowbattle.png,200,io
+4295,Soccer Random,https://learn.edumain.net/geet-activities/soccer-random/index.html,https://learn.edumain.net/thumbnails/geet-soccer-random.png,200,sports
+4296,Soccer Skills Euro Cup,https://learn.edumain.net/geet-activities/soccer-skills/index.html,https://learn.edumain.net/thumbnails/geet-soccer-skills.png,200,sports
+4297,Stack,https://learn.edumain.net/geet-activities/stack/index.html,https://learn.edumain.net/thumbnails/geet-stack.png,200,arcade
+4298,Steal A Brainrot,https://learn.edumain.net/geet-activities/steal-a-brainrot/index.html,https://learn.edumain.net/thumbnails/geet-steal-a-brainrot.jpg,200,casual
+4299,Stick Duel Battle,https://learn.edumain.net/geet-activities/stick-duel-battle/index.html,https://learn.edumain.net/thumbnails/geet-stick-duel-battle.jpg,200,action
+4300,Stick Merge,https://learn.edumain.net/geet-activities/stick-merge/index.html,https://learn.edumain.net/thumbnails/geet-stick-merge.png,200,idle
+4301,Stickman Hook,https://learn.edumain.net/geet-activities/stickman-hook/index.html,https://learn.edumain.net/thumbnails/geet-stickman-hook.jpg,200,platformer
+4302,Subway Surfers,https://learn.edumain.net/geet-activities/subway-surfers/index.html,https://learn.edumain.net/thumbnails/geet-subway-surfers.png,200,arcade
+4303,Subway Surfers New York,https://learn.edumain.net/geet-activities/subway-surfers-ny/index.html,https://learn.edumain.net/thumbnails/geet-subway-surfers-ny.png,200,arcade
+4304,Super Mario 64,https://learn.edumain.net/geet-activities/super-mario-64/index.html,https://learn.edumain.net/thumbnails/geet-super-mario-64.jfif,200,platformer
+4305,Superhot,https://learn.edumain.net/geet-activities/superhot/index.html,https://learn.edumain.net/thumbnails/geet-superhot.jpg,200,shooter
+4306,Survival Race,https://learn.edumain.net/geet-activities/survival-race/index.html,https://learn.edumain.net/thumbnails/geet-survival-race.png,200,racing
+4307,Tag,https://learn.edumain.net/geet-activities/tag/index.html,https://learn.edumain.net/thumbnails/geet-tag.jpg,200,io
+4308,Tanuki Sunset,https://learn.edumain.net/geet-activities/tanuki-sunset/index.html,https://learn.edumain.net/thumbnails/geet-tanuki-sunset.png,200,racing
+4309,Temple Run 2,https://learn.edumain.net/geet-activities/temple-run-2/index.html,https://learn.edumain.net/thumbnails/geet-temple-run-2.png,200,arcade
+4310,Territorial,https://learn.edumain.net/geet-activities/territorial/index.html,https://learn.edumain.net/thumbnails/geet-territorial.png,200,io
+4311,There is No Game,https://learn.edumain.net/geet-activities/there-is-no-game/index.html,https://learn.edumain.net/thumbnails/geet-there-is-no-game.png,200,puzzle
+4312,Tiny Fishing,https://learn.edumain.net/geet-activities/tiny-fishing/index.html,https://learn.edumain.net/thumbnails/geet-tiny-fishing.png,200,casual
+4313,Trap Adventure 2,https://learn.edumain.net/geet-activities/trap-adventure-2/index.html,https://learn.edumain.net/thumbnails/geet-trap-adventure-2.png,200,platformer
+4314,Tunnel Rush,https://learn.edumain.net/geet-activities/tunnel-rush/index.html,https://learn.edumain.net/thumbnails/geet-tunnel-rush.jpg,200,arcade
+4315,Twerk Race 3d,https://learn.edumain.net/geet-activities/twerk-race-3d/index.html,https://learn.edumain.net/thumbnails/geet-twerk-race-3d.png,200,racing
+4316,Volley Random,https://learn.edumain.net/geet-activities/volley-random/index.html,https://learn.edumain.net/thumbnails/geet-volley-random.png,200,sports
+4317,Wordle,https://learn.edumain.net/geet-activities/wordle/index.html,https://learn.edumain.net/thumbnails/geet-wordle.png,200,puzzle
+4318,World's Hardest Game,https://learn.edumain.net/geet-activities/worlds-hardest-game/index.html,https://learn.edumain.net/thumbnails/geet-worlds-hardest-game.jpg,200,puzzle
+4319,Run 3,https://learn.edumain.net/geet-activities/run-3/index.html,https://learn.edumain.net/thumbnails/geet-run-3.webp,200,platformer
+4320,Happy Wheels,https://learn.edumain.net/geet-activities/happy-wheels/index.html,https://learn.edumain.net/thumbnails/geet-happy-wheels.webp,200,racing
