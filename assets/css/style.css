@@ -423,6 +423,7 @@ body.page-article .page-wrap {
 .topic-grid,
 .subject-topic-grid,
 .search-page,
+.tool-page-layout,
 .static-page {
   max-width: 1260px;
   width: 100%;
@@ -1305,7 +1306,9 @@ body.page-article .page-wrap {
 }
 
 /* ===== TOOL PAGE LAYOUT ===== */
-.tool-page-layout { width: min(1100px, calc(100% - 48px)); margin: 0 auto; padding: 24px 0 48px; box-sizing: border-box; }
+/* Width/horizontal padding come from the shared content-wrapper rule above,
+   so tool pages line up with the homepage and every other page. */
+.tool-page-layout { padding-top: 24px; padding-bottom: 48px; box-sizing: border-box; }
 
 .tool-nav-row { display: flex; gap: .85rem; margin: 1.2rem 0; }
 .tool-nav-placeholder { flex: 1; }
@@ -1346,7 +1349,6 @@ body.page-article .page-wrap {
 .tool-share-btn:hover { border-color: var(--accent); color: var(--accent); }
 
 @media (max-width: 640px) {
-  .tool-page-layout { width: min(1100px, calc(100% - 32px)); }
   .tool-nav-row { gap: .45rem; }
   .tool-nav-card { padding: .6rem .7rem; gap: .4rem; }
   .tool-nav-icon { width: 28px; height: 28px; font-size: .75rem; }
@@ -1419,6 +1421,7 @@ body.page-article .page-wrap {
 
   /* Sections */
   .home-section { padding: 4px 16px 28px; }
+  .tool-page-layout { padding-left: 16px; padding-right: 16px; }
   .section-title { font-size: 1.2rem; }
   .section-sub { font-size: 0.82rem; }
 
@@ -1509,6 +1512,7 @@ body.page-article .page-wrap {
   .country-grid { grid-template-columns: 1fr 1fr; }
   .topic-layout { padding: 12px; }
   .home-section { padding-left: 12px; padding-right: 12px; }
+  .tool-page-layout { padding-left: 12px; padding-right: 12px; }
   .topic-grid { padding-left: 12px; padding-right: 12px; }
   .subject-filters { padding-left: 12px; }
   .breadcrumb { padding: 8px 12px; }
