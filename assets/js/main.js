@@ -545,10 +545,27 @@ fsBtn.addEventListener('click', () => {
   if (_isIOS) {
     _iosFakeFS(document.getElementById('vault-overlay'));
   } else if (frame.requestFullscreen) {
-    frame.requestFullscreen();
+    // Focus the iframe afterwards: going fullscreen leaves keyboard focus on
+    // this button, so key presses never reach the game until the player clicks.
+    frame.requestFullscreen().then(function(){ _focusFrame(frame); }, function(){});
   } else if (frame.webkitRequestFullscreen) {
     frame.webkitRequestFullscreen();
+    setTimeout(function(){ _focusFrame(frame); }, 80);
   }
+});
+
+function _focusFrame(frame) {
+  if (!frame) return;
+  try {
+    frame.focus();
+    // cross-origin games can't be reached into, but focusing their window works
+    if (frame.contentWindow) frame.contentWindow.focus();
+  } catch (e) {}
+}
+
+// covers Esc-exit and any browser-initiated fullscreen change too
+document.addEventListener('fullscreenchange', function () {
+  if (document.fullscreenElement) _focusFrame(document.getElementById('vault-iframe'));
 });
 
 // Top loader bar for iframe
