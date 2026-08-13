@@ -1,5 +1,4 @@
 code,name,iframe,thumb,http_status,category
-4400,Paperboat Racing,https://learn.edumain.net/activities/paperboat-racing/index.html,https://learn.edumain.net/thumbnails/paperboat-racing.png,200,racing
 4201,DuckCraft,https://cloud.onlinegames.io/games/2026/more/duckcraft/game.html,https://learn.edumain.net/thumbnails/duckcraft.jpg,200,open-world
 4050,Veck.io,https://learn.edumain.net/activities/veck-io/index.html,https://learn.edumain.net/thumbnails/veck-io.webp,200,action
 4049,Geometry Dash Lite,https://learn.edumain.net/activities/geometry-dash-lite/index.html,https://learn.edumain.net/thumbnails/geometry-dash-lite.jpeg,200,action
@@ -657,7 +656,6 @@ code,name,iframe,thumb,http_status,category
 3374,Bookworm,https://db2.duckmath.org/2024/flash/bookworm/pre.html,https://learn.edumain.net/thumbnails/3374.webp,200,puzzle
 3375,Jewelanche,https://classroomlesson.github.io/basic-ruffle-player/html/jewelanche/index.html,https://learn.edumain.net/thumbnails/3375.webp,200,puzzle
 3376,Marco,https://db2.duckmath.org/2023/unity/marco/pre.html,https://learn.edumain.net/thumbnails/3376.webp,200,adventure
-4014,GTA Vice City,https://learn.edumain.net/activities/vice-city/index.html?fullscreen=0&sc=1,https://learn.edumain.net/thumbnails/4014.webp,200,open-world
 4039,Galaga,https://as6730.github.io/Galaga-Rebubbled/,https://learn.edumain.net/thumbnails/4039.webp,200,shooter
 4040,Frogger,https://iamwill123.github.io/Frogger-Arcade-Game/game.html,https://learn.edumain.net/thumbnails/4040.webp,200,arcade
 4041,Donkey Kong,https://alfredang.github.io/donkey-kong-game/,https://learn.edumain.net/thumbnails/4041.webp,200,platformer
@@ -945,3 +943,92 @@ code,name,iframe,thumb,http_status,category
 4333,Happy Wheels,https://learn.edumain.net/geet-activities/happy-wheels/index.html,https://learn.edumain.net/thumbnails/geet-happy-wheels.webp,200,racing
 4401,Hextris,https://learn.edumain.net/activities/hextris/index.html,https://learn.edumain.net/thumbnails/hextris.png,200,puzzle
 4402,Racing Game,https://learn.edumain.net/activities/racing-game/index.html,https://learn.edumain.net/thumbnails/racing-game.webp,200,racing
+4403,3D Pinball Space Cadet,https://learn.edumain.net/more-activities/3d-pinball-space-cadet/index.html,https://learn.edumain.net/thumbnails/3d-pinball-space-cadet.jpg,200,puzzle
+4404,Macintosh Classic Emulator,https://learn.edumain.net/more-activities/minivmac/index.html,https://learn.edumain.net/thumbnails/minivmac.jpg,200,simulation
+4405,Reborn XP,https://learn.edumain.net/more-activities/reborn-xp/index.html,https://learn.edumain.net/thumbnails/reborn-xp.jpg,200,simulation
+4406,Hacker Simulator,https://learn.edumain.net/more-activities/hacker-simulator/index.html,https://learn.edumain.net/thumbnails/hacker-simulator.jpg,200,simulation
+4407,Fake Update Screens,https://learn.edumain.net/more-activities/fake-updates/index.html,https://learn.edumain.net/thumbnails/fake-updates.jpg,200,simulation
+4408,/follow,https://learn.edumain.net/more-activities/follow/index.html,https://learn.edumain.net/thumbnails/follow.jpg,200,puzzle
+4409,1066,https://learn.edumain.net/more-activities/1066/index.html,https://learn.edumain.net/thumbnails/1066.jpg,200,strategy
+4410,3 Foot Ninja,https://learn.edumain.net/more-activities/3-foot-ninja/index.html,https://learn.edumain.net/thumbnails/3-foot-ninja.jpg,200,action
+4411,3 Foot Ninja II,https://learn.edumain.net/more-activities/3-foot-ninja-ii/index.html,https://learn.edumain.net/thumbnails/3-foot-ninja-ii.jpg,200,action
+4412,4-Eyes,https://learn.edumain.net/more-activities/4-eyes/index.html,https://learn.edumain.net/thumbnails/4-eyes.jpg,200,puzzle
+4413,40 Winks,https://learn.edumain.net/more-activities/40-winks/index.html,https://learn.edumain.net/thumbnails/40-winks.jpg,200,creative
+4414,625 Sandwich Stacker,https://learn.edumain.net/more-activities/625-sandwich-stacker/index.html,https://learn.edumain.net/thumbnails/625-sandwich-stacker.jpg,200,arcade
+4415,8 Ball Pool,https://learn.edumain.net/more-activities/8-ball-pool/index.html,https://learn.edumain.net/thumbnails/8-ball-pool.jpg,200,sports
+4416,A Dralien Day,https://learn.edumain.net/more-activities/a-dralien-day/index.html,https://learn.edumain.net/thumbnails/a-dralien-day.jpg,200,puzzle
+4417,A Koopa’s Revenge,https://learn.edumain.net/more-activities/a-koopas-revenge/index.html,https://learn.edumain.net/thumbnails/a-koopas-revenge.jpg,200,action
+4418,A Koopa’s Revenge 2,https://learn.edumain.net/more-activities/a-koopas-revenge-2/index.html,https://learn.edumain.net/thumbnails/a-koopas-revenge-2.jpg,200,action
+4419,A Small Favor,https://learn.edumain.net/more-activities/a-small-favor/index.html,https://learn.edumain.net/thumbnails/a-small-favor.jpg,200,adventure
+4420,A.L.I.A.S. Episode 1,https://learn.edumain.net/more-activities/a-l-i-a-s-episode-1/index.html,https://learn.edumain.net/thumbnails/a-l-i-a-s-episode-1.jpg,200,shooter
+4421,Abobo’s Big Adventure,https://learn.edumain.net/more-activities/abobos-big-adventure/index.html,https://learn.edumain.net/thumbnails/abobos-big-adventure.jpg,200,adventure
+4422,absolute.Madness,https://learn.edumain.net/more-activities/absolute-madness/index.html,https://learn.edumain.net/thumbnails/absolute-madness.jpg,200,shooter
+4423,Abuba the Alien,https://learn.edumain.net/more-activities/abuba-the-alien/index.html,https://learn.edumain.net/thumbnails/abuba-the-alien.jpg,200,puzzle
+4424,Achievement Unlocked 2,https://learn.edumain.net/more-activities/achievement-unlocked-2/index.html,https://learn.edumain.net/thumbnails/achievement-unlocked-2.jpg,200,puzzle
+4425,Achievement Unlocked 3,https://learn.edumain.net/more-activities/achievement-unlocked-3/index.html,https://learn.edumain.net/thumbnails/achievement-unlocked-3.jpg,200,puzzle
+4426,Achilles,https://learn.edumain.net/more-activities/achilles/index.html,https://learn.edumain.net/thumbnails/achilles.jpg,200,action
+4427,Adrenaline Challenge,https://learn.edumain.net/more-activities/adrenaline-challenge/index.html,https://learn.edumain.net/thumbnails/adrenaline-challenge.jpg,200,sports
+4428,Adventure Time Princess Maker,https://learn.edumain.net/more-activities/adventure-time-princess-maker/index.html,https://learn.edumain.net/thumbnails/adventure-time-princess-maker.jpg,200,creative
+4429,Adventure Time: Jumping Finn,https://learn.edumain.net/more-activities/adventure-time-jumping-finn/index.html,https://learn.edumain.net/thumbnails/adventure-time-jumping-finn.jpg,200,arcade
+4430,Age of War,https://learn.edumain.net/more-activities/age-of-war/index.html,https://learn.edumain.net/thumbnails/age-of-war.jpg,200,strategy
+4431,Age of War 2,https://learn.edumain.net/more-activities/ageofwar2/index.html,https://learn.edumain.net/thumbnails/ageofwar2.jpg,200,strategy
+4432,Airport Tycoon,https://learn.edumain.net/more-activities/airport-tycoon/index.html,https://learn.edumain.net/thumbnails/airport-tycoon.jpg,200,simulation
+4433,Alex The Adventurer and The Lost Marbles,https://learn.edumain.net/more-activities/alex-the-adventurer-and-the-lost-marbles/index.html,https://learn.edumain.net/thumbnails/alex-the-adventurer-and-the-lost-marbles.jpg,200,adventure
+4434,Alien Attack,https://learn.edumain.net/more-activities/alien-attack/index.html,https://learn.edumain.net/thumbnails/alien-attack.jpg,200,shooter
+4435,Alloy: Arena,https://learn.edumain.net/more-activities/alloy-arena/index.html,https://learn.edumain.net/thumbnails/alloy-arena.jpg,200,shooter
+4436,American Racing,https://learn.edumain.net/more-activities/american-racing/index.html,https://learn.edumain.net/thumbnails/american-racing.jpg,200,sports
+4437,Among the Clouds,https://learn.edumain.net/more-activities/among-the-clouds/index.html,https://learn.edumain.net/thumbnails/among-the-clouds.jpg,200,arcade
+4438,Amorphous,https://learn.edumain.net/more-activities/amorphous/index.html,https://learn.edumain.net/thumbnails/amorphous.jpg,200,action
+4439,An Eye for Detail,https://learn.edumain.net/more-activities/an-eye-for-detail/index.html,https://learn.edumain.net/thumbnails/an-eye-for-detail.jpg,200,puzzle
+4440,Animals in the City,https://learn.edumain.net/more-activities/animals-in-the-city/index.html,https://learn.edumain.net/thumbnails/animals-in-the-city.jpg,200,quiz
+4441,Animator vs. Animation Game,https://learn.edumain.net/more-activities/animator-vs-animation-game/index.html,https://learn.edumain.net/thumbnails/animator-vs-animation-game.jpg,200,action
+4442,Animatronic Jumpscare Factory,https://learn.edumain.net/more-activities/animatronic-jumpscare-factory/index.html,https://learn.edumain.net/thumbnails/animatronic-jumpscare-factory.jpg,200,creative
+4443,Anime Face Maker,https://learn.edumain.net/more-activities/anime-face-maker/index.html,https://learn.edumain.net/thumbnails/anime-face-maker.jpg,200,creative
+4444,Annoying Orange: Escape from Dr. Fruitenstein,https://learn.edumain.net/more-activities/annoying-orange-escape-from-dr-fruitenstein/index.html,https://learn.edumain.net/thumbnails/annoying-orange-escape-from-dr-fruitenstein.jpg,200,puzzle
+4445,Antbuster,https://learn.edumain.net/more-activities/antbuster/index.html,https://learn.edumain.net/thumbnails/antbuster.jpg,200,strategy
+4446,AntiPacman,https://learn.edumain.net/more-activities/antipacman/index.html,https://learn.edumain.net/thumbnails/antipacman.jpg,200,strategy
+4447,AOOA,https://learn.edumain.net/more-activities/aooa/index.html,https://learn.edumain.net/thumbnails/aooa.jpg,200,adventure
+4448,Apocalyptic Tower,https://learn.edumain.net/more-activities/apocalyptic-tower/index.html,https://learn.edumain.net/thumbnails/apocalyptic-tower.jpg,200,shooter
+4449,Arachnophilia,https://learn.edumain.net/more-activities/arachnophilia/index.html,https://learn.edumain.net/thumbnails/arachnophilia.jpg,200,arcade
+4450,Arcane: The Armor Collector,https://learn.edumain.net/more-activities/arcane-the-armor-collector/index.html,https://learn.edumain.net/thumbnails/arcane-the-armor-collector.jpg,200,action
+4451,Archie’s New Tooth Storybook,https://learn.edumain.net/more-activities/archies-new-tooth-storybook/index.html,https://learn.edumain.net/thumbnails/archies-new-tooth-storybook.jpg,200,educational
+4452,Arcuz: Behind the Dark,https://learn.edumain.net/more-activities/arcuz-behind-the-dark/index.html,https://learn.edumain.net/thumbnails/arcuz-behind-the-dark.jpg,200,action
+4453,Arkandian Legends 1: Crusade,https://learn.edumain.net/more-activities/arkandian-legends-1-crusade/index.html,https://learn.edumain.net/thumbnails/arkandian-legends-1-crusade.jpg,200,adventure
+4454,Armadillo Knight,https://learn.edumain.net/more-activities/armadillo-knight/index.html,https://learn.edumain.net/thumbnails/armadillo-knight.jpg,200,arcade
+4455,Armed with Wings,https://learn.edumain.net/more-activities/armed-with-wings/index.html,https://learn.edumain.net/thumbnails/armed-with-wings.jpg,200,action
+4456,Armed with Wings 2,https://learn.edumain.net/more-activities/armed-with-wings-2/index.html,https://learn.edumain.net/thumbnails/armed-with-wings-2.jpg,200,action
+4457,Armed with Wings 3,https://learn.edumain.net/more-activities/armed-with-wings-3/index.html,https://learn.edumain.net/thumbnails/armed-with-wings-3.jpg,200,action
+4458,Armed with Wings: Culmination,https://learn.edumain.net/more-activities/armed-with-wings-culmination/index.html,https://learn.edumain.net/thumbnails/armed-with-wings-culmination.jpg,200,platformer
+4459,Aster Blaster,https://learn.edumain.net/more-activities/aster-blaster/index.html,https://learn.edumain.net/thumbnails/aster-blaster.jpg,200,arcade
+4460,AtarichanDrawer: Draw From Every Angle!,https://learn.edumain.net/more-activities/atarichandrawer-draw-from-every-angle/index.html,https://learn.edumain.net/thumbnails/atarichandrawer-draw-from-every-angle.jpg,200,creative
+4461,Avoid or Destroyed,https://learn.edumain.net/more-activities/avoid-or-destroyed/index.html,https://learn.edumain.net/thumbnails/avoid-or-destroyed.jpg,200,arcade
+4462,Awesome Planes,https://learn.edumain.net/more-activities/awesome-planes/index.html,https://learn.edumain.net/thumbnails/awesome-planes.jpg,200,action
+4463,Awesome Tanks,https://learn.edumain.net/more-activities/awesome-tanks/index.html,https://learn.edumain.net/thumbnails/awesome-tanks.jpg,200,action
+4464,B-Daman Evolution: Battle Zone,https://learn.edumain.net/more-activities/b-daman-evolution-battle-zone/index.html,https://learn.edumain.net/thumbnails/b-daman-evolution-battle-zone.jpg,200,action
+4465,Backyard Buzzing,https://learn.edumain.net/more-activities/backyard-buzzing/index.html,https://learn.edumain.net/thumbnails/backyard-buzzing.jpg,200,strategy
+4466,Backyardigans: Mission to Mars,https://learn.edumain.net/more-activities/backyardigans-mission-to-mars/index.html,https://learn.edumain.net/thumbnails/backyardigans-mission-to-mars.jpg,200,platformer
+4467,Bad Haircut,https://learn.edumain.net/more-activities/bad-haircut/index.html,https://learn.edumain.net/thumbnails/bad-haircut.jpg,200,creative
+4468,Bad Piggies,https://learn.edumain.net/more-activities/bad-piggies/index.html,https://learn.edumain.net/thumbnails/bad-piggies.jpg,200,puzzle
+4469,Bags and Signs,https://learn.edumain.net/more-activities/bags-and-signs/index.html,https://learn.edumain.net/thumbnails/bags-and-signs.jpg,200,logic
+4470,"Bang, Boom, Splat!",https://learn.edumain.net/more-activities/bang-boom-splat/index.html,https://learn.edumain.net/thumbnails/bang-boom-splat.jpg,200,shooter
+4471,Barbie Camping Princess,https://learn.edumain.net/more-activities/barbie-camping-princess/index.html,https://learn.edumain.net/thumbnails/barbie-camping-princess.jpg,200,creative
+4472,Barbie Chef Princess,https://learn.edumain.net/more-activities/barbie-chef-princess/index.html,https://learn.edumain.net/thumbnails/barbie-chef-princess.jpg,200,creative
+4473,Bart Simpson Saw Game,https://learn.edumain.net/more-activities/bart-simpson-saw-game/index.html,https://learn.edumain.net/thumbnails/bart-simpson-saw-game.jpg,200,adventure
+4474,Base Jumping,https://learn.edumain.net/more-activities/base-jumping/index.html,https://learn.edumain.net/thumbnails/base-jumping.jpg,200,action
+4475,Batman: The Animated Series: The Riddler’s Secret Identity Inventor,https://learn.edumain.net/more-activities/batman-the-animated-series-the-riddlers-secret-identity-inventor/index.html,https://learn.edumain.net/thumbnails/batman-the-animated-series-the-riddlers-secret-identity-inventor.jpg,200,creative
+4476,Battle Beavers,https://learn.edumain.net/more-activities/battle-beavers/index.html,https://learn.edumain.net/thumbnails/battle-beavers.jpg,200,adventure
+4477,Battle Gear,https://learn.edumain.net/more-activities/battle-gear/index.html,https://learn.edumain.net/thumbnails/battle-gear.jpg,200,strategy
+4478,Battle of Britain: Commando,https://learn.edumain.net/more-activities/battle-of-britain-commando/index.html,https://learn.edumain.net/thumbnails/battle-of-britain-commando.jpg,200,shooter
+4479,Battlefield General,https://learn.edumain.net/more-activities/battlefield-general/index.html,https://learn.edumain.net/thumbnails/battlefield-general.jpg,200,strategy
+4480,Battleships: General Quarters II,https://learn.edumain.net/more-activities/battleships-general-quarters-ii/index.html,https://learn.edumain.net/thumbnails/battleships-general-quarters-ii.jpg,200,strategy
+4481,Bear in the Big Blue House: Balance,https://learn.edumain.net/more-activities/bear-in-the-big-blue-house-balance/index.html,https://learn.edumain.net/thumbnails/bear-in-the-big-blue-house-balance.jpg,200,puzzle
+4482,Bear in the Big Blue House: Bear Theatre,https://learn.edumain.net/more-activities/bear-in-the-big-blue-house-bear-theatre/index.html,https://learn.edumain.net/thumbnails/bear-in-the-big-blue-house-bear-theatre.jpg,200,puzzle
+4483,Bear in the Big Blue House: Cake Bake,https://learn.edumain.net/more-activities/bear-in-the-big-blue-house-cake-bake/index.html,https://learn.edumain.net/thumbnails/bear-in-the-big-blue-house-cake-bake.jpg,200,puzzle
+4484,Bear in the Big Blue House: Find Snowbear,https://learn.edumain.net/more-activities/bear-in-the-big-blue-house-find-snowbear/index.html,https://learn.edumain.net/thumbnails/bear-in-the-big-blue-house-find-snowbear.jpg,200,puzzle
+4485,Bear in the Big Blue House: Help Bear Bake,https://learn.edumain.net/more-activities/bear-in-the-big-blue-house-help-bear-bake/index.html,https://learn.edumain.net/thumbnails/bear-in-the-big-blue-house-help-bear-bake.jpg,200,simulation
+4486,Bear in the Big Blue House: Jigsaw,https://learn.edumain.net/more-activities/bear-in-the-big-blue-house-jigsaw/index.html,https://learn.edumain.net/thumbnails/bear-in-the-big-blue-house-jigsaw.jpg,200,puzzle
+4487,Bear in the Big Blue House: Mix and Match,https://learn.edumain.net/more-activities/bear-in-the-big-blue-house-mix-and-match/index.html,https://learn.edumain.net/thumbnails/bear-in-the-big-blue-house-mix-and-match.jpg,200,puzzle
+4488,Beer Monster,https://learn.edumain.net/more-activities/beer-monster/index.html,https://learn.edumain.net/thumbnails/beer-monster.jpg,200,platformer
+4489,Bejeweled Twist,https://learn.edumain.net/more-activities/bejeweled-twist/index.html,https://learn.edumain.net/thumbnails/bejeweled-twist.jpg,200,puzzle
+4490,Ben 10: Alien Force: Hero Hoops,https://learn.edumain.net/more-activities/ben-10-alien-force-hero-hoops/index.html,https://learn.edumain.net/thumbnails/ben-10-alien-force-hero-hoops.jpg,200,sports
+4491,Ben 10: Blockade Blitz,https://learn.edumain.net/more-activities/ben-10-blockade-blitz/index.html,https://learn.edumain.net/thumbnails/ben-10-blockade-blitz.jpg,200,puzzle
