@@ -137,39 +137,56 @@ app.get('/sitemap.xsl', (req, res) => {
 });
 
 // ── Sitemaps ─────────────────────────────────────────────────────────────────
+// Static pages, used by the sitemap below and by their routes further down.
+const staticPages = ['about', 'contact', 'privacy', 'terms', 'disclaimer'];
+
+// <lastmod> is the day each page's content last changed, from content-dates.json
+// (rebuilt from git history by scripts/content-dates.js, one date per topic).
+// Google only trusts lastmod when it tracks real edits; changefreq and
+// priority are left out because Google ignores both.
+const _contentDates = (() => {
+    try { return JSON.parse(fs.readFileSync(path.join(ROOT, 'content-dates.json'), 'utf8')); }
+    catch (e) { return { views: {}, items: {} }; }
+})();
+const _newest = (dates) => dates.filter(Boolean).sort().pop() || '2026-09-15';
+const _topicDate = (t) => _newest([_contentDates.items['topic:' + t.id], _contentDates.views.topic]);
+
+function _sitemapSets() {
+    const view = (name) => _contentDates.views[name];
+    return {
+        static: [
+            { loc: '/', lastmod: _newest([view('index')]) },
+            // Subject hubs list their topics, so they change when a topic does.
+            ...SUBJECTS.filter(s => !s.is_tools).map(s => ({
+                loc: '/' + s.slug,
+                lastmod: _newest([view('subject'), ...get_topics_by_subject(s.slug).map(_topicDate)]),
+            })),
+            ...staticPages.map(p => ({ loc: '/' + p, lastmod: _newest([view(p)]) })),
+        ],
+        topics: get_topics().map(t => ({ loc: '/' + t.subject + '/' + t.id, lastmod: _topicDate(t) })),
+        tools: [
+            { loc: '/math-tools', lastmod: _newest([view('subject-tools')]) },
+            ..._toolSlugs.map(t => ({ loc: '/math-tools/' + t, lastmod: _newest([view(t)]) })),
+        ],
+    };
+}
+
 app.get(['/sitemap.xml', '/sitemap-static.xml', '/sitemap-tools.xml', '/sitemap-topics.xml'], (req, res) => {
     const type = req.path.replace('.xml', '').replace('/sitemap-', '').replace('/sitemap', '');
     res.setHeader('Content-Type', 'application/xml; charset=utf-8');
-    res.locals._GET.type = type === '' ? null : type;
-    
-    // Instead of rendering ejs which might output whitespace, we construct XML directly or render a sitemap.ejs if it existed.
-    // Since sitemap.php was complex, we'll implement it manually here.
-    const BASE = SITE_URL;
-    let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
-    xml += `<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>\n`;
-    
+    const sets = _sitemapSets();
+    let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>\n`;
+
     if (!type) {
-        // Sitemap Index
         xml += `<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
-        xml += `  <sitemap><loc>${BASE}/sitemap-static.xml</loc></sitemap>\n`;
-        xml += `  <sitemap><loc>${BASE}/sitemap-topics.xml</loc></sitemap>\n`;
-        xml += `  <sitemap><loc>${BASE}/sitemap-tools.xml</loc></sitemap>\n`;
+        for (const [name, urls] of Object.entries(sets)) {
+            xml += `  <sitemap><loc>${SITE_URL}/sitemap-${name}.xml</loc><lastmod>${_newest(urls.map(u => u.lastmod))}</lastmod></sitemap>\n`;
+        }
         xml += `</sitemapindex>`;
     } else {
         xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
-        const urls = [];
-        if (type === 'static') {
-            urls.push({ loc: '/', priority: '1.0', freq: 'daily' });
-            SUBJECTS.forEach(s => urls.push({ loc: '/' + s.slug, priority: '0.9', freq: 'weekly' }));
-            ['about','contact','privacy','terms'].forEach(p => urls.push({ loc: '/' + p, priority: '0.4', freq: 'monthly' }));
-        } else if (type === 'tools') {
-            urls.push({ loc: '/math-tools', priority: '0.9', freq: 'weekly' });
-            _toolSlugs.forEach(t => urls.push({ loc: '/math-tools/' + t, priority: '0.8', freq: 'monthly' }));
-        } else if (type === 'topics') {
-            get_topics().forEach(t => urls.push({ loc: '/' + t.subject + '/' + t.id, priority: '0.8', freq: 'monthly' }));
-        }
-        urls.forEach(u => {
-            xml += `  <url>\n    <loc>${BASE}${u.loc}</loc>\n    <changefreq>${u.freq}</changefreq>\n    <priority>${u.priority}</priority>\n  </url>\n`;
+        sets[type].forEach(u => {
+            xml += `  <url>\n    <loc>${SITE_URL}${u.loc}</loc>\n    <lastmod>${u.lastmod}</lastmod>\n  </url>\n`;
         });
         xml += `</urlset>`;
     }
@@ -186,7 +203,6 @@ app.get(['/', '/index', '/index.html'], (req, res) => res.render('index'));
 app.get('/search', (req, res) => res.render('search'));
 
 // Static pages
-const staticPages = ['about', 'contact', 'privacy', 'terms', 'disclaimer'];
 staticPages.forEach(page => {
     app.get('/' + page, (req, res) => res.render(page));
 });
