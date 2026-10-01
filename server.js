@@ -16,7 +16,7 @@ const SITE_DESCRIPTION = 'EduMain explains school curriculum topics simply for s
 const IS_DEV = process.env.NODE_ENV !== 'production';
 
 const SITE_URL = 'https://edumain.net';
-const CDN_URL = 'https://learn.edumain.net';
+const CDN_URL = 'https://mathlib-cdn1.calcmath.workers.dev';
 const THUMB_URL = CDN_URL + '/thumbs';
 const GAMES_URL = CDN_URL + '/games';
 
