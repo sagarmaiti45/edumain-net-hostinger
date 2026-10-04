@@ -927,8 +927,8 @@ code,name,iframe,thumb,http_status,category
 4401,Hextris,https://mathlib-cdn1.calcmath.workers.dev/activities/hextris/index.html,https://mathlib-cdn1.calcmath.workers.dev/thumbnails/hextris.png,200,puzzle
 4402,Racing Game,https://mathlib-cdn1.calcmath.workers.dev/activities/racing-game/index.html,https://mathlib-cdn1.calcmath.workers.dev/thumbnails/racing-game.webp,200,racing
 4403,3D Pinball Space Cadet,https://mathlib-cdn1.calcmath.workers.dev/more-activities/3d-pinball-space-cadet/index.html,https://mathlib-cdn1.calcmath.workers.dev/thumbnails/3d-pinball-space-cadet.jpg,200,puzzle
-4404,Macintosh Classic Emulator,https://mathlib-cdn1.calcmath.workers.dev/more-activities/minivmac/index.html,https://mathlib-cdn1.calcmath.workers.dev/thumbnails/minivmac.jpg,200,simulation
-4405,Reborn XP,https://mathlib-cdn1.calcmath.workers.dev/more-activities/reborn-xp/index.html,https://mathlib-cdn1.calcmath.workers.dev/thumbnails/reborn-xp.jpg,200,simulation
+4404,Macintosh Classic Emulator,https://mathlib-cdn1.calcmath.workers.dev/more-activities/minivmac/index.html,https://mathlib-cdn1.calcmath.workers.dev/img/minivmac.webp,200,simulation
+4405,Reborn XP,https://mathlib-cdn1.calcmath.workers.dev/more-activities/reborn-xp/index.html,https://mathlib-cdn1.calcmath.workers.dev/img/reborn-xp.webp,200,simulation
 4406,Hacker Simulator,https://mathlib-cdn1.calcmath.workers.dev/more-activities/hacker-simulator/index.html,https://mathlib-cdn1.calcmath.workers.dev/thumbnails/hacker-simulator.jpg,200,simulation
 4407,Fake Update Screens,https://mathlib-cdn1.calcmath.workers.dev/more-activities/fake-updates/index.html,https://mathlib-cdn1.calcmath.workers.dev/thumbnails/fake-updates.jpg,200,simulation
 4408,/follow,https://mathlib-cdn1.calcmath.workers.dev/more-activities/follow/index.html,https://mathlib-cdn1.calcmath.workers.dev/thumbnails/follow.jpg,200,puzzle
