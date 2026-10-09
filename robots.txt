@@ -6,4 +6,67 @@ Disallow: /data/
 Disallow: /admin/
 Disallow: /_*
 
+# AI answer-engine crawlers (AEO) - explicitly welcomed so our tool pages and
+# FAQ content can be cited in AI search/chat answers. Same internal paths
+# stay off-limits as above.
+User-agent: GPTBot
+Allow: /
+Disallow: /api/
+Disallow: /data/
+Disallow: /admin/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /api/
+Disallow: /data/
+Disallow: /admin/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /api/
+Disallow: /data/
+Disallow: /admin/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /api/
+Disallow: /data/
+Disallow: /admin/
+
+User-agent: Claude-User
+Allow: /
+Disallow: /api/
+Disallow: /data/
+Disallow: /admin/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /api/
+Disallow: /data/
+Disallow: /admin/
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /api/
+Disallow: /data/
+Disallow: /admin/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /api/
+Disallow: /data/
+Disallow: /admin/
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /api/
+Disallow: /data/
+Disallow: /admin/
+
+User-agent: CCBot
+Allow: /
+Disallow: /api/
+Disallow: /data/
+Disallow: /admin/
+
 Sitemap: https://edumain.net/sitemap.xml
