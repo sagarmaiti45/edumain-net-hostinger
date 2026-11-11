@@ -1,7 +1,8 @@
 <%
-locals.meta_title = 'EduMain - School Topics Explained Simply';
-locals.meta_desc = 'Free explainers for every school subject - Maths, Science, History, English, Geography and more. Written simply for students aged 6-16 in the USA, UK, Australia and Spain.';
+locals.meta_title = 'Free Calc Solver & Scientific Calculator - EduMain';
+locals.meta_desc = 'Free online calc solver and scientific calculator with 15 step-by-step math tools, plus school topic explainers for Maths, Science and English. No sign-up.';
 locals.body_class = 'page-home';
+locals.meta_keywords = 'calc solver, calcsolver, solve calc, solvecalc, calcsolve, solver calc, calculator solver, free online scientific calculator, scientific calculator online, math solver, equation solver, fraction calculator, percentage calculator, homework help, school topics explained, edumain';
 
 const all_topics = get_topics();
 const featured = all_topics.filter(t => t.featured);
@@ -13,7 +14,13 @@ const faqs = [
   { q: 'Which countries\' curriculums does EduMain cover?', a: 'Topics are aligned with curriculum standards from the USA (Common Core), UK (National Curriculum), Australia (ACARA) and Spain (LOMLOE).' },
   { q: 'How do the quizzes work?', a: 'Every topic page ends with a short multiple-choice quiz. Pick an answer and you\'ll get instant feedback on whether you got it right, so you can check your understanding straight away.' },
   { q: 'Do I need to create an account?', a: 'No account is needed. Just pick a subject or search for a topic and start reading - your progress isn\'t tracked or stored anywhere.' },
-  { q: 'Can I use the math tools for homework?', a: 'Yes, the 15 free math calculators are built for exactly that - checking your working, solving equations and understanding the steps behind a calculation.' }
+  { q: 'Can I use the math tools for homework?', a: 'Yes, the 15 free math calculators are built for exactly that - checking your working, solving equations and understanding the steps behind a calculation.' },
+  { q: 'What is a calc solver?', a: 'A calc solver is a calculator that helps you work through a problem, not just type it in. EduMain gives you a full scientific calculator on the home page and 15 solvers for fractions, percentages, equations, geometry, statistics and more, most of them showing the steps.' },
+  { q: 'Is EduMain the same thing as searching for calcsolver or solvecalc?', a: 'People look for the same kind of tool under many spellings: calc solver, calcsolver, solve calc, solvecalc, solver calc. If you want a free online scientific calculator with step-by-step math solvers, you are in the right place whichever spelling you used.' },
+  { q: 'Does the scientific calculator use degrees or radians?', a: 'The trig keys (sin, cos, tan and their inverses) work in degrees, which is what most school questions expect. If your question gives an angle in radians, convert it first by multiplying by 180 and dividing by pi.' },
+  { q: 'Which calculator should I use for a quadratic equation?', a: 'Use the Equation Solver. It handles linear and quadratic equations and shows the working. You can then plot the same equation on the Graphing Calculator to see where it crosses the x-axis.' },
+  { q: 'Can I use EduMain on a Chromebook, tablet or phone?', a: 'Yes. Everything runs in your browser, so it works on Chromebooks, school laptops, tablets and phones with no download and no account.' },
+  { q: 'Is it okay to use a calculator for homework?', a: 'Usually yes for checking your work, but the rules depend on your teacher and your exam board. A good habit is to solve the problem on paper first, then use the calculator to confirm your answer and spot any slip.' },
 ];
 %>
 <%- include('partials/header') %>
@@ -37,7 +44,7 @@ const faqs = [
 
   <div class="hero-inner">
     <h1 class="hero-title">Learn Anything.<br><span class="hero-title-accent">Simply Explained.</span></h1>
-    <p class="hero-desc">Free school topic explainers for students aged 6-16 in the USA, UK, Australia &amp; Spain. Pick a subject and start learning.</p>
+    <p class="hero-desc">Free school topic explainers for students aged 6-16, plus a free scientific calculator and 15 step-by-step math solvers for homework. Used by students in the USA, UK, Australia &amp; Spain.</p>
     <form action="/search" method="get" class="hero-search-form" role="search">
       <div class="hero-search-wrap">
         <i class="fa-solid fa-magnifying-glass hero-search-icon"></i>
@@ -128,6 +135,8 @@ const faqs = [
   </div>
 </section>
 
+<%- include('partials/home-seo-calc') %>
+
 <!-- ══ RECENTLY ADDED TOPICS ══ -->
 <section class="home-section">
   <div class="section-header">
@@ -200,7 +209,7 @@ const faqs = [
       <i class="fa-solid fa-check-circle why-icon"></i>
       <div>
         <strong>100% Free</strong>
-        <p>No subscriptions, no sign-ups, no adverts interrupting your learning.</p>
+        <p>No subscriptions, no sign-ups and no paywalls. Just open a topic and start learning.</p>
       </div>
     </div>
     <div class="why-item">
@@ -271,6 +280,8 @@ const faqs = [
   </div>
 </section>
 
+<%- include('partials/home-seo-study') %>
+
 <!-- ══ FAQ ══ -->
 <section class="home-section">
   <div class="section-header">
@@ -313,7 +324,23 @@ const faqs = [
   </div>
 </section>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "EduMain Scientific Calculator",
+  "alternateName": ["Calc Solver", "Online Scientific Calculator"],
+  "url": "https://edumain.net/#calculator",
+  "applicationCategory": "EducationalApplication",
+  "operatingSystem": "Any (runs in the browser)",
+  "browserRequirements": "Requires JavaScript",
+  "description": "A free online scientific calculator with trigonometry, logarithms, roots, powers and factorials, plus 15 step-by-step math solvers.",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "publisher": { "@type": "Organization", "name": "EduMain", "url": "https://edumain.net" }
+}
+</script>
+
 <%- include('partials/vault-overlay') %>
-<script src="/assets/js/vault.js?v=1"></script>
+<script src="/assets/js/vault.js?v=2"></script>
 
 <%- include('partials/footer') %>

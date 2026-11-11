@@ -27,7 +27,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><%= locals.meta_title || (SITE_NAME + ' - ' + SITE_TAGLINE) %></title>
   <meta name="description" content="<%= locals.meta_desc || SITE_DESCRIPTION %>">
-  <meta name="keywords" content="<%= META_KEYWORDS %>">
+  <meta name="keywords" content="<%= locals.meta_keywords || META_KEYWORDS %>">
   <meta name="robots" content="<%= locals.robots || 'index, follow' %>">
   <%
   const _canonical = SITE_URL + (locals._uri || '/');
@@ -66,7 +66,7 @@
   </noscript>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/7.2.3/css/flag-icons.min.css" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/7.2.3/css/flag-icons.min.css"></noscript>
-  <link rel="stylesheet" href="/assets/css/style.css?v=10">
+  <link rel="stylesheet" href="/assets/css/style.css?v=11">
   <% if ((locals.body_class || '') === 'page-home') { %><link rel="stylesheet" href="/assets/css/vault.css?v=1"><% } %>
   <style>
     :root {

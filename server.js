@@ -70,7 +70,7 @@ const TOOLS = [
   {slug:'times-table',            name:'Times Table Generator',     icon:'fa-table',           color:'#10b981', desc:'Generate and practise multiplication tables for any number.',                   grade:[2,6],  diff:'easy'},
   {slug:'unit-converter',         name:'Unit Converter',            icon:'fa-arrows-left-right',color:'#f97316',desc:'Convert length, weight, temperature, speed and more between units.',            grade:[5,10], diff:'easy'},
   {slug:'roman-numeral-converter',name:'Roman Numeral Converter',   icon:'fa-landmark',        color:'#64748b', desc:'Convert numbers to Roman numerals and Roman numerals back to numbers.',        grade:[4,8],  diff:'easy'},
-  {slug:'base-converter',         name:'Number Base Converter',     icon:'fa-binary',          color:'#0891b2', desc:'Convert numbers between binary, decimal, octal and hexadecimal bases.',        grade:[8,12], diff:'hard'},
+  {slug:'base-converter',         name:'Number Base Converter',     icon:'fa-code',          color:'#0891b2', desc:'Convert numbers between binary, decimal, octal and hexadecimal bases.',        grade:[8,12], diff:'hard'},
 ];
 const _toolSlugs = TOOLS.map(t => t.slug);
 

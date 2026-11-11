@@ -718,7 +718,6 @@ function escHtml(s) {
 
 // ── Infinite-scroll grid ──────────────────────────────────────────
 const GRID_PAGE = 40;          // cards per batch
-const GRID_AD_EVERY = 18;      // banner row inserted after every N cards
 let _gridGames  = [];          // full filtered list
 let _gridOffset = 0;           // how many have been rendered
 let _gridSentinel = null;      // IntersectionObserver target
@@ -770,16 +769,6 @@ function _appendBatch() {
     const div = document.createElement('div');
     div.innerHTML = _cardHTML(g, globalIdx);
     frag.appendChild(div.firstChild);
-    // A full-width banner row every GRID_AD_EVERY cards; adsterra.js mounts
-    // it when it scrolls near. Skipped after the last card so the grid never
-    // ends on an ad.
-    if ((globalIdx + 1) % GRID_AD_EVERY === 0 && globalIdx + 1 < _gridGames.length) {
-      const ad = document.createElement('div');
-      ad.className = 'cs-ad cs-ad-grid';
-      ad.setAttribute('data-ad', 'horizontal');
-      ad.setAttribute('aria-label', 'Advertisement');
-      frag.appendChild(ad);
-    }
   });
   // Remove old sentinel before appending batch
   if (_gridSentinel) _gridSentinel.remove();
