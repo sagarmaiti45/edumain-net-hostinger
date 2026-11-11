@@ -194,6 +194,75 @@ app.get(['/sitemap.xml', '/sitemap-static.xml', '/sitemap-tools.xml', '/sitemap-
 });
 
 
+// ── Game vault ───────────────────────────────────────────────────────────────
+// Catalogue: games_list.csv (code,name,iframe,thumb,http_status,category). The
+// home-page calculator opens the vault when Code Mode + a 4-digit code is typed.
+const HIDDEN_DOMAINS = ['watermelon46.com', 'html5.gamedistribution.com'];
+const ALWAYS_FIRST = ['5232'];   // Project I.G.I. leads the vault
+function parseCSVRow(line) {
+    const fields = [];
+    let i = 0;
+    while (i <= line.length) {
+        if (i === line.length) { fields.push(''); break; }
+        if (line[i] === '"') {
+            let field = ''; i++;
+            while (i < line.length) {
+                if (line[i] === '"' && line[i + 1] === '"') { field += '"'; i += 2; }
+                else if (line[i] === '"') { i++; break; }
+                else { field += line[i++]; }
+            }
+            fields.push(field);
+            if (line[i] === ',') i++;
+        } else {
+            const end = line.indexOf(',', i);
+            if (end === -1) { fields.push(line.slice(i)); break; }
+            fields.push(line.slice(i, end));
+            i = end + 1;
+        }
+    }
+    return fields;
+}
+let _gamesCache = null, _gamesMtime = 0;
+function loadGames() {
+    const file = path.join(ROOT, 'games_list.csv');
+    let st;
+    try { st = fs.statSync(file); } catch (e) { return []; }
+    if (_gamesCache && st.mtimeMs === _gamesMtime) return _gamesCache;
+    const out = [];
+    fs.readFileSync(file, 'utf8').split(/\r?\n/).slice(1).forEach(line => {
+        if (!line.trim()) return;
+        const r = parseCSVRow(line.trim());
+        if (r.length < 4 || HIDDEN_DOMAINS.some(d => r[2].includes(d))) return;
+        out.push({ code: r[0], name: r[1], iframe: r[2], thumb: r[3] || '', category: (r[5] || '').toLowerCase().trim() });
+    });
+    _gamesCache = out; _gamesMtime = st.mtimeMs;
+    return out;
+}
+app.get(['/api/vault.php', '/api/vault'], (req, res) => {
+    res.setHeader('Content-Type', 'application/json');
+    res.setHeader('Cache-Control', 'no-cache');
+    const all = loadGames();
+    const first = ALWAYS_FIRST.map(c => all.find(g => g.code === c)).filter(Boolean);
+    const rest = all.filter(g => !ALWAYS_FIRST.includes(g.code));
+    for (let i = rest.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [rest[i], rest[j]] = [rest[j], rest[i]];
+    }
+    res.json([...first, ...rest]);
+});
+
+// Project I.G.I. needs a cross-origin-isolated page (SharedArrayBuffer). Its vault card sets a one-shot
+// cookie and reloads the home page, which is then served with the isolation headers; the vault opens
+// straight into the normal game screen.
+app.use((req, res, next) => {
+    if (req.method === 'GET' && req.path === '/' && /(?:^|;\s*)sc_igi=1(?:;|$)/.test(req.headers.cookie || '')) {
+        res.set({ 'Cross-Origin-Opener-Policy': 'same-origin', 'Cross-Origin-Embedder-Policy': 'credentialless', 'Cache-Control': 'no-store' });
+        res.append('Set-Cookie', 'sc_igi=; Max-Age=0; Path=/; SameSite=Lax');
+        res.locals.isolatedIgi = true;
+    }
+    next();
+});
+
 // ── Routing logic ────────────────────────────────────────────────────────────
 
 // Root

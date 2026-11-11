@@ -1,6 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<% if (locals.isolatedIgi) { %>
+  <style>
+  /* Project I.G.I. session: keep the page covered while the site reloads and the vault opens, so the
+     homepage never flashes. Removed by main.js as soon as the vault is open (15s safety net below). */
+  html.igi-boot body { visibility: hidden; }
+  html.igi-boot { background: #0a101c; }
+  html.igi-boot::before { content: 'Opening Project I.G.I.'; position: fixed; inset: 0; z-index: 2147483647; display: flex; align-items: center; justify-content: center; background: #0a101c; color: #cbd5e1; font: 600 16px system-ui, sans-serif; letter-spacing: 0.04em; visibility: visible; }
+  </style>
+  <script>window.__IGI_SESSION = true; document.documentElement.classList.add('igi-boot'); setTimeout(function () { document.documentElement.classList.remove('igi-boot'); }, 15000);</script>
+  <%# Project I.G.I. session: this page is cross-origin isolated (COOP + COEP credentialless), so every
+      iframe created by script - ad frames, the vault frame - is created credentialless, which is how ads keep
+      loading under COEP. The I.G.I. frame itself opts back out in main.js. %>
+  <script>
+  (function (orig) {
+    document.createElement = function (tag, opts) {
+      var el = orig.call(document, tag, opts);
+      if (el && el.tagName === 'IFRAME') { el.setAttribute('credentialless', ''); try { el.credentialless = true; } catch (e) {} }
+      return el;
+    };
+  })(document.createElement);
+  </script>
+  <% } %>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><%= locals.meta_title || (SITE_NAME + ' - ' + SITE_TAGLINE) %></title>
@@ -45,6 +67,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/7.2.3/css/flag-icons.min.css" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/7.2.3/css/flag-icons.min.css"></noscript>
   <link rel="stylesheet" href="/assets/css/style.css?v=10">
+  <% if ((locals.body_class || '') === 'page-home') { %><link rel="stylesheet" href="/assets/css/vault.css?v=1"><% } %>
   <style>
     :root {
       --bg:          <%= COLOR_BG %>;
@@ -71,7 +94,7 @@
   // Restore font size immediately
   (function(){ var s = parseInt(localStorage.getItem('em_font') || '0', 10); if (s) document.documentElement.style.fontSize = (16 + s * 1.5) + 'px'; })();
   </script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8260668593000194" crossorigin="anonymous"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3464124586997574" crossorigin="anonymous"></script>
 </head>
 <body class="<%= locals.body_class || '' %>">
 
